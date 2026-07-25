@@ -12,7 +12,7 @@ const INITIAL_PLAYERS = [
       "youtube": ""
     },
     "tiers": {
-      "spear_mace": "HT2",
+      "spear_mace": "LT2",
       "vanilla": "LT4",
       "uhc": "LT5",
       "pot": "LT5",
@@ -20,10 +20,22 @@ const INITIAL_PLAYERS = [
       "smp": "HT5",
       "sword": "HT5",
       "axe": "HT5",
-      "mace": "LT4",
+      "mace": "LT3",
       "overall": "HT4"
     },
     "history": [
+      {
+        "date": "2026-07-25",
+        "gamemode": "Mace",
+        "change": "LT4 → LT3",
+        "note": "Tier updated via database manager"
+      },
+      {
+        "date": "2026-07-25",
+        "gamemode": "Spear/Mace",
+        "change": "HT2 → LT2",
+        "note": "Tier updated via database manager"
+      },
       {
         "date": "2026-07-20",
         "gamemode": "Spear/Mace",
@@ -90,18 +102,36 @@ const INITIAL_PLAYERS = [
       "youtube": ""
     },
     "tiers": {
-      "spear_mace": "LT4",
+      "spear_mace": "LT3",
       "vanilla": "LT5",
       "uhc": "LT5",
       "pot": "LT5",
       "nethop": "LT5",
       "smp": "HT5",
-      "sword": "LT4",
+      "sword": "LT3",
       "axe": "HT5",
-      "mace": "HT5",
-      "overall": "HT5"
+      "mace": "LT3",
+      "overall": "HT4"
     },
     "history": [
+      {
+        "date": "2026-07-25",
+        "gamemode": "Mace",
+        "change": "HT5 → LT3",
+        "note": "Tier updated via database manager"
+      },
+      {
+        "date": "2026-07-25",
+        "gamemode": "Sword",
+        "change": "LT4 → LT3",
+        "note": "Tier updated via database manager"
+      },
+      {
+        "date": "2026-07-25",
+        "gamemode": "Spear/Mace",
+        "change": "LT4 → LT3",
+        "note": "Tier updated via database manager"
+      },
       {
         "date": "2026-07-20",
         "gamemode": "Axe",
