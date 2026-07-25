@@ -325,66 +325,6 @@ const INITIAL_PLAYERS = [
         "note": "Added with: Spear/Mace: LT5, Vanilla: LT5, UHC: LT5, Pot: LT5, NethOP: LT5, SMP: LT5, Sword: LT5, Axe: LT5, Mace: LT5"
       }
     ]
-  },
-  {
-    "username": "ryze5429",
-    "nickname": "",
-    "city": "Amman",
-    "badges": [],
-    "socials": {
-      "discord": "",
-      "youtube": ""
-    },
-    "tiers": {
-      "spear_mace": "None",
-      "vanilla": "None",
-      "uhc": "None",
-      "pot": "None",
-      "nethop": "None",
-      "smp": "None",
-      "sword": "None",
-      "axe": "None",
-      "mace": "LT4",
-      "overall": "LT5"
-    },
-    "history": [
-      {
-        "date": "2026-07-20",
-        "gamemode": "Overall",
-        "change": "None → Registered",
-        "note": "Added with: Mace: LT4"
-      }
-    ]
-  },
-  {
-    "username": "rghiq",
-    "nickname": "",
-    "city": "Amman",
-    "badges": [],
-    "socials": {
-      "discord": "",
-      "youtube": ""
-    },
-    "tiers": {
-      "spear_mace": "LT5",
-      "vanilla": "LT5",
-      "uhc": "LT5",
-      "pot": "LT5",
-      "nethop": "LT5",
-      "smp": "LT5",
-      "sword": "LT5",
-      "axe": "LT5",
-      "mace": "HT5",
-      "overall": "HT5"
-    },
-    "history": [
-      {
-        "date": "2026-07-22",
-        "gamemode": "Overall",
-        "change": "None → Registered",
-        "note": "Added with: Spear/Mace: LT5, Vanilla: LT5, UHC: LT5, Pot: LT5, NethOP: LT5, SMP: LT5, Sword: LT5, Axe: LT5, Mace: HT5"
-      }
-    ]
   }
 ];
 
