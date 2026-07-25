@@ -170,16 +170,28 @@ const INITIAL_PLAYERS = [
     "tiers": {
       "spear_mace": "LT5",
       "vanilla": "HT5",
-      "uhc": "HT1",
+      "uhc": "LT2",
       "pot": "HT5",
       "nethop": "LT4",
       "smp": "HT5",
       "sword": "None",
       "axe": "LT5",
-      "mace": "LT5",
-      "overall": "LT3"
+      "mace": "HT5",
+      "overall": "HT4"
     },
     "history": [
+      {
+        "date": "2026-07-25",
+        "gamemode": "Mace",
+        "change": "LT5 → HT5",
+        "note": "Tier updated via database manager"
+      },
+      {
+        "date": "2026-07-25",
+        "gamemode": "UHC",
+        "change": "HT1 → LT2",
+        "note": "Tier updated via database manager"
+      },
       {
         "date": "2026-07-20",
         "gamemode": "UHC",
@@ -323,6 +335,36 @@ const INITIAL_PLAYERS = [
         "gamemode": "Overall",
         "change": "None → Registered",
         "note": "Added with: Spear/Mace: LT5, Vanilla: LT5, UHC: LT5, Pot: LT5, NethOP: LT5, SMP: LT5, Sword: LT5, Axe: LT5, Mace: LT5"
+      }
+    ]
+  },
+  {
+    "username": "MortalDeath0",
+    "nickname": "",
+    "city": "Amman",
+    "badges": [],
+    "socials": {
+      "discord": "",
+      "youtube": ""
+    },
+    "tiers": {
+      "spear_mace": "None",
+      "vanilla": "None",
+      "uhc": "None",
+      "pot": "None",
+      "nethop": "None",
+      "smp": "None",
+      "sword": "None",
+      "axe": "None",
+      "mace": "LT5",
+      "overall": "LT5"
+    },
+    "history": [
+      {
+        "date": "2026-07-25",
+        "gamemode": "Overall",
+        "change": "None → Registered",
+        "note": "Added with: Mace: LT5"
       }
     ]
   }
