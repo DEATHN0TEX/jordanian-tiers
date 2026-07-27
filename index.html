@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jordanian MCTiers | Minecraft Competitive PvP Tierlist</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="The official competitive Minecraft PvP tier list for the Jordanian community. View player rankings across Sword, UHC, Pot, SMP, Spear/Mace, and more.">
+  <meta name="keywords" content="Minecraft, PvP, Tierlist, MCTiers, Jordan, Jordanian, UHC, Crystal, Sword, Mace">
+  
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="logo-container">
+          <div class="logo-glow"></div>
+          <span class="logo-emoji">🇯🇴</span>
+          <div class="logo-text">
+            <h1>JORDANIAN</h1>
+            <h2>MCTIERS</h2>
+          </div>
+        </div>
+        
+        <!-- Live Stats -->
+        <div class="header-stats">
+          <div class="stat-item">
+            <span class="stat-val" id="total-players-count">0</span>
+            <span class="stat-lbl">Ranked Players</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-val" id="total-testers-count">0</span>
+            <span class="stat-lbl">Active Testers</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search Bar & Controls -->
+      <div class="header-right">
+        <div class="search-wrapper">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input type="text" id="player-search" placeholder="Search player, city, or tier..." autocomplete="off">
+          <button id="clear-search" class="clear-search-btn" title="Clear Search">&times;</button>
+        </div>
+
+        <div class="header-buttons">
+          <button id="btn-info" class="btn btn-secondary" title="View Rules & Testers">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            <span>Information</span>
+          </button>
+          <a href="https://discord.gg/minecraft-jordan" target="_blank" class="btn btn-secondary btn-icon-only" title="Join Discord Server">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.094 13.094 0 0 1-1.873-.894.077.077 0 0 1-.008-.128c.126-.093.252-.19.372-.287a.075.075 0 0 1 .077-.011c3.92 1.793 8.18 1.793 12.061 0a.073.073 0 0 1 .078.009c.12.099.246.195.373.289a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 1-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.156-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.156 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.156-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.156 2.418z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Gamemode Tab Navigation -->
+    <nav class="gamemode-navbar" id="gamemode-nav">
+      <!-- Generated dynamically in app.js -->
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="app-main">
+      <div id="no-results" class="no-results-card hidden">
+        <svg class="no-results-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <h3>No players found</h3>
+        <p>Try searching for a different username, city, or check another gamemode.</p>
+      </div>
+
+      <!-- Tier List Rows Container -->
+      <section class="tierlist-container" id="tierlist-rows">
+        <!-- Generated dynamically in app.js -->
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>&copy; 2026 Jordanian MCTiers</p>
+    </footer>
+  </div>
+
+  <!-- MODAL: Player Profile Details -->
+  <div class="modal-backdrop hidden" id="player-modal">
+    <div class="modal-card player-profile-card">
+      <button class="modal-close-btn" id="player-modal-close">&times;</button>
+      
+      <div class="modal-body player-profile-body">
+        <!-- Left Column: 3D skin & name -->
+        <div class="profile-left">
+          <div class="skin-viewer-container">
+            <div class="skin-viewer-glow"></div>
+            <img id="profile-skin-img" src="" alt="Minecraft Skin Body">
+            <div class="skin-viewer-platform"></div>
+          </div>
+          <h2 class="profile-username" id="profile-username">PlayerName</h2>
+          <span class="profile-nickname" id="profile-nickname">"Nickname"</span>
+          <div class="profile-city-badge">
+            <span class="city-flag">📍</span>
+            <span id="profile-city">Amman, JO</span>
+          </div>
+          
+          <div class="profile-badges" id="profile-badges">
+            <!-- Badges -->
+          </div>
+
+          <div class="profile-socials">
+            <a href="#" id="profile-social-discord" class="social-link hidden" target="_blank">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.094 13.094 0 0 1-1.873-.894.077.077 0 0 1-.008-.128c.126-.093.252-.19.372-.287a.075.075 0 0 1 .077-.011c3.92 1.793 8.18 1.793 12.061 0a.073.073 0 0 1 .078.009c.12.099.246.195.373.289a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.894.077.077 0 0 1-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.156-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.156 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.156-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.156 2.418z"/>
+              </svg>
+            </a>
+            <a href="#" id="profile-social-youtube" class="social-link hidden" target="_blank">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.517 3.545 12 3.545 12 3.545s-7.517 0-9.388.508a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.871.508 9.388.508 9.388.508s7.517 0 9.388-.508a3.002 3.002 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+            </a>
+            <a href="#" id="profile-social-namemc" class="social-link" target="_blank" title="View NameMC Profile">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M4 2h5v12l11-12h4v20h-5V10L8 22H4V2z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Right Column: Tiers breakdown & history -->
+        <div class="profile-right">
+          <!-- Tiers Panel -->
+          <div class="profile-section">
+            <h3>Gamemode Tiers</h3>
+            <div class="modal-tiers-grid" id="profile-tiers-grid">
+              <!-- Dynamically rendered list of tiers for all modes -->
+            </div>
+          </div>
+          
+          <!-- History Panel -->
+          <div class="profile-section flex-grow">
+            <h3>Match & Rank History</h3>
+            <div class="history-timeline" id="profile-history">
+              <!-- Timeline entries -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: Rules & Testers Information -->
+  <div class="modal-backdrop hidden" id="info-modal">
+    <div class="modal-card info-modal-card">
+      <button class="modal-close-btn" id="info-modal-close">&times;</button>
+      
+      <div class="info-modal-header">
+        <h2>Jordanian PvP Community Hub</h2>
+        <p>Testing guidelines, active tester staff, and rules</p>
+      </div>
+
+      <div class="info-tabs">
+        <button class="info-tab-btn active" data-tab="info-general">General Info</button>
+        <button class="info-tab-btn" data-tab="info-testers">Active Testers</button>
+      </div>
+
+      <div class="info-modal-body">
+        <!-- Tab 1: General Info -->
+        <div class="info-tab-content" id="info-general">
+          <h3>How to get Ranked</h3>
+          <p>The Jordanian Minecraft Tierlist ranking is determined by active testers using standardized test matches. To request a test:</p>
+          <ol class="info-steps">
+            <li>Join our official Discord server.</li>
+            <li>Go to the <code>#request-test</code> channel.</li>
+            <li>Select the gamemode you'd like to test in and ping an available Tester.</li>
+            <li>Complete a Best-of-5 (BO5) or Best-of-9 (BO9) duel. The tester will decide your tier based on your mechanical skill, positioning, and overall performance.</li>
+          </ol>
+
+          <h3>Tier Distribution</h3>
+          <p>Tiers are organized from Tier 1 (highest) to Tier 5 (lowest). Each tier has a High (HT) and Low (LT) variant:</p>
+          <div class="tiers-explanation">
+            <div class="tier-explain-row"><span class="badge-explain rank-ht1">HT1</span><span class="badge-explain rank-lt1">LT1</span><p><strong>Master Class:</strong> Peak mechanics, national-level competitors.</p></div>
+            <div class="tier-explain-row"><span class="badge-explain rank-ht2">HT2</span><span class="badge-explain rank-lt2">LT2</span><p><strong>Elite Class:</strong> Extremely advanced fighters, server tournament regulars.</p></div>
+            <div class="tier-explain-row"><span class="badge-explain rank-ht3">HT3</span><span class="badge-explain rank-lt3">LT3</span><p><strong>Expert Class:</strong> Solid mechanics, reliable execution, well-above average.</p></div>
+            <div class="tier-explain-row"><span class="badge-explain rank-ht4">HT4</span><span class="badge-explain rank-lt4">LT4</span><p><strong>Intermediate Class:</strong> Decent capability, active player base, basic combos.</p></div>
+            <div class="tier-explain-row"><span class="badge-explain rank-ht5">HT5</span><span class="badge-explain rank-lt5">LT5</span><p><strong>Novice Class:</strong> Entry-level competitive PvP, developing movement and setups.</p></div>
+          </div>
+        </div>
+
+        <!-- (Gamemode Rules removed) -->
+
+        <!-- Tab 3: Testers Team -->
+        <div class="info-tab-content hidden" id="info-testers">
+          <h3>Official Testers List</h3>
+          <p>These are the authorized administrators and testers who can issue rank certificates and perform duels.</p>
+          <div class="testers-grid" id="testers-grid">
+            <!-- Dynamically rendered -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast-notification hidden" id="toast">
+    <span class="toast-message" id="toast-message">Message goes here</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/database.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
