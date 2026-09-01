@@ -916,6 +916,40 @@
         }
       ],
       "lastSyncCheck": 1787958121855
+    },
+    {
+      "username": "toch7007",
+      "uuid": "",
+      "nickname": "",
+      "region": "EU",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "HT4",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "history": [
+        {
+          "date": "2026-09-01",
+          "gamemode": "UHC",
+          "change": "None → HT4",
+          "note": "Updated via Discord by hamza2699"
+        }
+      ],
+      "lastSyncCheck": 1788290486904
     }
   ],
   "testers": [
