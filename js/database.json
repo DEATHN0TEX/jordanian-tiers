@@ -401,13 +401,19 @@
         "uhc": "LT2",
         "pot": "LT4",
         "nethop": "HT4",
-        "smp": "LT3",
+        "smp": "HT4",
         "sword": "LT4",
         "axe": "HT4",
         "mace": "LT4",
         "overall": "HT4"
       },
       "history": [
+        {
+          "date": "2026-09-01",
+          "gamemode": "SMP",
+          "change": "LT3 → HT4",
+          "note": "Updated via Discord by hamza2699"
+        },
         {
           "date": "2026-09-01",
           "gamemode": "Axe",
