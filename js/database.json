@@ -400,7 +400,7 @@
         "vanilla": "HT4",
         "uhc": "LT2",
         "pot": "LT4",
-        "nethop": "HT4",
+        "nethop": "LT3",
         "smp": "HT4",
         "sword": "LT4",
         "axe": "HT4",
@@ -408,6 +408,12 @@
         "overall": "HT4"
       },
       "history": [
+        {
+          "date": "2026-09-01",
+          "gamemode": "NethOP",
+          "change": "HT4 → LT3",
+          "note": "Updated via Discord by deathnote5030"
+        },
         {
           "date": "2026-09-01",
           "gamemode": "SMP",
