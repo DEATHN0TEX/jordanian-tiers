@@ -949,17 +949,23 @@
       "tiers": {
         "spear_mace": "None",
         "vanilla": "None",
-        "uhc": "HT4",
+        "uhc": "None",
         "pot": "None",
         "nethop": "None",
         "smp": "None",
         "sword": "None",
         "axe": "None",
         "mace": "None",
-        "overall": "LT5"
+        "overall": "None"
       },
       "retired": {},
       "history": [
+        {
+          "date": "2026-09-01",
+          "gamemode": "UHC",
+          "change": "HT4 → None",
+          "note": "Updated via Discord by deathnote5030"
+        },
         {
           "date": "2026-09-01",
           "gamemode": "UHC",
