@@ -540,7 +540,7 @@
       "tiers": {
         "spear_mace": "LT4",
         "vanilla": "LT5",
-        "uhc": "HT5",
+        "uhc": "HT4",
         "pot": "LT5",
         "nethop": "HT5",
         "smp": "HT5",
@@ -550,6 +550,12 @@
         "overall": "HT4"
       },
       "history": [
+        {
+          "date": "2026-09-01",
+          "gamemode": "UHC",
+          "change": "HT5 → HT4",
+          "note": "Updated via Discord by hamza2699"
+        },
         {
           "date": "2026-09-01",
           "gamemode": "Axe",
