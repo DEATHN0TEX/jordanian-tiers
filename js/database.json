@@ -543,13 +543,19 @@
         "uhc": "HT4",
         "pot": "LT5",
         "nethop": "HT5",
-        "smp": "HT5",
+        "smp": "LT3",
         "sword": "LT3",
         "axe": "HT2",
         "mace": "HT4",
         "overall": "HT4"
       },
       "history": [
+        {
+          "date": "2026-09-01",
+          "gamemode": "SMP",
+          "change": "HT5 → LT3",
+          "note": "Updated via Discord by hamza2699"
+        },
         {
           "date": "2026-09-01",
           "gamemode": "UHC",
