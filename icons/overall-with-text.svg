@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 380" width="320" height="380">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#162127"/>
+      <stop offset="100%" stop-color="#0b1316"/>
+    </radialGradient>
+    <linearGradient id="goldA" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffd47a"/>
+      <stop offset="60%" stop-color="#f0b232"/>
+      <stop offset="100%" stop-color="#c68418"/>
+    </linearGradient>
+    <linearGradient id="goldB" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffe79f" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#e0a72a"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" x2="0">
+      <stop offset="0%" stop-color="#d73b2b"/>
+      <stop offset="100%" stop-color="#9c2016"/>
+    </linearGradient>
+    <filter id="s" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- background rounded square -->
+  <rect x="10" y="10" width="300" height="300" rx="30" fill="url(#bg)"/>
+
+  <!-- subtle inner vignette -->
+  <circle cx="160" cy="120" r="108" fill="rgba(255,255,255,0.02)"/>
+
+  <!-- Use the exact artwork from overall.svg so the trophy is identical -->
+  <g transform="translate(0,0)">
+    <svg x="6" y="6" width="308" height="308" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid meet">
+      <use href="overall.svg#Layer_1" />
+    </svg>
+  </g>
+
+  <!-- glow -->
+  <ellipse cx="160" cy="136" rx="84" ry="42" fill="rgba(255,200,100,0.06)"/>
+
+  <!-- Text under the badge -->
+  <g transform="translate(160,340)">
+    <text x="0" y="0" font-family="Outfit, Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">Jordanian</text>
+    <text x="0" y="30" font-family="Outfit, Inter, Arial, sans-serif" font-size="22" font-weight="600" fill="#cfe6f5" text-anchor="middle">Tiers</text>
+  </g>
+</svg>

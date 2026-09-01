@@ -1,0 +1,909 @@
+{
+  "players": [
+    {
+      "username": "DEATHN0TE_",
+      "nickname": "",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "HT3",
+        "vanilla": "HT3",
+        "uhc": "HT5",
+        "pot": "LT5",
+        "nethop": "LT5",
+        "smp": "LT4",
+        "sword": "LT4",
+        "axe": "LT4",
+        "mace": "HT2",
+        "overall": "HT4"
+      },
+      "history": [
+        {
+          "date": "2026-08-29",
+          "gamemode": "Spear/Mace",
+          "change": "LT2 → HT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "SMP",
+          "change": "HT4 → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "Mace",
+          "change": "LT2 → HT2",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "Axe",
+          "change": "HT5 → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "Vanilla",
+          "change": "LT3 → HT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "Spear/Mace",
+          "change": "HT3 → LT2",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Mace",
+          "change": "HT3 → LT2",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Sword",
+          "change": "HT5 → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "SMP",
+          "change": "HT5 → HT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "UHC",
+          "change": "LT5 → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Vanilla",
+          "change": "HT4 → LT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Spear/Mace",
+          "change": "LT3 → HT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-11",
+          "gamemode": "Mace",
+          "change": "LT2 → HT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-11",
+          "gamemode": "Mace",
+          "change": "LT3 → LT2",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-11",
+          "gamemode": "Vanilla",
+          "change": "LT4 → HT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-11",
+          "gamemode": "Spear/Mace",
+          "change": "LT2 → LT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-25",
+          "gamemode": "Mace",
+          "change": "LT4 → LT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-25",
+          "gamemode": "Spear/Mace",
+          "change": "HT2 → LT2",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Spear/Mace",
+          "change": "HT4 → HT2",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Axe",
+          "change": "None → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Sword",
+          "change": "None → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "SMP",
+          "change": "None → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "NethOP",
+          "change": "None → LT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Pot",
+          "change": "None → LT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "UHC",
+          "change": "None → LT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-19",
+          "gamemode": "Vanilla",
+          "change": "None → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-19",
+          "gamemode": "Overall",
+          "change": "None → Registered",
+          "note": "Added with: Spear/Mace: HT4, Mace: LT4"
+        }
+      ],
+      "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
+      "lastSyncCheck": 1788286853886,
+      "region": "EU",
+      "retired": {
+        "spear_mace": true,
+        "vanilla": true,
+        "mace": true
+      }
+    },
+    {
+      "username": "SK_YX",
+      "nickname": "",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "LT3",
+        "vanilla": "LT4",
+        "uhc": "HT5",
+        "pot": "LT4",
+        "nethop": "LT5",
+        "smp": "HT3",
+        "sword": "HT3",
+        "axe": "HT4",
+        "mace": "HT2",
+        "overall": "HT4"
+      },
+      "history": [
+        {
+          "date": "2026-08-29",
+          "gamemode": "Spear/Mace",
+          "change": "HT3 → LT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "SMP",
+          "change": "LT3 → HT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "Axe",
+          "change": "LT4 → HT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "SMP",
+          "change": "HT4 → LT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "Vanilla",
+          "change": "HT5 → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "Spear/Mace",
+          "change": "LT3 → HT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Mace",
+          "change": "LT2 → HT2",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Axe",
+          "change": "HT5 → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Sword",
+          "change": "LT3 → HT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "SMP",
+          "change": "HT5 → HT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Pot",
+          "change": "LT5 → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "UHC",
+          "change": "LT5 → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Vanilla",
+          "change": "LT5 → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-11",
+          "gamemode": "Mace",
+          "change": "HT3 → LT2",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-11",
+          "gamemode": "Mace",
+          "change": "LT3 → HT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-25",
+          "gamemode": "Mace",
+          "change": "HT5 → LT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-25",
+          "gamemode": "Sword",
+          "change": "LT4 → LT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-25",
+          "gamemode": "Spear/Mace",
+          "change": "LT4 → LT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Axe",
+          "change": "None → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "SMP",
+          "change": "None → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "NethOP",
+          "change": "None → LT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Pot",
+          "change": "None → LT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "UHC",
+          "change": "None → LT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Vanilla",
+          "change": "None → LT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-19",
+          "gamemode": "Sword",
+          "change": "HT1 → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-19",
+          "gamemode": "Sword",
+          "change": "None → HT1",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-19",
+          "gamemode": "Overall",
+          "change": "None → Registered",
+          "note": "Added with: Spear/Mace: LT4, Mace: HT5"
+        }
+      ],
+      "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
+      "lastSyncCheck": 1788284252509,
+      "region": "EU",
+      "retired": {
+        "sword": true
+      }
+    },
+    {
+      "username": "NOT_KALSHER",
+      "nickname": "",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "HT4",
+        "uhc": "LT2",
+        "pot": "LT4",
+        "nethop": "HT4",
+        "smp": "LT3",
+        "sword": "LT4",
+        "axe": "LT4",
+        "mace": "LT4",
+        "overall": "HT4"
+      },
+      "history": [
+        {
+          "date": "2026-08-29",
+          "gamemode": "SMP",
+          "change": "HT4 → LT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "NethOP",
+          "change": "LT4 → HT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "Pot",
+          "change": "HT5 → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "Spear/Mace",
+          "change": "HT5 → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Mace",
+          "change": "HT5 → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Axe",
+          "change": "LT5 → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Sword",
+          "change": "None → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "SMP",
+          "change": "HT5 → HT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Vanilla",
+          "change": "HT5 → HT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-20",
+          "gamemode": "Spear/Mace",
+          "change": "LT5 → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-25",
+          "gamemode": "Mace",
+          "change": "LT5 → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-25",
+          "gamemode": "UHC",
+          "change": "HT1 → LT2",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "UHC",
+          "change": "HT5 → HT1",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Axe",
+          "change": "None → LT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "SMP",
+          "change": "None → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "NethOP",
+          "change": "None → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Pot",
+          "change": "None → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-19",
+          "gamemode": "Overall",
+          "change": "None → Registered",
+          "note": "Added with: Spear/Mace: LT5, Vanilla: HT5, UHC: HT5, Mace: LT5"
+        }
+      ],
+      "uuid": "b5191b99-7819-43aa-b1ca-2bbca901e7f0",
+      "lastSyncCheck": 1788284236003,
+      "region": "EU",
+      "retired": {}
+    },
+    {
+      "username": "Torch7007",
+      "nickname": "",
+      "city": "Zarqa",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "LT5",
+        "uhc": "HT5",
+        "pot": "LT5",
+        "nethop": "HT5",
+        "smp": "HT5",
+        "sword": "LT3",
+        "axe": "LT2",
+        "mace": "HT4",
+        "overall": "HT4"
+      },
+      "history": [
+        {
+          "date": "2026-08-29",
+          "gamemode": "Mace",
+          "change": "HT5 → HT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "Axe",
+          "change": "LT3 → LT2",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "Sword",
+          "change": "LT4 → LT3",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-08-29",
+          "gamemode": "Spear/Mace",
+          "change": "HT5 → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Mace",
+          "change": "None → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Sword",
+          "change": "None → LT4",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "SMP",
+          "change": "None → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "NethOP",
+          "change": "None → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Pot",
+          "change": "None → LT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "UHC",
+          "change": "None → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Vanilla",
+          "change": "None → LT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-20",
+          "gamemode": "Spear/Mace",
+          "change": "None → HT5",
+          "note": "Tier updated via database manager"
+        },
+        {
+          "date": "2026-07-19",
+          "gamemode": "Overall",
+          "change": "None → Registered",
+          "note": "Added with: Axe: LT3"
+        }
+      ],
+      "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
+      "lastSyncCheck": 1788284236514,
+      "region": "EU",
+      "retired": {
+        "sword": true,
+        "axe": true,
+        "mace": true
+      }
+    },
+    {
+      "username": "GR4VESS",
+      "nickname": "",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "LT5",
+        "vanilla": "LT5",
+        "uhc": "LT5",
+        "pot": "LT5",
+        "nethop": "LT5",
+        "smp": "LT5",
+        "sword": "LT5",
+        "axe": "LT5",
+        "mace": "LT5",
+        "overall": "HT5"
+      },
+      "history": [
+        {
+          "date": "2026-07-20",
+          "gamemode": "Overall",
+          "change": "None → Registered",
+          "note": "Added with: Spear/Mace: LT5, Vanilla: LT5, UHC: LT5, Pot: LT5, NethOP: LT5, SMP: LT5, Sword: LT5, Axe: LT5, Mace: LT5"
+        }
+      ],
+      "uuid": "9d3b9c04-2831-4ce4-9797-97834f6f103a",
+      "lastSyncCheck": 1788284237535
+    },
+    {
+      "username": "lasagnaMCC",
+      "uuid": "6487fc28-1da9-42c6-8a3f-632263d5773f",
+      "nickname": "",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT5",
+        "overall": "LT5"
+      },
+      "history": [
+        {
+          "date": "2026-08-11",
+          "gamemode": "Overall",
+          "change": "None → Registered",
+          "note": "Added with: Mace: LT5"
+        }
+      ],
+      "lastSyncCheck": 1788286853381
+    },
+    {
+      "username": "BlueBlueBlurBlue",
+      "uuid": "1c78a762-656a-4321-9931-4d769fbadd9d",
+      "nickname": "",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "HT5",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "HT5",
+        "axe": "None",
+        "mace": "LT4",
+        "overall": "HT5"
+      },
+      "history": [
+        {
+          "date": "2026-08-11",
+          "gamemode": "Overall",
+          "change": "None → Registered",
+          "note": "Added with: Spear/Mace: HT5, Sword: HT5, Mace: LT4"
+        }
+      ],
+      "lastSyncCheck": 1788284237024
+    },
+    {
+      "username": "ryze5429",
+      "uuid": "cracked",
+      "nickname": "",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "HT5",
+        "vanilla": "HT5",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT4",
+        "overall": "HT5"
+      },
+      "history": [
+        {
+          "date": "2026-08-20",
+          "gamemode": "Overall",
+          "change": "None → Registered",
+          "note": "Added with: Spear/Mace: HT5, Vanilla: HT5, Mace: LT4"
+        }
+      ],
+      "lastSyncCheck": 1787243338092
+    },
+    {
+      "username": "Dragown332",
+      "uuid": "cracked",
+      "nickname": "",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "HT5",
+        "vanilla": "HT5",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT4",
+        "overall": "HT5"
+      },
+      "history": [
+        {
+          "date": "2026-08-20",
+          "gamemode": "Overall",
+          "change": "None → Registered",
+          "note": "Added with: Spear/Mace: HT5, Vanilla: HT5, Mace: LT4"
+        }
+      ],
+      "lastSyncCheck": 1787243353931
+    },
+    {
+      "username": "ragoslayer",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "EU",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "LT5",
+        "vanilla": "LT5",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "HT5",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "history": [
+        {
+          "date": "2026-08-28",
+          "gamemode": "Overall",
+          "change": "None → Registered",
+          "note": "Added with: Spear/Mace: LT5, Vanilla: LT5, Mace: HT5"
+        }
+      ],
+      "lastSyncCheck": 1787958034956
+    },
+    {
+      "username": "Hunterxcv",
+      "uuid": "fb94a958-f3b0-4b0e-9eb4-637da55ee78b",
+      "nickname": "",
+      "region": "EU",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "HT5",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "HT5",
+        "axe": "None",
+        "mace": "HT5",
+        "overall": "HT5"
+      },
+      "retired": {},
+      "history": [
+        {
+          "date": "2026-08-28",
+          "gamemode": "Overall",
+          "change": "None → Registered",
+          "note": "Added with: Spear/Mace: HT5, Sword: HT5, Mace: HT5"
+        }
+      ],
+      "lastSyncCheck": 1788286852869
+    },
+    {
+      "username": "RGHiQ",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "EU",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "LT4",
+        "axe": "None",
+        "mace": "LT4",
+        "overall": "HT5"
+      },
+      "retired": {},
+      "history": [
+        {
+          "date": "2026-08-28",
+          "gamemode": "Overall",
+          "change": "None → Registered",
+          "note": "Added with: Spear/Mace: LT4, Sword: LT4, Mace: LT4"
+        }
+      ],
+      "lastSyncCheck": 1787958121855
+    }
+  ],
+  "testers": [
+    {
+      "name": "sk_yx",
+      "role": "mace tester",
+      "gamemodes": [
+        "Mace"
+      ],
+      "avatar": "sk_yx",
+      "online": false
+    }
+  ]
+}
