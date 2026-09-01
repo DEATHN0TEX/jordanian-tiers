@@ -539,11 +539,17 @@
         "nethop": "HT5",
         "smp": "HT5",
         "sword": "LT3",
-        "axe": "LT2",
+        "axe": "HT2",
         "mace": "HT4",
         "overall": "HT4"
       },
       "history": [
+        {
+          "date": "2026-09-01",
+          "gamemode": "Axe",
+          "change": "LT2 → HT2",
+          "note": "passed ht2 test"
+        },
         {
           "date": "2026-08-29",
           "gamemode": "Mace",
