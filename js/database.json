@@ -890,13 +890,17 @@
         "smp": "None",
         "sword": "None",
         "axe": "None",
-        "mace": "HT1",
-        "overall": "HT4"
+        "mace": "None",
+        "overall": "LT5"
       },
-      "retired": {
-        "mace": true
-      },
+      "retired": {},
       "history": [
+        {
+          "date": "2026-09-02",
+          "gamemode": "Mace",
+          "change": "HT1 → None",
+          "note": "Updated via Discord by deathnote5030"
+        },
         {
           "date": "2026-09-02",
           "gamemode": "Mace",
