@@ -701,12 +701,18 @@
         "pot": "LT5",
         "nethop": "LT5",
         "smp": "None",
-        "sword": "LT5",
+        "sword": "None",
         "axe": "LT5",
         "mace": "LT5",
         "overall": "HT5"
       },
       "history": [
+        {
+          "date": "2026-09-02",
+          "gamemode": "Sword",
+          "change": "LT5 → None",
+          "note": "Updated via Discord by deathnote5030"
+        },
         {
           "date": "2026-09-02",
           "gamemode": "SMP",
