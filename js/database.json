@@ -569,6 +569,12 @@
       },
       "history": [
         {
+          "date": "2026-09-02",
+          "gamemode": "Axe",
+          "change": "HT2 → HT2",
+          "note": "Updated via Discord by deathnote5030"
+        },
+        {
           "date": "2026-09-01",
           "gamemode": "SMP",
           "change": "HT5 → LT3",
@@ -682,7 +688,8 @@
       "region": "EU",
       "retired": {
         "sword": true,
-        "mace": true
+        "mace": true,
+        "axe": true
       }
     },
     {
