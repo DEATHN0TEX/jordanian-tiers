@@ -696,7 +696,7 @@
       },
       "tiers": {
         "spear_mace": "None",
-        "vanilla": "LT5",
+        "vanilla": "None",
         "uhc": "LT5",
         "pot": "LT5",
         "nethop": "LT5",
@@ -704,9 +704,15 @@
         "sword": "None",
         "axe": "LT5",
         "mace": "LT5",
-        "overall": "HT5"
+        "overall": "LT5"
       },
       "history": [
+        {
+          "date": "2026-09-02",
+          "gamemode": "Vanilla",
+          "change": "LT5 → None",
+          "note": "Updated via Discord by deathnote5030"
+        },
         {
           "date": "2026-09-02",
           "gamemode": "Sword",
