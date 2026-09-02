@@ -15,13 +15,19 @@
         "uhc": "HT5",
         "pot": "LT5",
         "nethop": "LT5",
-        "smp": "LT4",
+        "smp": "HT4",
         "sword": "LT4",
         "axe": "LT4",
         "mace": "HT2",
         "overall": "HT4"
       },
       "history": [
+        {
+          "date": "2026-09-02",
+          "gamemode": "SMP",
+          "change": "LT4 → HT4",
+          "note": "Updated via Discord by deathnote5030"
+        },
         {
           "date": "2026-08-29",
           "gamemode": "Spear/Mace",
