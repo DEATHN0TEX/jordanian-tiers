@@ -1020,6 +1020,40 @@
         }
       ],
       "lastSyncCheck": 1788308994174
+    },
+    {
+      "username": "xll1400",
+      "uuid": "2a9adb3f50c045a3b30f59443e938f72",
+      "nickname": "",
+      "region": "EU",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "HT5",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "history": [
+        {
+          "date": "2026-09-02",
+          "gamemode": "Vanilla",
+          "change": "None → HT5",
+          "note": "Updated via Discord by deathnote5030"
+        }
+      ],
+      "lastSyncCheck": 1788367748423
     }
   ],
   "testers": [
