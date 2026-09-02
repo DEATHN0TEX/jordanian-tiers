@@ -986,6 +986,40 @@
         }
       ],
       "lastSyncCheck": 1788290486904
+    },
+    {
+      "username": "ABD12",
+      "uuid": "88fabdfe0cfb4bdcb79a651568be8d7c",
+      "nickname": "",
+      "region": "EU",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "HT4",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "history": [
+        {
+          "date": "2026-09-02",
+          "gamemode": "Mace",
+          "change": "None → HT4",
+          "note": "ht4"
+        }
+      ],
+      "lastSyncCheck": 1788308994174
     }
   ],
   "testers": [
