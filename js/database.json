@@ -1038,7 +1038,7 @@
         "uhc": "None",
         "pot": "None",
         "nethop": "None",
-        "smp": "None",
+        "smp": "HT5",
         "sword": "None",
         "axe": "None",
         "mace": "None",
@@ -1046,6 +1046,12 @@
       },
       "retired": {},
       "history": [
+        {
+          "date": "2026-09-02",
+          "gamemode": "SMP",
+          "change": "None → HT5",
+          "note": "ht5 tested"
+        },
         {
           "date": "2026-09-02",
           "gamemode": "Vanilla",
