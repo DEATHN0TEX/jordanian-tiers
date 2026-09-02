@@ -223,6 +223,12 @@
       },
       "history": [
         {
+          "date": "2026-09-02",
+          "gamemode": "SMP",
+          "change": "HT3 → HT3",
+          "note": "Updated via Discord by deathnote5030"
+        },
+        {
           "date": "2026-08-29",
           "gamemode": "Spear/Mace",
           "change": "HT3 → LT3",
@@ -389,7 +395,8 @@
       "lastSyncCheck": 1788284252509,
       "region": "EU",
       "retired": {
-        "sword": true
+        "sword": true,
+        "smp": true
       }
     },
     {
