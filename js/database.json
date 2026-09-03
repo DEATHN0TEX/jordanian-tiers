@@ -102,9 +102,9 @@
         "nethop": "HT5",
         "smp": "LT3",
         "sword": "LT3",
-        "axe": "LT1",
+        "axe": "HT2",
         "mace": "HT4",
-        "overall": "LT3"
+        "overall": "HT4"
       },
       "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
       "lastSyncCheck": 1788284236514,
