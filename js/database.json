@@ -1126,11 +1126,17 @@
         "smp": "None",
         "sword": "None",
         "axe": "None",
-        "mace": "None",
-        "overall": "LT5"
+        "mace": "HT4",
+        "overall": "HT5"
       },
       "retired": {},
       "history": [
+        {
+          "date": "2026-09-03",
+          "gamemode": "Mace",
+          "change": "None → HT4",
+          "note": "test vs deathn0te_"
+        },
         {
           "date": "2026-09-03",
           "gamemode": "Spear/Mace",
