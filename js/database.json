@@ -1158,7 +1158,7 @@
         "youtube": ""
       },
       "tiers": {
-        "spear_mace": "LT3",
+        "spear_mace": "HT3",
         "vanilla": "LT4",
         "uhc": "None",
         "pot": "None",
@@ -1167,10 +1167,16 @@
         "sword": "None",
         "axe": "None",
         "mace": "LT3",
-        "overall": "HT5"
+        "overall": "LT4"
       },
       "retired": {},
       "history": [
+        {
+          "date": "2026-09-03",
+          "gamemode": "Spear/Mace",
+          "change": "LT3 → HT3",
+          "note": "Updated via Discord by deathnote5030"
+        },
         {
           "date": "2026-09-03",
           "gamemode": "Vanilla",
