@@ -495,6 +495,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1788455666059
+    },
+    {
+      "username": "jackOlant10rn",
+      "uuid": "",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "HT3",
+        "axe": "None",
+        "mace": "None",
+        "overall": "HT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788461510454
     }
   ],
   "testers": [
