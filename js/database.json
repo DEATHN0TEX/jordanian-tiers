@@ -546,6 +546,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1788463889700
+    },
+    {
+      "username": "Tuxedox",
+      "uuid": "84b334779cb34ed591f9c29dd0fb71b7",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "HT4",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788464854959
     }
   ],
   "testers": [
