@@ -1087,17 +1087,6 @@
       "online": false
     },
     {
-      "name": "Deathn0te_",
-      "role": "Owner",
-      "gamemodes": [
-        "Spear/Mace",
-        "Vanilla",
-        "Mace"
-      ],
-      "avatar": "Deathn0te_",
-      "online": false
-    },
-    {
       "name": "not_kalsher",
       "role": "tester",
       "gamemodes": [
@@ -1119,6 +1108,17 @@
         "Axe"
       ],
       "avatar": "torch7007",
+      "online": false
+    },
+    {
+      "name": "DEATHN0TE_",
+      "role": "Owner",
+      "gamemodes": [
+        "Spear/Mace",
+        "Vanilla",
+        "Mace"
+      ],
+      "avatar": "DEATHN0TE_",
       "online": false
     }
   ]
