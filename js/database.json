@@ -520,6 +520,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1788461510454
+    },
+    {
+      "username": "idkbrodi",
+      "uuid": "84380496b40c4319950137874581c050",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "HT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788463889700
     }
   ],
   "testers": [
