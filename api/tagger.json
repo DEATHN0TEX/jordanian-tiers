@@ -1,0 +1,507 @@
+{
+  "version": "1.0.0",
+  "title": "Jordanian MCTiers Tier Tagger API",
+  "updated_at": "2026-09-03T17:26:28.771Z",
+  "players": {
+    "deathn0te_": {
+      "name": "DEATHN0TE_",
+      "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "HT3",
+        "vanilla": "HT3",
+        "uhc": "HT5",
+        "pot": "LT5",
+        "nethop": "LT5",
+        "smp": "HT4",
+        "sword": "LT4",
+        "axe": "LT4",
+        "mace": "HT2"
+      },
+      "formatted_tag": "§eHT3 §7| §eHT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §aHT4 §7| §7LT4 §7| §7LT4 §7| §bHT2"
+    },
+    "43681bb8b2c34cd4affd385f71b4395f": {
+      "name": "DEATHN0TE_",
+      "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "HT3",
+        "vanilla": "HT3",
+        "uhc": "HT5",
+        "pot": "LT5",
+        "nethop": "LT5",
+        "smp": "HT4",
+        "sword": "LT4",
+        "axe": "LT4",
+        "mace": "HT2"
+      },
+      "formatted_tag": "§eHT3 §7| §eHT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §aHT4 §7| §7LT4 §7| §7LT4 §7| §bHT2"
+    },
+    "43681bb8-b2c3-4cd4-affd-385f71b4395f": {
+      "name": "DEATHN0TE_",
+      "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "HT3",
+        "vanilla": "HT3",
+        "uhc": "HT5",
+        "pot": "LT5",
+        "nethop": "LT5",
+        "smp": "HT4",
+        "sword": "LT4",
+        "axe": "LT4",
+        "mace": "HT2"
+      },
+      "formatted_tag": "§eHT3 §7| §eHT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §aHT4 §7| §7LT4 §7| §7LT4 §7| §bHT2"
+    },
+    "sk_yx": {
+      "name": "SK_YX",
+      "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "LT3",
+        "vanilla": "LT4",
+        "uhc": "HT5",
+        "pot": "LT4",
+        "nethop": "LT5",
+        "smp": "HT3",
+        "sword": "HT3",
+        "axe": "HT4",
+        "mace": "HT2"
+      },
+      "formatted_tag": "§cLT3 §7| §7LT4 §7| §8HT5 §7| §7LT4 §7| §8LT5 §7| §eHT3 §7| §eHT3 §7| §aHT4 §7| §bHT2"
+    },
+    "cb0cef85557d4f249725943038e37eaf": {
+      "name": "SK_YX",
+      "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "LT3",
+        "vanilla": "LT4",
+        "uhc": "HT5",
+        "pot": "LT4",
+        "nethop": "LT5",
+        "smp": "HT3",
+        "sword": "HT3",
+        "axe": "HT4",
+        "mace": "HT2"
+      },
+      "formatted_tag": "§cLT3 §7| §7LT4 §7| §8HT5 §7| §7LT4 §7| §8LT5 §7| §eHT3 §7| §eHT3 §7| §aHT4 §7| §bHT2"
+    },
+    "cb0cef85-557d-4f24-9725-943038e37eaf": {
+      "name": "SK_YX",
+      "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "LT3",
+        "vanilla": "LT4",
+        "uhc": "HT5",
+        "pot": "LT4",
+        "nethop": "LT5",
+        "smp": "HT3",
+        "sword": "HT3",
+        "axe": "HT4",
+        "mace": "HT2"
+      },
+      "formatted_tag": "§cLT3 §7| §7LT4 §7| §8HT5 §7| §7LT4 §7| §8LT5 §7| §eHT3 §7| §eHT3 §7| §aHT4 §7| §bHT2"
+    },
+    "not_kalsher": {
+      "name": "NOT_KALSHER",
+      "uuid": "b5191b99-7819-43aa-b1ca-2bbca901e7f0",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "HT4",
+        "uhc": "LT2",
+        "pot": "LT4",
+        "nethop": "LT3",
+        "smp": "HT4",
+        "sword": "LT4",
+        "axe": "HT4",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§7LT4 §7| §aHT4 §7| §bLT2 §7| §7LT4 §7| §cLT3 §7| §aHT4 §7| §7LT4 §7| §aHT4 §7| §7LT4"
+    },
+    "b5191b99781943aab1ca2bbca901e7f0": {
+      "name": "NOT_KALSHER",
+      "uuid": "b5191b99-7819-43aa-b1ca-2bbca901e7f0",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "HT4",
+        "uhc": "LT2",
+        "pot": "LT4",
+        "nethop": "LT3",
+        "smp": "HT4",
+        "sword": "LT4",
+        "axe": "HT4",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§7LT4 §7| §aHT4 §7| §bLT2 §7| §7LT4 §7| §cLT3 §7| §aHT4 §7| §7LT4 §7| §aHT4 §7| §7LT4"
+    },
+    "b5191b99-7819-43aa-b1ca-2bbca901e7f0": {
+      "name": "NOT_KALSHER",
+      "uuid": "b5191b99-7819-43aa-b1ca-2bbca901e7f0",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "HT4",
+        "uhc": "LT2",
+        "pot": "LT4",
+        "nethop": "LT3",
+        "smp": "HT4",
+        "sword": "LT4",
+        "axe": "HT4",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§7LT4 §7| §aHT4 §7| §bLT2 §7| §7LT4 §7| §cLT3 §7| §aHT4 §7| §7LT4 §7| §aHT4 §7| §7LT4"
+    },
+    "torch7007": {
+      "name": "Torch7007",
+      "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "LT5",
+        "uhc": "HT4",
+        "pot": "LT5",
+        "nethop": "HT5",
+        "smp": "LT3",
+        "sword": "LT3",
+        "axe": "HT2",
+        "mace": "HT4"
+      },
+      "formatted_tag": "§7LT4 §7| §8LT5 §7| §aHT4 §7| §8LT5 §7| §8HT5 §7| §cLT3 §7| §cLT3 §7| §bHT2 §7| §aHT4"
+    },
+    "83c9192ca73c46c49fb9046c75867013": {
+      "name": "Torch7007",
+      "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "LT5",
+        "uhc": "HT4",
+        "pot": "LT5",
+        "nethop": "HT5",
+        "smp": "LT3",
+        "sword": "LT3",
+        "axe": "HT2",
+        "mace": "HT4"
+      },
+      "formatted_tag": "§7LT4 §7| §8LT5 §7| §aHT4 §7| §8LT5 §7| §8HT5 §7| §cLT3 §7| §cLT3 §7| §bHT2 §7| §aHT4"
+    },
+    "83c9192c-a73c-46c4-9fb9-046c75867013": {
+      "name": "Torch7007",
+      "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "LT5",
+        "uhc": "HT4",
+        "pot": "LT5",
+        "nethop": "HT5",
+        "smp": "LT3",
+        "sword": "LT3",
+        "axe": "HT2",
+        "mace": "HT4"
+      },
+      "formatted_tag": "§7LT4 §7| §8LT5 §7| §aHT4 §7| §8LT5 §7| §8HT5 §7| §cLT3 §7| §cLT3 §7| §bHT2 §7| §aHT4"
+    },
+    "gr4vess": {
+      "name": "GR4VESS",
+      "uuid": "9d3b9c04-2831-4ce4-9797-97834f6f103a",
+      "overall": "LT5",
+      "tiers": {
+        "uhc": "LT5",
+        "pot": "LT5",
+        "nethop": "LT5",
+        "axe": "LT5"
+      },
+      "formatted_tag": "§8LT5 §7| §8LT5 §7| §8LT5 §7| §8LT5"
+    },
+    "9d3b9c0428314ce4979797834f6f103a": {
+      "name": "GR4VESS",
+      "uuid": "9d3b9c04-2831-4ce4-9797-97834f6f103a",
+      "overall": "LT5",
+      "tiers": {
+        "uhc": "LT5",
+        "pot": "LT5",
+        "nethop": "LT5",
+        "axe": "LT5"
+      },
+      "formatted_tag": "§8LT5 §7| §8LT5 §7| §8LT5 §7| §8LT5"
+    },
+    "9d3b9c04-2831-4ce4-9797-97834f6f103a": {
+      "name": "GR4VESS",
+      "uuid": "9d3b9c04-2831-4ce4-9797-97834f6f103a",
+      "overall": "LT5",
+      "tiers": {
+        "uhc": "LT5",
+        "pot": "LT5",
+        "nethop": "LT5",
+        "axe": "LT5"
+      },
+      "formatted_tag": "§8LT5 §7| §8LT5 §7| §8LT5 §7| §8LT5"
+    },
+    "lasagnamcc": {
+      "name": "lasagnaMCC",
+      "uuid": "6487fc28-1da9-42c6-8a3f-632263d5773f",
+      "overall": "LT5",
+      "tiers": {
+        "mace": "LT5"
+      },
+      "formatted_tag": "§8LT5"
+    },
+    "6487fc281da942c68a3f632263d5773f": {
+      "name": "lasagnaMCC",
+      "uuid": "6487fc28-1da9-42c6-8a3f-632263d5773f",
+      "overall": "LT5",
+      "tiers": {
+        "mace": "LT5"
+      },
+      "formatted_tag": "§8LT5"
+    },
+    "6487fc28-1da9-42c6-8a3f-632263d5773f": {
+      "name": "lasagnaMCC",
+      "uuid": "6487fc28-1da9-42c6-8a3f-632263d5773f",
+      "overall": "LT5",
+      "tiers": {
+        "mace": "LT5"
+      },
+      "formatted_tag": "§8LT5"
+    },
+    "blueblueblurblue": {
+      "name": "BlueBlueBlurBlue",
+      "uuid": "1c78a762-656a-4321-9931-4d769fbadd9d",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "sword": "HT5",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §7LT4"
+    },
+    "1c78a762656a432199314d769fbadd9d": {
+      "name": "BlueBlueBlurBlue",
+      "uuid": "1c78a762-656a-4321-9931-4d769fbadd9d",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "sword": "HT5",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §7LT4"
+    },
+    "1c78a762-656a-4321-9931-4d769fbadd9d": {
+      "name": "BlueBlueBlurBlue",
+      "uuid": "1c78a762-656a-4321-9931-4d769fbadd9d",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "sword": "HT5",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §7LT4"
+    },
+    "ryze5429": {
+      "name": "ryze5429",
+      "uuid": "cracked",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "vanilla": "HT5",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §7LT4"
+    },
+    "dragown332": {
+      "name": "Dragown332",
+      "uuid": "cracked",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "vanilla": "HT5",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §7LT4"
+    },
+    "ragoslayer": {
+      "name": "ragoslayer",
+      "uuid": "cracked",
+      "overall": "LT5",
+      "tiers": {
+        "spear_mace": "LT5",
+        "vanilla": "LT5",
+        "mace": "HT5"
+      },
+      "formatted_tag": "§8LT5 §7| §8LT5 §7| §8HT5"
+    },
+    "hunterxcv": {
+      "name": "Hunterxcv",
+      "uuid": "fb94a958-f3b0-4b0e-9eb4-637da55ee78b",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "sword": "HT5",
+        "mace": "HT5"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §8HT5"
+    },
+    "fb94a958f3b04b0e9eb4637da55ee78b": {
+      "name": "Hunterxcv",
+      "uuid": "fb94a958-f3b0-4b0e-9eb4-637da55ee78b",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "sword": "HT5",
+        "mace": "HT5"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §8HT5"
+    },
+    "fb94a958-f3b0-4b0e-9eb4-637da55ee78b": {
+      "name": "Hunterxcv",
+      "uuid": "fb94a958-f3b0-4b0e-9eb4-637da55ee78b",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "sword": "HT5",
+        "mace": "HT5"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §8HT5"
+    },
+    "rghiq": {
+      "name": "RGHiQ",
+      "uuid": "cracked",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "LT4",
+        "sword": "LT4",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§7LT4 §7| §7LT4 §7| §7LT4"
+    },
+    "toch7007": {
+      "name": "toch7007",
+      "uuid": "",
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
+    },
+    "abd12": {
+      "name": "ABD12",
+      "uuid": "88fabdfe0cfb4bdcb79a651568be8d7c",
+      "overall": "LT5",
+      "tiers": {
+        "mace": "HT4"
+      },
+      "formatted_tag": "§aHT4"
+    },
+    "88fabdfe0cfb4bdcb79a651568be8d7c": {
+      "name": "ABD12",
+      "uuid": "88fabdfe0cfb4bdcb79a651568be8d7c",
+      "overall": "LT5",
+      "tiers": {
+        "mace": "HT4"
+      },
+      "formatted_tag": "§aHT4"
+    },
+    "xll1400": {
+      "name": "xll1400",
+      "uuid": "2a9adb3f50c045a3b30f59443e938f72",
+      "overall": "LT5",
+      "tiers": {
+        "vanilla": "HT5",
+        "smp": "HT5"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5"
+    },
+    "2a9adb3f50c045a3b30f59443e938f72": {
+      "name": "xll1400",
+      "uuid": "2a9adb3f50c045a3b30f59443e938f72",
+      "overall": "LT5",
+      "tiers": {
+        "vanilla": "HT5",
+        "smp": "HT5"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5"
+    },
+    "kgbplus": {
+      "name": "kgbplus",
+      "uuid": "9233e2b3b4b34d5a977fadea7d410f8e",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "LT4",
+        "mace": "HT4"
+      },
+      "formatted_tag": "§7LT4 §7| §aHT4"
+    },
+    "9233e2b3b4b34d5a977fadea7d410f8e": {
+      "name": "kgbplus",
+      "uuid": "9233e2b3b4b34d5a977fadea7d410f8e",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "LT4",
+        "mace": "HT4"
+      },
+      "formatted_tag": "§7LT4 §7| §aHT4"
+    },
+    "dimiemos": {
+      "name": "dimiemos",
+      "uuid": "48637c17f6fd4999bf817d0134720043",
+      "overall": "LT4",
+      "tiers": {
+        "spear_mace": "HT3",
+        "vanilla": "LT4",
+        "mace": "LT3"
+      },
+      "formatted_tag": "§eHT3 §7| §7LT4 §7| §cLT3"
+    },
+    "48637c17f6fd4999bf817d0134720043": {
+      "name": "dimiemos",
+      "uuid": "48637c17f6fd4999bf817d0134720043",
+      "overall": "LT4",
+      "tiers": {
+        "spear_mace": "HT3",
+        "vanilla": "LT4",
+        "mace": "LT3"
+      },
+      "formatted_tag": "§eHT3 §7| §7LT4 §7| §cLT3"
+    },
+    "irypro": {
+      "name": "iRYPro",
+      "uuid": "5d575d8216214b5ab2605fa4594ec827",
+      "overall": "HT5",
+      "tiers": {
+        "vanilla": "LT3"
+      },
+      "formatted_tag": "§cLT3"
+    },
+    "5d575d8216214b5ab2605fa4594ec827": {
+      "name": "iRYPro",
+      "uuid": "5d575d8216214b5ab2605fa4594ec827",
+      "overall": "HT5",
+      "tiers": {
+        "vanilla": "LT3"
+      },
+      "formatted_tag": "§cLT3"
+    },
+    "jackolan10rn": {
+      "name": "JackOLan10rn",
+      "uuid": "f311b3fc49334e3c90e8da64baeaf689",
+      "overall": "HT4",
+      "tiers": {
+        "mace": "LT1"
+      },
+      "formatted_tag": "§6LT1"
+    },
+    "f311b3fc49334e3c90e8da64baeaf689": {
+      "name": "JackOLan10rn",
+      "uuid": "f311b3fc49334e3c90e8da64baeaf689",
+      "overall": "HT4",
+      "tiers": {
+        "mace": "LT1"
+      },
+      "formatted_tag": "§6LT1"
+    }
+  }
+}
