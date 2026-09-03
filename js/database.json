@@ -469,6 +469,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1788453794898
+    },
+    {
+      "username": "JackOLan10rn",
+      "uuid": "f311b3fc49334e3c90e8da64baeaf689",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT1",
+        "overall": "HT4"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788455666059
     }
   ],
   "testers": [
