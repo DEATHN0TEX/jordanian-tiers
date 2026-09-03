@@ -1197,6 +1197,40 @@
         }
       ],
       "lastSyncCheck": 1788440648875
+    },
+    {
+      "username": "iRYPro",
+      "uuid": "5d575d8216214b5ab2605fa4594ec827",
+      "nickname": "",
+      "region": "EU",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "LT3",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "HT5"
+      },
+      "retired": {},
+      "history": [
+        {
+          "date": "2026-09-03",
+          "gamemode": "Vanilla",
+          "change": "None → LT3",
+          "note": "Updated via Discord by deathnote5030"
+        }
+      ],
+      "lastSyncCheck": 1788453794898
     }
   ],
   "testers": [
