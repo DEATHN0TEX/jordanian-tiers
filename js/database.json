@@ -717,10 +717,16 @@
         "smp": "LT5",
         "sword": "LT5",
         "axe": "LT5",
-        "mace": "LT5",
+        "mace": "None",
         "overall": "HT5"
       },
       "history": [
+        {
+          "date": "2026-09-03",
+          "gamemode": "Mace",
+          "change": "LT5 → None",
+          "note": "Updated via Discord by deathnote5030"
+        },
         {
           "date": "2026-09-03",
           "gamemode": "Vanilla",
