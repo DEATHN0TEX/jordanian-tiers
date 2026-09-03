@@ -1105,6 +1105,40 @@
         }
       ],
       "lastSyncCheck": 1788367748423
+    },
+    {
+      "username": "kgbplus",
+      "uuid": "9233e2b3b4b34d5a977fadea7d410f8e",
+      "nickname": "",
+      "region": "EU",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "history": [
+        {
+          "date": "2026-09-03",
+          "gamemode": "Spear/Mace",
+          "change": "None → LT4",
+          "note": "test vs deathn0te_"
+        }
+      ],
+      "lastSyncCheck": 1788437173358
     }
   ],
   "testers": [
