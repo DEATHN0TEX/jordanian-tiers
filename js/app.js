@@ -472,8 +472,9 @@ function animateCount(element, target, duration = 600) {
 
 // Update stats in the header
 function updateLiveStats() {
+  const rankedCount = players.filter(p => calculateTotalPoints(p.tiers) > 0).length;
   const countSpan = document.getElementById("total-players-count");
-  if (countSpan) animateCount(countSpan, players.length);
+  if (countSpan) animateCount(countSpan, rankedCount);
 
   const testersSpan = document.getElementById("total-testers-count");
   if (testersSpan) animateCount(testersSpan, testers.filter(t => t.online === true).length);
@@ -912,7 +913,8 @@ function openPlayerModal(player) {
 
   document.getElementById("profile-username").textContent = player.username;
   document.getElementById("profile-nickname").textContent = player.nickname ? `"${player.nickname}"` : "";
-  document.getElementById("profile-city").textContent = `${player.city}, Jordan`;
+  const cityElem = document.getElementById("profile-city");
+  if (cityElem) cityElem.textContent = player.city ? `${player.city}, Jordan` : "";
 
   const totalPts = calculateTotalPoints(player.tiers);
   const titleInfo = getPlayerTitle(totalPts);
@@ -940,13 +942,16 @@ function openPlayerModal(player) {
     serverElem.textContent = player.region || "EU";
   }
 
-  // Global rank calculation
-  const sortedOverall = [...players].map(p => ({
-    username: p.username,
-    _pts: calculateTotalPoints(p.tiers)
-  })).sort((a, b) => b._pts - a._pts);
-  const rankIndex = sortedOverall.findIndex(p => p.username === player.username);
-  const rankNumber = rankIndex >= 0 ? `#${rankIndex + 1}` : "-";
+  // Global rank calculation (only for players with pts > 0)
+  const sortedOverall = [...players]
+    .map(p => ({
+      username: p.username,
+      _pts: calculateTotalPoints(p.tiers)
+    }))
+    .filter(p => p._pts > 0)
+    .sort((a, b) => b._pts - a._pts);
+  const rankIndex = sortedOverall.findIndex(p => p.username.toLowerCase() === player.username.toLowerCase());
+  const rankNumber = (rankIndex >= 0 && totalPts > 0) ? `#${rankIndex + 1}` : "-";
 
   const globalRankElem = document.getElementById("profile-global-rank");
   if (globalRankElem) globalRankElem.textContent = rankNumber;
@@ -1256,11 +1261,13 @@ function startPlayerEdit(index) {
   document.getElementById("form-nickname").value = player.nickname || "";
   const regionEl = document.getElementById("form-region");
   if (regionEl) regionEl.value = player.region || "EU";
-  document.getElementById("form-city").value = player.city;
+  const cityEl = document.getElementById("form-city");
+  if (cityEl) cityEl.value = player.city || "Amman";
   document.getElementById("form-discord").value = (player.socials && player.socials.discord) || "";
   document.getElementById("form-youtube").value = (player.socials && player.socials.youtube) || "";
   document.getElementById("form-badges").value = player.badges ? player.badges.join(", ") : "";
-  document.getElementById("form-history-reason").value = "";
+  const hrEl = document.getElementById("form-history-reason");
+  if (hrEl) hrEl.value = "";
 
   INITIAL_GAMEMODES.filter(gm => gm.id !== "overall").forEach(gm => {
     const dropdown = document.getElementById(`assign-${gm.id}`);
@@ -1286,11 +1293,11 @@ async function savePlayer(event) {
     const username = document.getElementById("form-username").value.trim();
     const nickname = document.getElementById("form-nickname").value.trim();
     const region = document.getElementById("form-region") ? document.getElementById("form-region").value : "EU";
-    const city = document.getElementById("form-city").value;
+    const cityEl = document.getElementById("form-city");
+    const city = cityEl ? cityEl.value : "Amman";
     const discord = document.getElementById("form-discord").value.trim();
     const youtube = document.getElementById("form-youtube").value.trim();
     const badgesInput = document.getElementById("form-badges").value.trim();
-    const historyReason = document.getElementById("form-history-reason").value.trim();
 
     if (!username) {
       alert("Minecraft Username is required.");
@@ -1312,7 +1319,6 @@ async function savePlayer(event) {
     });
 
     newTiers["overall"] = calculateOverallTier(newTiers);
-    let finalHistory = [];
     let uuid = "";
     let fetched = false;
 
@@ -1342,21 +1348,6 @@ async function savePlayer(event) {
       if (!existingPlayer) {
         throw new Error(`Player at index ${editIndex} not found in database.`);
       }
-      finalHistory = [...(existingPlayer.history || [])];
-
-      INITIAL_GAMEMODES.filter(gm => gm.id !== "overall").forEach(gm => {
-        const oldTier = existingPlayer.tiers[gm.id] || "None";
-        const newTier = newTiers[gm.id] || "None";
-
-        if (oldTier !== newTier) {
-          finalHistory.unshift({
-            date: new Date().toISOString().split("T")[0],
-            gamemode: gm.name,
-            change: `${oldTier} → ${newTier}`,
-            note: historyReason || "Tier updated via database manager"
-          });
-        }
-      });
 
       uuid = fetched ? uuid : (existingPlayer.uuid || "cracked");
 
@@ -1369,7 +1360,7 @@ async function savePlayer(event) {
       existingPlayer.socials = { discord, youtube };
       existingPlayer.tiers = newTiers;
       existingPlayer.retired = newRetired;
-      existingPlayer.history = finalHistory;
+      delete existingPlayer.history;
       existingPlayer.lastSyncCheck = Date.now();
 
       showToast(`Player "${username}" updated successfully!`);
@@ -1379,21 +1370,6 @@ async function savePlayer(event) {
         alert(`Player "${username}" already exists.`);
         return;
       }
-
-      const initialTiersString = Object.entries(newTiers)
-        .filter(([gm, tier]) => gm !== "overall" && tier !== "None")
-        .map(([gm, tier]) => {
-          const gmObj = INITIAL_GAMEMODES.find(g => g.id === gm);
-          return `${gmObj ? gmObj.name : gm}: ${tier}`;
-        })
-        .join(", ");
-
-      finalHistory = [{
-        date: new Date().toISOString().split("T")[0],
-        gamemode: "Overall",
-        change: "None → Registered",
-        note: historyReason || `Added with: ${initialTiersString || "No active tiers"}`
-      }];
 
       const newPlayer = {
         username,
@@ -1405,7 +1381,6 @@ async function savePlayer(event) {
         socials: { discord, youtube },
         tiers: newTiers,
         retired: newRetired,
-        history: finalHistory,
         lastSyncCheck: Date.now()
       };
 
