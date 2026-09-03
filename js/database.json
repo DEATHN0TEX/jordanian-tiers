@@ -592,6 +592,17 @@
       ],
       "avatar": "DEATHN0TE_",
       "online": true
+    },
+    {
+      "name": "jackOLan10rn",
+      "role": "Tester",
+      "gamemodes": [
+        "mace",
+        "spear mace",
+        "sword"
+      ],
+      "avatar": "jackOLan10rn",
+      "online": true
     }
   ]
 }
