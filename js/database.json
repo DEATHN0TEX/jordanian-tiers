@@ -482,7 +482,7 @@
         "youtube": ""
       },
       "tiers": {
-        "spear_mace": "None",
+        "spear_mace": "LT2",
         "vanilla": "None",
         "uhc": "None",
         "pot": "None",
@@ -491,7 +491,7 @@
         "sword": "HT3",
         "axe": "None",
         "mace": "LT1",
-        "overall": "HT4"
+        "overall": "LT3"
       },
       "retired": {},
       "lastSyncCheck": 1788455666059
