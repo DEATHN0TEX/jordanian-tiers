@@ -709,7 +709,7 @@
         "youtube": ""
       },
       "tiers": {
-        "spear_mace": "LT5",
+        "spear_mace": "None",
         "vanilla": "LT5",
         "uhc": "LT5",
         "pot": "LT5",
@@ -722,6 +722,12 @@
       },
       "history": [
         {
+          "date": "2026-09-03",
+          "gamemode": "Spear/Mace",
+          "change": "LT5 → None",
+          "note": "Updated via Discord by deathnote5030"
+        },
+        {
           "date": "2026-07-20",
           "gamemode": "Overall",
           "change": "None → Registered",
@@ -729,7 +735,8 @@
         }
       ],
       "uuid": "9d3b9c04-2831-4ce4-9797-97834f6f103a",
-      "lastSyncCheck": 1788284237535
+      "lastSyncCheck": 1788284237535,
+      "retired": {}
     },
     {
       "username": "lasagnaMCC",
