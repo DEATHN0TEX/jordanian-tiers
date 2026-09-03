@@ -1145,6 +1145,40 @@
         }
       ],
       "lastSyncCheck": 1788437173358
+    },
+    {
+      "username": "dimiemos",
+      "uuid": "48637c17f6fd4999bf817d0134720043",
+      "nickname": "",
+      "region": "EU",
+      "city": "Amman",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "HT5"
+      },
+      "retired": {},
+      "history": [
+        {
+          "date": "2026-09-03",
+          "gamemode": "Mace",
+          "change": "None → LT3",
+          "note": "did great in test"
+        }
+      ],
+      "lastSyncCheck": 1788440648875
     }
   ],
   "testers": [
