@@ -710,7 +710,7 @@
       },
       "tiers": {
         "spear_mace": "None",
-        "vanilla": "LT5",
+        "vanilla": "None",
         "uhc": "LT5",
         "pot": "LT5",
         "nethop": "LT5",
@@ -721,6 +721,12 @@
         "overall": "HT5"
       },
       "history": [
+        {
+          "date": "2026-09-03",
+          "gamemode": "Vanilla",
+          "change": "LT5 → None",
+          "note": "Updated via Discord by deathnote5030"
+        },
         {
           "date": "2026-09-03",
           "gamemode": "Spear/Mace",
