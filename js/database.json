@@ -715,10 +715,10 @@
         "pot": "None",
         "nethop": "None",
         "smp": "None",
-        "sword": "HT4",
+        "sword": "None",
         "axe": "None",
         "mace": "None",
-        "overall": "LT5"
+        "overall": "None"
       },
       "retired": {},
       "lastSyncCheck": 1788550950048
