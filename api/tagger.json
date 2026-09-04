@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-04T19:39:56.999Z",
+  "updated_at": "2026-09-04T19:40:11.026Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -16,9 +16,9 @@
         "smp": "HT4",
         "sword": "LT4",
         "axe": "LT4",
-        "mace": "RHT2"
+        "mace": "LT3"
       },
-      "formatted_tag": "§cRHT3 §7| §cRHT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §bHT4 §7| §3LT4 §7| §3LT4 §7| §fRHT2"
+      "formatted_tag": "§cRHT3 §7| §cRHT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §bHT4 §7| §3LT4 §7| §3LT4 §7| §4LT3"
     },
     "deathnote_": {
       "name": "DEATHN0TE_",
@@ -33,9 +33,9 @@
         "smp": "HT4",
         "sword": "LT4",
         "axe": "LT4",
-        "mace": "RHT2"
+        "mace": "LT3"
       },
-      "formatted_tag": "§cRHT3 §7| §cRHT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §bHT4 §7| §3LT4 §7| §3LT4 §7| §fRHT2"
+      "formatted_tag": "§cRHT3 §7| §cRHT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §bHT4 §7| §3LT4 §7| §3LT4 §7| §4LT3"
     },
     "43681bb8b2c34cd4affd385f71b4395f": {
       "name": "DEATHN0TE_",
@@ -50,9 +50,9 @@
         "smp": "HT4",
         "sword": "LT4",
         "axe": "LT4",
-        "mace": "RHT2"
+        "mace": "LT3"
       },
-      "formatted_tag": "§cRHT3 §7| §cRHT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §bHT4 §7| §3LT4 §7| §3LT4 §7| §fRHT2"
+      "formatted_tag": "§cRHT3 §7| §cRHT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §bHT4 §7| §3LT4 §7| §3LT4 §7| §4LT3"
     },
     "43681bb8-b2c3-4cd4-affd-385f71b4395f": {
       "name": "DEATHN0TE_",
@@ -67,9 +67,9 @@
         "smp": "HT4",
         "sword": "LT4",
         "axe": "LT4",
-        "mace": "RHT2"
+        "mace": "LT3"
       },
-      "formatted_tag": "§cRHT3 §7| §cRHT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §bHT4 §7| §3LT4 §7| §3LT4 §7| §fRHT2"
+      "formatted_tag": "§cRHT3 §7| §cRHT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §bHT4 §7| §3LT4 §7| §3LT4 §7| §4LT3"
     },
     "sk_yx": {
       "name": "SK_YX",
