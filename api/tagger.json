@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-04T18:56:15.499Z",
+  "updated_at": "2026-09-04T19:08:02.312Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -731,9 +731,9 @@
       "tiers": {
         "spear_mace": "HT4",
         "sword": "LT3",
-        "mace": "HT3"
+        "mace": "RHT3"
       },
-      "formatted_tag": "§bHT4 §7| §4LT3 §7| §cHT3"
+      "formatted_tag": "§bHT4 §7| §4LT3 §7| §cRHT3"
     },
     "tuxed0x": {
       "name": "Tuxedox",
@@ -742,9 +742,9 @@
       "tiers": {
         "spear_mace": "HT4",
         "sword": "LT3",
-        "mace": "HT3"
+        "mace": "RHT3"
       },
-      "formatted_tag": "§bHT4 §7| §4LT3 §7| §cHT3"
+      "formatted_tag": "§bHT4 §7| §4LT3 §7| §cRHT3"
     },
     "84b334779cb34ed591f9c29dd0fb71b7": {
       "name": "Tuxedox",
@@ -753,9 +753,9 @@
       "tiers": {
         "spear_mace": "HT4",
         "sword": "LT3",
-        "mace": "HT3"
+        "mace": "RHT3"
       },
-      "formatted_tag": "§bHT4 §7| §4LT3 §7| §cHT3"
+      "formatted_tag": "§bHT4 §7| §4LT3 §7| §cRHT3"
     },
     "noelnw": {
       "name": "Noelnw",
