@@ -570,7 +570,9 @@
         "mace": "HT3",
         "overall": "LT4"
       },
-      "retired": {},
+      "retired": {
+        "mace": true
+      },
       "lastSyncCheck": 1788464854959
     },
     {
