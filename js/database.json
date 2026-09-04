@@ -18,7 +18,7 @@
         "smp": "HT4",
         "sword": "LT4",
         "axe": "LT4",
-        "mace": "HT2",
+        "mace": "LT3",
         "overall": "HT4"
       },
       "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
@@ -26,8 +26,7 @@
       "region": "EU",
       "retired": {
         "spear_mace": true,
-        "vanilla": true,
-        "mace": true
+        "vanilla": true
       }
     },
     {
