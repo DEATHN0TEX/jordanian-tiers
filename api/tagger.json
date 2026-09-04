@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-04T19:41:42.093Z",
+  "updated_at": "2026-09-04T19:42:19.229Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -193,7 +193,7 @@
     "torch7007": {
       "name": "Torch7007",
       "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
-      "overall": "HT4",
+      "overall": "LT4",
       "tiers": {
         "spear_mace": "LT4",
         "vanilla": "LT5",
@@ -202,15 +202,15 @@
         "nethop": "HT5",
         "smp": "LT3",
         "sword": "RLT3",
-        "axe": "HT2",
+        "axe": "LT3",
         "mace": "RHT4"
       },
-      "formatted_tag": "§3LT4 §7| §8LT5 §7| §bHT4 §7| §8LT5 §7| §8HT5 §7| §4LT3 §7| §4RLT3 §7| §fHT2 §7| §bRHT4"
+      "formatted_tag": "§3LT4 §7| §8LT5 §7| §bHT4 §7| §8LT5 §7| §8HT5 §7| §4LT3 §7| §4RLT3 §7| §4LT3 §7| §bRHT4"
     },
     "t0rch7007": {
       "name": "Torch7007",
       "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
-      "overall": "HT4",
+      "overall": "LT4",
       "tiers": {
         "spear_mace": "LT4",
         "vanilla": "LT5",
@@ -219,15 +219,15 @@
         "nethop": "HT5",
         "smp": "LT3",
         "sword": "RLT3",
-        "axe": "HT2",
+        "axe": "LT3",
         "mace": "RHT4"
       },
-      "formatted_tag": "§3LT4 §7| §8LT5 §7| §bHT4 §7| §8LT5 §7| §8HT5 §7| §4LT3 §7| §4RLT3 §7| §fHT2 §7| §bRHT4"
+      "formatted_tag": "§3LT4 §7| §8LT5 §7| §bHT4 §7| §8LT5 §7| §8HT5 §7| §4LT3 §7| §4RLT3 §7| §4LT3 §7| §bRHT4"
     },
     "torch7oo7": {
       "name": "Torch7007",
       "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
-      "overall": "HT4",
+      "overall": "LT4",
       "tiers": {
         "spear_mace": "LT4",
         "vanilla": "LT5",
@@ -236,15 +236,15 @@
         "nethop": "HT5",
         "smp": "LT3",
         "sword": "RLT3",
-        "axe": "HT2",
+        "axe": "LT3",
         "mace": "RHT4"
       },
-      "formatted_tag": "§3LT4 §7| §8LT5 §7| §bHT4 §7| §8LT5 §7| §8HT5 §7| §4LT3 §7| §4RLT3 §7| §fHT2 §7| §bRHT4"
+      "formatted_tag": "§3LT4 §7| §8LT5 §7| §bHT4 §7| §8LT5 §7| §8HT5 §7| §4LT3 §7| §4RLT3 §7| §4LT3 §7| §bRHT4"
     },
     "83c9192ca73c46c49fb9046c75867013": {
       "name": "Torch7007",
       "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
-      "overall": "HT4",
+      "overall": "LT4",
       "tiers": {
         "spear_mace": "LT4",
         "vanilla": "LT5",
@@ -253,15 +253,15 @@
         "nethop": "HT5",
         "smp": "LT3",
         "sword": "RLT3",
-        "axe": "HT2",
+        "axe": "LT3",
         "mace": "RHT4"
       },
-      "formatted_tag": "§3LT4 §7| §8LT5 §7| §bHT4 §7| §8LT5 §7| §8HT5 §7| §4LT3 §7| §4RLT3 §7| §fHT2 §7| §bRHT4"
+      "formatted_tag": "§3LT4 §7| §8LT5 §7| §bHT4 §7| §8LT5 §7| §8HT5 §7| §4LT3 §7| §4RLT3 §7| §4LT3 §7| §bRHT4"
     },
     "83c9192c-a73c-46c4-9fb9-046c75867013": {
       "name": "Torch7007",
       "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
-      "overall": "HT4",
+      "overall": "LT4",
       "tiers": {
         "spear_mace": "LT4",
         "vanilla": "LT5",
@@ -270,10 +270,10 @@
         "nethop": "HT5",
         "smp": "LT3",
         "sword": "RLT3",
-        "axe": "HT2",
+        "axe": "LT3",
         "mace": "RHT4"
       },
-      "formatted_tag": "§3LT4 §7| §8LT5 §7| §bHT4 §7| §8LT5 §7| §8HT5 §7| §4LT3 §7| §4RLT3 §7| §fHT2 §7| §bRHT4"
+      "formatted_tag": "§3LT4 §7| §8LT5 §7| §bHT4 §7| §8LT5 §7| §8HT5 §7| §4LT3 §7| §4RLT3 §7| §4LT3 §7| §bRHT4"
     },
     "gr4vess": {
       "name": "GR4VESS",
