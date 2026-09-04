@@ -475,7 +475,7 @@
         "vanilla": "LT4",
         "uhc": "LT5",
         "pot": "HT5",
-        "nethop": "None",
+        "nethop": "LT5",
         "smp": "None",
         "sword": "LT3",
         "axe": "None",
