@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-04T19:58:23.930Z",
+  "updated_at": "2026-09-04T19:58:47.855Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -632,10 +632,11 @@
         "uhc": "LT5",
         "pot": "HT5",
         "nethop": "LT5",
+        "smp": "HT4",
         "sword": "LT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8LT5 §7| §8HT5 §7| §8LT5 §7| §4LT3 §7| §cHT3"
+      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8LT5 §7| §8HT5 §7| §8LT5 §7| §bHT4 §7| §4LT3 §7| §cHT3"
     },
     "jack0lan10rn": {
       "name": "JackOLan10rn",
@@ -647,10 +648,11 @@
         "uhc": "LT5",
         "pot": "HT5",
         "nethop": "LT5",
+        "smp": "HT4",
         "sword": "LT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8LT5 §7| §8HT5 §7| §8LT5 §7| §4LT3 §7| §cHT3"
+      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8LT5 §7| §8HT5 §7| §8LT5 §7| §bHT4 §7| §4LT3 §7| §cHT3"
     },
     "jackolan1orn": {
       "name": "JackOLan10rn",
@@ -662,10 +664,11 @@
         "uhc": "LT5",
         "pot": "HT5",
         "nethop": "LT5",
+        "smp": "HT4",
         "sword": "LT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8LT5 §7| §8HT5 §7| §8LT5 §7| §4LT3 §7| §cHT3"
+      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8LT5 §7| §8HT5 §7| §8LT5 §7| §bHT4 §7| §4LT3 §7| §cHT3"
     },
     "f311b3fc49334e3c90e8da64baeaf689": {
       "name": "JackOLan10rn",
@@ -677,10 +680,11 @@
         "uhc": "LT5",
         "pot": "HT5",
         "nethop": "LT5",
+        "smp": "HT4",
         "sword": "LT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8LT5 §7| §8HT5 §7| §8LT5 §7| §4LT3 §7| §cHT3"
+      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8LT5 §7| §8HT5 §7| §8LT5 §7| §bHT4 §7| §4LT3 §7| §cHT3"
     },
     "jackolant10rn": {
       "name": "jackOlant10rn",
