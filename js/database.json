@@ -557,12 +557,10 @@
         "smp": "None",
         "sword": "HT4",
         "axe": "None",
-        "mace": "HT3",
-        "overall": "LT4"
+        "mace": "LT3",
+        "overall": "HT5"
       },
-      "retired": {
-        "mace": true
-      },
+      "retired": {},
       "lastSyncCheck": 1788464854959
     },
     {
