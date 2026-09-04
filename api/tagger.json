@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-04T19:08:02.312Z",
+  "updated_at": "2026-09-04T19:39:06.298Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -625,50 +625,50 @@
     "jackolan10rn": {
       "name": "JackOLan10rn",
       "uuid": "f311b3fc49334e3c90e8da64baeaf689",
-      "overall": "LT3",
+      "overall": "HT4",
       "tiers": {
         "spear_mace": "LT2",
         "vanilla": "LT4",
         "sword": "HT3",
-        "mace": "LT1"
+        "mace": "HT3"
       },
-      "formatted_tag": "§7LT2 §7| §3LT4 §7| §cHT3 §7| §eLT1"
+      "formatted_tag": "§7LT2 §7| §3LT4 §7| §cHT3 §7| §cHT3"
     },
     "jack0lan10rn": {
       "name": "JackOLan10rn",
       "uuid": "f311b3fc49334e3c90e8da64baeaf689",
-      "overall": "LT3",
+      "overall": "HT4",
       "tiers": {
         "spear_mace": "LT2",
         "vanilla": "LT4",
         "sword": "HT3",
-        "mace": "LT1"
+        "mace": "HT3"
       },
-      "formatted_tag": "§7LT2 §7| §3LT4 §7| §cHT3 §7| §eLT1"
+      "formatted_tag": "§7LT2 §7| §3LT4 §7| §cHT3 §7| §cHT3"
     },
     "jackolan1orn": {
       "name": "JackOLan10rn",
       "uuid": "f311b3fc49334e3c90e8da64baeaf689",
-      "overall": "LT3",
+      "overall": "HT4",
       "tiers": {
         "spear_mace": "LT2",
         "vanilla": "LT4",
         "sword": "HT3",
-        "mace": "LT1"
+        "mace": "HT3"
       },
-      "formatted_tag": "§7LT2 §7| §3LT4 §7| §cHT3 §7| §eLT1"
+      "formatted_tag": "§7LT2 §7| §3LT4 §7| §cHT3 §7| §cHT3"
     },
     "f311b3fc49334e3c90e8da64baeaf689": {
       "name": "JackOLan10rn",
       "uuid": "f311b3fc49334e3c90e8da64baeaf689",
-      "overall": "LT3",
+      "overall": "HT4",
       "tiers": {
         "spear_mace": "LT2",
         "vanilla": "LT4",
         "sword": "HT3",
-        "mace": "LT1"
+        "mace": "HT3"
       },
-      "formatted_tag": "§7LT2 §7| §3LT4 §7| §cHT3 §7| §eLT1"
+      "formatted_tag": "§7LT2 §7| §3LT4 §7| §cHT3 §7| §cHT3"
     },
     "jackolant10rn": {
       "name": "jackOlant10rn",
