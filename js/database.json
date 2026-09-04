@@ -96,15 +96,13 @@
         "smp": "HT4",
         "sword": "HT4",
         "axe": "LT3",
-        "mace": "HT4",
+        "mace": "LT4",
         "overall": "LT4"
       },
       "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
       "lastSyncCheck": 1788284236514,
       "region": "EU",
-      "retired": {
-        "mace": true
-      }
+      "retired": {}
     },
     {
       "username": "GR4VESS",
