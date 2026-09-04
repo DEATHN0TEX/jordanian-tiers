@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-04T20:03:23.275Z",
+  "updated_at": "2026-09-04T20:07:23.945Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -566,9 +566,9 @@
       "tiers": {
         "spear_mace": "LT3",
         "vanilla": "LT4",
-        "mace": "LT3"
+        "mace": "HT4"
       },
-      "formatted_tag": "§4LT3 §7| §3LT4 §7| §4LT3"
+      "formatted_tag": "§4LT3 §7| §3LT4 §7| §bHT4"
     },
     "dimiem0s": {
       "name": "dimiemos",
@@ -577,9 +577,9 @@
       "tiers": {
         "spear_mace": "LT3",
         "vanilla": "LT4",
-        "mace": "LT3"
+        "mace": "HT4"
       },
-      "formatted_tag": "§4LT3 §7| §3LT4 §7| §4LT3"
+      "formatted_tag": "§4LT3 §7| §3LT4 §7| §bHT4"
     },
     "48637c17f6fd4999bf817d0134720043": {
       "name": "dimiemos",
@@ -588,9 +588,9 @@
       "tiers": {
         "spear_mace": "LT3",
         "vanilla": "LT4",
-        "mace": "LT3"
+        "mace": "HT4"
       },
-      "formatted_tag": "§4LT3 §7| §3LT4 §7| §4LT3"
+      "formatted_tag": "§4LT3 §7| §3LT4 §7| §bHT4"
     },
     "irypro": {
       "name": "iRYPro",
