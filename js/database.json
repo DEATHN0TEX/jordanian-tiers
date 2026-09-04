@@ -572,6 +572,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1788464854959
+    },
+    {
+      "username": "Noelnw",
+      "uuid": "02e101bebb6b4f5ca6c81293f8ccb6fe",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "HT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788533760381
     }
   ],
   "testers": [
