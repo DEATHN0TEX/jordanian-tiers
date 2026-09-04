@@ -44,7 +44,7 @@
         "uhc": "HT5",
         "pot": "LT4",
         "nethop": "LT5",
-        "smp": "HT3",
+        "smp": "LT3",
         "sword": "LT3",
         "axe": "HT4",
         "mace": "LT3",
@@ -53,9 +53,7 @@
       "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
       "lastSyncCheck": 1788284252509,
       "region": "EU",
-      "retired": {
-        "smp": true
-      }
+      "retired": {}
     },
     {
       "username": "NOT_KALSHER",
