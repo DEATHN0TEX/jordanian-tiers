@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-04T20:00:16.441Z",
+  "updated_at": "2026-09-04T20:03:23.275Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -131,13 +131,13 @@
         "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT4",
-        "nethop": "HT4",
+        "nethop": "LT4",
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
         "mace": "LT4"
       },
-      "formatted_tag": "§8HT5 §7| §3LT4 §7| §4LT3 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §4LT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
     },
     "n0t_kalsher": {
       "name": "NOT_KALSHER",
@@ -148,13 +148,13 @@
         "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT4",
-        "nethop": "HT4",
+        "nethop": "LT4",
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
         "mace": "LT4"
       },
-      "formatted_tag": "§8HT5 §7| §3LT4 §7| §4LT3 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §4LT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
     },
     "b5191b99781943aab1ca2bbca901e7f0": {
       "name": "NOT_KALSHER",
@@ -165,13 +165,13 @@
         "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT4",
-        "nethop": "HT4",
+        "nethop": "LT4",
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
         "mace": "LT4"
       },
-      "formatted_tag": "§8HT5 §7| §3LT4 §7| §4LT3 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §4LT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
     },
     "b5191b99-7819-43aa-b1ca-2bbca901e7f0": {
       "name": "NOT_KALSHER",
@@ -182,13 +182,13 @@
         "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT4",
-        "nethop": "HT4",
+        "nethop": "LT4",
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
         "mace": "LT4"
       },
-      "formatted_tag": "§8HT5 §7| §3LT4 §7| §4LT3 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §4LT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
     },
     "torch7007": {
       "name": "Torch7007",
