@@ -11,7 +11,7 @@
       },
       "tiers": {
         "spear_mace": "HT3",
-        "vanilla": "HT3",
+        "vanilla": "LT3",
         "uhc": "HT5",
         "pot": "LT5",
         "nethop": "LT5",
@@ -25,8 +25,7 @@
       "lastSyncCheck": 1788286853886,
       "region": "EU",
       "retired": {
-        "spear_mace": true,
-        "vanilla": true
+        "spear_mace": true
       }
     },
     {
