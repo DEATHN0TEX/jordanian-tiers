@@ -473,7 +473,7 @@
       "tiers": {
         "spear_mace": "LT3",
         "vanilla": "LT4",
-        "uhc": "None",
+        "uhc": "LT5",
         "pot": "None",
         "nethop": "None",
         "smp": "None",
