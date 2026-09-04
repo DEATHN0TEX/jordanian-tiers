@@ -45,7 +45,7 @@
         "pot": "LT4",
         "nethop": "LT5",
         "smp": "HT3",
-        "sword": "HT3",
+        "sword": "LT3",
         "axe": "HT4",
         "mace": "LT3",
         "overall": "HT4"
@@ -54,7 +54,6 @@
       "lastSyncCheck": 1788284252509,
       "region": "EU",
       "retired": {
-        "sword": true,
         "smp": true
       }
     },
