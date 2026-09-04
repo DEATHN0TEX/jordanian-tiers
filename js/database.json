@@ -700,6 +700,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1788548174363
+    },
+    {
+      "username": "toorch7007",
+      "uuid": "",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "HT4",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788550950048
     }
   ],
   "testers": [
