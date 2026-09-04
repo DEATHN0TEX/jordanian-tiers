@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-04T19:41:39.771Z",
+  "updated_at": "2026-09-04T19:41:42.093Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -81,12 +81,12 @@
         "uhc": "HT5",
         "pot": "LT4",
         "nethop": "LT5",
-        "smp": "RHT3",
+        "smp": "LT3",
         "sword": "LT3",
         "axe": "HT4",
         "mace": "LT3"
       },
-      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §cRHT3 §7| §4LT3 §7| §bHT4 §7| §4LT3"
+      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §4LT3 §7| §4LT3 §7| §bHT4 §7| §4LT3"
     },
     "cb0cef85557d4f249725943038e37eaf": {
       "name": "SK_YX",
@@ -98,12 +98,12 @@
         "uhc": "HT5",
         "pot": "LT4",
         "nethop": "LT5",
-        "smp": "RHT3",
+        "smp": "LT3",
         "sword": "LT3",
         "axe": "HT4",
         "mace": "LT3"
       },
-      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §cRHT3 §7| §4LT3 §7| §bHT4 §7| §4LT3"
+      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §4LT3 §7| §4LT3 §7| §bHT4 §7| §4LT3"
     },
     "cb0cef85-557d-4f24-9725-943038e37eaf": {
       "name": "SK_YX",
@@ -115,12 +115,12 @@
         "uhc": "HT5",
         "pot": "LT4",
         "nethop": "LT5",
-        "smp": "RHT3",
+        "smp": "LT3",
         "sword": "LT3",
         "axe": "HT4",
         "mace": "LT3"
       },
-      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §cRHT3 §7| §4LT3 §7| §bHT4 §7| §4LT3"
+      "formatted_tag": "§4LT3 §7| §3LT4 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §4LT3 §7| §4LT3 §7| §bHT4 §7| §4LT3"
     },
     "not_kalsher": {
       "name": "NOT_KALSHER",
