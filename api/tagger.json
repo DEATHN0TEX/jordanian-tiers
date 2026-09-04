@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-04T19:42:19.229Z",
+  "updated_at": "2026-09-04T19:42:30.909Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -855,6 +855,33 @@
         "mace": "LT3"
       },
       "formatted_tag": "§4LT3"
+    },
+    "toorch7007": {
+      "name": "toorch7007",
+      "uuid": "",
+      "overall": "LT5",
+      "tiers": {
+        "sword": "HT4"
+      },
+      "formatted_tag": "§bHT4"
+    },
+    "t00rch7007": {
+      "name": "toorch7007",
+      "uuid": "",
+      "overall": "LT5",
+      "tiers": {
+        "sword": "HT4"
+      },
+      "formatted_tag": "§bHT4"
+    },
+    "toorch7oo7": {
+      "name": "toorch7007",
+      "uuid": "",
+      "overall": "LT5",
+      "tiers": {
+        "sword": "HT4"
+      },
+      "formatted_tag": "§bHT4"
     }
   }
 }
