@@ -624,6 +624,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1788542877456
+    },
+    {
+      "username": "S_sami",
+      "uuid": "db3697472714487fb7fec14c385e24d3",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT5",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788544636607
     }
   ],
   "testers": [
