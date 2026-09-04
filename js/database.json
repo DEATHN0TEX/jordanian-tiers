@@ -629,6 +629,15 @@
       ],
       "avatar": "jackOLan10rn",
       "online": true
+    },
+    {
+      "name": "idkbrodi",
+      "role": "Tester",
+      "gamemodes": [
+        "mace"
+      ],
+      "avatar": "idkbrodi",
+      "online": true
     }
   ]
 }
