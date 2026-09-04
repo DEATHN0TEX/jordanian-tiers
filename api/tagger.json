@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-04T16:09:57.689Z",
+  "updated_at": "2026-09-04T16:20:55.679Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -696,27 +696,30 @@
       "uuid": "84380496b40c4319950137874581c050",
       "overall": "LT4",
       "tiers": {
+        "sword": "HT4",
         "mace": "HT2"
       },
-      "formatted_tag": "§fHT2"
+      "formatted_tag": "§bHT4 §7| §fHT2"
     },
     "idkbr0di": {
       "name": "idkbrodi",
       "uuid": "84380496b40c4319950137874581c050",
       "overall": "LT4",
       "tiers": {
+        "sword": "HT4",
         "mace": "HT2"
       },
-      "formatted_tag": "§fHT2"
+      "formatted_tag": "§bHT4 §7| §fHT2"
     },
     "84380496b40c4319950137874581c050": {
       "name": "idkbrodi",
       "uuid": "84380496b40c4319950137874581c050",
       "overall": "LT4",
       "tiers": {
+        "sword": "HT4",
         "mace": "HT2"
       },
-      "formatted_tag": "§fHT2"
+      "formatted_tag": "§bHT4 §7| §fHT2"
     },
     "tuxedox": {
       "name": "Tuxedox",
