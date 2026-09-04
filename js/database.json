@@ -598,6 +598,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1788533760381
+    },
+    {
+      "username": "Idkbreodi",
+      "uuid": "",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "HT2",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT4"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788540256310
     }
   ],
   "testers": [
