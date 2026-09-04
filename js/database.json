@@ -66,12 +66,12 @@
         "vanilla": "HT4",
         "uhc": "LT3",
         "pot": "LT4",
-        "nethop": "LT3",
+        "nethop": "HT4",
         "smp": "HT4",
         "sword": "LT4",
         "axe": "HT4",
         "mace": "LT4",
-        "overall": "HT4"
+        "overall": "LT4"
       },
       "uuid": "b5191b99-7819-43aa-b1ca-2bbca901e7f0",
       "lastSyncCheck": 1788284236003,
