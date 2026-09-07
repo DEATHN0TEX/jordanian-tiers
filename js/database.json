@@ -758,7 +758,7 @@
       },
       "tiers": {
         "spear_mace": "None",
-        "vanilla": "None",
+        "vanilla": "LT3",
         "uhc": "LT3",
         "pot": "LT3",
         "nethop": "LT3",
@@ -766,7 +766,7 @@
         "sword": "LT2",
         "axe": "LT2",
         "mace": "None",
-        "overall": "HT4"
+        "overall": "LT3"
       },
       "retired": {},
       "lastSyncCheck": 1788808228455
