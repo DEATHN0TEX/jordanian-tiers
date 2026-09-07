@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-07T20:27:51.231Z",
+  "updated_at": "2026-09-07T20:46:31.084Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -938,26 +938,28 @@
       "uuid": "39eada9546a3428eb6f7dd60277885f1",
       "overall": "HT4",
       "tiers": {
+        "uhc": "LT3",
         "pot": "LT3",
         "nethop": "LT3",
         "smp": "LT3",
         "sword": "LT2",
         "axe": "LT2"
       },
-      "formatted_tag": "§4LT3 §7| §4LT3 §7| §4LT3 §7| §7LT2 §7| §7LT2"
+      "formatted_tag": "§4LT3 §7| §4LT3 §7| §4LT3 §7| §4LT3 §7| §7LT2 §7| §7LT2"
     },
     "39eada9546a3428eb6f7dd60277885f1": {
       "name": "Luxicity",
       "uuid": "39eada9546a3428eb6f7dd60277885f1",
       "overall": "HT4",
       "tiers": {
+        "uhc": "LT3",
         "pot": "LT3",
         "nethop": "LT3",
         "smp": "LT3",
         "sword": "LT2",
         "axe": "LT2"
       },
-      "formatted_tag": "§4LT3 §7| §4LT3 §7| §4LT3 §7| §7LT2 §7| §7LT2"
+      "formatted_tag": "§4LT3 §7| §4LT3 §7| §4LT3 §7| §4LT3 §7| §7LT2 §7| §7LT2"
     }
   }
 }
