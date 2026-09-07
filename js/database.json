@@ -796,6 +796,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1788816156998
+    },
+    {
+      "username": "7007",
+      "uuid": "36f13ca05cce44a9912e3fe7e7aebad6",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "HT5",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788822929827
     }
   ],
   "testers": [
