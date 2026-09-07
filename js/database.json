@@ -770,6 +770,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1788808228455
+    },
+    {
+      "username": "Torch7007 ht4 UHC",
+      "uuid": "",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "HT4",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788816156998
     }
   ],
   "testers": [
