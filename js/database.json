@@ -554,11 +554,11 @@
         "uhc": "None",
         "pot": "HT5",
         "nethop": "None",
-        "smp": "None",
+        "smp": "HT4",
         "sword": "HT4",
         "axe": "None",
         "mace": "LT3",
-        "overall": "HT5"
+        "overall": "LT4"
       },
       "retired": {},
       "lastSyncCheck": 1788464854959
