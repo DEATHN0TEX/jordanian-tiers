@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-07T22:36:45.109Z",
+  "updated_at": "2026-09-07T23:10:05.321Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -972,29 +972,23 @@
     "torch7007 ht4 uhc": {
       "name": "Torch7007 ht4 UHC",
       "uuid": "",
-      "overall": "LT5",
-      "tiers": {
-        "uhc": "HT4"
-      },
-      "formatted_tag": "§bHT4"
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     },
     "t0rch7007 ht4 uhc": {
       "name": "Torch7007 ht4 UHC",
       "uuid": "",
-      "overall": "LT5",
-      "tiers": {
-        "uhc": "HT4"
-      },
-      "formatted_tag": "§bHT4"
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     },
     "torch7oo7 ht4 uhc": {
       "name": "Torch7007 ht4 UHC",
       "uuid": "",
-      "overall": "LT5",
-      "tiers": {
-        "uhc": "HT4"
-      },
-      "formatted_tag": "§bHT4"
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     }
   }
 }
