@@ -765,7 +765,7 @@
         "smp": "LT3",
         "sword": "LT2",
         "axe": "LT2",
-        "mace": "HT4",
+        "mace": "None",
         "overall": "LT3"
       },
       "retired": {},
