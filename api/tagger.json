@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-07T18:14:39.642Z",
+  "updated_at": "2026-09-07T18:55:02.405Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -902,36 +902,36 @@
       "uuid": "941e3b8a54c04ab088b1da64f59d3bbb",
       "overall": "HT5",
       "tiers": {
-        "sword": "LT3"
+        "sword": "HT3"
       },
-      "formatted_tag": "§4LT3"
+      "formatted_tag": "§cHT3"
     },
     "e4r0r404": {
       "name": "E4ror404",
       "uuid": "941e3b8a54c04ab088b1da64f59d3bbb",
       "overall": "HT5",
       "tiers": {
-        "sword": "LT3"
+        "sword": "HT3"
       },
-      "formatted_tag": "§4LT3"
+      "formatted_tag": "§cHT3"
     },
     "e4ror4o4": {
       "name": "E4ror404",
       "uuid": "941e3b8a54c04ab088b1da64f59d3bbb",
       "overall": "HT5",
       "tiers": {
-        "sword": "LT3"
+        "sword": "HT3"
       },
-      "formatted_tag": "§4LT3"
+      "formatted_tag": "§cHT3"
     },
     "941e3b8a54c04ab088b1da64f59d3bbb": {
       "name": "E4ror404",
       "uuid": "941e3b8a54c04ab088b1da64f59d3bbb",
       "overall": "HT5",
       "tiers": {
-        "sword": "LT3"
+        "sword": "HT3"
       },
-      "formatted_tag": "§4LT3"
+      "formatted_tag": "§cHT3"
     }
   }
 }
