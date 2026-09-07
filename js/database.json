@@ -810,6 +810,15 @@
       ],
       "avatar": "idkbrodi",
       "online": false
+    },
+    {
+      "name": "E4ror404",
+      "role": "Tester",
+      "gamemodes": [
+        "sword"
+      ],
+      "avatar": "E4ror404",
+      "online": true
     }
   ]
 }
