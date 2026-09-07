@@ -1,16 +1,14 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-07T23:15:30.499Z",
+  "updated_at": "2026-09-07T23:15:49.412Z",
   "players": {
     "7007": {
       "name": "7007",
       "uuid": "36f13ca05cce44a9912e3fe7e7aebad6",
-      "overall": "LT5",
-      "tiers": {
-        "pot": "HT5"
-      },
-      "formatted_tag": "§8HT5"
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     },
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -1002,20 +1000,16 @@
     "7oo7": {
       "name": "7007",
       "uuid": "36f13ca05cce44a9912e3fe7e7aebad6",
-      "overall": "LT5",
-      "tiers": {
-        "pot": "HT5"
-      },
-      "formatted_tag": "§8HT5"
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     },
     "36f13ca05cce44a9912e3fe7e7aebad6": {
       "name": "7007",
       "uuid": "36f13ca05cce44a9912e3fe7e7aebad6",
-      "overall": "LT5",
-      "tiers": {
-        "pot": "HT5"
-      },
-      "formatted_tag": "§8HT5"
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     }
   }
 }
