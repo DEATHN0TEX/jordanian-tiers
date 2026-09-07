@@ -812,13 +812,13 @@
         "spear_mace": "None",
         "vanilla": "None",
         "uhc": "None",
-        "pot": "HT5",
+        "pot": "None",
         "nethop": "None",
         "smp": "None",
         "sword": "None",
         "axe": "None",
         "mace": "None",
-        "overall": "LT5"
+        "overall": "None"
       },
       "retired": {},
       "lastSyncCheck": 1788822929827
