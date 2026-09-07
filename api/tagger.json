@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-07T19:55:06.978Z",
+  "updated_at": "2026-09-07T19:55:16.837Z",
   "players": {
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -941,9 +941,9 @@
         "pot": "LT3",
         "nethop": "LT3",
         "sword": "LT2",
-        "axe": "LT3"
+        "axe": "HT3"
       },
-      "formatted_tag": "§4LT3 §7| §4LT3 §7| §7LT2 §7| §4LT3"
+      "formatted_tag": "§4LT3 §7| §4LT3 §7| §7LT2 §7| §cHT3"
     },
     "39eada9546a3428eb6f7dd60277885f1": {
       "name": "Luxicity",
@@ -953,9 +953,9 @@
         "pot": "LT3",
         "nethop": "LT3",
         "sword": "LT2",
-        "axe": "LT3"
+        "axe": "HT3"
       },
-      "formatted_tag": "§4LT3 §7| §4LT3 §7| §7LT2 §7| §4LT3"
+      "formatted_tag": "§4LT3 §7| §4LT3 §7| §7LT2 §7| §cHT3"
     }
   }
 }
