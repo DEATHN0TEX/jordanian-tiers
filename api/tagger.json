@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-08T18:18:13.031Z",
+  "updated_at": "2026-09-08T18:22:30.064Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -208,11 +208,11 @@
         "pot": "HT5",
         "nethop": "HT5",
         "smp": "HT4",
-        "sword": "HT4",
+        "sword": "LT3",
         "axe": "LT3",
         "mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §bHT4 §7| §4LT3 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §4LT3 §7| §4LT3 §7| §3LT4"
     },
     "t0rch7007": {
       "name": "Torch7007",
@@ -225,11 +225,11 @@
         "pot": "HT5",
         "nethop": "HT5",
         "smp": "HT4",
-        "sword": "HT4",
+        "sword": "LT3",
         "axe": "LT3",
         "mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §bHT4 §7| §4LT3 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §4LT3 §7| §4LT3 §7| §3LT4"
     },
     "torch7oo7": {
       "name": "Torch7007",
@@ -242,11 +242,11 @@
         "pot": "HT5",
         "nethop": "HT5",
         "smp": "HT4",
-        "sword": "HT4",
+        "sword": "LT3",
         "axe": "LT3",
         "mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §bHT4 §7| §4LT3 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §4LT3 §7| §4LT3 §7| §3LT4"
     },
     "83c9192ca73c46c49fb9046c75867013": {
       "name": "Torch7007",
@@ -259,11 +259,11 @@
         "pot": "HT5",
         "nethop": "HT5",
         "smp": "HT4",
-        "sword": "HT4",
+        "sword": "LT3",
         "axe": "LT3",
         "mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §bHT4 §7| §4LT3 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §4LT3 §7| §4LT3 §7| §3LT4"
     },
     "83c9192c-a73c-46c4-9fb9-046c75867013": {
       "name": "Torch7007",
@@ -276,11 +276,11 @@
         "pot": "HT5",
         "nethop": "HT5",
         "smp": "HT4",
-        "sword": "HT4",
+        "sword": "LT3",
         "axe": "LT3",
         "mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §bHT4 §7| §4LT3 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §4LT3 §7| §4LT3 §7| §3LT4"
     },
     "gr4vess": {
       "name": "GR4VESS",
