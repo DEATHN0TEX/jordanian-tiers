@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-08T16:26:01.784Z",
+  "updated_at": "2026-09-08T16:35:31.600Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -724,12 +724,13 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "HT3",
+        "pot": "HT4",
         "nethop": "HT4",
         "smp": "LT3",
         "sword": "HT4",
         "mace": "LT3"
       },
-      "formatted_tag": "§cHT3 §7| §bHT4 §7| §4LT3 §7| §bHT4 §7| §4LT3"
+      "formatted_tag": "§cHT3 §7| §bHT4 §7| §bHT4 §7| §4LT3 §7| §bHT4 §7| §4LT3"
     },
     "idkbr0di": {
       "name": "idkbrodi",
@@ -737,12 +738,13 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "HT3",
+        "pot": "HT4",
         "nethop": "HT4",
         "smp": "LT3",
         "sword": "HT4",
         "mace": "LT3"
       },
-      "formatted_tag": "§cHT3 §7| §bHT4 §7| §4LT3 §7| §bHT4 §7| §4LT3"
+      "formatted_tag": "§cHT3 §7| §bHT4 §7| §bHT4 §7| §4LT3 §7| §bHT4 §7| §4LT3"
     },
     "84380496b40c4319950137874581c050": {
       "name": "idkbrodi",
@@ -750,12 +752,13 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "HT3",
+        "pot": "HT4",
         "nethop": "HT4",
         "smp": "LT3",
         "sword": "HT4",
         "mace": "LT3"
       },
-      "formatted_tag": "§cHT3 §7| §bHT4 §7| §4LT3 §7| §bHT4 §7| §4LT3"
+      "formatted_tag": "§cHT3 §7| §bHT4 §7| §bHT4 §7| §4LT3 §7| §bHT4 §7| §4LT3"
     },
     "tuxedox": {
       "name": "Tuxedox",
