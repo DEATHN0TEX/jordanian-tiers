@@ -822,6 +822,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1788822929827
+    },
+    {
+      "username": "Hamburble",
+      "uuid": "325906e028914f04922a6e74c4a5b677",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "HT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788909300426
     }
   ],
   "testers": [
