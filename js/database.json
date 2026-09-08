@@ -897,6 +897,15 @@
       ],
       "avatar": "E4ror404",
       "online": false
+    },
+    {
+      "name": "luxicity",
+      "role": "Tester",
+      "gamemodes": [
+        "sword pot nethpot smp uhc axe"
+      ],
+      "avatar": "luxicity",
+      "online": true
     }
   ]
 }
