@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-08T23:15:20.168Z",
+  "updated_at": "2026-09-09T17:24:33.760Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1039,6 +1039,24 @@
         "mace": "LT3"
       },
       "formatted_tag": "§4LT3 §7| §4LT3"
+    },
+    "heybaby": {
+      "name": "heybaby",
+      "uuid": "f9d113279b2f4087a65a7e3dc5e7e338",
+      "overall": "LT5",
+      "tiers": {
+        "vanilla": "HT5"
+      },
+      "formatted_tag": "§8HT5"
+    },
+    "f9d113279b2f4087a65a7e3dc5e7e338": {
+      "name": "heybaby",
+      "uuid": "f9d113279b2f4087a65a7e3dc5e7e338",
+      "overall": "LT5",
+      "tiers": {
+        "vanilla": "HT5"
+      },
+      "formatted_tag": "§8HT5"
     }
   }
 }
