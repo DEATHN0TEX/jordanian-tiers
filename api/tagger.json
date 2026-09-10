@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-10T17:13:15.309Z",
+  "updated_at": "2026-09-10T17:35:33.496Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1084,9 +1084,10 @@
       "overall": "HT5",
       "tiers": {
         "vanilla": "HT4",
-        "sword": "LT4"
+        "sword": "LT4",
+        "mace": "LT3"
       },
-      "formatted_tag": "§bHT4 §7| §3LT4"
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §4LT3"
     },
     "bisc0ffbread": {
       "name": "biscoffbread",
@@ -1094,9 +1095,10 @@
       "overall": "HT5",
       "tiers": {
         "vanilla": "HT4",
-        "sword": "LT4"
+        "sword": "LT4",
+        "mace": "LT3"
       },
-      "formatted_tag": "§bHT4 §7| §3LT4"
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §4LT3"
     },
     "663dd2f53af04beda689d765444f1cec": {
       "name": "biscoffbread",
@@ -1104,9 +1106,10 @@
       "overall": "HT5",
       "tiers": {
         "vanilla": "HT4",
-        "sword": "LT4"
+        "sword": "LT4",
+        "mace": "LT3"
       },
-      "formatted_tag": "§bHT4 §7| §3LT4"
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §4LT3"
     }
   }
 }
