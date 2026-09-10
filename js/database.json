@@ -842,9 +842,9 @@
         "nethop": "LT3",
         "smp": "None",
         "sword": "LT3",
-        "axe": "None",
+        "axe": "LT3",
         "mace": "HT3",
-        "overall": "LT4"
+        "overall": "HT4"
       },
       "retired": {},
       "lastSyncCheck": 1788909300426
