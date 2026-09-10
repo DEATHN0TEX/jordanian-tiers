@@ -841,10 +841,10 @@
         "pot": "None",
         "nethop": "None",
         "smp": "None",
-        "sword": "None",
+        "sword": "LT3",
         "axe": "None",
         "mace": "HT3",
-        "overall": "HT5"
+        "overall": "LT4"
       },
       "retired": {},
       "lastSyncCheck": 1788909300426
