@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-10T16:55:38.223Z",
+  "updated_at": "2026-09-10T17:05:59.888Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1079,29 +1079,32 @@
     "biscoffbread": {
       "name": "biscoffbread",
       "uuid": "663dd2f53af04beda689d765444f1cec",
-      "overall": "LT5",
+      "overall": "HT5",
       "tiers": {
-        "vanilla": "HT4"
+        "vanilla": "HT4",
+        "sword": "LT4"
       },
-      "formatted_tag": "§bHT4"
+      "formatted_tag": "§bHT4 §7| §3LT4"
     },
     "bisc0ffbread": {
       "name": "biscoffbread",
       "uuid": "663dd2f53af04beda689d765444f1cec",
-      "overall": "LT5",
+      "overall": "HT5",
       "tiers": {
-        "vanilla": "HT4"
+        "vanilla": "HT4",
+        "sword": "LT4"
       },
-      "formatted_tag": "§bHT4"
+      "formatted_tag": "§bHT4 §7| §3LT4"
     },
     "663dd2f53af04beda689d765444f1cec": {
       "name": "biscoffbread",
       "uuid": "663dd2f53af04beda689d765444f1cec",
-      "overall": "LT5",
+      "overall": "HT5",
       "tiers": {
-        "vanilla": "HT4"
+        "vanilla": "HT4",
+        "sword": "LT4"
       },
-      "formatted_tag": "§bHT4"
+      "formatted_tag": "§bHT4 §7| §3LT4"
     }
   }
 }
