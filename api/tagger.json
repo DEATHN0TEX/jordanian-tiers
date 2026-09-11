@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-11T21:35:25.235Z",
+  "updated_at": "2026-09-11T21:45:27.567Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -737,9 +737,10 @@
     "idkbrodi": {
       "name": "idkbrodi",
       "uuid": "84380496b40c4319950137874581c050",
-      "overall": "HT4",
+      "overall": "MT4",
       "tiers": {
         "spear_mace": "HT3",
+        "vanilla": "MT5",
         "pot": "HT4",
         "nethop": "HT4",
         "smp": "LT3",
@@ -747,14 +748,15 @@
         "axe": "HT5",
         "mace": "MT3"
       },
-      "formatted_tag": "§6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6MT3"
+      "formatted_tag": "§6HT3 §7| §8MT5 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6MT3"
     },
     "idkbr0di": {
       "name": "idkbrodi",
       "uuid": "84380496b40c4319950137874581c050",
-      "overall": "HT4",
+      "overall": "MT4",
       "tiers": {
         "spear_mace": "HT3",
+        "vanilla": "MT5",
         "pot": "HT4",
         "nethop": "HT4",
         "smp": "LT3",
@@ -762,14 +764,15 @@
         "axe": "HT5",
         "mace": "MT3"
       },
-      "formatted_tag": "§6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6MT3"
+      "formatted_tag": "§6HT3 §7| §8MT5 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6MT3"
     },
     "84380496b40c4319950137874581c050": {
       "name": "idkbrodi",
       "uuid": "84380496b40c4319950137874581c050",
-      "overall": "HT4",
+      "overall": "MT4",
       "tiers": {
         "spear_mace": "HT3",
+        "vanilla": "MT5",
         "pot": "HT4",
         "nethop": "HT4",
         "smp": "LT3",
@@ -777,7 +780,7 @@
         "axe": "HT5",
         "mace": "MT3"
       },
-      "formatted_tag": "§6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6MT3"
+      "formatted_tag": "§6HT3 §7| §8MT5 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6MT3"
     },
     "tuxedox": {
       "name": "Tuxedox",
