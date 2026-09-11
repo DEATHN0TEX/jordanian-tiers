@@ -637,7 +637,8 @@
         "sword": "None",
         "axe": "None",
         "mace": "LT5",
-        "overall": "LT5"
+        "overall": "MT5",
+        "dia_smp": "LT3"
       },
       "retired": {},
       "lastSyncCheck": 1788544636607
