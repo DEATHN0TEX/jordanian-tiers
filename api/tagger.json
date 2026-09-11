@@ -1,26 +1,14 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-11T16:27:12.396Z",
+  "updated_at": "2026-09-11T18:40:13.175Z",
   "players": {
     "7007": {
       "name": "7007",
       "uuid": "36f13ca05cce44a9912e3fe7e7aebad6",
       "overall": "None",
-      "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "None",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+      "tiers": {},
+      "formatted_tag": ""
     },
     "deathn0te_": {
       "name": "DEATHN0TE_",
@@ -36,10 +24,27 @@
         "sword": "LT4",
         "axe": "LT4",
         "mace": "LT3",
-        "overall": "LT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "dia_smp": "HT5"
+      },
+      "formatted_tag": "§bHT4 §7| §eLT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §eLT3 §7| §8HT5"
+    },
+    "deathnote_": {
+      "name": "DEATHN0TE_",
+      "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
+      "overall": "LT4",
+      "tiers": {
+        "spear_mace": "HT4",
+        "vanilla": "LT3",
+        "uhc": "HT5",
+        "pot": "LT5",
+        "nethop": "LT5",
+        "smp": "LT4",
+        "sword": "LT4",
+        "axe": "LT4",
+        "mace": "LT3",
+        "dia_smp": "HT5"
+      },
+      "formatted_tag": "§bHT4 §7| §eLT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §eLT3 §7| §8HT5"
     },
     "43681bb8b2c34cd4affd385f71b4395f": {
       "name": "DEATHN0TE_",
@@ -55,10 +60,27 @@
         "sword": "LT4",
         "axe": "LT4",
         "mace": "LT3",
-        "overall": "LT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "dia_smp": "HT5"
+      },
+      "formatted_tag": "§bHT4 §7| §eLT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §eLT3 §7| §8HT5"
+    },
+    "43681bb8-b2c3-4cd4-affd-385f71b4395f": {
+      "name": "DEATHN0TE_",
+      "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
+      "overall": "LT4",
+      "tiers": {
+        "spear_mace": "HT4",
+        "vanilla": "LT3",
+        "uhc": "HT5",
+        "pot": "LT5",
+        "nethop": "LT5",
+        "smp": "LT4",
+        "sword": "LT4",
+        "axe": "LT4",
+        "mace": "LT3",
+        "dia_smp": "HT5"
+      },
+      "formatted_tag": "§bHT4 §7| §eLT3 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §eLT3 §7| §8HT5"
     },
     "sk_yx": {
       "name": "SK_YX",
@@ -73,11 +95,9 @@
         "smp": "HT4",
         "sword": "HT4",
         "axe": "HT4",
-        "mace": "LT3",
-        "overall": "LT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT3"
+      },
+      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §bHT4 §7| §bHT4 §7| §eLT3"
     },
     "cb0cef85557d4f249725943038e37eaf": {
       "name": "SK_YX",
@@ -92,11 +112,26 @@
         "smp": "HT4",
         "sword": "HT4",
         "axe": "HT4",
-        "mace": "LT3",
-        "overall": "LT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT3"
+      },
+      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §bHT4 §7| §bHT4 §7| §eLT3"
+    },
+    "cb0cef85-557d-4f24-9725-943038e37eaf": {
+      "name": "SK_YX",
+      "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
+      "overall": "LT4",
+      "tiers": {
+        "spear_mace": "HT4",
+        "vanilla": "HT5",
+        "uhc": "HT5",
+        "pot": "LT4",
+        "nethop": "LT5",
+        "smp": "HT4",
+        "sword": "HT4",
+        "axe": "HT4",
+        "mace": "LT3"
+      },
+      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §bHT4 §7| §bHT4 §7| §eLT3"
     },
     "not_kalsher": {
       "name": "NOT_KALSHER",
@@ -111,11 +146,26 @@
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
-        "mace": "LT4",
-        "overall": "LT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
+    },
+    "n0t_kalsher": {
+      "name": "NOT_KALSHER",
+      "uuid": "b5191b99-7819-43aa-b1ca-2bbca901e7f0",
+      "overall": "LT4",
+      "tiers": {
+        "spear_mace": "HT5",
+        "vanilla": "LT4",
+        "uhc": "LT3",
+        "pot": "LT4",
+        "nethop": "LT4",
+        "smp": "LT4",
+        "sword": "LT4",
+        "axe": "LT4",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
     },
     "b5191b99781943aab1ca2bbca901e7f0": {
       "name": "NOT_KALSHER",
@@ -130,11 +180,26 @@
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
-        "mace": "LT4",
-        "overall": "LT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
+    },
+    "b5191b99-7819-43aa-b1ca-2bbca901e7f0": {
+      "name": "NOT_KALSHER",
+      "uuid": "b5191b99-7819-43aa-b1ca-2bbca901e7f0",
+      "overall": "LT4",
+      "tiers": {
+        "spear_mace": "HT5",
+        "vanilla": "LT4",
+        "uhc": "LT3",
+        "pot": "LT4",
+        "nethop": "LT4",
+        "smp": "LT4",
+        "sword": "LT4",
+        "axe": "LT4",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
     },
     "torch7007": {
       "name": "Torch7007",
@@ -149,11 +214,43 @@
         "smp": "HT4",
         "sword": "LT3",
         "axe": "LT3",
-        "mace": "LT4",
-        "overall": "LT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT4"
+      },
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4"
+    },
+    "t0rch7007": {
+      "name": "Torch7007",
+      "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
+      "overall": "LT4",
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "HT5",
+        "uhc": "HT4",
+        "pot": "HT5",
+        "nethop": "HT5",
+        "smp": "HT4",
+        "sword": "LT3",
+        "axe": "LT3",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4"
+    },
+    "torch7oo7": {
+      "name": "Torch7007",
+      "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
+      "overall": "LT4",
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "HT5",
+        "uhc": "HT4",
+        "pot": "HT5",
+        "nethop": "HT5",
+        "smp": "HT4",
+        "sword": "LT3",
+        "axe": "LT3",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4"
     },
     "83c9192ca73c46c49fb9046c75867013": {
       "name": "Torch7007",
@@ -168,87 +265,89 @@
         "smp": "HT4",
         "sword": "LT3",
         "axe": "LT3",
-        "mace": "LT4",
-        "overall": "LT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT4"
+      },
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4"
+    },
+    "83c9192c-a73c-46c4-9fb9-046c75867013": {
+      "name": "Torch7007",
+      "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
+      "overall": "LT4",
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "HT5",
+        "uhc": "HT4",
+        "pot": "HT5",
+        "nethop": "HT5",
+        "smp": "HT4",
+        "sword": "LT3",
+        "axe": "LT3",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4"
     },
     "gr4vess": {
       "name": "GR4VESS",
       "uuid": "9d3b9c04-2831-4ce4-9797-97834f6f103a",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
         "uhc": "LT5",
         "pot": "LT5",
         "nethop": "LT5",
-        "smp": "None",
-        "sword": "None",
-        "axe": "LT5",
-        "mace": "None",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "axe": "LT5"
+      },
+      "formatted_tag": "§8LT5 §7| §8LT5 §7| §8LT5 §7| §8LT5"
     },
     "9d3b9c0428314ce4979797834f6f103a": {
       "name": "GR4VESS",
       "uuid": "9d3b9c04-2831-4ce4-9797-97834f6f103a",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
         "uhc": "LT5",
         "pot": "LT5",
         "nethop": "LT5",
-        "smp": "None",
-        "sword": "None",
-        "axe": "LT5",
-        "mace": "None",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "axe": "LT5"
+      },
+      "formatted_tag": "§8LT5 §7| §8LT5 §7| §8LT5 §7| §8LT5"
+    },
+    "9d3b9c04-2831-4ce4-9797-97834f6f103a": {
+      "name": "GR4VESS",
+      "uuid": "9d3b9c04-2831-4ce4-9797-97834f6f103a",
+      "overall": "LT5",
+      "tiers": {
+        "uhc": "LT5",
+        "pot": "LT5",
+        "nethop": "LT5",
+        "axe": "LT5"
+      },
+      "formatted_tag": "§8LT5 §7| §8LT5 §7| §8LT5 §7| §8LT5"
     },
     "lasagnamcc": {
       "name": "lasagnaMCC",
       "uuid": "6487fc28-1da9-42c6-8a3f-632263d5773f",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "LT5",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT5"
+      },
+      "formatted_tag": "§8LT5"
     },
     "6487fc281da942c68a3f632263d5773f": {
       "name": "lasagnaMCC",
       "uuid": "6487fc28-1da9-42c6-8a3f-632263d5773f",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "LT5",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT5"
+      },
+      "formatted_tag": "§8LT5"
+    },
+    "6487fc28-1da9-42c6-8a3f-632263d5773f": {
+      "name": "lasagnaMCC",
+      "uuid": "6487fc28-1da9-42c6-8a3f-632263d5773f",
+      "overall": "LT5",
+      "tiers": {
+        "mace": "LT5"
+      },
+      "formatted_tag": "§8LT5"
     },
     "blueblueblurblue": {
       "name": "BlueBlueBlurBlue",
@@ -256,18 +355,10 @@
       "overall": "HT5",
       "tiers": {
         "spear_mace": "HT5",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
         "sword": "HT5",
-        "axe": "None",
-        "mace": "LT4",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §3LT4"
     },
     "1c78a762656a432199314d769fbadd9d": {
       "name": "BlueBlueBlurBlue",
@@ -275,18 +366,21 @@
       "overall": "HT5",
       "tiers": {
         "spear_mace": "HT5",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
         "sword": "HT5",
-        "axe": "None",
-        "mace": "LT4",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §3LT4"
+    },
+    "1c78a762-656a-4321-9931-4d769fbadd9d": {
+      "name": "BlueBlueBlurBlue",
+      "uuid": "1c78a762-656a-4321-9931-4d769fbadd9d",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "sword": "HT5",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §3LT4"
     },
     "ryze5429": {
       "name": "ryze5429",
@@ -295,17 +389,9 @@
       "tiers": {
         "spear_mace": "HT5",
         "vanilla": "HT5",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "LT4",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §3LT4"
     },
     "dragown332": {
       "name": "Dragown332",
@@ -314,17 +400,20 @@
       "tiers": {
         "spear_mace": "HT5",
         "vanilla": "HT5",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "LT4",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §3LT4"
+    },
+    "drag0wn332": {
+      "name": "Dragown332",
+      "uuid": "cracked",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "vanilla": "HT5",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §3LT4"
     },
     "ragoslayer": {
       "name": "ragoslayer",
@@ -333,17 +422,20 @@
       "tiers": {
         "spear_mace": "LT5",
         "vanilla": "LT5",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "HT5",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT5"
+      },
+      "formatted_tag": "§8LT5 §7| §8LT5 §7| §8HT5"
+    },
+    "rag0slayer": {
+      "name": "ragoslayer",
+      "uuid": "cracked",
+      "overall": "LT5",
+      "tiers": {
+        "spear_mace": "LT5",
+        "vanilla": "LT5",
+        "mace": "HT5"
+      },
+      "formatted_tag": "§8LT5 §7| §8LT5 §7| §8HT5"
     },
     "hunterxcv": {
       "name": "Hunterxcv",
@@ -351,18 +443,10 @@
       "overall": "HT5",
       "tiers": {
         "spear_mace": "HT5",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
         "sword": "HT5",
-        "axe": "None",
-        "mace": "HT5",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT5"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §8HT5"
     },
     "fb94a958f3b04b0e9eb4637da55ee78b": {
       "name": "Hunterxcv",
@@ -370,18 +454,21 @@
       "overall": "HT5",
       "tiers": {
         "spear_mace": "HT5",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
         "sword": "HT5",
-        "axe": "None",
-        "mace": "HT5",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT5"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §8HT5"
+    },
+    "fb94a958-f3b0-4b0e-9eb4-637da55ee78b": {
+      "name": "Hunterxcv",
+      "uuid": "fb94a958-f3b0-4b0e-9eb4-637da55ee78b",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "sword": "HT5",
+        "mace": "HT5"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §8HT5"
     },
     "rghiq": {
       "name": "RGHiQ",
@@ -389,113 +476,83 @@
       "overall": "HT5",
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
         "sword": "LT4",
-        "axe": "None",
-        "mace": "LT4",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT4"
+      },
+      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4"
     },
     "toch7007": {
       "name": "toch7007",
       "uuid": "",
       "overall": "None",
-      "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "None",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+      "tiers": {},
+      "formatted_tag": ""
+    },
+    "t0ch7007": {
+      "name": "toch7007",
+      "uuid": "",
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
+    },
+    "toch7oo7": {
+      "name": "toch7007",
+      "uuid": "",
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     },
     "abd12": {
       "name": "ABD12",
       "uuid": "88fabdfe0cfb4bdcb79a651568be8d7c",
-      "overall": "LT5",
+      "overall": "MT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "HT5",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "spear_mace": "HT5",
+        "vanilla": "LT5",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8LT5 §7| §3LT4"
     },
     "88fabdfe0cfb4bdcb79a651568be8d7c": {
       "name": "ABD12",
       "uuid": "88fabdfe0cfb4bdcb79a651568be8d7c",
-      "overall": "LT5",
+      "overall": "MT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "HT5",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "spear_mace": "HT5",
+        "vanilla": "LT5",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8LT5 §7| §3LT4"
     },
     "xll1400": {
       "name": "xll1400",
       "uuid": "2a9adb3f50c045a3b30f59443e938f72",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "None",
         "vanilla": "HT5",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "HT5",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "smp": "HT5"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5"
+    },
+    "xll14oo": {
+      "name": "xll1400",
+      "uuid": "2a9adb3f50c045a3b30f59443e938f72",
+      "overall": "LT5",
+      "tiers": {
+        "vanilla": "HT5",
+        "smp": "HT5"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5"
     },
     "2a9adb3f50c045a3b30f59443e938f72": {
       "name": "xll1400",
       "uuid": "2a9adb3f50c045a3b30f59443e938f72",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "None",
         "vanilla": "HT5",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "HT5",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "smp": "HT5"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5"
     },
     "kgbplus": {
       "name": "kgbplus",
@@ -503,18 +560,9 @@
       "overall": "HT5",
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "LT4",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT4"
+      },
+      "formatted_tag": "§3LT4 §7| §3LT4"
     },
     "9233e2b3b4b34d5a977fadea7d410f8e": {
       "name": "kgbplus",
@@ -522,18 +570,9 @@
       "overall": "HT5",
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "LT4",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT4"
+      },
+      "formatted_tag": "§3LT4 §7| §3LT4"
     },
     "dimiemos": {
       "name": "dimiemos",
@@ -542,17 +581,20 @@
       "tiers": {
         "spear_mace": "LT3",
         "vanilla": "LT4",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "HT4",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT4"
+      },
+      "formatted_tag": "§eLT3 §7| §3LT4 §7| §bHT4"
+    },
+    "dimiem0s": {
+      "name": "dimiemos",
+      "uuid": "48637c17f6fd4999bf817d0134720043",
+      "overall": "HT5",
+      "tiers": {
+        "spear_mace": "LT3",
+        "vanilla": "LT4",
+        "mace": "HT4"
+      },
+      "formatted_tag": "§eLT3 §7| §3LT4 §7| §bHT4"
     },
     "48637c17f6fd4999bf817d0134720043": {
       "name": "dimiemos",
@@ -561,55 +603,39 @@
       "tiers": {
         "spear_mace": "LT3",
         "vanilla": "LT4",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "HT4",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT4"
+      },
+      "formatted_tag": "§eLT3 §7| §3LT4 §7| §bHT4"
     },
     "irypro": {
       "name": "iRYPro",
       "uuid": "5d575d8216214b5ab2605fa4594ec827",
       "overall": "HT5",
       "tiers": {
-        "spear_mace": "None",
         "vanilla": "HT4",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "HT4",
-        "mace": "None",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "axe": "HT4"
+      },
+      "formatted_tag": "§bHT4 §7| §bHT4"
+    },
+    "irypr0": {
+      "name": "iRYPro",
+      "uuid": "5d575d8216214b5ab2605fa4594ec827",
+      "overall": "HT5",
+      "tiers": {
+        "vanilla": "HT4",
+        "axe": "HT4"
+      },
+      "formatted_tag": "§bHT4 §7| §bHT4"
     },
     "5d575d8216214b5ab2605fa4594ec827": {
       "name": "iRYPro",
       "uuid": "5d575d8216214b5ab2605fa4594ec827",
       "overall": "HT5",
       "tiers": {
-        "spear_mace": "None",
         "vanilla": "HT4",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "HT4",
-        "mace": "None",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "axe": "HT4"
+      },
+      "formatted_tag": "§bHT4 §7| §bHT4"
     },
     "jackolan10rn": {
       "name": "JackOLan10rn",
@@ -622,13 +648,45 @@
         "pot": "LT3",
         "nethop": "LT3",
         "smp": "LT3",
-        "sword": "MT3",
+        "sword": "HT3",
         "axe": "HT3",
-        "mace": "HT3",
-        "overall": "HT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT3"
+      },
+      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3"
+    },
+    "jack0lan10rn": {
+      "name": "JackOLan10rn",
+      "uuid": "f311b3fc49334e3c90e8da64baeaf689",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "LT3",
+        "vanilla": "LT4",
+        "uhc": "LT3",
+        "pot": "LT3",
+        "nethop": "LT3",
+        "smp": "LT3",
+        "sword": "HT3",
+        "axe": "HT3",
+        "mace": "HT3"
+      },
+      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3"
+    },
+    "jackolan1orn": {
+      "name": "JackOLan10rn",
+      "uuid": "f311b3fc49334e3c90e8da64baeaf689",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "LT3",
+        "vanilla": "LT4",
+        "uhc": "LT3",
+        "pot": "LT3",
+        "nethop": "LT3",
+        "smp": "LT3",
+        "sword": "HT3",
+        "axe": "HT3",
+        "mace": "HT3"
+      },
+      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3"
     },
     "f311b3fc49334e3c90e8da64baeaf689": {
       "name": "JackOLan10rn",
@@ -641,32 +699,32 @@
         "pot": "LT3",
         "nethop": "LT3",
         "smp": "LT3",
-        "sword": "MT3",
+        "sword": "HT3",
         "axe": "HT3",
-        "mace": "HT3",
-        "overall": "HT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT3"
+      },
+      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3"
     },
     "jackolant10rn": {
       "name": "jackOlant10rn",
       "uuid": "",
       "overall": "None",
-      "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "None",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+      "tiers": {},
+      "formatted_tag": ""
+    },
+    "jack0lant10rn": {
+      "name": "jackOlant10rn",
+      "uuid": "",
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
+    },
+    "jackolant1orn": {
+      "name": "jackOlant10rn",
+      "uuid": "",
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     },
     "idkbrodi": {
       "name": "idkbrodi",
@@ -674,18 +732,29 @@
       "overall": "HT4",
       "tiers": {
         "spear_mace": "HT3",
-        "vanilla": "None",
-        "uhc": "None",
         "pot": "HT4",
         "nethop": "HT4",
         "smp": "LT3",
         "sword": "HT4",
         "axe": "HT5",
-        "mace": "MT3",
-        "overall": "HT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "MT3"
+      },
+      "formatted_tag": "§6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6MT3"
+    },
+    "idkbr0di": {
+      "name": "idkbrodi",
+      "uuid": "84380496b40c4319950137874581c050",
+      "overall": "HT4",
+      "tiers": {
+        "spear_mace": "HT3",
+        "pot": "HT4",
+        "nethop": "HT4",
+        "smp": "LT3",
+        "sword": "HT4",
+        "axe": "HT5",
+        "mace": "MT3"
+      },
+      "formatted_tag": "§6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6MT3"
     },
     "84380496b40c4319950137874581c050": {
       "name": "idkbrodi",
@@ -693,18 +762,14 @@
       "overall": "HT4",
       "tiers": {
         "spear_mace": "HT3",
-        "vanilla": "None",
-        "uhc": "None",
         "pot": "HT4",
         "nethop": "HT4",
         "smp": "LT3",
         "sword": "HT4",
         "axe": "HT5",
-        "mace": "MT3",
-        "overall": "HT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "MT3"
+      },
+      "formatted_tag": "§6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6MT3"
     },
     "tuxedox": {
       "name": "Tuxedox",
@@ -712,18 +777,25 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "HT4",
-        "vanilla": "None",
-        "uhc": "None",
         "pot": "HT5",
-        "nethop": "None",
         "smp": "HT4",
         "sword": "HT4",
-        "axe": "None",
-        "mace": "LT3",
-        "overall": "LT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT3"
+      },
+      "formatted_tag": "§bHT4 §7| §8HT5 §7| §bHT4 §7| §bHT4 §7| §eLT3"
+    },
+    "tuxed0x": {
+      "name": "Tuxedox",
+      "uuid": "84b334779cb34ed591f9c29dd0fb71b7",
+      "overall": "LT4",
+      "tiers": {
+        "spear_mace": "HT4",
+        "pot": "HT5",
+        "smp": "HT4",
+        "sword": "HT4",
+        "mace": "LT3"
+      },
+      "formatted_tag": "§bHT4 §7| §8HT5 §7| §bHT4 §7| §bHT4 §7| §eLT3"
     },
     "84b334779cb34ed591f9c29dd0fb71b7": {
       "name": "Tuxedox",
@@ -731,341 +803,233 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "HT4",
-        "vanilla": "None",
-        "uhc": "None",
         "pot": "HT5",
-        "nethop": "None",
         "smp": "HT4",
         "sword": "HT4",
-        "axe": "None",
-        "mace": "LT3",
-        "overall": "LT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT3"
+      },
+      "formatted_tag": "§bHT4 §7| §8HT5 §7| §bHT4 §7| §bHT4 §7| §eLT3"
     },
     "noelnw": {
       "name": "Noelnw",
       "uuid": "02e101bebb6b4f5ca6c81293f8ccb6fe",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "HT4",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT4"
+      },
+      "formatted_tag": "§bHT4"
+    },
+    "n0elnw": {
+      "name": "Noelnw",
+      "uuid": "02e101bebb6b4f5ca6c81293f8ccb6fe",
+      "overall": "LT5",
+      "tiers": {
+        "mace": "HT4"
+      },
+      "formatted_tag": "§bHT4"
     },
     "02e101bebb6b4f5ca6c81293f8ccb6fe": {
       "name": "Noelnw",
       "uuid": "02e101bebb6b4f5ca6c81293f8ccb6fe",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "HT4",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT4"
+      },
+      "formatted_tag": "§bHT4"
     },
     "senseii31": {
       "name": "Senseii31",
       "uuid": "9fabd097b5c546719c635e736815d9c8",
       "overall": "HT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "LT3",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT3"
+      },
+      "formatted_tag": "§eLT3"
     },
     "9fabd097b5c546719c635e736815d9c8": {
       "name": "Senseii31",
       "uuid": "9fabd097b5c546719c635e736815d9c8",
       "overall": "HT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "LT3",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT3"
+      },
+      "formatted_tag": "§eLT3"
     },
     "s_sami": {
       "name": "S_sami",
       "uuid": "db3697472714487fb7fec14c385e24d3",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "LT5",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT5"
+      },
+      "formatted_tag": "§8LT5"
     },
     "db3697472714487fb7fec14c385e24d3": {
       "name": "S_sami",
       "uuid": "db3697472714487fb7fec14c385e24d3",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "LT5",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT5"
+      },
+      "formatted_tag": "§8LT5"
     },
     "lanesivier": {
       "name": "lanesivier",
       "uuid": "46dc587e0f6f467fab014a953543a61e",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "HT4",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT4"
+      },
+      "formatted_tag": "§bHT4"
     },
     "46dc587e0f6f467fab014a953543a61e": {
       "name": "lanesivier",
       "uuid": "46dc587e0f6f467fab014a953543a61e",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "HT4",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT4"
+      },
+      "formatted_tag": "§bHT4"
     },
     "_xfishy_": {
       "name": "_xfishy_",
       "uuid": "a3b4aee48ee440118dff23424bfe68b5",
       "overall": "HT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "LT3",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT3"
+      },
+      "formatted_tag": "§eLT3"
     },
     "a3b4aee48ee440118dff23424bfe68b5": {
       "name": "_xfishy_",
       "uuid": "a3b4aee48ee440118dff23424bfe68b5",
       "overall": "HT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "LT3",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT3"
+      },
+      "formatted_tag": "§eLT3"
     },
     "toorch7007": {
       "name": "toorch7007",
       "uuid": "",
       "overall": "None",
-      "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "None",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+      "tiers": {},
+      "formatted_tag": ""
+    },
+    "t00rch7007": {
+      "name": "toorch7007",
+      "uuid": "",
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
+    },
+    "toorch7oo7": {
+      "name": "toorch7007",
+      "uuid": "",
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     },
     "e4ror404": {
       "name": "E4ror404",
       "uuid": "941e3b8a54c04ab088b1da64f59d3bbb",
       "overall": "HT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "HT3",
-        "axe": "None",
-        "mace": "None",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "sword": "HT3"
+      },
+      "formatted_tag": "§6HT3"
+    },
+    "e4r0r404": {
+      "name": "E4ror404",
+      "uuid": "941e3b8a54c04ab088b1da64f59d3bbb",
+      "overall": "HT5",
+      "tiers": {
+        "sword": "HT3"
+      },
+      "formatted_tag": "§6HT3"
+    },
+    "e4ror4o4": {
+      "name": "E4ror404",
+      "uuid": "941e3b8a54c04ab088b1da64f59d3bbb",
+      "overall": "HT5",
+      "tiers": {
+        "sword": "HT3"
+      },
+      "formatted_tag": "§6HT3"
     },
     "941e3b8a54c04ab088b1da64f59d3bbb": {
       "name": "E4ror404",
       "uuid": "941e3b8a54c04ab088b1da64f59d3bbb",
       "overall": "HT5",
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "HT3",
-        "axe": "None",
-        "mace": "None",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "sword": "HT3"
+      },
+      "formatted_tag": "§6HT3"
     },
     "luxicity": {
       "name": "Luxicity",
       "uuid": "39eada9546a3428eb6f7dd60277885f1",
       "overall": "LT3",
       "tiers": {
-        "spear_mace": "None",
         "vanilla": "LT3",
         "uhc": "HT3",
         "pot": "HT3",
         "nethop": "HT3",
         "smp": "HT3",
         "sword": "LT2",
-        "axe": "LT2",
-        "mace": "None",
-        "overall": "LT3",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "axe": "LT2"
+      },
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §7LT2 §7| §7LT2"
     },
     "39eada9546a3428eb6f7dd60277885f1": {
       "name": "Luxicity",
       "uuid": "39eada9546a3428eb6f7dd60277885f1",
       "overall": "LT3",
       "tiers": {
-        "spear_mace": "None",
         "vanilla": "LT3",
         "uhc": "HT3",
         "pot": "HT3",
         "nethop": "HT3",
         "smp": "HT3",
         "sword": "LT2",
-        "axe": "LT2",
-        "mace": "None",
-        "overall": "LT3",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "axe": "LT2"
+      },
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §7LT2 §7| §7LT2"
     },
     "torch7007 ht4 uhc": {
       "name": "Torch7007 ht4 UHC",
       "uuid": "",
       "overall": "None",
-      "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "None",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+      "tiers": {},
+      "formatted_tag": ""
+    },
+    "t0rch7007 ht4 uhc": {
+      "name": "Torch7007 ht4 UHC",
+      "uuid": "",
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
+    },
+    "torch7oo7 ht4 uhc": {
+      "name": "Torch7007 ht4 UHC",
+      "uuid": "",
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
+    },
+    "7oo7": {
+      "name": "7007",
+      "uuid": "36f13ca05cce44a9912e3fe7e7aebad6",
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     },
     "36f13ca05cce44a9912e3fe7e7aebad6": {
       "name": "7007",
       "uuid": "36f13ca05cce44a9912e3fe7e7aebad6",
       "overall": "None",
-      "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "None",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+      "tiers": {},
+      "formatted_tag": ""
     },
     "hamburble": {
       "name": "Hamburble",
@@ -1073,18 +1037,12 @@
       "overall": "HT4",
       "tiers": {
         "spear_mace": "HT3",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
         "nethop": "LT3",
-        "smp": "None",
         "sword": "LT3",
         "axe": "LT3",
-        "mace": "HT3",
-        "overall": "HT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT3"
+      },
+      "formatted_tag": "§6HT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3"
     },
     "325906e028914f04922a6e74c4a5b677": {
       "name": "Hamburble",
@@ -1092,18 +1050,12 @@
       "overall": "HT4",
       "tiers": {
         "spear_mace": "HT3",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
         "nethop": "LT3",
-        "smp": "None",
         "sword": "LT3",
         "axe": "LT3",
-        "mace": "HT3",
-        "overall": "HT4",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "HT3"
+      },
+      "formatted_tag": "§6HT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3"
     },
     "heybaby": {
       "name": "heybaby",
@@ -1112,17 +1064,9 @@
       "tiers": {
         "spear_mace": "LT5",
         "vanilla": "HT5",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "LT4",
-        "axe": "None",
-        "mace": "None",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "sword": "LT4"
+      },
+      "formatted_tag": "§8LT5 §7| §8HT5 §7| §3LT4"
     },
     "f9d113279b2f4087a65a7e3dc5e7e338": {
       "name": "heybaby",
@@ -1131,93 +1075,60 @@
       "tiers": {
         "spear_mace": "LT5",
         "vanilla": "HT5",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "LT4",
-        "axe": "None",
-        "mace": "None",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "sword": "LT4"
+      },
+      "formatted_tag": "§8LT5 §7| §8HT5 §7| §3LT4"
     },
     "biu_iceegg_l5j": {
       "name": "biu_IceEgg_l5j",
       "uuid": "0469b13ed7f84a5aacfb552bdbbc7468",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "LT5",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "spear_mace": "LT5"
+      },
+      "formatted_tag": "§8LT5"
     },
     "0469b13ed7f84a5aacfb552bdbbc7468": {
       "name": "biu_IceEgg_l5j",
       "uuid": "0469b13ed7f84a5aacfb552bdbbc7468",
       "overall": "LT5",
       "tiers": {
-        "spear_mace": "LT5",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "LT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "spear_mace": "LT5"
+      },
+      "formatted_tag": "§8LT5"
     },
     "biscoffbread": {
       "name": "biscoffbread",
       "uuid": "663dd2f53af04beda689d765444f1cec",
       "overall": "HT5",
       "tiers": {
-        "spear_mace": "None",
         "vanilla": "HT4",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
         "sword": "LT4",
-        "axe": "None",
-        "mace": "LT3",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT3"
+      },
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §eLT3"
+    },
+    "bisc0ffbread": {
+      "name": "biscoffbread",
+      "uuid": "663dd2f53af04beda689d765444f1cec",
+      "overall": "HT5",
+      "tiers": {
+        "vanilla": "HT4",
+        "sword": "LT4",
+        "mace": "LT3"
+      },
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §eLT3"
     },
     "663dd2f53af04beda689d765444f1cec": {
       "name": "biscoffbread",
       "uuid": "663dd2f53af04beda689d765444f1cec",
       "overall": "HT5",
       "tiers": {
-        "spear_mace": "None",
         "vanilla": "HT4",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
         "sword": "LT4",
-        "axe": "None",
-        "mace": "LT3",
-        "overall": "HT5",
-        "dia_smp": "None",
-        "cart": "None"
-      }
+        "mace": "LT3"
+      },
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §eLT3"
     }
   }
 }
