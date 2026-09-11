@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-11T21:24:03.237Z",
+  "updated_at": "2026-09-11T21:35:17.494Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -650,9 +650,10 @@
         "smp": "LT3",
         "sword": "HT3",
         "axe": "HT3",
-        "mace": "HT3"
+        "mace": "HT3",
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §bHT4"
     },
     "jack0lan10rn": {
       "name": "JackOLan10rn",
@@ -667,9 +668,10 @@
         "smp": "LT3",
         "sword": "HT3",
         "axe": "HT3",
-        "mace": "HT3"
+        "mace": "HT3",
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §bHT4"
     },
     "jackolan1orn": {
       "name": "JackOLan10rn",
@@ -684,9 +686,10 @@
         "smp": "LT3",
         "sword": "HT3",
         "axe": "HT3",
-        "mace": "HT3"
+        "mace": "HT3",
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §bHT4"
     },
     "f311b3fc49334e3c90e8da64baeaf689": {
       "name": "JackOLan10rn",
@@ -701,9 +704,10 @@
         "smp": "LT3",
         "sword": "HT3",
         "axe": "HT3",
-        "mace": "HT3"
+        "mace": "HT3",
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §bHT4"
     },
     "jackolant10rn": {
       "name": "jackOlant10rn",
