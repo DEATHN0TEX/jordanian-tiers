@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-11T21:52:02.707Z",
+  "updated_at": "2026-09-11T21:54:28.276Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1047,30 +1047,32 @@
     "hamburble": {
       "name": "Hamburble",
       "uuid": "325906e028914f04922a6e74c4a5b677",
-      "overall": "MT4",
+      "overall": "HT4",
       "tiers": {
         "spear_mace": "HT3",
         "vanilla": "MT4",
         "nethop": "LT3",
         "sword": "LT3",
         "axe": "LT3",
-        "mace": "HT3"
+        "mace": "HT3",
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§6HT3 §7| §bMT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3"
+      "formatted_tag": "§6HT3 §7| §bMT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §bHT4"
     },
     "325906e028914f04922a6e74c4a5b677": {
       "name": "Hamburble",
       "uuid": "325906e028914f04922a6e74c4a5b677",
-      "overall": "MT4",
+      "overall": "HT4",
       "tiers": {
         "spear_mace": "HT3",
         "vanilla": "MT4",
         "nethop": "LT3",
         "sword": "LT3",
         "axe": "LT3",
-        "mace": "HT3"
+        "mace": "HT3",
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§6HT3 §7| §bMT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3"
+      "formatted_tag": "§6HT3 §7| §bMT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §bHT4"
     },
     "heybaby": {
       "name": "heybaby",
