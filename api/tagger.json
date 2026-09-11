@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-11T21:45:27.567Z",
+  "updated_at": "2026-09-11T21:52:02.707Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -647,7 +647,7 @@
       "overall": "HT4",
       "tiers": {
         "spear_mace": "LT3",
-        "vanilla": "LT4",
+        "vanilla": "HT5",
         "uhc": "LT3",
         "pot": "LT3",
         "nethop": "LT3",
@@ -657,7 +657,7 @@
         "mace": "HT3",
         "dia_smp": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §bHT4"
+      "formatted_tag": "§eLT3 §7| §8HT5 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §bHT4"
     },
     "jack0lan10rn": {
       "name": "JackOLan10rn",
@@ -665,7 +665,7 @@
       "overall": "HT4",
       "tiers": {
         "spear_mace": "LT3",
-        "vanilla": "LT4",
+        "vanilla": "HT5",
         "uhc": "LT3",
         "pot": "LT3",
         "nethop": "LT3",
@@ -675,7 +675,7 @@
         "mace": "HT3",
         "dia_smp": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §bHT4"
+      "formatted_tag": "§eLT3 §7| §8HT5 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §bHT4"
     },
     "jackolan1orn": {
       "name": "JackOLan10rn",
@@ -683,7 +683,7 @@
       "overall": "HT4",
       "tiers": {
         "spear_mace": "LT3",
-        "vanilla": "LT4",
+        "vanilla": "HT5",
         "uhc": "LT3",
         "pot": "LT3",
         "nethop": "LT3",
@@ -693,7 +693,7 @@
         "mace": "HT3",
         "dia_smp": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §bHT4"
+      "formatted_tag": "§eLT3 §7| §8HT5 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §bHT4"
     },
     "f311b3fc49334e3c90e8da64baeaf689": {
       "name": "JackOLan10rn",
@@ -701,7 +701,7 @@
       "overall": "HT4",
       "tiers": {
         "spear_mace": "LT3",
-        "vanilla": "LT4",
+        "vanilla": "HT5",
         "uhc": "LT3",
         "pot": "LT3",
         "nethop": "LT3",
@@ -711,7 +711,7 @@
         "mace": "HT3",
         "dia_smp": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §bHT4"
+      "formatted_tag": "§eLT3 §7| §8HT5 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §bHT4"
     },
     "jackolant10rn": {
       "name": "jackOlant10rn",
