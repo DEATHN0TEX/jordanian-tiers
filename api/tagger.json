@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-11T21:35:17.494Z",
+  "updated_at": "2026-09-11T21:35:25.235Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -146,9 +146,10 @@
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
-        "mace": "LT4"
+        "mace": "LT4",
+        "dia_smp": "MT4"
       },
-      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bMT4"
     },
     "n0t_kalsher": {
       "name": "NOT_KALSHER",
@@ -163,9 +164,10 @@
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
-        "mace": "LT4"
+        "mace": "LT4",
+        "dia_smp": "MT4"
       },
-      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bMT4"
     },
     "b5191b99781943aab1ca2bbca901e7f0": {
       "name": "NOT_KALSHER",
@@ -180,9 +182,10 @@
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
-        "mace": "LT4"
+        "mace": "LT4",
+        "dia_smp": "MT4"
       },
-      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bMT4"
     },
     "b5191b99-7819-43aa-b1ca-2bbca901e7f0": {
       "name": "NOT_KALSHER",
@@ -197,9 +200,10 @@
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
-        "mace": "LT4"
+        "mace": "LT4",
+        "dia_smp": "MT4"
       },
-      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4"
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bMT4"
     },
     "torch7007": {
       "name": "Torch7007",
