@@ -837,7 +837,7 @@
       },
       "tiers": {
         "spear_mace": "HT3",
-        "vanilla": "None",
+        "vanilla": "MT4",
         "uhc": "None",
         "pot": "None",
         "nethop": "LT3",
@@ -845,7 +845,7 @@
         "sword": "LT3",
         "axe": "LT3",
         "mace": "HT3",
-        "overall": "HT4"
+        "overall": "MT4"
       },
       "retired": {},
       "lastSyncCheck": 1788909300426
