@@ -29,14 +29,19 @@
 
   /* HSL Rank Colors (Tier 1 Gold, Tier 2 Silver, Tier 3 Bronze, Tier 4 Steel, Tier 5 Charcoal) */
   --color-ht1: #f0b232;
+  --color-mt1: #ebb037;
   --color-lt1: #e5a83b;
   --color-ht2: #b5c8db;
+  --color-mt2: #aabcca;
   --color-lt2: #9eafc0;
   --color-ht3: #e29058;
+  --color-mt3: #dc8a53;
   --color-lt3: #d9854e;
   --color-ht4: #9cb1c6;
+  --color-mt4: #95aac0;
   --color-lt4: #8ea4ba;
   --color-ht5: #8395a7;
+  --color-mt5: #7f91a3;
   --color-lt5: #7a8c9e;
   --color-unranked: #6e7681;
 }
@@ -868,25 +873,35 @@ body {
 
 /* Colored themes for specific tiers */
 .rank-ht1-bg { background: linear-gradient(135deg, #d32f2f, #ef5350); }
+.rank-mt1-bg { background: linear-gradient(135deg, #c62828, #e53935); }
 .rank-lt1-bg { background: linear-gradient(135deg, #b71c1c, #d32f2f); }
 .rank-ht2-bg { background: linear-gradient(135deg, #e65100, #ff9800); }
+.rank-mt2-bg { background: linear-gradient(135deg, #ef6c00, #ffa726); }
 .rank-lt2-bg { background: linear-gradient(135deg, #f57c00, #ffb74d); }
 .rank-ht3-bg { background: linear-gradient(135deg, #fbc02d, #fff59d); }
+.rank-mt3-bg { background: linear-gradient(135deg, #f9a825, #ffee58); }
 .rank-lt3-bg { background: linear-gradient(135deg, #afb42b, #d4e157); }
 .rank-ht4-bg { background: linear-gradient(135deg, #2e7d32, #66bb6a); }
+.rank-mt4-bg { background: linear-gradient(135deg, #1b5e20, #4caf50); }
 .rank-lt4-bg { background: linear-gradient(135deg, #0288d1, #29b6f6); }
 .rank-ht5-bg { background: linear-gradient(135deg, #6a1b9a, #ab47bc); }
+.rank-mt5-bg { background: linear-gradient(135deg, #512da8, #9c27b0); }
 .rank-lt5-bg { background: linear-gradient(135deg, #4527a0, #7e57c2); }
 
 .rank-ht1-text { color: var(--color-ht1); }
+.rank-mt1-text { color: var(--color-mt1); }
 .rank-lt1-text { color: var(--color-lt1); }
 .rank-ht2-text { color: var(--color-ht2); }
+.rank-mt2-text { color: var(--color-mt2); }
 .rank-lt2-text { color: var(--color-lt2); }
 .rank-ht3-text { color: var(--color-ht3); }
+.rank-mt3-text { color: var(--color-mt3); }
 .rank-lt3-text { color: var(--color-lt3); }
 .rank-ht4-text { color: var(--color-ht4); }
+.rank-mt4-text { color: var(--color-mt4); }
 .rank-lt4-text { color: var(--color-lt4); }
 .rank-ht5-text { color: var(--color-ht5); }
+.rank-mt5-text { color: var(--color-mt5); }
 .rank-lt5-text { color: var(--color-lt5); }
 
 /* Tier Items List */
@@ -1023,14 +1038,19 @@ body {
 }
 
 .badge-ht1 { background: rgba(240, 178, 50, 0.16); color: var(--color-ht1); border-color: rgba(240, 178, 50, 0.4); }
+.badge-mt1 { background: rgba(235, 173, 55, 0.15); color: var(--color-mt1); border-color: rgba(235, 173, 55, 0.38); }
 .badge-lt1 { background: rgba(229, 168, 59, 0.13); color: var(--color-lt1); border-color: rgba(229, 168, 59, 0.35); }
 .badge-ht2 { background: rgba(181, 200, 219, 0.16); color: var(--color-ht2); border-color: rgba(181, 200, 219, 0.4); }
+.badge-mt2 { background: rgba(170, 188, 202, 0.15); color: var(--color-mt2); border-color: rgba(170, 188, 202, 0.38); }
 .badge-lt2 { background: rgba(158, 175, 192, 0.13); color: var(--color-lt2); border-color: rgba(158, 175, 192, 0.35); }
 .badge-ht3 { background: rgba(226, 144, 88, 0.16); color: var(--color-ht3); border-color: rgba(226, 144, 88, 0.4); }
+.badge-mt3 { background: rgba(220, 138, 83, 0.15); color: var(--color-mt3); border-color: rgba(220, 138, 83, 0.38); }
 .badge-lt3 { background: rgba(217, 133, 78, 0.13); color: var(--color-lt3); border-color: rgba(217, 133, 78, 0.35); }
 .badge-ht4 { background: rgba(156, 177, 198, 0.14); color: var(--color-ht4); border-color: rgba(156, 177, 198, 0.35); }
+.badge-mt4 { background: rgba(149, 170, 192, 0.13); color: var(--color-mt4); border-color: rgba(149, 170, 192, 0.33); }
 .badge-lt4 { background: rgba(142, 164, 186, 0.11); color: var(--color-lt4); border-color: rgba(142, 164, 186, 0.3); }
 .badge-ht5 { background: rgba(131, 149, 167, 0.14); color: var(--color-ht5); border-color: rgba(131, 149, 167, 0.35); }
+.badge-mt5 { background: rgba(127, 145, 163, 0.13); color: var(--color-mt5); border-color: rgba(127, 145, 163, 0.33); }
 .badge-lt5 { background: rgba(122, 140, 158, 0.11); color: var(--color-lt5); border-color: rgba(122, 140, 158, 0.3); }
 .badge-unranked { background: rgba(110, 118, 129, 0.15); color: var(--color-unranked); }
 
@@ -2917,18 +2937,23 @@ body.modal-open {
 
 /* Tier 1 — Gold / Amber (Ultra Shiny) */
 .badge-ht1 { background: linear-gradient(145deg, #fce072 0%, #f5bc47 40%, #a87612 100%); border: 1px solid #ffe17d; color: #fff; box-shadow: 0 0 10px rgba(245, 188, 71, 0.45), inset 0 1px 2px rgba(255,255,255,0.8); }
+.badge-mt1 { background: linear-gradient(145deg, #f9d66b 0%, #ebb037 40%, #996a0d 100%); border: 1px solid #f8cd62; color: #fff; box-shadow: 0 0 9px rgba(235, 176, 55, 0.42), inset 0 1px 2px rgba(255,255,255,0.75); }
 .badge-lt1 { background: linear-gradient(145deg, #f5cc64 0%, #dca032 40%, #8c5e08 100%); border: 1px solid #f2c057; color: #fff; box-shadow: 0 0 8px rgba(220, 160, 50, 0.38), inset 0 1px 2px rgba(255,255,255,0.7); }
 /* Tier 2 — Silver / Slate (Liquid Chrome) */
 .badge-ht2 { background: linear-gradient(145deg, #eef5fc 0%, #b8cadc 40%, #637586 100%); border: 1px solid #e2edfb; color: #fff; box-shadow: 0 0 10px rgba(184, 202, 220, 0.4), inset 0 1px 2px rgba(255,255,255,0.85); }
+.badge-mt2 { background: linear-gradient(145deg, #e3eef9 0%, #aabcca 40%, #596a77 100%); border: 1px solid #d5e3ef; color: #fff; box-shadow: 0 0 9px rgba(170, 188, 202, 0.38), inset 0 1px 2px rgba(255,255,255,0.8); }
 .badge-lt2 { background: linear-gradient(145deg, #d8e6f5 0%, #9bb0c4 40%, #4f5f6e 100%); border: 1px solid #c9d8e7; color: #fff; box-shadow: 0 0 8px rgba(155, 176, 196, 0.35), inset 0 1px 2px rgba(255,255,255,0.75); }
 /* Tier 3 — Bronze / Copper (Polished Copper) */
 .badge-ht3 { background: linear-gradient(145deg, #ffc299 0%, #e8955c 40%, #965020 100%); border: 1px solid #ffd4b3; color: #fff; box-shadow: 0 0 10px rgba(232, 149, 92, 0.4), inset 0 1px 2px rgba(255,255,255,0.75); }
+.badge-mt3 { background: linear-gradient(145deg, #fab88b 0%, #dc8a53 40%, #8a4618 100%); border: 1px solid #f8c6a3; color: #fff; box-shadow: 0 0 9px rgba(220, 138, 83, 0.38), inset 0 1px 2px rgba(255,255,255,0.7); }
 .badge-lt3 { background: linear-gradient(145deg, #f5ae7d 0%, #cf7e48 40%, #7f3d10 100%); border: 1px solid #f7be94; color: #fff; box-shadow: 0 0 8px rgba(207, 126, 72, 0.35), inset 0 1px 2px rgba(255,255,255,0.65); }
 /* Tier 4 — Steel Slate */
 .badge-ht4 { background: linear-gradient(145deg, #b0c9df 0%, #8ba4bb 40%, #455a6d 100%); border: 1px solid #b9d2e7; color: #fff; box-shadow: 0 0 8px rgba(139, 164, 187, 0.3), inset 0 1px 1px rgba(255,255,255,0.5); }
+.badge-mt4 { background: linear-gradient(145deg, #a6bed3 0%, #829bae 40%, #3f5264 100%); border: 1px solid #adc4d8; color: #fff; box-shadow: 0 0 7px rgba(130, 155, 174, 0.26), inset 0 1px 1px rgba(255,255,255,0.48); }
 .badge-lt4 { background: linear-gradient(145deg, #9bb2c6 0%, #7890a5 40%, #3a4b5b 100%); border: 1px solid #a3b9cc; color: #fff; box-shadow: 0 0 6px rgba(120, 144, 165, 0.22), inset 0 1px 1px rgba(255,255,255,0.45); }
 /* Tier 5 — Dark Charcoal */
 .badge-ht5 { background: linear-gradient(145deg, #9cb0c2 0%, #7a8d9f 40%, #394754 100%); border: 1px solid #a4b7c8; color: #fff; box-shadow: 0 0 6px rgba(122, 141, 159, 0.2), inset 0 1px 1px rgba(255,255,255,0.4); }
+.badge-mt5 { background: linear-gradient(145deg, #92a5b5 0%, #718394 40%, #33404c 100%); border: 1px solid #99abb9; color: #fff; box-shadow: 0 0 6px rgba(113, 131, 148, 0.18), inset 0 1px 1px rgba(255,255,255,0.38); }
 .badge-lt5 { background: linear-gradient(145deg, #8899a8 0%, #687989 40%, #2d3842 100%); border: 1px solid #8e9fae; color: #fff; box-shadow: 0 0 6px rgba(104, 121, 137, 0.16), inset 0 1px 1px rgba(255,255,255,0.35); }
 /* Unranked */
 .badge-none {
@@ -3077,6 +3102,14 @@ body.modal-open {
   box-shadow: -3px 0 16px rgba(255, 74, 74, 0.3), 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
+.column-player-card.mid-tier {
+  border-left: 3px solid #f59e0b;
+}
+
+.column-player-card.mid-tier:hover {
+  box-shadow: -3px 0 16px rgba(245, 158, 11, 0.3), 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
 .column-player-card.low-tier {
   border-left: 3px solid #3b82f6;
 }
@@ -3116,6 +3149,10 @@ body.modal-open {
 
 .tier-chevron-icon.high {
   color: #ff4a4a;
+}
+
+.tier-chevron-icon.mid {
+  color: #f59e0b;
 }
 
 .tier-chevron-icon.low {
