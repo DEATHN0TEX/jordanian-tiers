@@ -410,11 +410,11 @@ const INITIAL_TESTERS = ${JSON.stringify(testers, null, 2)};
 // --- POINT SYSTEM (Exact MCTiers values) ---
 // Source: Official MCTiers ranking points distribution
 const TIER_POINTS = {
-  "HT1": 60, "LT1": 45,
-  "HT2": 30, "LT2": 20,
-  "HT3": 10, "LT3":  6,
-  "HT4":  4, "LT4":  3,
-  "HT5":  2, "LT5":  1,
+  "HT1": 60, "MT1": 52, "LT1": 45,
+  "HT2": 30, "MT2": 25, "LT2": 20,
+  "HT3": 10, "MT3":  8, "LT3":  6,
+  "HT4":  4, "MT4":  3, "LT4":  2,
+  "HT5":  2, "MT5": 1.5, "LT5":  1,
   "None": 0, "":     0
 };
 
@@ -436,14 +436,19 @@ function calculateOverallTier(playerTiers) {
   const total = calculateTotalPoints(playerTiers);
   if (total === 0)   return "None";
   if (total >= 450)  return "HT1";
+  if (total >= 400)  return "MT1";
   if (total >= 350)  return "LT1";
   if (total >= 250)  return "HT2";
+  if (total >= 210)  return "MT2";
   if (total >= 180)  return "LT2";
   if (total >= 110)  return "HT3";
+  if (total >= 90)   return "MT3";
   if (total >= 70)   return "LT3";
   if (total >= 35)   return "HT4";
+  if (total >= 26)   return "MT4";
   if (total >= 18)   return "LT4";
   if (total >= 6)    return "HT5";
+  if (total >= 3)    return "MT5";
   return "LT5";
 }
 
@@ -547,7 +552,13 @@ function isPlayerRetiredInGamemode(player, gmId) {
 }
 
 // --- TIERLIST RENDERING ---
-const TIER_ORDER = ["HT1", "LT1", "HT2", "LT2", "HT3", "LT3", "HT4", "LT4", "HT5", "LT5"];
+const TIER_ORDER = [
+  "HT1", "MT1", "LT1",
+  "HT2", "MT2", "LT2",
+  "HT3", "MT3", "LT3",
+  "HT4", "MT4", "LT4",
+  "HT5", "MT5", "LT5"
+];
 
 function renderTierList() {
   const container = document.getElementById("tierlist-rows");
@@ -633,7 +644,7 @@ function renderTierList() {
 
       const t = player.tiers[activeGamemode] || "None";
       if (t !== "None") {
-        const level = parseInt(t.charAt(2)); // e.g. HT1 -> 1, LT3 -> 3
+        const level = parseInt(t.charAt(2)); // e.g. HT1 -> 1, MT3 -> 3, LT3 -> 3
         if (level >= 1 && level <= 5) {
           playersByMainTier[level].push({ player, tier: t });
           totalVisible++;
@@ -647,13 +658,19 @@ function renderTierList() {
     }
     noResultsCard.classList.add("hidden");
 
-    // Sort players in each main tier: HT first, then LT, then alphabetical
+    // Helper to order sub-tiers within each level: HT (1), MT (2), LT (3)
+    const getSubTierRank = (tierStr) => {
+      if (tierStr.startsWith("HT")) return 1;
+      if (tierStr.startsWith("MT")) return 2;
+      return 3; // LT
+    };
+
+    // Sort players in each main tier: HT first, then MT, then LT, then alphabetical
     for (let level = 1; level <= 5; level++) {
       playersByMainTier[level].sort((a, b) => {
-        const aIsHigh = a.tier.startsWith("HT");
-        const bIsHigh = b.tier.startsWith("HT");
-        if (aIsHigh && !bIsHigh) return -1;
-        if (!aIsHigh && bIsHigh) return 1;
+        const rankA = getSubTierRank(a.tier);
+        const rankB = getSubTierRank(b.tier);
+        if (rankA !== rankB) return rankA - rankB;
         return a.player.username.localeCompare(b.player.username);
       });
     }
@@ -715,19 +732,27 @@ function renderTierList() {
 function createColumnPlayerCard(player, tier) {
   const card = document.createElement("div");
   const isHigh = tier.startsWith("HT");
-  card.className = `column-player-card ${isHigh ? "high-tier" : "low-tier"}`;
+  const isMid = tier.startsWith("MT");
+  card.className = `column-player-card ${isHigh ? "high-tier" : isMid ? "mid-tier" : "low-tier"}`;
   
   const skinId = skinIdentifier(player);
   const avatarUrl = skinUrl(`https://visage.surgeplay.com/bust/64/${encodeURIComponent(skinId)}`);
 
-  const chevronSVG = isHigh 
-    ? `<svg class="tier-chevron-icon high" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  let chevronSVG;
+  if (isHigh) {
+    chevronSVG = `<svg class="tier-chevron-icon high" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="17 11 12 6 7 11"></polyline>
         <polyline points="17 18 12 13 7 18"></polyline>
-       </svg>`
-    : `<svg class="tier-chevron-icon low" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+       </svg>`;
+  } else if (isMid) {
+    chevronSVG = `<svg class="tier-chevron-icon mid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+       </svg>`;
+  } else {
+    chevronSVG = `<svg class="tier-chevron-icon low" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="17 15 12 10 7 15"></polyline>
        </svg>`;
+  }
 
   card.innerHTML = `
     <img class="column-player-avatar" src="${avatarUrl}" alt="${player.username}" onerror="handleBustError(this, 64)">
