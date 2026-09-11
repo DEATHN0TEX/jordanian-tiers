@@ -194,38 +194,12 @@ async function loadDatabase() {
   // 2. Secondary fallback: check embedded js/database.js globals (for local file:// protocol)
   if (!loadedFromJSON) {
     if (typeof INITIAL_PLAYERS !== 'undefined' && Array.isArray(INITIAL_PLAYERS) && INITIAL_PLAYERS.length > 0) {
-      const rawPlayers = JSON.parse(JSON.stringify(INITIAL_PLAYERS));
+      players = JSON.parse(JSON.stringify(INITIAL_PLAYERS));
       testers = (typeof INITIAL_TESTERS !== 'undefined' && Array.isArray(INITIAL_TESTERS)) ? JSON.parse(JSON.stringify(INITIAL_TESTERS)) : [];
-
-      // Check if LocalStorage already has synced updates (e.g. updated usernames from Mojang sync)
-      const localPlayersRaw = localStorage.getItem('jordan_mctiers_players');
-      if (localPlayersRaw) {
-        try {
-          const localPlayers = JSON.parse(localPlayersRaw);
-          const localMap = new Map();
-          localPlayers.forEach(lp => {
-            if (lp.uuid && lp.uuid !== 'cracked') localMap.set(lp.uuid, lp);
-            if (lp.username) localMap.set(lp.username.toLowerCase(), lp);
-          });
-
-          // Merge synced username and sync timestamps from localStorage
-          rawPlayers.forEach(p => {
-            const match = (p.uuid && localMap.get(p.uuid)) || (p.username && localMap.get(p.username.toLowerCase()));
-            if (match) {
-              if (match.username) p.username = match.username;
-              if (match.uuid) p.uuid = match.uuid;
-              if (match.lastSyncCheck) p.lastSyncCheck = match.lastSyncCheck;
-            }
-          });
-        } catch (e) {
-          console.warn("Could not merge local player sync state", e);
-        }
-      }
-
-      players = rawPlayers;
       localStorage.setItem('jordan_mctiers_players', JSON.stringify(players));
       localStorage.setItem('jordan_mctiers_testers', JSON.stringify(testers));
-      try { window.__mctiers_data_source = 'database.js'; } catch (e) {}
+      try { window.__mctiers_data_source = 'js/database.js'; } catch (e) {}
+      console.log(`Loaded ${players.length} players from js/database.js`);
     }
   }
 
@@ -419,7 +393,7 @@ const TIER_POINTS = {
 };
 
 // Returns total points for a player across all gamemodes (excluding overall key)
-// Max possible: 9 gamemodes Ã— 60 pts = 540 pts
+// Max possible: 11 gamemodes × 60 pts = 660 pts
 function calculateTotalPoints(playerTiers) {
   let total = 0;
   for (const gmId in playerTiers) {
@@ -431,24 +405,24 @@ function calculateTotalPoints(playerTiers) {
 }
 
 // Derives the Overall tier badge from total point score
-// Thresholds scaled against 9-gamemode max of 540 pts
+// Thresholds scaled against 11-gamemode max of 660 pts
 function calculateOverallTier(playerTiers) {
   const total = calculateTotalPoints(playerTiers);
   if (total === 0)   return "None";
-  if (total >= 450)  return "HT1";
-  if (total >= 400)  return "MT1";
-  if (total >= 350)  return "LT1";
-  if (total >= 250)  return "HT2";
-  if (total >= 210)  return "MT2";
-  if (total >= 180)  return "LT2";
-  if (total >= 110)  return "HT3";
-  if (total >= 90)   return "MT3";
-  if (total >= 70)   return "LT3";
-  if (total >= 35)   return "HT4";
-  if (total >= 26)   return "MT4";
-  if (total >= 18)   return "LT4";
-  if (total >= 6)    return "HT5";
-  if (total >= 3)    return "MT5";
+  if (total >= 550)  return "HT1";
+  if (total >= 490)  return "MT1";
+  if (total >= 430)  return "LT1";
+  if (total >= 310)  return "HT2";
+  if (total >= 260)  return "MT2";
+  if (total >= 220)  return "LT2";
+  if (total >= 135)  return "HT3";
+  if (total >= 110)  return "MT3";
+  if (total >= 85)   return "LT3";
+  if (total >= 45)   return "HT4";
+  if (total >= 32)   return "MT4";
+  if (total >= 22)   return "LT4";
+  if (total >= 8)    return "HT5";
+  if (total >= 4)    return "MT5";
   return "LT5";
 }
 
@@ -776,12 +750,15 @@ function createOverallRankRow(player, pts, rank) {
   const skinId = skinIdentifier(player);
   const bustUrl = skinUrl(`https://visage.surgeplay.com/bust/256/${encodeURIComponent(skinId)}`);
   const isTop3 = rank <= 3;
+  const shimmerSvg = isTop3 ? `placements/${rank}-shimmer.svg` : 'placements/other.svg';
   const badgeHTML = `
     <div class="lb-top3-badge ${isTop3 ? `badge-rank-${rank}` : 'badge-rank-default'}">
-      ${isTop3 ? `<img src="placements/${rank}-shimmer.svg" class="lb-top3-shimmer-svg" alt="Rank ${rank}">` : ''}
+      <div class="lb-top3-bg">
+        <img src="${shimmerSvg}" class="lb-top3-shimmer-svg" alt="Rank ${rank}">
+      </div>
       <span class="lb-top3-num">${rank}.</span>
+      <img class="lb-top3-body" src="${bustUrl}" alt="${player.username}" onerror="handleBustError(this, 256)">
     </div>
-    <img class="lb-top3-body" src="${bustUrl}" alt="${player.username}" onerror="handleBustError(this, 256)">
   `;
 
   // Per-gamemode tier chips (all gamemodes except overall) - Concept 4: Connected HUD Strip

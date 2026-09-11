@@ -2527,7 +2527,7 @@ body.modal-open {
 .lb-col-rank   { width: 48px; flex-shrink: 0; }
 .lb-col-player { width: 220px; flex-shrink: 0; }
 .lb-col-region { margin-left: auto; width: 80px; text-align: center; flex-shrink: 0; }
-.lb-col-tiers  { width: 380px; flex-shrink: 0; text-align: center; }
+.lb-col-tiers  { width: 480px; flex-shrink: 0; text-align: center; }
 
 /* ---- Row ---- */
 .overall-rank-row {
@@ -2763,22 +2763,21 @@ body.modal-open {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 380px;
+  width: 480px;
   flex-shrink: 0;
 }
 
 .lb-hud-strip {
-  display: grid;
-  grid-template-columns: repeat(9, 39px);
+  display: flex;
   align-items: center;
-  justify-items: center;
-  background: rgba(14, 20, 30, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 9px;
-  overflow: visible;
-  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.08), 0 3px 12px rgba(0, 0, 0, 0.45);
+  justify-content: flex-end;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
   position: relative;
-  width: 351px;
+  width: auto;
 }
 
 .lb-hud-item {
@@ -2787,45 +2786,46 @@ body.modal-open {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 52px;
-  width: 39px;
-  padding: 4px 0;
   gap: 4px;
-  border-right: 1px solid rgba(255, 255, 255, 0.07);
-  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  border: none;
+  background: transparent;
+  padding: 0;
   cursor: pointer;
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1);
   box-sizing: border-box;
 }
 
-.lb-hud-item:first-child {
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-
+.lb-hud-item:first-child,
 .lb-hud-item:last-child {
-  border-right: none;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-radius: 0;
+  border: none;
 }
 
 .lb-hud-item:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: transparent;
+  transform: translateY(-2px);
   z-index: 20;
 }
 
 .lb-hud-icon {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #141b26;
+  border: 1px solid rgba(255, 255, 255, 0.14);
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 3.5px;
   color: var(--text-muted);
   flex-shrink: 0;
-  transition: transform 0.18s, color 0.18s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+  transition: transform 0.18s, color 0.18s, border-color 0.18s;
 }
 
 .lb-hud-item:hover .lb-hud-icon {
-  transform: scale(1.18);
+  transform: scale(1.12);
+  border-color: rgba(255, 255, 255, 0.35);
   color: #fff;
 }
 
@@ -2836,17 +2836,19 @@ body.modal-open {
   object-fit: contain;
 }
 
-/* Dashed icon for untested modes — exact same 20px footprint */
+/* Dashed icon for untested modes */
 .lb-hud-icon.dashed {
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.02);
   border: 1.5px dashed rgba(255, 255, 255, 0.18);
   border-radius: 50%;
-  margin: 1px 0;
+  margin: 0;
+  padding: 0;
 }
 
 .lb-hud-item.is-untested {
-  opacity: 0.45;
+  opacity: 0.35;
   transition: opacity 0.2s;
 }
 
@@ -2854,32 +2856,56 @@ body.modal-open {
   opacity: 0.85;
 }
 
+/* Plain colored tier text (NO badge background/pill) */
 .lb-hud-val {
   font-family: var(--font-title);
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   font-weight: 900;
-  letter-spacing: 0.04em;
-  width: 30px;
-  height: 17px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
+  letter-spacing: 0.02em;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+  padding: 0;
   line-height: 1;
   text-transform: uppercase;
-  color: #fff;
   text-align: center;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.3);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
-  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.18s;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1);
   box-sizing: border-box;
   flex-shrink: 0;
 }
 
 .lb-hud-item:hover .lb-hud-val {
-  transform: scale(1.08);
-  box-shadow: 0 3px 8px rgba(0,0,0,0.6), inset 0 1px 2px rgba(255,255,255,0.5);
+  transform: scale(1.1);
+  box-shadow: none !important;
 }
+
+/* Tier text colors (pure text, using site's original color variables) */
+.lb-hud-val.badge-ht1 { color: var(--color-ht1) !important; }
+.lb-hud-val.badge-mt1 { color: var(--color-mt1) !important; }
+.lb-hud-val.badge-lt1 { color: var(--color-lt1) !important; }
+
+.lb-hud-val.badge-ht2 { color: var(--color-ht2) !important; }
+.lb-hud-val.badge-mt2 { color: var(--color-mt2) !important; }
+.lb-hud-val.badge-lt2 { color: var(--color-lt2) !important; }
+
+.lb-hud-val.badge-ht3 { color: var(--color-ht3) !important; }
+.lb-hud-val.badge-mt3 { color: var(--color-mt3) !important; }
+.lb-hud-val.badge-lt3 { color: var(--color-lt3) !important; }
+
+.lb-hud-val.badge-ht4 { color: var(--color-ht4) !important; }
+.lb-hud-val.badge-mt4 { color: var(--color-mt4) !important; }
+.lb-hud-val.badge-lt4 { color: var(--color-lt4) !important; }
+
+.lb-hud-val.badge-ht5 { color: var(--color-ht5) !important; }
+.lb-hud-val.badge-mt5 { color: var(--color-mt5) !important; }
+.lb-hud-val.badge-lt5 { color: var(--color-lt5) !important; }
+
+.lb-hud-val.badge-none,
+.lb-hud-val.badge-unranked { color: var(--color-unranked) !important; }
 
 /* Floating Gamemode Tooltip on Hover */
 .lb-tier-tooltip {
@@ -3167,28 +3193,40 @@ body.modal-open {
   padding-left: 0;
   border-left: none;
   overflow: visible;
-  align-items: stretch;
+  align-items: center;
   position: relative;
 }
 
 .lb-top3-badge {
   position: relative;
-  width: 160px;
-  min-width: 160px;
+  width: 155px;
+  min-width: 155px;
   height: 56px;
   display: flex;
   align-items: center;
-  padding-left: 20px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  clip-path: path('M 8 0 L 100 0 L 135 56 L 8 56 A 8 8 0 0 1 0 48 L 0 8 A 8 8 0 0 1 8 0 Z');
+  padding-left: 18px;
   flex-shrink: 0;
   z-index: 10;
-  overflow: hidden;
-  isolation: isolate;
+  overflow: visible;
+  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
+  will-change: transform;
 }
 
-.lb-top3-badge.badge-rank-default {
+/* Background container with slanted right edge */
+.lb-top3-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 100%, 0 100%);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.lb-top3-badge.badge-rank-default .lb-top3-bg {
   background: rgba(255, 255, 255, 0.03);
 }
 
@@ -3198,32 +3236,50 @@ body.modal-open {
   left: 0;
   width: 100%;
   height: 100%;
+  object-fit: fill;
   pointer-events: none;
-  z-index: 1;
+}
+
+/* Snappy popup animation sliding left */
+.overall-rank-row:hover .lb-top3-badge,
+.lb-top3-badge:hover {
+  transform: translateX(-10px) scale(1.025);
+  filter: drop-shadow(-4px 2px 8px rgba(0, 0, 0, 0.6));
+}
+
+.overall-rank-row:hover .lb-top3-num {
+  transform: scale(1.05);
+}
+
+.overall-rank-row:hover .lb-top3-body {
+  transform: scale(1.06);
 }
 
 .lb-top3-num {
   font-family: var(--font-title);
-  font-size: 2rem;
+  font-size: 1.85rem;
   font-weight: 900;
   font-style: italic;
   color: #fff;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.75);
   z-index: 4;
   user-select: none;
   position: relative;
+  line-height: 1;
+  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-/* Bust image — sibling of badge, absolutely placed on the row */
+/* Bust image — full large original size popping above the row */
 .lb-top3-body {
   position: absolute;
   left: 82px;
   top: -12px;
   height: 68px;
   filter: drop-shadow(-2px 4px 8px rgba(0,0,0,0.7));
-  z-index: 10;
+  z-index: 5;
   pointer-events: none;
   image-rendering: pixelated;
+  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .badge-rank-default {
@@ -3258,7 +3314,7 @@ body.modal-open {
 }
 
 .lb-player-cell.no-avatar {
-  margin-left: 73px; /* push name past where the bust sits */
+  margin-left: 14px;
 }
 
 /* Podium Ranks (Gold, Silver, Bronze Borders & Highlights) */

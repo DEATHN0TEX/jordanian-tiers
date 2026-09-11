@@ -183,5 +183,43 @@ Restrictions:
 - No potions allowed.
 - Melee-only damage.
 - Test format: Best-of-5 (BO5).`
+  },
+  {
+    id: "dia_smp",
+    name: "Dia SMP",
+    description: "Diamond Armor Survival Multiplayer PvP. Features shield combat, axe crits, and chorus fruit tactical repositioning.",
+    icon: `<img src="icons/dia_smp.png" alt="Dia SMP" class="gm-icon-img dia-smp-icon-img">`,
+    rules: `Standard Arena (30x30 blocks).
+Gear:
+- Full Diamond Armor (Protection IV)
+- 1x Diamond Sword (Sharpness V)
+- 1x Diamond Axe (Sharpness V)
+- 1x Shield
+- 16x Chorus Fruit
+- 16x Ender Pearls
+- 64x Cooked Beef
+- 4x Golden Apples
+
+Restrictions:
+- Shield disabling cooldowns and Chorus Fruit positioning are heavily evaluated.
+- Test format: Best-of-5 (BO5).`
+  },
+  {
+    id: "cart",
+    name: "Cart",
+    description: "TNT Minecart PvP. High-speed track laying, instant explosive minecart detonation, and blast navigation.",
+    icon: `<img src="icons/cart.png" alt="Cart" class="gm-icon-img cart-icon-img">`,
+    rules: `Standard Rail Testing Arena.
+Gear:
+- Full Netherite Armor (Blast Protection IV, Protection IV)
+- 64x TNT Minecarts
+- 64x Rails & Powered Rails
+- 1x Bow with Flame / Punch
+- 64x Golden Carrots
+- 8x Golden Apples
+
+Restrictions:
+- Mastery of rapid track placement and instant detonator angles is required.
+- Test format: Best-of-5 (BO5).`
   }
 ];
