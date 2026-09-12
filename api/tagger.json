@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-12T16:45:32.669Z",
+  "updated_at": "2026-09-12T16:46:03.283Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -89,7 +89,7 @@
     "sk_yx": {
       "name": "SK_YX",
       "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
-      "overall": "LT4",
+      "overall": "MT4",
       "tiers": {
         "spear_mace": "HT4",
         "vanilla": "HT5",
@@ -99,14 +99,15 @@
         "smp": "HT4",
         "sword": "HT4",
         "axe": "HT4",
-        "mace": "LT3"
+        "mace": "LT3",
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §bHT4 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4"
     },
     "cb0cef85557d4f249725943038e37eaf": {
       "name": "SK_YX",
       "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
-      "overall": "LT4",
+      "overall": "MT4",
       "tiers": {
         "spear_mace": "HT4",
         "vanilla": "HT5",
@@ -116,14 +117,15 @@
         "smp": "HT4",
         "sword": "HT4",
         "axe": "HT4",
-        "mace": "LT3"
+        "mace": "LT3",
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §bHT4 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4"
     },
     "cb0cef85-557d-4f24-9725-943038e37eaf": {
       "name": "SK_YX",
       "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
-      "overall": "LT4",
+      "overall": "MT4",
       "tiers": {
         "spear_mace": "HT4",
         "vanilla": "HT5",
@@ -133,9 +135,10 @@
         "smp": "HT4",
         "sword": "HT4",
         "axe": "HT4",
-        "mace": "LT3"
+        "mace": "LT3",
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §bHT4 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4"
     },
     "not_kalsher": {
       "name": "NOT_KALSHER",
