@@ -18,8 +18,8 @@
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
-        "mace": "HT1",
-        "overall": "HT3",
+        "mace": "LT3",
+        "overall": "LT3",
         "dia_smp": "HT5",
         "cart": "MT4"
       },
@@ -27,8 +27,7 @@
       "lastSyncCheck": 1788286853886,
       "region": "EU",
       "retired": {
-        "spear_mace": true,
-        "mace": true
+        "spear_mace": true
       }
     },
     {
