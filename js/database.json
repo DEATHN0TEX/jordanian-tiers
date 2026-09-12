@@ -845,10 +845,10 @@
         "pot": "None",
         "nethop": "None",
         "smp": "None",
-        "sword": "HT3",
+        "sword": "None",
         "axe": "LT3",
         "mace": "None",
-        "overall": "LT4",
+        "overall": "HT5",
         "dia_smp": "HT4",
         "cart": "HT4"
       },
