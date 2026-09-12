@@ -10,7 +10,7 @@
         "youtube": ""
       },
       "tiers": {
-        "spear_mace": "HT4",
+        "spear_mace": "HT1",
         "vanilla": "LT3",
         "uhc": "HT5",
         "pot": "LT5",
@@ -19,14 +19,16 @@
         "sword": "LT4",
         "axe": "LT4",
         "mace": "LT3",
-        "overall": "LT4",
+        "overall": "LT3",
         "dia_smp": "HT5",
         "cart": "MT4"
       },
       "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
       "lastSyncCheck": 1788286853886,
       "region": "EU",
-      "retired": {}
+      "retired": {
+        "spear_mace": true
+      }
     },
     {
       "username": "SK_YX",
