@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-12T16:44:10.472Z",
+  "updated_at": "2026-09-12T16:45:09.581Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -999,9 +999,10 @@
         "smp": "HT3",
         "sword": "MT2",
         "axe": "LT2",
-        "cart": "HT4"
+        "cart": "HT4",
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §fMT2 §7| §7LT2 §7| §bHT4"
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §fMT2 §7| §7LT2 §7| §bHT4 §7| §bHT4"
     },
     "39eada9546a3428eb6f7dd60277885f1": {
       "name": "Luxicity",
@@ -1015,9 +1016,10 @@
         "smp": "HT3",
         "sword": "MT2",
         "axe": "LT2",
-        "cart": "HT4"
+        "cart": "HT4",
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §fMT2 §7| §7LT2 §7| §bHT4"
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §fMT2 §7| §7LT2 §7| §bHT4 §7| §bHT4"
     },
     "torch7007 ht4 uhc": {
       "name": "Torch7007 ht4 UHC",
