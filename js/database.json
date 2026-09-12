@@ -848,8 +848,8 @@
         "sword": "None",
         "axe": "None",
         "mace": "None",
-        "overall": "HT5",
-        "dia_smp": "HT4",
+        "overall": "MT5",
+        "dia_smp": "None",
         "cart": "HT4"
       },
       "retired": {},
