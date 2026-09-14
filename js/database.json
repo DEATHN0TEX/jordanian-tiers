@@ -954,11 +954,11 @@
         "uhc": "LT3",
         "pot": "None",
         "nethop": "None",
-        "smp": "None",
+        "smp": "LT3",
         "sword": "LT3",
         "axe": "LT3",
         "mace": "None",
-        "overall": "LT4",
+        "overall": "MT4",
         "dia_smp": "HT4",
         "cart": "LT3"
       },
