@@ -989,6 +989,33 @@
       },
       "retired": {},
       "lastSyncCheck": 1789399123649
+    },
+    {
+      "username": "Versilve",
+      "uuid": "",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "MT5",
+        "cart": "LT3"
+      },
+      "retired": {},
+      "lastSyncCheck": 1789399769689
     }
   ],
   "testers": [
