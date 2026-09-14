@@ -963,6 +963,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1789231870698
+    },
+    {
+      "username": "XXLmeister",
+      "uuid": "b5166ce9f582452ca3785ef8cc8b30fa",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT4",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1789399123649
     }
   ],
   "testers": [
