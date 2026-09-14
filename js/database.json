@@ -956,9 +956,9 @@
         "nethop": "None",
         "smp": "None",
         "sword": "LT3",
-        "axe": "None",
+        "axe": "LT3",
         "mace": "None",
-        "overall": "HT5",
+        "overall": "LT4",
         "dia_smp": "HT4",
         "cart": "LT3"
       },
