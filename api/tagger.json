@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-14T16:38:22.230Z",
+  "updated_at": "2026-09-14T16:59:17.618Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1149,30 +1149,28 @@
     "versilver": {
       "name": "Versilver",
       "uuid": "b0f6760019f345bb86a677fe7742da10",
-      "overall": "MT4",
+      "overall": "LT4",
       "tiers": {
         "uhc": "LT3",
         "smp": "LT3",
         "sword": "LT3",
         "axe": "LT3",
-        "dia_smp": "HT4",
-        "cart": "LT3"
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §bHT4"
     },
     "b0f6760019f345bb86a677fe7742da10": {
       "name": "Versilver",
       "uuid": "b0f6760019f345bb86a677fe7742da10",
-      "overall": "MT4",
+      "overall": "LT4",
       "tiers": {
         "uhc": "LT3",
         "smp": "LT3",
         "sword": "LT3",
         "axe": "LT3",
-        "dia_smp": "HT4",
-        "cart": "LT3"
+        "dia_smp": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §bHT4"
     },
     "xxlmeister": {
       "name": "XXLmeister",
