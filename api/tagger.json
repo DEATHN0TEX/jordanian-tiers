@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-13T19:52:12.436Z",
+  "updated_at": "2026-09-14T15:17:36.817Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1149,20 +1149,22 @@
     "versilver": {
       "name": "Versilver",
       "uuid": "b0f6760019f345bb86a677fe7742da10",
-      "overall": "MT5",
+      "overall": "HT5",
       "tiers": {
+        "sword": "LT3",
         "dia_smp": "HT4"
       },
-      "formatted_tag": "§bHT4"
+      "formatted_tag": "§eLT3 §7| §bHT4"
     },
     "b0f6760019f345bb86a677fe7742da10": {
       "name": "Versilver",
       "uuid": "b0f6760019f345bb86a677fe7742da10",
-      "overall": "MT5",
+      "overall": "HT5",
       "tiers": {
+        "sword": "LT3",
         "dia_smp": "HT4"
       },
-      "formatted_tag": "§bHT4"
+      "formatted_tag": "§eLT3 §7| §bHT4"
     }
   }
 }
