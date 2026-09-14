@@ -959,7 +959,8 @@
         "axe": "None",
         "mace": "None",
         "overall": "HT5",
-        "dia_smp": "HT4"
+        "dia_smp": "HT4",
+        "cart": "LT3"
       },
       "retired": {},
       "lastSyncCheck": 1789231870698
