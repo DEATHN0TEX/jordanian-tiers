@@ -958,9 +958,9 @@
         "sword": "LT3",
         "axe": "LT3",
         "mace": "None",
-        "overall": "LT4",
+        "overall": "MT4",
         "dia_smp": "HT4",
-        "cart": "None"
+        "cart": "HT4"
       },
       "retired": {},
       "lastSyncCheck": 1789231870698
