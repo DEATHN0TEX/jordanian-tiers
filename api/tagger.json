@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-14T15:29:30.688Z",
+  "updated_at": "2026-09-14T15:30:15.766Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1187,11 +1187,9 @@
     "versilve": {
       "name": "Versilve",
       "uuid": "",
-      "overall": "MT5",
-      "tiers": {
-        "cart": "LT3"
-      },
-      "formatted_tag": "§eLT3"
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     }
   }
 }
