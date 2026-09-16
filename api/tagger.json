@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-16T20:16:28.260Z",
+  "updated_at": "2026-09-16T20:20:25.857Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -401,9 +401,10 @@
         "spear_mace": "HT5",
         "vanilla": "HT5",
         "sword": "LT4",
+        "axe": "LT4",
         "mace": "LT4"
       },
-      "formatted_tag": "§8HT5 §7| §8HT5 §7| §3LT4 §7| §3LT4"
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §3LT4 §7| §3LT4 §7| §3LT4"
     },
     "dragown332": {
       "name": "Dragown332",
