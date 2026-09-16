@@ -198,12 +198,13 @@
         "pot": "None",
         "nethop": "None",
         "smp": "None",
-        "sword": "None",
+        "sword": "LT4",
         "axe": "None",
         "mace": "LT4",
         "overall": "HT5"
       },
-      "lastSyncCheck": 1787243338092
+      "lastSyncCheck": 1787243338092,
+      "retired": {}
     },
     {
       "username": "Dragown332",
