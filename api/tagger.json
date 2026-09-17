@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-17T20:21:29.106Z",
+  "updated_at": "2026-09-17T20:23:31.240Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -225,9 +225,10 @@
         "smp": "HT4",
         "sword": "LT3",
         "axe": "LT3",
-        "mace": "LT4"
+        "mace": "LT4",
+        "dia_smp": "MT4"
       },
-      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bMT4"
     },
     "t0rch7007": {
       "name": "Torch7007",
@@ -242,9 +243,10 @@
         "smp": "HT4",
         "sword": "LT3",
         "axe": "LT3",
-        "mace": "LT4"
+        "mace": "LT4",
+        "dia_smp": "MT4"
       },
-      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bMT4"
     },
     "torch7oo7": {
       "name": "Torch7007",
@@ -259,9 +261,10 @@
         "smp": "HT4",
         "sword": "LT3",
         "axe": "LT3",
-        "mace": "LT4"
+        "mace": "LT4",
+        "dia_smp": "MT4"
       },
-      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bMT4"
     },
     "83c9192ca73c46c49fb9046c75867013": {
       "name": "Torch7007",
@@ -276,9 +279,10 @@
         "smp": "HT4",
         "sword": "LT3",
         "axe": "LT3",
-        "mace": "LT4"
+        "mace": "LT4",
+        "dia_smp": "MT4"
       },
-      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bMT4"
     },
     "83c9192c-a73c-46c4-9fb9-046c75867013": {
       "name": "Torch7007",
@@ -293,9 +297,10 @@
         "smp": "HT4",
         "sword": "LT3",
         "axe": "LT3",
-        "mace": "LT4"
+        "mace": "LT4",
+        "dia_smp": "MT4"
       },
-      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4 §7| §8HT5 §7| §8HT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bMT4"
     },
     "gr4vess": {
       "name": "GR4VESS",
