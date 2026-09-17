@@ -38,6 +38,24 @@
         "youtube": ""
       },
       "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "None",
+        "dia_smp": "None",
+        "cart": "None"
+      },
+      "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
+      "lastSyncCheck": 1788284252509,
+      "region": "EU",
+      "retired": {},
+      "savedTiers": {
         "spear_mace": "HT4",
         "vanilla": "HT5",
         "uhc": "HT5",
@@ -50,10 +68,11 @@
         "overall": "MT4",
         "dia_smp": "HT4"
       },
-      "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
-      "lastSyncCheck": 1788284252509,
-      "region": "EU",
-      "retired": {}
+      "savedRetired": {},
+      "restricted": true,
+      "restrictedAt": 1789651054591,
+      "restrictedBy": "hamza2699",
+      "restrictionReason": "No reason provided"
     },
     {
       "username": "NOT_KALSHER",
