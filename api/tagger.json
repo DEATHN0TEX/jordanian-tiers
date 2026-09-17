@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-17T15:13:23.546Z",
+  "updated_at": "2026-09-17T19:14:28.396Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1066,16 +1066,20 @@
     "hamburble": {
       "name": "Hamburble",
       "uuid": "325906e028914f04922a6e74c4a5b677",
-      "overall": "None",
-      "tiers": {},
-      "formatted_tag": ""
+      "overall": "MT5",
+      "tiers": {
+        "nethop": "HT4"
+      },
+      "formatted_tag": "§bHT4"
     },
     "325906e028914f04922a6e74c4a5b677": {
       "name": "Hamburble",
       "uuid": "325906e028914f04922a6e74c4a5b677",
-      "overall": "None",
-      "tiers": {},
-      "formatted_tag": ""
+      "overall": "MT5",
+      "tiers": {
+        "nethop": "HT4"
+      },
+      "formatted_tag": "§bHT4"
     },
     "heybaby": {
       "name": "heybaby",
