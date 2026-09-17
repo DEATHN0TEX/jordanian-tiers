@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-17T22:46:01.985Z",
+  "updated_at": "2026-09-17T22:46:48.697Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -146,7 +146,7 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "HT5",
-        "vanilla": "MT4",
+        "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT4",
         "nethop": "LT4",
@@ -156,7 +156,7 @@
         "mace": "LT4",
         "dia_smp": "HT4"
       },
-      "formatted_tag": "§8HT5 §7| §bMT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4"
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4"
     },
     "n0t_kalsher": {
       "name": "NOT_KALSHER",
@@ -164,7 +164,7 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "HT5",
-        "vanilla": "MT4",
+        "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT4",
         "nethop": "LT4",
@@ -174,7 +174,7 @@
         "mace": "LT4",
         "dia_smp": "HT4"
       },
-      "formatted_tag": "§8HT5 §7| §bMT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4"
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4"
     },
     "b5191b99781943aab1ca2bbca901e7f0": {
       "name": "NOT_KALSHER",
@@ -182,7 +182,7 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "HT5",
-        "vanilla": "MT4",
+        "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT4",
         "nethop": "LT4",
@@ -192,7 +192,7 @@
         "mace": "LT4",
         "dia_smp": "HT4"
       },
-      "formatted_tag": "§8HT5 §7| §bMT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4"
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4"
     },
     "b5191b99-7819-43aa-b1ca-2bbca901e7f0": {
       "name": "NOT_KALSHER",
@@ -200,7 +200,7 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "HT5",
-        "vanilla": "MT4",
+        "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT4",
         "nethop": "LT4",
@@ -210,7 +210,7 @@
         "mace": "LT4",
         "dia_smp": "HT4"
       },
-      "formatted_tag": "§8HT5 §7| §bMT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4"
+      "formatted_tag": "§8HT5 §7| §3LT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4"
     },
     "torch7007": {
       "name": "Torch7007",
