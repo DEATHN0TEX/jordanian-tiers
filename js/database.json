@@ -844,6 +844,22 @@
         "youtube": ""
       },
       "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "None",
+        "dia_smp": "None",
+        "cart": "None"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788909300426,
+      "savedTiers": {
         "spear_mace": "HT3",
         "vanilla": "MT4",
         "uhc": "LT3",
@@ -857,8 +873,11 @@
         "dia_smp": "HT4",
         "cart": "HT4"
       },
-      "retired": {},
-      "lastSyncCheck": 1788909300426
+      "savedRetired": {},
+      "restricted": true,
+      "restrictedAt": 1789606683414,
+      "restrictedBy": "deathnote5030",
+      "restrictionReason": "No reason provided"
     },
     {
       "username": "heybaby",
