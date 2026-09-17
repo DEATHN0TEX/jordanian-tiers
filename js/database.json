@@ -10,6 +10,24 @@
         "youtube": ""
       },
       "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "None",
+        "dia_smp": "None",
+        "cart": "None"
+      },
+      "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
+      "lastSyncCheck": 1788286853886,
+      "region": "EU",
+      "retired": {},
+      "savedTiers": {
         "spear_mace": "HT4",
         "vanilla": "LT3",
         "uhc": "HT5",
@@ -23,10 +41,11 @@
         "dia_smp": "HT5",
         "cart": "MT4"
       },
-      "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
-      "lastSyncCheck": 1788286853886,
-      "region": "EU",
-      "retired": {}
+      "savedRetired": {},
+      "restricted": true,
+      "restrictedAt": 1789605107269,
+      "restrictedBy": "deathnote5030",
+      "restrictionReason": "No reason provided"
     },
     {
       "username": "SK_YX",
