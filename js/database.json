@@ -640,10 +640,10 @@
         "pot": "None",
         "nethop": "None",
         "smp": "None",
-        "sword": "None",
+        "sword": "LT3",
         "axe": "None",
         "mace": "LT5",
-        "overall": "MT5",
+        "overall": "HT5",
         "dia_smp": "LT3"
       },
       "retired": {},
