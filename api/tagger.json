@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-17T15:12:43.982Z",
+  "updated_at": "2026-09-17T15:13:23.546Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -995,16 +995,38 @@
     "luxicity": {
       "name": "Luxicity",
       "uuid": "39eada9546a3428eb6f7dd60277885f1",
-      "overall": "None",
-      "tiers": {},
-      "formatted_tag": ""
+      "overall": "LT3",
+      "tiers": {
+        "vanilla": "LT3",
+        "uhc": "HT3",
+        "pot": "HT3",
+        "nethop": "HT3",
+        "smp": "HT3",
+        "sword": "MT2",
+        "axe": "LT2",
+        "mace": "LT3",
+        "cart": "HT4",
+        "dia_smp": "LT3"
+      },
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §fMT2 §7| §7LT2 §7| §eLT3 §7| §bHT4 §7| §eLT3"
     },
     "39eada9546a3428eb6f7dd60277885f1": {
       "name": "Luxicity",
       "uuid": "39eada9546a3428eb6f7dd60277885f1",
-      "overall": "None",
-      "tiers": {},
-      "formatted_tag": ""
+      "overall": "LT3",
+      "tiers": {
+        "vanilla": "LT3",
+        "uhc": "HT3",
+        "pot": "HT3",
+        "nethop": "HT3",
+        "smp": "HT3",
+        "sword": "MT2",
+        "axe": "LT2",
+        "mace": "LT3",
+        "cart": "HT4",
+        "dia_smp": "LT3"
+      },
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §6HT3 §7| §fMT2 §7| §7LT2 §7| §eLT3 §7| §bHT4 §7| §eLT3"
     },
     "torch7007 ht4 uhc": {
       "name": "Torch7007 ht4 UHC",
