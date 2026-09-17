@@ -194,38 +194,12 @@ async function loadDatabase() {
   // 2. Secondary fallback: check embedded js/database.js globals (for local file:// protocol)
   if (!loadedFromJSON) {
     if (typeof INITIAL_PLAYERS !== 'undefined' && Array.isArray(INITIAL_PLAYERS) && INITIAL_PLAYERS.length > 0) {
-      const rawPlayers = JSON.parse(JSON.stringify(INITIAL_PLAYERS));
+      players = JSON.parse(JSON.stringify(INITIAL_PLAYERS));
       testers = (typeof INITIAL_TESTERS !== 'undefined' && Array.isArray(INITIAL_TESTERS)) ? JSON.parse(JSON.stringify(INITIAL_TESTERS)) : [];
-
-      // Check if LocalStorage already has synced updates (e.g. updated usernames from Mojang sync)
-      const localPlayersRaw = localStorage.getItem('jordan_mctiers_players');
-      if (localPlayersRaw) {
-        try {
-          const localPlayers = JSON.parse(localPlayersRaw);
-          const localMap = new Map();
-          localPlayers.forEach(lp => {
-            if (lp.uuid && lp.uuid !== 'cracked') localMap.set(lp.uuid, lp);
-            if (lp.username) localMap.set(lp.username.toLowerCase(), lp);
-          });
-
-          // Merge synced username and sync timestamps from localStorage
-          rawPlayers.forEach(p => {
-            const match = (p.uuid && localMap.get(p.uuid)) || (p.username && localMap.get(p.username.toLowerCase()));
-            if (match) {
-              if (match.username) p.username = match.username;
-              if (match.uuid) p.uuid = match.uuid;
-              if (match.lastSyncCheck) p.lastSyncCheck = match.lastSyncCheck;
-            }
-          });
-        } catch (e) {
-          console.warn("Could not merge local player sync state", e);
-        }
-      }
-
-      players = rawPlayers;
       localStorage.setItem('jordan_mctiers_players', JSON.stringify(players));
       localStorage.setItem('jordan_mctiers_testers', JSON.stringify(testers));
-      try { window.__mctiers_data_source = 'database.js'; } catch (e) {}
+      try { window.__mctiers_data_source = 'js/database.js'; } catch (e) {}
+      console.log(`Loaded ${players.length} players from js/database.js`);
     }
   }
 
@@ -410,16 +384,16 @@ const INITIAL_TESTERS = ${JSON.stringify(testers, null, 2)};
 // --- POINT SYSTEM (Exact MCTiers values) ---
 // Source: Official MCTiers ranking points distribution
 const TIER_POINTS = {
-  "HT1": 60, "LT1": 45,
-  "HT2": 30, "LT2": 20,
-  "HT3": 10, "LT3":  6,
-  "HT4":  4, "LT4":  3,
-  "HT5":  2, "LT5":  1,
+  "HT1": 60, "MT1": 52, "LT1": 45,
+  "HT2": 30, "MT2": 25, "LT2": 20,
+  "HT3": 10, "MT3":  8, "LT3":  6,
+  "HT4":  4, "MT4":  3, "LT4":  2,
+  "HT5":  2, "MT5": 1.5, "LT5":  1,
   "None": 0, "":     0
 };
 
 // Returns total points for a player across all gamemodes (excluding overall key)
-// Max possible: 9 gamemodes Ã— 60 pts = 540 pts
+// Max possible: 11 gamemodes × 60 pts = 660 pts
 function calculateTotalPoints(playerTiers) {
   let total = 0;
   for (const gmId in playerTiers) {
@@ -431,19 +405,24 @@ function calculateTotalPoints(playerTiers) {
 }
 
 // Derives the Overall tier badge from total point score
-// Thresholds scaled against 9-gamemode max of 540 pts
+// Thresholds scaled against 11-gamemode max of 660 pts
 function calculateOverallTier(playerTiers) {
   const total = calculateTotalPoints(playerTiers);
   if (total === 0)   return "None";
-  if (total >= 450)  return "HT1";
-  if (total >= 350)  return "LT1";
-  if (total >= 250)  return "HT2";
-  if (total >= 180)  return "LT2";
-  if (total >= 110)  return "HT3";
-  if (total >= 70)   return "LT3";
-  if (total >= 35)   return "HT4";
-  if (total >= 18)   return "LT4";
-  if (total >= 6)    return "HT5";
+  if (total >= 550)  return "HT1";
+  if (total >= 490)  return "MT1";
+  if (total >= 430)  return "LT1";
+  if (total >= 310)  return "HT2";
+  if (total >= 260)  return "MT2";
+  if (total >= 220)  return "LT2";
+  if (total >= 135)  return "HT3";
+  if (total >= 110)  return "MT3";
+  if (total >= 85)   return "LT3";
+  if (total >= 45)   return "HT4";
+  if (total >= 32)   return "MT4";
+  if (total >= 22)   return "LT4";
+  if (total >= 8)    return "HT5";
+  if (total >= 4)    return "MT5";
   return "LT5";
 }
 
@@ -495,7 +474,6 @@ function initializeNavbar() {
     const tabButton = document.createElement("button");
     tabButton.className = `nav-tab nav-tab-${gm.id} ${gm.id === activeGamemode ? "active" : ""}`;
     tabButton.dataset.gamemode = gm.id;
-    tabButton.title = gm.description;
     
     tabButton.innerHTML = `
       <div class="nav-tab-icon">${gm.icon}</div>
@@ -547,7 +525,13 @@ function isPlayerRetiredInGamemode(player, gmId) {
 }
 
 // --- TIERLIST RENDERING ---
-const TIER_ORDER = ["HT1", "LT1", "HT2", "LT2", "HT3", "LT3", "HT4", "LT4", "HT5", "LT5"];
+const TIER_ORDER = [
+  "HT1", "MT1", "LT1",
+  "HT2", "MT2", "LT2",
+  "HT3", "MT3", "LT3",
+  "HT4", "MT4", "LT4",
+  "HT5", "MT5", "LT5"
+];
 
 function renderTierList() {
   const container = document.getElementById("tierlist-rows");
@@ -633,7 +617,7 @@ function renderTierList() {
 
       const t = player.tiers[activeGamemode] || "None";
       if (t !== "None") {
-        const level = parseInt(t.charAt(2)); // e.g. HT1 -> 1, LT3 -> 3
+        const level = parseInt(t.charAt(2)); // e.g. HT1 -> 1, MT3 -> 3, LT3 -> 3
         if (level >= 1 && level <= 5) {
           playersByMainTier[level].push({ player, tier: t });
           totalVisible++;
@@ -647,13 +631,19 @@ function renderTierList() {
     }
     noResultsCard.classList.add("hidden");
 
-    // Sort players in each main tier: HT first, then LT, then alphabetical
+    // Helper to order sub-tiers within each level: HT (1), MT (2), LT (3)
+    const getSubTierRank = (tierStr) => {
+      if (tierStr.startsWith("HT")) return 1;
+      if (tierStr.startsWith("MT")) return 2;
+      return 3; // LT
+    };
+
+    // Sort players in each main tier: HT first, then MT, then LT, then alphabetical
     for (let level = 1; level <= 5; level++) {
       playersByMainTier[level].sort((a, b) => {
-        const aIsHigh = a.tier.startsWith("HT");
-        const bIsHigh = b.tier.startsWith("HT");
-        if (aIsHigh && !bIsHigh) return -1;
-        if (!aIsHigh && bIsHigh) return 1;
+        const rankA = getSubTierRank(a.tier);
+        const rankB = getSubTierRank(b.tier);
+        if (rankA !== rankB) return rankA - rankB;
         return a.player.username.localeCompare(b.player.username);
       });
     }
@@ -715,19 +705,27 @@ function renderTierList() {
 function createColumnPlayerCard(player, tier) {
   const card = document.createElement("div");
   const isHigh = tier.startsWith("HT");
-  card.className = `column-player-card ${isHigh ? "high-tier" : "low-tier"}`;
+  const isMid = tier.startsWith("MT");
+  card.className = `column-player-card ${isHigh ? "high-tier" : isMid ? "mid-tier" : "low-tier"}`;
   
   const skinId = skinIdentifier(player);
   const avatarUrl = skinUrl(`https://visage.surgeplay.com/bust/64/${encodeURIComponent(skinId)}`);
 
-  const chevronSVG = isHigh 
-    ? `<svg class="tier-chevron-icon high" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  let chevronSVG;
+  if (isHigh) {
+    chevronSVG = `<svg class="tier-chevron-icon high" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="17 11 12 6 7 11"></polyline>
         <polyline points="17 18 12 13 7 18"></polyline>
-       </svg>`
-    : `<svg class="tier-chevron-icon low" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+       </svg>`;
+  } else if (isMid) {
+    chevronSVG = `<svg class="tier-chevron-icon mid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="5" y1="12" x2="19" y2="12"></line>
+       </svg>`;
+  } else {
+    chevronSVG = `<svg class="tier-chevron-icon low" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="17 15 12 10 7 15"></polyline>
        </svg>`;
+  }
 
   card.innerHTML = `
     <img class="column-player-avatar" src="${avatarUrl}" alt="${player.username}" onerror="handleBustError(this, 64)">
@@ -751,12 +749,15 @@ function createOverallRankRow(player, pts, rank) {
   const skinId = skinIdentifier(player);
   const bustUrl = skinUrl(`https://visage.surgeplay.com/bust/256/${encodeURIComponent(skinId)}`);
   const isTop3 = rank <= 3;
+  const shimmerSvg = isTop3 ? `placements/${rank}-shimmer.svg` : 'placements/other.svg';
   const badgeHTML = `
     <div class="lb-top3-badge ${isTop3 ? `badge-rank-${rank}` : 'badge-rank-default'}">
-      ${isTop3 ? `<img src="placements/${rank}-shimmer.svg" class="lb-top3-shimmer-svg" alt="Rank ${rank}">` : ''}
+      <div class="lb-top3-bg">
+        <img src="${shimmerSvg}" class="lb-top3-shimmer-svg" alt="Rank ${rank}">
+      </div>
       <span class="lb-top3-num">${rank}.</span>
+      <img class="lb-top3-body" src="${bustUrl}" alt="${player.username}" onerror="handleBustError(this, 256)">
     </div>
-    <img class="lb-top3-body" src="${bustUrl}" alt="${player.username}" onerror="handleBustError(this, 256)">
   `;
 
   // Per-gamemode tier chips (all gamemodes except overall) - Concept 4: Connected HUD Strip

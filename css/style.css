@@ -29,14 +29,19 @@
 
   /* HSL Rank Colors (Tier 1 Gold, Tier 2 Silver, Tier 3 Bronze, Tier 4 Steel, Tier 5 Charcoal) */
   --color-ht1: #f0b232;
+  --color-mt1: #ebb037;
   --color-lt1: #e5a83b;
   --color-ht2: #b5c8db;
+  --color-mt2: #aabcca;
   --color-lt2: #9eafc0;
   --color-ht3: #e29058;
+  --color-mt3: #dc8a53;
   --color-lt3: #d9854e;
   --color-ht4: #9cb1c6;
+  --color-mt4: #95aac0;
   --color-lt4: #8ea4ba;
   --color-ht5: #8395a7;
+  --color-mt5: #7f91a3;
   --color-lt5: #7a8c9e;
   --color-unranked: #6e7681;
 }
@@ -733,6 +738,162 @@ body {
   100% { transform: scale(1.22) translateY(0) rotate(0deg); filter: drop-shadow(0 0 8px #ff9f43) brightness(1.25); }
 }
 
+/* 11. Dia SMP — Chorus Fruit Teleport Phase-Shift & Dimensional Warp */
+.nav-tab[data-gamemode="dia_smp"]:hover .nav-tab-icon,
+.nav-tab.nav-tab-dia_smp:hover .nav-tab-icon,
+.nav-tab[data-gamemode="diasmp"]:hover .nav-tab-icon,
+.nav-tab.nav-tab-diasmp:hover .nav-tab-icon {
+  animation: animDiaSmp 0.52s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes animDiaSmp {
+  0% {
+    transform: scale(1) translateY(0) rotate(0deg);
+    filter: grayscale(1) opacity(0.65);
+  }
+  20% {
+    transform: scale(1.32) translateY(-6px) rotate(-16deg) skewX(-10deg);
+    filter: drop-shadow(0 0 12px #d946ef) brightness(1.4);
+  }
+  50% {
+    transform: scale(1.48) translateY(2px) rotate(18deg) skewX(10deg);
+    filter: drop-shadow(0 0 18px #a855f7) brightness(1.55);
+  }
+  75% {
+    transform: scale(1.22) translateY(-2px) rotate(-5deg);
+    filter: drop-shadow(0 0 14px #e879f9) brightness(1.4);
+  }
+  100% {
+    transform: scale(1.28) translateY(-1px) rotate(0deg);
+    filter: drop-shadow(0 0 10px #c084fc) brightness(1.3);
+  }
+}
+.nav-tab[data-gamemode="dia_smp"]:active .nav-tab-icon,
+.nav-tab.nav-tab-dia_smp:active .nav-tab-icon {
+  transform: scale(0.88) rotate(-16deg);
+  filter: drop-shadow(0 0 20px #f472b6) brightness(1.7);
+  transition: transform 0.1s ease;
+}
+
+/* 12. Cart — Smooth Rail Acceleration & Primed TNT Hop */
+.nav-tab[data-gamemode="cart"]:hover .nav-tab-icon,
+.nav-tab.nav-tab-cart:hover .nav-tab-icon {
+  animation: animCart 0.46s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes animCart {
+  0% {
+    transform: scale(1) translateX(0) translateY(0) rotate(0deg);
+    filter: grayscale(1) opacity(0.65);
+  }
+  35% {
+    transform: scale(1.18) translateX(4px) translateY(-1px) rotate(5deg);
+    filter: drop-shadow(0 0 10px #ff3333) brightness(1.35);
+  }
+  68% {
+    transform: scale(1.32) translateX(1px) translateY(-6px) rotate(-3deg);
+    filter: drop-shadow(0 0 18px #ff4444) brightness(1.55);
+  }
+  100% {
+    transform: scale(1.24) translateX(0) translateY(-1px) rotate(0deg);
+    filter: drop-shadow(0 0 10px #ff4444) brightness(1.3);
+  }
+}
+.nav-tab[data-gamemode="cart"]:active .nav-tab-icon,
+.nav-tab.nav-tab-cart:active .nav-tab-icon {
+  transform: scale(1.35) translateY(-4px);
+  filter: drop-shadow(0 0 22px #ff1111) brightness(1.7);
+  transition: transform 0.1s ease;
+}
+
+/* ===================================================
+   GAMEMODE HOVER THEME COLORS (Accent + Tint)
+   =================================================== */
+
+/* 1. Overall — Trophy Gold */
+.nav-tab[data-gamemode="overall"]:hover,
+.nav-tab.nav-tab-overall:hover {
+  background: rgba(245, 197, 24, 0.08);
+  border-bottom-color: #f5c518;
+}
+
+/* 2. Spear/Mace — Sky Blue / Wind */
+.nav-tab[data-gamemode="spear_mace"]:hover,
+.nav-tab.nav-tab-spear_mace:hover {
+  background: rgba(88, 166, 255, 0.08);
+  border-bottom-color: #58a6ff;
+}
+
+/* 3. Vanilla — End Crystal Magenta */
+.nav-tab[data-gamemode="vanilla"]:hover,
+.nav-tab.nav-tab-vanilla:hover {
+  background: rgba(210, 136, 255, 0.08);
+  border-bottom-color: #d288ff;
+}
+
+/* 4. UHC — Crimson Heart */
+.nav-tab[data-gamemode="uhc"]:hover,
+.nav-tab.nav-tab-uhc:hover {
+  background: rgba(255, 77, 109, 0.08);
+  border-bottom-color: #ff4d6d;
+}
+
+/* 5. Pot — Splash Potion Pink */
+.nav-tab[data-gamemode="pot"]:hover,
+.nav-tab.nav-tab-pot:hover {
+  background: rgba(255, 82, 153, 0.08);
+  border-bottom-color: #ff5299;
+}
+
+/* 6. NethOP — Netherite Indigo / Purple */
+.nav-tab[data-gamemode="nethop"]:hover,
+.nav-tab.nav-tab-nethop:hover {
+  background: rgba(157, 122, 255, 0.08);
+  border-bottom-color: #9d7aff;
+}
+
+/* 7. SMP — Ender Pearl Cyan */
+.nav-tab[data-gamemode="smp"]:hover,
+.nav-tab.nav-tab-smp:hover {
+  background: rgba(0, 229, 255, 0.08);
+  border-bottom-color: #00e5ff;
+}
+
+/* 8. Sword — Diamond Blade Electric Blue */
+.nav-tab[data-gamemode="sword"]:hover,
+.nav-tab.nav-tab-sword:hover {
+  background: rgba(77, 201, 255, 0.08);
+  border-bottom-color: #4dc9ff;
+}
+
+/* 9. Axe — Emerald Mint Teal */
+.nav-tab[data-gamemode="axe"]:hover,
+.nav-tab.nav-tab-axe:hover {
+  background: rgba(45, 212, 191, 0.08);
+  border-bottom-color: #2dd4bf;
+}
+
+/* 10. Mace — Wind Burst Orange */
+.nav-tab[data-gamemode="mace"]:hover,
+.nav-tab.nav-tab-mace:hover {
+  background: rgba(255, 159, 67, 0.08);
+  border-bottom-color: #ff9f43;
+}
+
+/* 11. Dia SMP — Chorus Fruit Violet */
+.nav-tab[data-gamemode="dia_smp"]:hover,
+.nav-tab.nav-tab-dia_smp:hover,
+.nav-tab[data-gamemode="diasmp"]:hover,
+.nav-tab.nav-tab-diasmp:hover {
+  background: rgba(192, 132, 252, 0.08);
+  border-bottom-color: #c084fc;
+}
+
+/* 12. Cart — TNT Blast Red */
+.nav-tab[data-gamemode="cart"]:hover,
+.nav-tab.nav-tab-cart:hover {
+  background: rgba(255, 68, 68, 0.08);
+  border-bottom-color: #ff4444;
+}
+
 /* Active tab styles */
 .nav-tab.active {
   color: #fff;
@@ -868,25 +1029,35 @@ body {
 
 /* Colored themes for specific tiers */
 .rank-ht1-bg { background: linear-gradient(135deg, #d32f2f, #ef5350); }
+.rank-mt1-bg { background: linear-gradient(135deg, #c62828, #e53935); }
 .rank-lt1-bg { background: linear-gradient(135deg, #b71c1c, #d32f2f); }
 .rank-ht2-bg { background: linear-gradient(135deg, #e65100, #ff9800); }
+.rank-mt2-bg { background: linear-gradient(135deg, #ef6c00, #ffa726); }
 .rank-lt2-bg { background: linear-gradient(135deg, #f57c00, #ffb74d); }
 .rank-ht3-bg { background: linear-gradient(135deg, #fbc02d, #fff59d); }
+.rank-mt3-bg { background: linear-gradient(135deg, #f9a825, #ffee58); }
 .rank-lt3-bg { background: linear-gradient(135deg, #afb42b, #d4e157); }
 .rank-ht4-bg { background: linear-gradient(135deg, #2e7d32, #66bb6a); }
+.rank-mt4-bg { background: linear-gradient(135deg, #1b5e20, #4caf50); }
 .rank-lt4-bg { background: linear-gradient(135deg, #0288d1, #29b6f6); }
 .rank-ht5-bg { background: linear-gradient(135deg, #6a1b9a, #ab47bc); }
+.rank-mt5-bg { background: linear-gradient(135deg, #512da8, #9c27b0); }
 .rank-lt5-bg { background: linear-gradient(135deg, #4527a0, #7e57c2); }
 
 .rank-ht1-text { color: var(--color-ht1); }
+.rank-mt1-text { color: var(--color-mt1); }
 .rank-lt1-text { color: var(--color-lt1); }
 .rank-ht2-text { color: var(--color-ht2); }
+.rank-mt2-text { color: var(--color-mt2); }
 .rank-lt2-text { color: var(--color-lt2); }
 .rank-ht3-text { color: var(--color-ht3); }
+.rank-mt3-text { color: var(--color-mt3); }
 .rank-lt3-text { color: var(--color-lt3); }
 .rank-ht4-text { color: var(--color-ht4); }
+.rank-mt4-text { color: var(--color-mt4); }
 .rank-lt4-text { color: var(--color-lt4); }
 .rank-ht5-text { color: var(--color-ht5); }
+.rank-mt5-text { color: var(--color-mt5); }
 .rank-lt5-text { color: var(--color-lt5); }
 
 /* Tier Items List */
@@ -1023,14 +1194,19 @@ body {
 }
 
 .badge-ht1 { background: rgba(240, 178, 50, 0.16); color: var(--color-ht1); border-color: rgba(240, 178, 50, 0.4); }
+.badge-mt1 { background: rgba(235, 173, 55, 0.15); color: var(--color-mt1); border-color: rgba(235, 173, 55, 0.38); }
 .badge-lt1 { background: rgba(229, 168, 59, 0.13); color: var(--color-lt1); border-color: rgba(229, 168, 59, 0.35); }
 .badge-ht2 { background: rgba(181, 200, 219, 0.16); color: var(--color-ht2); border-color: rgba(181, 200, 219, 0.4); }
+.badge-mt2 { background: rgba(170, 188, 202, 0.15); color: var(--color-mt2); border-color: rgba(170, 188, 202, 0.38); }
 .badge-lt2 { background: rgba(158, 175, 192, 0.13); color: var(--color-lt2); border-color: rgba(158, 175, 192, 0.35); }
 .badge-ht3 { background: rgba(226, 144, 88, 0.16); color: var(--color-ht3); border-color: rgba(226, 144, 88, 0.4); }
+.badge-mt3 { background: rgba(220, 138, 83, 0.15); color: var(--color-mt3); border-color: rgba(220, 138, 83, 0.38); }
 .badge-lt3 { background: rgba(217, 133, 78, 0.13); color: var(--color-lt3); border-color: rgba(217, 133, 78, 0.35); }
 .badge-ht4 { background: rgba(156, 177, 198, 0.14); color: var(--color-ht4); border-color: rgba(156, 177, 198, 0.35); }
+.badge-mt4 { background: rgba(149, 170, 192, 0.13); color: var(--color-mt4); border-color: rgba(149, 170, 192, 0.33); }
 .badge-lt4 { background: rgba(142, 164, 186, 0.11); color: var(--color-lt4); border-color: rgba(142, 164, 186, 0.3); }
 .badge-ht5 { background: rgba(131, 149, 167, 0.14); color: var(--color-ht5); border-color: rgba(131, 149, 167, 0.35); }
+.badge-mt5 { background: rgba(127, 145, 163, 0.13); color: var(--color-mt5); border-color: rgba(127, 145, 163, 0.33); }
 .badge-lt5 { background: rgba(122, 140, 158, 0.11); color: var(--color-lt5); border-color: rgba(122, 140, 158, 0.3); }
 .badge-unranked { background: rgba(110, 118, 129, 0.15); color: var(--color-unranked); }
 
@@ -1849,17 +2025,39 @@ body.modal-open {
 .tier-explain-row {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
 }
 
 .badge-explain {
   font-family: var(--font-title);
   font-size: 0.72rem;
   font-weight: 700;
-  padding: 2px 6px;
-  border-radius: 4px;
-  width: 44px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  min-width: 44px;
+  width: auto;
+  white-space: nowrap;
   text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+
+/* Achievement Titles Badges in Information Modal */
+.tier-explain-row span.badge-explain[style] {
+  width: 190px;
+  min-width: 190px;
+  justify-content: flex-start;
+  padding: 6px 12px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .tier-explain-row p {
@@ -2494,7 +2692,7 @@ body.modal-open {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 8px 20px;
+  padding: 8px 20px 8px 0;
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -2504,10 +2702,10 @@ body.modal-open {
   margin-bottom: 4px;
 }
 
-.lb-col-rank   { width: 48px; flex-shrink: 0; }
+.lb-col-rank   { width: 136px; padding-left: 16px; flex-shrink: 0; }
 .lb-col-player { width: 220px; flex-shrink: 0; }
 .lb-col-region { margin-left: auto; width: 80px; text-align: center; flex-shrink: 0; }
-.lb-col-tiers  { width: 380px; flex-shrink: 0; text-align: center; }
+.lb-col-tiers  { width: 480px; flex-shrink: 0; text-align: center; }
 
 /* ---- Row ---- */
 .overall-rank-row {
@@ -2743,22 +2941,21 @@ body.modal-open {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 380px;
+  width: 480px;
   flex-shrink: 0;
 }
 
 .lb-hud-strip {
-  display: grid;
-  grid-template-columns: repeat(9, 39px);
+  display: flex;
   align-items: center;
-  justify-items: center;
-  background: rgba(14, 20, 30, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 9px;
-  overflow: visible;
-  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.08), 0 3px 12px rgba(0, 0, 0, 0.45);
+  justify-content: flex-end;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
   position: relative;
-  width: 351px;
+  width: auto;
 }
 
 .lb-hud-item {
@@ -2767,45 +2964,46 @@ body.modal-open {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 52px;
-  width: 39px;
-  padding: 4px 0;
   gap: 4px;
-  border-right: 1px solid rgba(255, 255, 255, 0.07);
-  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  border: none;
+  background: transparent;
+  padding: 0;
   cursor: pointer;
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1);
   box-sizing: border-box;
 }
 
-.lb-hud-item:first-child {
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-
+.lb-hud-item:first-child,
 .lb-hud-item:last-child {
-  border-right: none;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-radius: 0;
+  border: none;
 }
 
 .lb-hud-item:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: transparent;
+  transform: translateY(-2px);
   z-index: 20;
 }
 
 .lb-hud-icon {
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #141b26;
+  border: 1px solid rgba(255, 255, 255, 0.14);
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 3.5px;
   color: var(--text-muted);
   flex-shrink: 0;
-  transition: transform 0.18s, color 0.18s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+  transition: transform 0.18s, color 0.18s, border-color 0.18s;
 }
 
 .lb-hud-item:hover .lb-hud-icon {
-  transform: scale(1.18);
+  transform: scale(1.12);
+  border-color: rgba(255, 255, 255, 0.35);
   color: #fff;
 }
 
@@ -2816,17 +3014,19 @@ body.modal-open {
   object-fit: contain;
 }
 
-/* Dashed icon for untested modes — exact same 20px footprint */
+/* Dashed icon for untested modes */
 .lb-hud-icon.dashed {
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.02);
   border: 1.5px dashed rgba(255, 255, 255, 0.18);
   border-radius: 50%;
-  margin: 1px 0;
+  margin: 0;
+  padding: 0;
 }
 
 .lb-hud-item.is-untested {
-  opacity: 0.45;
+  opacity: 0.35;
   transition: opacity 0.2s;
 }
 
@@ -2834,73 +3034,112 @@ body.modal-open {
   opacity: 0.85;
 }
 
+/* Plain colored tier text (NO badge background/pill) */
 .lb-hud-val {
   font-family: var(--font-title);
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   font-weight: 900;
-  letter-spacing: 0.04em;
-  width: 30px;
-  height: 17px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
+  letter-spacing: 0.02em;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+  padding: 0;
   line-height: 1;
   text-transform: uppercase;
-  color: #fff;
   text-align: center;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.3);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
-  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.18s;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1);
   box-sizing: border-box;
   flex-shrink: 0;
 }
 
 .lb-hud-item:hover .lb-hud-val {
-  transform: scale(1.08);
-  box-shadow: 0 3px 8px rgba(0,0,0,0.6), inset 0 1px 2px rgba(255,255,255,0.5);
+  transform: scale(1.1);
+  box-shadow: none !important;
 }
 
-/* Floating Gamemode Tooltip on Hover */
+/* Tier text colors (pure text, using site's original color variables) */
+.lb-hud-val.badge-ht1 { color: var(--color-ht1) !important; }
+.lb-hud-val.badge-mt1 { color: var(--color-mt1) !important; }
+.lb-hud-val.badge-lt1 { color: var(--color-lt1) !important; }
+
+.lb-hud-val.badge-ht2 { color: var(--color-ht2) !important; }
+.lb-hud-val.badge-mt2 { color: var(--color-mt2) !important; }
+.lb-hud-val.badge-lt2 { color: var(--color-lt2) !important; }
+
+.lb-hud-val.badge-ht3 { color: var(--color-ht3) !important; }
+.lb-hud-val.badge-mt3 { color: var(--color-mt3) !important; }
+.lb-hud-val.badge-lt3 { color: var(--color-lt3) !important; }
+
+.lb-hud-val.badge-ht4 { color: var(--color-ht4) !important; }
+.lb-hud-val.badge-mt4 { color: var(--color-mt4) !important; }
+.lb-hud-val.badge-lt4 { color: var(--color-lt4) !important; }
+
+.lb-hud-val.badge-ht5 { color: var(--color-ht5) !important; }
+.lb-hud-val.badge-mt5 { color: var(--color-mt5) !important; }
+.lb-hud-val.badge-lt5 { color: var(--color-lt5) !important; }
+
+.lb-hud-val.badge-none,
+.lb-hud-val.badge-unranked { color: var(--color-unranked) !important; }
+
+/* Floating Gamemode Tooltip on Hover (Rank + Points) */
 .lb-tier-tooltip {
   position: absolute;
-  top: calc(100% + 8px);
+  bottom: calc(100% + 8px);
   left: 50%;
   transform: translateX(-50%) translateY(4px);
-  background: #0d121b;
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  border-radius: 7px;
-  padding: 6px 14px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8), 0 2px 8px rgba(0, 0, 0, 0.5);
+  background: rgba(13, 17, 23, 0.96);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.65);
+  border-radius: 6px;
+  padding: 5px 9px;
   pointer-events: none;
+  white-space: nowrap;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.15s cubic-bezier(0.16, 1, 0.3, 1), transform 0.15s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.15s;
-  z-index: 9999;
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+  z-index: 1000;
   text-align: center;
-  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
 }
 
-.lb-tier-tooltip-title {
-  font-family: var(--font-title);
-  font-size: 0.95rem;
-  font-weight: 800;
-  color: #ffffff;
-  line-height: 1.2;
-}
-
-.lb-tier-tooltip-pts {
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: #8b949e;
-  margin-top: 2px;
-  line-height: 1;
+.lb-tier-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: rgba(13, 17, 23, 0.96);
 }
 
 .lb-hud-item:hover .lb-tier-tooltip {
   opacity: 1;
   visibility: visible;
   transform: translateX(-50%) translateY(0);
+}
+
+.lb-tier-tooltip-title {
+  font-family: var(--font-title);
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.lb-tier-tooltip-pts {
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: #f5c518;
+  line-height: 1.1;
 }
 
 .modal-retired-pill {
@@ -2917,18 +3156,23 @@ body.modal-open {
 
 /* Tier 1 — Gold / Amber (Ultra Shiny) */
 .badge-ht1 { background: linear-gradient(145deg, #fce072 0%, #f5bc47 40%, #a87612 100%); border: 1px solid #ffe17d; color: #fff; box-shadow: 0 0 10px rgba(245, 188, 71, 0.45), inset 0 1px 2px rgba(255,255,255,0.8); }
+.badge-mt1 { background: linear-gradient(145deg, #f9d66b 0%, #ebb037 40%, #996a0d 100%); border: 1px solid #f8cd62; color: #fff; box-shadow: 0 0 9px rgba(235, 176, 55, 0.42), inset 0 1px 2px rgba(255,255,255,0.75); }
 .badge-lt1 { background: linear-gradient(145deg, #f5cc64 0%, #dca032 40%, #8c5e08 100%); border: 1px solid #f2c057; color: #fff; box-shadow: 0 0 8px rgba(220, 160, 50, 0.38), inset 0 1px 2px rgba(255,255,255,0.7); }
 /* Tier 2 — Silver / Slate (Liquid Chrome) */
 .badge-ht2 { background: linear-gradient(145deg, #eef5fc 0%, #b8cadc 40%, #637586 100%); border: 1px solid #e2edfb; color: #fff; box-shadow: 0 0 10px rgba(184, 202, 220, 0.4), inset 0 1px 2px rgba(255,255,255,0.85); }
+.badge-mt2 { background: linear-gradient(145deg, #e3eef9 0%, #aabcca 40%, #596a77 100%); border: 1px solid #d5e3ef; color: #fff; box-shadow: 0 0 9px rgba(170, 188, 202, 0.38), inset 0 1px 2px rgba(255,255,255,0.8); }
 .badge-lt2 { background: linear-gradient(145deg, #d8e6f5 0%, #9bb0c4 40%, #4f5f6e 100%); border: 1px solid #c9d8e7; color: #fff; box-shadow: 0 0 8px rgba(155, 176, 196, 0.35), inset 0 1px 2px rgba(255,255,255,0.75); }
 /* Tier 3 — Bronze / Copper (Polished Copper) */
 .badge-ht3 { background: linear-gradient(145deg, #ffc299 0%, #e8955c 40%, #965020 100%); border: 1px solid #ffd4b3; color: #fff; box-shadow: 0 0 10px rgba(232, 149, 92, 0.4), inset 0 1px 2px rgba(255,255,255,0.75); }
+.badge-mt3 { background: linear-gradient(145deg, #fab88b 0%, #dc8a53 40%, #8a4618 100%); border: 1px solid #f8c6a3; color: #fff; box-shadow: 0 0 9px rgba(220, 138, 83, 0.38), inset 0 1px 2px rgba(255,255,255,0.7); }
 .badge-lt3 { background: linear-gradient(145deg, #f5ae7d 0%, #cf7e48 40%, #7f3d10 100%); border: 1px solid #f7be94; color: #fff; box-shadow: 0 0 8px rgba(207, 126, 72, 0.35), inset 0 1px 2px rgba(255,255,255,0.65); }
 /* Tier 4 — Steel Slate */
 .badge-ht4 { background: linear-gradient(145deg, #b0c9df 0%, #8ba4bb 40%, #455a6d 100%); border: 1px solid #b9d2e7; color: #fff; box-shadow: 0 0 8px rgba(139, 164, 187, 0.3), inset 0 1px 1px rgba(255,255,255,0.5); }
+.badge-mt4 { background: linear-gradient(145deg, #a6bed3 0%, #829bae 40%, #3f5264 100%); border: 1px solid #adc4d8; color: #fff; box-shadow: 0 0 7px rgba(130, 155, 174, 0.26), inset 0 1px 1px rgba(255,255,255,0.48); }
 .badge-lt4 { background: linear-gradient(145deg, #9bb2c6 0%, #7890a5 40%, #3a4b5b 100%); border: 1px solid #a3b9cc; color: #fff; box-shadow: 0 0 6px rgba(120, 144, 165, 0.22), inset 0 1px 1px rgba(255,255,255,0.45); }
 /* Tier 5 — Dark Charcoal */
 .badge-ht5 { background: linear-gradient(145deg, #9cb0c2 0%, #7a8d9f 40%, #394754 100%); border: 1px solid #a4b7c8; color: #fff; box-shadow: 0 0 6px rgba(122, 141, 159, 0.2), inset 0 1px 1px rgba(255,255,255,0.4); }
+.badge-mt5 { background: linear-gradient(145deg, #92a5b5 0%, #718394 40%, #33404c 100%); border: 1px solid #99abb9; color: #fff; box-shadow: 0 0 6px rgba(113, 131, 148, 0.18), inset 0 1px 1px rgba(255,255,255,0.38); }
 .badge-lt5 { background: linear-gradient(145deg, #8899a8 0%, #687989 40%, #2d3842 100%); border: 1px solid #8e9fae; color: #fff; box-shadow: 0 0 6px rgba(104, 121, 137, 0.16), inset 0 1px 1px rgba(255,255,255,0.35); }
 /* Unranked */
 .badge-none {
@@ -2958,6 +3202,15 @@ body.modal-open {
 /* Make the custom spear icon smaller so it matches SVG scale */
 .gm-icon-img.spear-icon-img {
   transform: scale(0.85);
+  filter: drop-shadow(0 0 2px rgba(255,255,255,0.25));
+}
+
+.gm-icon-img.dia-smp-icon-img,
+.gm-icon-img.cart-icon-img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  transform: scale(0.95);
   filter: drop-shadow(0 0 2px rgba(255,255,255,0.25));
 }
 
@@ -3077,6 +3330,14 @@ body.modal-open {
   box-shadow: -3px 0 16px rgba(255, 74, 74, 0.3), 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
+.column-player-card.mid-tier {
+  border-left: 3px solid #f59e0b;
+}
+
+.column-player-card.mid-tier:hover {
+  box-shadow: -3px 0 16px rgba(245, 158, 11, 0.3), 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
 .column-player-card.low-tier {
   border-left: 3px solid #3b82f6;
 }
@@ -3118,6 +3379,10 @@ body.modal-open {
   color: #ff4a4a;
 }
 
+.tier-chevron-icon.mid {
+  color: #f59e0b;
+}
+
 .tier-chevron-icon.low {
   color: #3b82f6;
 }
@@ -3130,28 +3395,40 @@ body.modal-open {
   padding-left: 0;
   border-left: none;
   overflow: visible;
-  align-items: stretch;
+  align-items: center;
   position: relative;
 }
 
 .lb-top3-badge {
   position: relative;
-  width: 160px;
-  min-width: 160px;
+  width: 136px;
+  min-width: 136px;
   height: 56px;
   display: flex;
   align-items: center;
-  padding-left: 20px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  clip-path: path('M 8 0 L 100 0 L 135 56 L 8 56 A 8 8 0 0 1 0 48 L 0 8 A 8 8 0 0 1 8 0 Z');
+  padding-left: 16px;
   flex-shrink: 0;
   z-index: 10;
-  overflow: hidden;
-  isolation: isolate;
+  overflow: visible;
+  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
+  will-change: transform;
 }
 
-.lb-top3-badge.badge-rank-default {
+/* Background container with slanted right edge */
+.lb-top3-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 24px) 100%, 0 100%);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.lb-top3-badge.badge-rank-default .lb-top3-bg {
   background: rgba(255, 255, 255, 0.03);
 }
 
@@ -3161,32 +3438,50 @@ body.modal-open {
   left: 0;
   width: 100%;
   height: 100%;
+  object-fit: fill;
   pointer-events: none;
-  z-index: 1;
+}
+
+/* Snappy popup animation sliding left */
+.overall-rank-row:hover .lb-top3-badge,
+.lb-top3-badge:hover {
+  transform: translateX(-10px) scale(1.025);
+  filter: drop-shadow(-4px 2px 8px rgba(0, 0, 0, 0.6));
+}
+
+.overall-rank-row:hover .lb-top3-num {
+  transform: scale(1.05);
+}
+
+.overall-rank-row:hover .lb-top3-body {
+  transform: scale(1.06);
 }
 
 .lb-top3-num {
   font-family: var(--font-title);
-  font-size: 2rem;
+  font-size: 1.85rem;
   font-weight: 900;
   font-style: italic;
   color: #fff;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.75);
   z-index: 4;
   user-select: none;
   position: relative;
+  line-height: 1;
+  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-/* Bust image — sibling of badge, absolutely placed on the row */
+/* Bust image — full large original size, right shoulder covers badge edge */
 .lb-top3-body {
   position: absolute;
-  left: 82px;
+  left: 85px;
   top: -12px;
   height: 68px;
-  filter: drop-shadow(-2px 4px 8px rgba(0,0,0,0.7));
-  z-index: 10;
+  filter: drop-shadow(-2px 4px 8px rgba(0, 0, 0, 0.7));
+  z-index: 5;
   pointer-events: none;
   image-rendering: pixelated;
+  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .badge-rank-default {
@@ -3221,7 +3516,7 @@ body.modal-open {
 }
 
 .lb-player-cell.no-avatar {
-  margin-left: 73px; /* push name past where the bust sits */
+  margin-left: 14px;
 }
 
 /* Podium Ranks (Gold, Silver, Bronze Borders & Highlights) */
