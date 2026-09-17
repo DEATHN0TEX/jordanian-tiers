@@ -474,7 +474,6 @@ function initializeNavbar() {
     const tabButton = document.createElement("button");
     tabButton.className = `nav-tab nav-tab-${gm.id} ${gm.id === activeGamemode ? "active" : ""}`;
     tabButton.dataset.gamemode = gm.id;
-    tabButton.title = gm.description;
     
     tabButton.innerHTML = `
       <div class="nav-tab-icon">${gm.icon}</div>
