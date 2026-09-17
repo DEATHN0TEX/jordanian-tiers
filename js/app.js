@@ -386,9 +386,9 @@ const INITIAL_TESTERS = ${JSON.stringify(testers, null, 2)};
 const TIER_POINTS = {
   "HT1": 60, "MT1": 52, "LT1": 45,
   "HT2": 30, "MT2": 25, "LT2": 20,
-  "HT3": 10, "MT3":  8, "LT3":  6,
-  "HT4":  4, "MT4":  3, "LT4":  2,
-  "HT5":  2, "MT5": 1.5, "LT5":  1,
+  "HT3": 12, "MT3": 10, "LT3":  8,
+  "HT4":  6, "MT4":  5, "LT4":  4,
+  "HT5":  3, "MT5":  2, "LT5":  1,
   "None": 0, "":     0
 };
 
@@ -415,14 +415,14 @@ function calculateOverallTier(playerTiers) {
   if (total >= 310)  return "HT2";
   if (total >= 260)  return "MT2";
   if (total >= 220)  return "LT2";
-  if (total >= 135)  return "HT3";
-  if (total >= 110)  return "MT3";
-  if (total >= 85)   return "LT3";
-  if (total >= 45)   return "HT4";
-  if (total >= 32)   return "MT4";
-  if (total >= 22)   return "LT4";
-  if (total >= 8)    return "HT5";
-  if (total >= 4)    return "MT5";
+  if (total >= 130)  return "HT3";
+  if (total >= 105)  return "MT3";
+  if (total >= 80)   return "LT3";
+  if (total >= 55)   return "HT4";
+  if (total >= 42)   return "MT4";
+  if (total >= 30)   return "LT4";
+  if (total >= 18)   return "HT5";
+  if (total >= 8)    return "MT5";
   return "LT5";
 }
 
