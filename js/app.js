@@ -18,41 +18,69 @@ function skinUrl(url) {
 
 // --- IMAGE ERROR FALLBACKS (Cracked / Non-premium accounts) ---
 // Steve's correct UUID: c06f89064c8a49119c29ea1dbd1aab82
+const STEVE_UUID = 'c06f89064c8a49119c29ea1dbd1aab82';
+
 function handleBustError(img, size = 256) {
-  if (!img.dataset.triedCount) {
+  const skinId = img.dataset.skinId || STEVE_UUID;
+  const count = parseInt(img.dataset.triedCount || '0', 10);
+  if (count === 0) {
+    // Attempt 1: Crafthead (real-time Cloudflare Worker, ultra-fast)
     img.dataset.triedCount = '1';
-    img.src = skinUrl(`https://visage.surgeplay.com/bust/${size}/c06f89064c8a49119c29ea1dbd1aab82`);
-  } else if (img.dataset.triedCount === '1') {
+    img.src = skinUrl(`https://crafthead.net/bust/${encodeURIComponent(skinId)}`);
+  } else if (count === 1) {
+    // Attempt 2: Minotar 3D bust
     img.dataset.triedCount = '2';
-    img.src = skinUrl(`https://mc-heads.net/bust/c06f89064c8a49119c29ea1dbd1aab82/${size}`);
+    img.src = skinUrl(`https://minotar.net/bust/${encodeURIComponent(skinId)}/${size}`);
+  } else if (count === 2) {
+    // Attempt 3: MC-Heads body
+    img.dataset.triedCount = '3';
+    img.src = skinUrl(`https://mc-heads.net/body/${encodeURIComponent(skinId)}/${size}`);
   } else {
+    // Final fallback: Steve default
     img.onerror = null;
-    img.src = skinUrl(`https://crafatar.com/renders/bust/c06f89064c8a49119c29ea1dbd1aab82?size=${size}`);
+    img.src = skinUrl(`https://crafthead.net/bust/${STEVE_UUID}`);
   }
 }
 
 function handleAvatarError(img, size = 64) {
-  img.onerror = null;
-  img.src = skinUrl(`https://mc-heads.net/bust/c06f89064c8a49119c29ea1dbd1aab82/${size}`);
+  const skinId = img.dataset.skinId || STEVE_UUID;
+  const count = parseInt(img.dataset.triedCount || '0', 10);
+  if (count === 0) {
+    img.dataset.triedCount = '1';
+    img.src = skinUrl(`https://crafthead.net/avatar/${encodeURIComponent(skinId)}`);
+  } else if (count === 1) {
+    img.dataset.triedCount = '2';
+    img.src = skinUrl(`https://mc-heads.net/avatar/${encodeURIComponent(skinId)}/${size}`);
+  } else {
+    img.onerror = null;
+    img.src = skinUrl(`https://crafthead.net/avatar/${STEVE_UUID}`);
+  }
 }
 
-// Returns the correct identifier for skin API lookups:
+// Returns the clean identifier for skin API lookups:
 // - For cracked players (uuid === "cracked"): returns Steve's UUID
-// - For everyone else (premium or not yet synced): returns their username
-const STEVE_UUID = 'c06f89064c8a49119c29ea1dbd1aab82';
+// - For premium players with UUID: returns clean 32-char UUID without hyphens (fastest & directly bypasses name cache)
+// - Fallback: returns trimmed username
 function skinIdentifier(player) {
-  return (player.uuid === 'cracked') ? STEVE_UUID : (player.username || '').trim();
+  if (!player) return STEVE_UUID;
+  if (player.uuid === 'cracked') return STEVE_UUID;
+  if (player.uuid && typeof player.uuid === 'string') {
+    const clean = player.uuid.replace(/-/g, '').trim().toLowerCase();
+    if (clean.length === 32) return clean;
+  }
+  return (player.username || '').trim();
 }
 
-// --- AUTOMATIC MINECRAFT USERNAME & UUID BACKGROUND SYNC ---
+// --- AUTOMATIC MINECRAFT USERNAME & SKIN BACKGROUND SYNC ---
 async function startBackgroundSync() {
-  console.log("Background username sync started.");
+  console.log("Background username & skin sync started.");
   
-  // Find players needing sync: skip cracked accounts, check those missing UUID, missing lastSyncCheck, or checked > 24h ago
+  // Find players needing sync: skip cracked accounts
+  // Check players missing UUID, or checked > 15 minutes ago
   const candidates = players.filter(p => {
-    if (p.uuid === 'cracked') return false; // Skip cracked accounts
+    if (p.uuid === 'cracked') return false;
     const timeSinceCheck = Date.now() - (p.lastSyncCheck || 0);
-    return !p.uuid || !p.lastSyncCheck || timeSinceCheck > 24 * 60 * 60 * 1000;
+    return !p.uuid || !p.lastSyncCheck || timeSinceCheck > 15 * 60 * 1000;
   });
 
   if (candidates.length === 0) {
@@ -60,41 +88,101 @@ async function startBackgroundSync() {
     return;
   }
 
-  // Sort candidates so the ones checked longest ago (or never) are processed first
-  candidates.sort((a, b) => (a.lastSyncCheck || 0) - (b.lastSyncCheck || 0));
+  // Sort candidates: players without UUID first, then oldest checked
+  candidates.sort((a, b) => {
+    if (!a.uuid && b.uuid) return -1;
+    if (a.uuid && !b.uuid) return 1;
+    return (a.lastSyncCheck || 0) - (b.lastSyncCheck || 0);
+  });
 
-  // Limit background sync to 5 candidates per page load to prevent rate limiting
-  const toCheck = candidates.slice(0, 5);
+  // Check up to 15 candidates per run (throttled)
+  const toCheck = candidates.slice(0, 15);
   console.log(`Checking ${toCheck.length} candidate(s) in background...`);
 
   let anyChanges = false;
 
   for (let i = 0; i < toCheck.length; i++) {
     const player = toCheck[i];
-    const identifier = player.uuid || player.username;
+    const cleanUuid = (player.uuid && player.uuid !== 'cracked') ? player.uuid.replace(/-/g, '').toLowerCase() : null;
+    const identifier = cleanUuid || player.username;
+    if (!identifier) continue;
     
-    // 500ms delay between requests to prevent rate limiting
     if (i > 0) {
-      await new Promise(resolve => setTimeout(resolve, 500));
+      await new Promise(resolve => setTimeout(resolve, 150));
     }
 
     try {
-      const res = await fetch(`https://playerdb.co/api/player/minecraft/${encodeURIComponent(identifier)}`);
-      if (!res.ok) throw new Error(`HTTP status ${res.status}`);
-      
-      const data = await res.json();
-      if (data.success && data.data && data.data.player) {
-        const freshName = data.data.player.username;
-        const freshUuid = data.data.player.id;
+      let freshName = null;
+      let freshUuid = null;
+      let freshSkinHash = null;
 
-        // Check if anything changed
-        if (player.username !== freshName || player.uuid !== freshUuid) {
-          console.log(`Auto-sync updated: ${player.username} -> ${freshName} (UUID: ${freshUuid})`);
+      // 1. Primary: Crafthead profile (direct Mojang session proxy with CORS)
+      try {
+        const res = await fetch(`https://crafthead.net/profile/${encodeURIComponent(identifier)}`);
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.name && data.id) {
+            freshName = data.name;
+            freshUuid = data.id.replace(/-/g, '').toLowerCase();
+            const texProp = (data.properties || []).find(p => p.name === 'textures');
+            if (texProp && texProp.value) {
+              try {
+                const texData = JSON.parse(atob(texProp.value));
+                if (texData.textures && texData.textures.SKIN && texData.textures.SKIN.url) {
+                  freshSkinHash = texData.textures.SKIN.url.split('/').pop();
+                }
+              } catch (e) {}
+            }
+          }
+        }
+      } catch (err) {}
+
+      // 2. Fallback: Ashcon Mojang API
+      if (!freshName) {
+        try {
+          const res = await fetch(`https://api.ashcon.app/mojang/v2/user/${encodeURIComponent(identifier)}`);
+          if (res.ok) {
+            const data = await res.json();
+            if (data && data.username && data.uuid) {
+              freshName = data.username;
+              freshUuid = data.uuid.replace(/-/g, '').toLowerCase();
+              if (data.textures && data.textures.skin && data.textures.skin.url) {
+                freshSkinHash = data.textures.skin.url.split('/').pop();
+              }
+            }
+          }
+        } catch (err) {}
+      }
+
+      // 3. Fallback: PlayerDB
+      if (!freshName) {
+        try {
+          const res = await fetch(`https://playerdb.co/api/player/minecraft/${encodeURIComponent(identifier)}`);
+          if (res.ok) {
+            const data = await res.json();
+            if (data.success && data.data && data.data.player) {
+              freshName = data.data.player.username;
+              freshUuid = (data.data.player.id || '').replace(/-/g, '').toLowerCase();
+            }
+          }
+        } catch (err) {}
+      }
+
+      if (freshName) {
+        if (player.username !== freshName) {
+          console.log(`Auto-sync updated username: ${player.username} -> ${freshName}`);
           player.username = freshName;
+          anyChanges = true;
+        }
+        if (freshUuid && player.uuid !== freshUuid) {
           player.uuid = freshUuid;
           anyChanges = true;
         }
-
+        if (freshSkinHash && player.skinHash !== freshSkinHash) {
+          console.log(`Auto-sync detected new skin texture for ${player.username}`);
+          player.skinHash = freshSkinHash;
+          anyChanges = true;
+        }
         player.lastSyncCheck = Date.now();
       }
     } catch (err) {
@@ -104,7 +192,7 @@ async function startBackgroundSync() {
 
   if (anyChanges) {
     SKIN_CACHE_BUSTER = Date.now();
-    localStorage.setItem("jordan_mctiers_players", JSON.stringify(players));
+    saveDatabase();
     renderEditorPlayersList();
     renderTierList();
   }
@@ -728,7 +816,7 @@ function createColumnPlayerCard(player, tier) {
   }
 
   card.innerHTML = `
-    <img class="column-player-avatar" src="${avatarUrl}" alt="${player.username}" onerror="handleBustError(this, 64)">
+    <img class="column-player-avatar" src="${avatarUrl}" alt="${player.username}" data-skin-id="${skinId}" onerror="handleBustError(this, 64)">
     <span class="column-player-name">${player.username}</span>
     <div class="column-player-right">
       ${chevronSVG}
@@ -756,7 +844,7 @@ function createOverallRankRow(player, pts, rank) {
         <img src="${shimmerSvg}" class="lb-top3-shimmer-svg" alt="Rank ${rank}">
       </div>
       <span class="lb-top3-num">${rank}.</span>
-      <img class="lb-top3-body" src="${bustUrl}" alt="${player.username}" onerror="handleBustError(this, 256)">
+      <img class="lb-top3-body" src="${bustUrl}" alt="${player.username}" data-skin-id="${skinId}" onerror="handleBustError(this, 256)">
     </div>
   `;
 
@@ -837,7 +925,7 @@ function createPlayerCard(player) {
 
   let detailsHTML = `
     <div class="player-avatar-wrapper">
-      <img class="player-avatar" src="${avatarUrl}" alt="${player.username}" onerror="handleBustError(this, 128)">
+      <img class="player-avatar" src="${avatarUrl}" alt="${player.username}" data-skin-id="${skinId}" onerror="handleBustError(this, 128)">
     </div>
     <div class="player-info">
       <span class="player-name">${player.username}</span>
@@ -877,11 +965,10 @@ function openPlayerModal(player) {
   const skinId = skinIdentifier(player);
   const sources = [
     `https://visage.surgeplay.com/bust/512/${encodeURIComponent(skinId)}`,
-    `https://crafatar.com/renders/body/${encodeURIComponent(skinId)}?size=512&default=c06f89064c8a49119c29ea1dbd1aab82`,
-    `https://mc-heads.net/bust/${encodeURIComponent(skinId)}/512`,
-    `https://visage.surgeplay.com/bust/512/c06f89064c8a49119c29ea1dbd1aab82`,
-    `https://crafatar.com/renders/body/c06f89064c8a49119c29ea1dbd1aab82?size=512`,
-    `https://mc-heads.net/bust/c06f89064c8a49119c29ea1dbd1aab82/512`
+    `https://crafthead.net/bust/${encodeURIComponent(skinId)}`,
+    `https://minotar.net/bust/${encodeURIComponent(skinId)}/512`,
+    `https://mc-heads.net/body/${encodeURIComponent(skinId)}/512`,
+    `https://crafthead.net/bust/${STEVE_UUID}`
   ].map(skinUrl);
 
   let currentSourceIndex = 0;
@@ -1220,7 +1307,7 @@ function renderEditorPlayersList() {
     const avatarUrl = skinUrl(`https://visage.surgeplay.com/bust/48/${encodeURIComponent(skinId)}`);
 
     item.innerHTML = `
-      <img class="editor-player-avatar" src="${avatarUrl}" alt="${player.username}" onerror="handleBustError(this, 48)">
+      <img class="editor-player-avatar" src="${avatarUrl}" alt="${player.username}" data-skin-id="${skinId}" onerror="handleBustError(this, 48)">
       <span class="editor-player-name">${player.username} ${player.nickname ? `(${player.nickname})` : ""} <span class="lb-region-badge" style="font-size:0.65rem; padding: 2px 5px; margin-left: 4px;">${(player.region || 'EU').toUpperCase()}</span></span>
       <div class="editor-player-actions">
         <button class="btn-edit-action" data-username="${player.username}">Edit</button>
@@ -1996,7 +2083,7 @@ function setupEventListeners() {
           }
           helpText.innerHTML = `
             <div style="display:flex; align-items:center; gap:8px; margin-top:8px; color: var(--success-color); font-size: 0.72rem;">
-              <img src="${skinUrl(`https://crafatar.com/renders/bust/${encodeURIComponent(correctName)}?size=24&default=c06f89064c8a49119c29ea1dbd1aab82`)}" style="border-radius:4px; width:16px; height:16px; image-rendering:pixelated;" alt="${correctName}" onerror="handleBustError(this, 24)">
+              <img src="${skinUrl(`https://crafthead.net/bust/${encodeURIComponent(data.data.player.id || correctName)}`)}" style="border-radius:4px; width:16px; height:16px; image-rendering:pixelated;" alt="${correctName}" onerror="handleBustError(this, 24)">
               <span>Verified Minecraft name: <strong>${correctName}</strong></span>
             </div>
           `;
