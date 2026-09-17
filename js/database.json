@@ -844,18 +844,18 @@
         "youtube": ""
       },
       "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
+        "spear_mace": "HT3",
+        "vanilla": "MT4",
+        "uhc": "LT3",
         "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "None",
-        "dia_smp": "None",
-        "cart": "None"
+        "nethop": "LT3",
+        "smp": "LT3",
+        "sword": "HT3",
+        "axe": "LT3",
+        "mace": "HT3",
+        "overall": "HT4",
+        "dia_smp": "HT4",
+        "cart": "HT4"
       },
       "retired": {},
       "lastSyncCheck": 1788909300426
