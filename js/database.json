@@ -772,8 +772,8 @@
         "smp": "HT3",
         "sword": "MT2",
         "axe": "LT2",
-        "mace": "None",
-        "overall": "MT3",
+        "mace": "LT3",
+        "overall": "LT3",
         "cart": "HT4",
         "dia_smp": "LT3"
       },
