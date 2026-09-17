@@ -12,14 +12,14 @@
       "tiers": {
         "spear_mace": "HT4",
         "vanilla": "LT3",
-        "uhc": "HT5",
+        "uhc": "MT5",
         "pot": "LT5",
         "nethop": "LT5",
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
         "mace": "LT3",
-        "overall": "MT4",
+        "overall": "LT4",
         "dia_smp": "HT5",
         "cart": "MT4"
       },
