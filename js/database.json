@@ -48,7 +48,8 @@
         "axe": "HT4",
         "mace": "LT3",
         "overall": "MT4",
-        "dia_smp": "HT4"
+        "dia_smp": "HT4",
+        "cart": "MT4"
       },
       "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
       "lastSyncCheck": 1788284252509,
