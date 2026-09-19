@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-19T19:57:41.107Z",
+  "updated_at": "2026-09-19T20:05:21.341Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -13,10 +13,10 @@
     "deathn0te_": {
       "name": "DEATHN0TE_",
       "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
-      "overall": "LT4",
+      "overall": "MT4",
       "tiers": {
         "spear_mace": "HT4",
-        "vanilla": "LT3",
+        "vanilla": "MT3",
         "uhc": "MT5",
         "pot": "LT5",
         "nethop": "LT5",
@@ -27,15 +27,15 @@
         "dia_smp": "HT5",
         "cart": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §eLT3 §7| §8MT5 §7| §8LT5 §7| §8LT5 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §eLT3 §7| §8HT5 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §6MT3 §7| §8MT5 §7| §8LT5 §7| §8LT5 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §eLT3 §7| §8HT5 §7| §bHT4"
     },
     "deathnote_": {
       "name": "DEATHN0TE_",
       "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
-      "overall": "LT4",
+      "overall": "MT4",
       "tiers": {
         "spear_mace": "HT4",
-        "vanilla": "LT3",
+        "vanilla": "MT3",
         "uhc": "MT5",
         "pot": "LT5",
         "nethop": "LT5",
@@ -46,15 +46,15 @@
         "dia_smp": "HT5",
         "cart": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §eLT3 §7| §8MT5 §7| §8LT5 §7| §8LT5 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §eLT3 §7| §8HT5 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §6MT3 §7| §8MT5 §7| §8LT5 §7| §8LT5 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §eLT3 §7| §8HT5 §7| §bHT4"
     },
     "43681bb8b2c34cd4affd385f71b4395f": {
       "name": "DEATHN0TE_",
       "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
-      "overall": "LT4",
+      "overall": "MT4",
       "tiers": {
         "spear_mace": "HT4",
-        "vanilla": "LT3",
+        "vanilla": "MT3",
         "uhc": "MT5",
         "pot": "LT5",
         "nethop": "LT5",
@@ -65,15 +65,15 @@
         "dia_smp": "HT5",
         "cart": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §eLT3 §7| §8MT5 §7| §8LT5 §7| §8LT5 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §eLT3 §7| §8HT5 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §6MT3 §7| §8MT5 §7| §8LT5 §7| §8LT5 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §eLT3 §7| §8HT5 §7| §bHT4"
     },
     "43681bb8-b2c3-4cd4-affd-385f71b4395f": {
       "name": "DEATHN0TE_",
       "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
-      "overall": "LT4",
+      "overall": "MT4",
       "tiers": {
         "spear_mace": "HT4",
-        "vanilla": "LT3",
+        "vanilla": "MT3",
         "uhc": "MT5",
         "pot": "LT5",
         "nethop": "LT5",
@@ -84,7 +84,7 @@
         "dia_smp": "HT5",
         "cart": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §eLT3 §7| §8MT5 §7| §8LT5 §7| §8LT5 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §eLT3 §7| §8HT5 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §6MT3 §7| §8MT5 §7| §8LT5 §7| §8LT5 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §eLT3 §7| §8HT5 §7| §bHT4"
     },
     "sk_yx": {
       "name": "SK_YX",
