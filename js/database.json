@@ -11,7 +11,7 @@
       },
       "tiers": {
         "spear_mace": "HT4",
-        "vanilla": "LT3",
+        "vanilla": "MT3",
         "uhc": "MT5",
         "pot": "LT5",
         "nethop": "LT5",
@@ -19,7 +19,7 @@
         "sword": "LT4",
         "axe": "LT4",
         "mace": "LT3",
-        "overall": "LT4",
+        "overall": "MT4",
         "dia_smp": "HT5",
         "cart": "HT4"
       },
