@@ -479,7 +479,7 @@
         "youtube": ""
       },
       "tiers": {
-        "spear_mace": "LT3",
+        "spear_mace": "LT2",
         "vanilla": "HT5",
         "uhc": "LT3",
         "pot": "LT3",
@@ -488,7 +488,7 @@
         "sword": "LT2",
         "axe": "HT3",
         "mace": "HT3",
-        "overall": "HT4",
+        "overall": "MT3",
         "dia_smp": "HT4"
       },
       "retired": {},
