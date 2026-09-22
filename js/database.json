@@ -564,10 +564,10 @@
         "pot": "HT5",
         "nethop": "None",
         "smp": "HT4",
-        "sword": "HT4",
+        "sword": "LT3",
         "axe": "None",
         "mace": "LT3",
-        "overall": "HT5"
+        "overall": "LT4"
       },
       "retired": {},
       "lastSyncCheck": 1788464854959
