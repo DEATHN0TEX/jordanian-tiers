@@ -1184,6 +1184,18 @@
       ],
       "avatar": "luxicity",
       "online": false
+    },
+    {
+      "name": "Hamburble",
+      "role": "Tester",
+      "gamemodes": [
+        "Mace",
+        "Spearmace",
+        "UHC",
+        "Sword"
+      ],
+      "avatar": "Hamburble",
+      "online": true
     }
   ]
 }
