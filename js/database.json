@@ -102,9 +102,9 @@
         "sword": "LT3",
         "axe": "LT3",
         "mace": "LT4",
-        "overall": "MT3",
+        "overall": "HT4",
         "dia_smp": "HT4",
-        "cart": "HT1"
+        "cart": "HT4"
       },
       "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
       "lastSyncCheck": 1788284236514,
