@@ -1127,6 +1127,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1790190924999
+    },
+    {
+      "username": "zeinors",
+      "uuid": "649f10cbc77844559903645bf1f7dfff",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "zeinors",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "LT3",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "MT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1790455265976
     }
   ],
   "testers": [
