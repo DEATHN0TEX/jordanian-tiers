@@ -226,12 +226,13 @@
         "pot": "None",
         "nethop": "None",
         "smp": "None",
-        "sword": "None",
+        "sword": "LT5",
         "axe": "None",
         "mace": "LT4",
         "overall": "MT5"
       },
-      "lastSyncCheck": 1787243353931
+      "lastSyncCheck": 1787243353931,
+      "retired": {}
     },
     {
       "username": "ragoslayer",
