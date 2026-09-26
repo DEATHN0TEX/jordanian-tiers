@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-26T21:58:32.076Z",
+  "updated_at": "2026-09-26T22:12:52.121Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1365,6 +1365,15 @@
       "overall": "LT5",
       "tiers": {
         "vanilla": "LT4"
+      },
+      "formatted_tag": "§3LT4"
+    },
+    "bismilah_": {
+      "name": "bismilah_",
+      "uuid": "",
+      "overall": "LT5",
+      "tiers": {
+        "spear_mace": "LT4"
       },
       "formatted_tag": "§3LT4"
     }
