@@ -1153,6 +1153,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1790455265976
+    },
+    {
+      "username": "bismalah_",
+      "uuid": "",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "s3tp",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "LT4",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1790459911269
     }
   ],
   "testers": [
