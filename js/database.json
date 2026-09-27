@@ -1166,6 +1166,22 @@
         "youtube": ""
       },
       "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "None",
+        "dia_smp": "None",
+        "cart": "None"
+      },
+      "retired": {},
+      "lastSyncCheck": 1790459911269,
+      "savedTiers": {
         "spear_mace": "LT4",
         "vanilla": "LT4",
         "uhc": "None",
@@ -1177,8 +1193,11 @@
         "mace": "None",
         "overall": "MT5"
       },
-      "retired": {},
-      "lastSyncCheck": 1790459911269
+      "savedRetired": {},
+      "restricted": true,
+      "restrictedAt": 1790471820504,
+      "restrictedBy": "deathnote5030",
+      "restrictionReason": "No reason provided"
     },
     {
       "username": "bismilah_",
