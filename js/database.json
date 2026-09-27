@@ -1201,10 +1201,29 @@
         "sword": "None",
         "axe": "None",
         "mace": "None",
-        "overall": "None"
+        "overall": "None",
+        "dia_smp": "None",
+        "cart": "None"
       },
       "retired": {},
-      "lastSyncCheck": 1790460771341
+      "lastSyncCheck": 1790460771341,
+      "savedTiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "None"
+      },
+      "savedRetired": {},
+      "restricted": true,
+      "restrictedAt": 1790471790205,
+      "restrictedBy": "deathnote5030",
+      "restrictionReason": "No reason provided"
     }
   ],
   "testers": [
