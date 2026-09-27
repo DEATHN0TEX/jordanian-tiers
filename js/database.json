@@ -1243,6 +1243,32 @@
       "restrictedAt": 1790471790205,
       "restrictedBy": "deathnote5030",
       "restrictionReason": "No reason provided"
+    },
+    {
+      "username": "ribostar",
+      "uuid": "d44cef8657294dfb935811900c88b474",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "s3tp",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "LT4",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1790471896690
     }
   ],
   "testers": [
