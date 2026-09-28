@@ -1269,6 +1269,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1790471896690
+    },
+    {
+      "username": "BluePrimee",
+      "uuid": "1c78a762656a432199314d769fbadd9d",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT5",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1790616313002
     }
   ],
   "testers": [
