@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-09-28T17:26:10.057Z",
+  "updated_at": "2026-09-28T17:27:36.771Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -373,16 +373,12 @@
       },
       "formatted_tag": "§8LT5"
     },
-    "blueblueblurblue": {
-      "name": "BlueBlueBlurBlue",
-      "uuid": "1c78a762-656a-4321-9931-4d769fbadd9d",
-      "overall": "LT5",
-      "tiers": {
-        "spear_mace": "HT5",
-        "sword": "HT5",
-        "mace": "LT4"
-      },
-      "formatted_tag": "§8HT5 §7| §8HT5 §7| §3LT4"
+    "blueprimee": {
+      "name": "BluePrimee",
+      "uuid": "1c78a762656a432199314d769fbadd9d",
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     },
     "1c78a762656a432199314d769fbadd9d": {
       "name": "BluePrimee",
@@ -392,7 +388,7 @@
       "formatted_tag": ""
     },
     "1c78a762-656a-4321-9931-4d769fbadd9d": {
-      "name": "BlueBlueBlurBlue",
+      "name": "BluePrimee",
       "uuid": "1c78a762-656a-4321-9931-4d769fbadd9d",
       "overall": "LT5",
       "tiers": {
@@ -1395,13 +1391,6 @@
         "vanilla": "LT4"
       },
       "formatted_tag": "§3LT4"
-    },
-    "blueprimee": {
-      "name": "BluePrimee",
-      "uuid": "1c78a762656a432199314d769fbadd9d",
-      "overall": "None",
-      "tiers": {},
-      "formatted_tag": ""
     }
   }
 }
