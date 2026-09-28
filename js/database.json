@@ -11,15 +11,15 @@
       },
       "tiers": {
         "spear_mace": "HT4",
-        "vanilla": "MT3",
-        "uhc": "MT5",
+        "vanilla": "LT3",
+        "uhc": "LT5",
         "pot": "LT5",
         "nethop": "LT5",
         "smp": "LT4",
         "sword": "LT4",
         "axe": "LT4",
         "mace": "LT3",
-        "overall": "MT4",
+        "overall": "LT4",
         "dia_smp": "HT5",
         "cart": "HT4"
       },
@@ -47,7 +47,7 @@
         "sword": "HT4",
         "axe": "HT4",
         "mace": "LT3",
-        "overall": "HT4",
+        "overall": "LT4",
         "dia_smp": "HT4",
         "cart": "HT4"
       },
@@ -67,7 +67,7 @@
       },
       "tiers": {
         "spear_mace": "HT5",
-        "vanilla": "MT4",
+        "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT4",
         "nethop": "LT4",
@@ -75,7 +75,7 @@
         "sword": "LT4",
         "axe": "LT4",
         "mace": "LT4",
-        "overall": "MT4",
+        "overall": "LT4",
         "dia_smp": "HT4"
       },
       "uuid": "b5191b99-7819-43aa-b1ca-2bbca901e7f0",
@@ -95,14 +95,14 @@
       "tiers": {
         "spear_mace": "LT4",
         "vanilla": "HT5",
-        "uhc": "MT4",
-        "pot": "MT4",
+        "uhc": "LT4",
+        "pot": "LT4",
         "nethop": "HT4",
         "smp": "HT4",
         "sword": "LT3",
         "axe": "LT3",
         "mace": "LT4",
-        "overall": "HT4",
+        "overall": "LT4",
         "dia_smp": "HT4",
         "cart": "HT4"
       },
@@ -180,7 +180,7 @@
         "sword": "HT5",
         "axe": "None",
         "mace": "LT4",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "lastSyncCheck": 1788284237024
     },
@@ -204,7 +204,7 @@
         "sword": "LT4",
         "axe": "LT4",
         "mace": "LT4",
-        "overall": "HT5"
+        "overall": "LT5"
       },
       "lastSyncCheck": 1787243338092,
       "retired": {}
@@ -229,7 +229,7 @@
         "sword": "LT5",
         "axe": "None",
         "mace": "LT4",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "lastSyncCheck": 1787243353931,
       "retired": {}
@@ -281,7 +281,7 @@
         "sword": "HT5",
         "axe": "None",
         "mace": "HT5",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1788286852869
@@ -307,7 +307,7 @@
         "sword": "LT4",
         "axe": "None",
         "mace": "LT4",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1787958121855
@@ -359,7 +359,7 @@
         "sword": "None",
         "axe": "None",
         "mace": "LT4",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1788308994174
@@ -411,7 +411,7 @@
         "sword": "None",
         "axe": "None",
         "mace": "LT4",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1788437173358
@@ -437,7 +437,7 @@
         "sword": "None",
         "axe": "None",
         "mace": "HT4",
-        "overall": "HT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1788440648875
@@ -463,7 +463,7 @@
         "sword": "None",
         "axe": "HT4",
         "mace": "None",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1788453794898
@@ -481,7 +481,7 @@
       },
       "tiers": {
         "spear_mace": "LT3",
-        "vanilla": "MT4",
+        "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT3",
         "nethop": "LT3",
@@ -534,15 +534,15 @@
       },
       "tiers": {
         "spear_mace": "HT3",
-        "vanilla": "MT5",
+        "vanilla": "LT5",
         "uhc": "None",
         "pot": "HT4",
         "nethop": "LT3",
-        "smp": "MT3",
+        "smp": "LT3",
         "sword": "HT4",
         "axe": "HT5",
-        "mace": "MT3",
-        "overall": "MT4"
+        "mace": "LT3",
+        "overall": "LT4"
       },
       "retired": {},
       "lastSyncCheck": 1788463889700
@@ -563,12 +563,12 @@
         "vanilla": "None",
         "uhc": "LT3",
         "pot": "LT4",
-        "nethop": "MT4",
+        "nethop": "LT4",
         "smp": "HT4",
         "sword": "LT3",
         "axe": "HT4",
         "mace": "LT3",
-        "overall": "MT4"
+        "overall": "LT4"
       },
       "retired": {},
       "lastSyncCheck": 1788464854959
@@ -620,7 +620,7 @@
         "sword": "None",
         "axe": "None",
         "mace": "LT3",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1788542877456
@@ -646,7 +646,7 @@
         "sword": "LT3",
         "axe": "None",
         "mace": "LT5",
-        "overall": "HT5",
+        "overall": "LT5",
         "dia_smp": "LT3"
       },
       "retired": {},
@@ -673,7 +673,7 @@
         "sword": "None",
         "axe": "None",
         "mace": "LT3",
-        "overall": "HT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1788546614338
@@ -699,7 +699,7 @@
         "sword": "None",
         "axe": "None",
         "mace": "LT3",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1788548174363
@@ -751,7 +751,7 @@
         "sword": "HT3",
         "axe": "None",
         "mace": "None",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1788724404675
@@ -774,7 +774,7 @@
         "pot": "HT3",
         "nethop": "HT3",
         "smp": "HT3",
-        "sword": "MT2",
+        "sword": "LT2",
         "axe": "LT2",
         "mace": "LT3",
         "overall": "LT3",
@@ -857,7 +857,7 @@
         "sword": "HT3",
         "axe": "LT3",
         "mace": "HT3",
-        "overall": "LT3",
+        "overall": "HT4",
         "dia_smp": "HT4",
         "cart": "HT4"
       },
@@ -882,10 +882,10 @@
         "pot": "None",
         "nethop": "None",
         "smp": "None",
-        "sword": "MT5",
+        "sword": "LT5",
         "axe": "None",
-        "mace": "MT5",
-        "overall": "MT5",
+        "mace": "LT5",
+        "overall": "LT5",
         "cart": "LT5"
       },
       "retired": {},
@@ -938,7 +938,7 @@
         "sword": "LT4",
         "axe": "None",
         "mace": "LT3",
-        "overall": "HT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1789059337274
@@ -964,7 +964,7 @@
         "sword": "LT3",
         "axe": "LT3",
         "mace": "None",
-        "overall": "MT4",
+        "overall": "LT4",
         "dia_smp": "HT4",
         "cart": "HT4"
       },
@@ -1045,7 +1045,7 @@
         "sword": "None",
         "axe": "None",
         "mace": "LT3",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1789673951828
@@ -1071,7 +1071,7 @@
         "sword": "None",
         "axe": "None",
         "mace": "None",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1789853078451
@@ -1097,7 +1097,7 @@
         "sword": "None",
         "axe": "None",
         "mace": "None",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1789857714149
@@ -1149,7 +1149,7 @@
         "sword": "None",
         "axe": "None",
         "mace": "None",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "retired": {},
       "lastSyncCheck": 1790455265976
@@ -1191,7 +1191,7 @@
         "sword": "None",
         "axe": "None",
         "mace": "None",
-        "overall": "MT5"
+        "overall": "LT5"
       },
       "savedRetired": {},
       "restricted": true,

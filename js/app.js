@@ -472,12 +472,16 @@ const INITIAL_TESTERS = ${JSON.stringify(testers, null, 2)};
 // --- POINT SYSTEM (Exact MCTiers values) ---
 // Source: Official MCTiers ranking points distribution
 const TIER_POINTS = {
-  "HT1": 60, "MT1": 52, "LT1": 45,
-  "HT2": 30, "MT2": 25, "LT2": 20,
-  "HT3": 12, "MT3": 10, "LT3":  8,
-  "HT4":  6, "MT4":  5, "LT4":  4,
-  "HT5":  3, "MT5":  2, "LT5":  1,
+  "HT1": 60, "LT1": 45,
+  "HT2": 30, "LT2": 20,
+  "HT3": 10, "LT3":  6,
+  "HT4":  4, "LT4":  3,
+  "HT5":  2, "LT5":  1,
   "None": 0, "":     0
+};
+
+const LEGACY_TIER_POINTS = {
+  "MT1": 52, "MT2": 25, "MT3": 10, "MT4": 5, "MT5": 2
 };
 
 // Returns total points for a player across all gamemodes (excluding overall key)
@@ -486,7 +490,7 @@ function calculateTotalPoints(playerTiers) {
   let total = 0;
   for (const gmId in playerTiers) {
     if (gmId !== "overall") {
-      total += TIER_POINTS[playerTiers[gmId]] || 0;
+      total += TIER_POINTS[playerTiers[gmId]] ?? LEGACY_TIER_POINTS[playerTiers[gmId]] ?? 0;
     }
   }
   return total;
@@ -498,19 +502,14 @@ function calculateOverallTier(playerTiers) {
   const total = calculateTotalPoints(playerTiers);
   if (total === 0)   return "None";
   if (total >= 550)  return "HT1";
-  if (total >= 490)  return "MT1";
   if (total >= 430)  return "LT1";
   if (total >= 310)  return "HT2";
-  if (total >= 260)  return "MT2";
   if (total >= 220)  return "LT2";
   if (total >= 130)  return "HT3";
-  if (total >= 105)  return "MT3";
   if (total >= 80)   return "LT3";
   if (total >= 55)   return "HT4";
-  if (total >= 42)   return "MT4";
   if (total >= 30)   return "LT4";
   if (total >= 18)   return "HT5";
-  if (total >= 8)    return "MT5";
   return "LT5";
 }
 
@@ -614,11 +613,11 @@ function isPlayerRetiredInGamemode(player, gmId) {
 
 // --- TIERLIST RENDERING ---
 const TIER_ORDER = [
-  "HT1", "MT1", "LT1",
-  "HT2", "MT2", "LT2",
-  "HT3", "MT3", "LT3",
-  "HT4", "MT4", "LT4",
-  "HT5", "MT5", "LT5"
+  "HT1", "LT1",
+  "HT2", "LT2",
+  "HT3", "LT3",
+  "HT4", "LT4",
+  "HT5", "LT5"
 ];
 
 function renderTierList() {
