@@ -404,7 +404,7 @@
       },
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "None",
+        "vanilla": "LT4",
         "uhc": "None",
         "pot": "None",
         "nethop": "None",
