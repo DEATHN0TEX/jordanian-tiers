@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-02T15:30:06.105Z",
+  "updated_at": "2026-10-02T15:40:09.566Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -632,30 +632,30 @@
       "uuid": "5d575d8216214b5ab2605fa4594ec827",
       "overall": "LT5",
       "tiers": {
-        "vanilla": "HT4",
+        "vanilla": "HT5",
         "axe": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §bHT4"
+      "formatted_tag": "§8HT5 §7| §bHT4"
     },
     "irypr0": {
       "name": "iRYPro",
       "uuid": "5d575d8216214b5ab2605fa4594ec827",
       "overall": "LT5",
       "tiers": {
-        "vanilla": "HT4",
+        "vanilla": "HT5",
         "axe": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §bHT4"
+      "formatted_tag": "§8HT5 §7| §bHT4"
     },
     "5d575d8216214b5ab2605fa4594ec827": {
       "name": "iRYPro",
       "uuid": "5d575d8216214b5ab2605fa4594ec827",
       "overall": "LT5",
       "tiers": {
-        "vanilla": "HT4",
+        "vanilla": "HT5",
         "axe": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §bHT4"
+      "formatted_tag": "§8HT5 §7| §bHT4"
     },
     "jackolan10rn": {
       "name": "JackOLan10rn",
