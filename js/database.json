@@ -1269,6 +1269,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1790471896690
+    },
+    {
+      "username": "qPhil",
+      "uuid": "68c8896486fd4ba2bf2b93110b017b7e",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "4povv",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "LT3",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1791068825697
     }
   ],
   "testers": [
