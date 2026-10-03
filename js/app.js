@@ -957,9 +957,11 @@ function createPlayerCard(player) {
 // --- PLAYER DETAILS MODAL ---
 function openPlayerModal(player) {
   const modal = document.getElementById("player-modal");
-  
-  const skinImg = document.getElementById("profile-skin-img");
-  if (!skinImg) return;
+  if (!modal) return;
+
+  try {
+    const skinImg = document.getElementById("profile-skin-img");
+    if (!skinImg) return;
 
   const skinId = skinIdentifier(player);
   const sources = [
@@ -1006,30 +1008,33 @@ function openPlayerModal(player) {
   const totalPts = calculateTotalPoints(player.tiers);
   const titleInfo = getPlayerTitle(totalPts);
 
-  // Set skin glow matching rank color
-  const skinGlow = document.getElementById("profile-skin-glow");
-  if (skinGlow) {
-    skinGlow.style.background = `radial-gradient(circle, ${titleInfo.color}3a 0%, ${titleInfo.color}00 70%)`;
-  }
-
   // Set Title badge
   const titleContainer = document.getElementById("profile-title-container");
   if (titleContainer) {
     titleContainer.innerHTML = `
-      <span class="player-title-badge ${titleInfo.tierClass}">
+      <div class="mct-title-pill">
         <svg class="title-icon" viewBox="0 0 24 24" fill="currentColor" width="13" height="13">${titleInfo.iconSvg}</svg>
         <span>${titleInfo.title}</span>
-      </span>
+      </div>
     `;
   }
 
   // Set Server region
+  const regionNames = {
+    'EU': 'Europe',
+    'NA': 'North America',
+    'ME': 'Middle East',
+    'AS': 'Asia',
+    'SA': 'South America',
+    'OC': 'Oceania'
+  };
+  const regKey = (player.region || 'EU').toUpperCase();
   const serverElem = document.getElementById("profile-server");
   if (serverElem) {
-    serverElem.textContent = player.region || "EU";
+    serverElem.textContent = regionNames[regKey] || player.region || 'Europe';
   }
 
-  // Global rank calculation (only for players with pts > 0)
+  // Global rank calculation
   const sortedOverall = [...players]
     .map(p => ({
       username: p.username,
@@ -1038,47 +1043,45 @@ function openPlayerModal(player) {
     .filter(p => p._pts > 0)
     .sort((a, b) => b._pts - a._pts);
   const rankIndex = sortedOverall.findIndex(p => p.username.toLowerCase() === player.username.toLowerCase());
-  const rankNumber = (rankIndex >= 0 && totalPts > 0) ? `#${rankIndex + 1}` : "-";
 
-  const globalRankElem = document.getElementById("profile-global-rank");
-  if (globalRankElem) globalRankElem.textContent = rankNumber;
-
-  const totalPtsElem = document.getElementById("profile-total-pts");
-  if (totalPtsElem) totalPtsElem.textContent = `${totalPts} PTS`;
-
-  const badgesContainer = document.getElementById("profile-badges");
-  badgesContainer.innerHTML = "";
-  if (player.badges && player.badges.length > 0) {
-    player.badges.forEach(b => {
-      const badge = document.createElement("span");
-      badge.className = "profile-badge-item";
-      badge.textContent = b;
-      badgesContainer.appendChild(badge);
-    });
+  const posTag = document.getElementById("profile-pos-tag");
+  if (posTag) {
+    posTag.className = "mct-pos-tag";
+    if (rankIndex === 0) {
+      posTag.classList.add("rank-1");
+      posTag.textContent = "1.";
+    } else if (rankIndex === 1) {
+      posTag.classList.add("rank-2");
+      posTag.textContent = "2.";
+    } else if (rankIndex === 2) {
+      posTag.classList.add("rank-3");
+      posTag.textContent = "3.";
+    } else if (rankIndex > 2) {
+      posTag.classList.add("rank-other");
+      posTag.textContent = `${rankIndex + 1}.`;
+    } else {
+      posTag.classList.add("rank-other");
+      posTag.textContent = "-";
+    }
   }
 
+  const totalPtsElem = document.getElementById("profile-total-pts");
+  if (totalPtsElem) totalPtsElem.textContent = `(${totalPts} points)`;
+
   const discordLink = document.getElementById("profile-social-discord");
-  const youtubeLink = document.getElementById("profile-social-youtube");
+  const discordText = document.getElementById("profile-discord-text");
 
   if (player.socials && player.socials.discord) {
     discordLink.classList.remove("hidden");
     discordLink.href = "javascript:void(0)";
     discordLink.title = `Discord: ${player.socials.discord}`;
+    if (discordText) discordText.textContent = player.socials.discord;
     discordLink.onclick = () => {
       navigator.clipboard.writeText(player.socials.discord);
       showToast(`Copied Discord: ${player.socials.discord}`);
     };
   } else {
     discordLink.classList.add("hidden");
-  }
-
-  if (player.socials && player.socials.youtube) {
-    youtubeLink.classList.remove("hidden");
-    youtubeLink.href = player.socials.youtube;
-    youtubeLink.title = "View YouTube Channel";
-    youtubeLink.onclick = null;
-  } else {
-    youtubeLink.classList.add("hidden");
   }
 
   const namemcLink = document.getElementById("profile-social-namemc");
@@ -1092,63 +1095,61 @@ function openPlayerModal(player) {
     }
   }
 
-  // Active vs Untested count
-  const nonOverallGms = INITIAL_GAMEMODES.filter(gm => gm.id !== "overall");
-  const activeCount = nonOverallGms.filter(gm => player.tiers[gm.id] && player.tiers[gm.id] !== "None").length;
-  const untestedCount = nonOverallGms.length - activeCount;
-  const summaryElem = document.getElementById("profile-tiers-summary");
-  if (summaryElem) {
-    summaryElem.textContent = `${activeCount} Ranked · ${untestedCount} Untested`;
-  }
-
+  // Populate Tiers (Icon style)
   const tiersGrid = document.getElementById("profile-tiers-grid");
   tiersGrid.innerHTML = "";
 
-  INITIAL_GAMEMODES.forEach(gm => {
-    const pTier = player.tiers[gm.id] || "None";
-    const tierCard = document.createElement("div");
+  const nonOverallGms = INITIAL_GAMEMODES.filter(gm => gm.id !== "overall");
 
-    if (gm.id === "overall") {
-      tierCard.className = "modal-tier-card is-overall";
-      tierCard.innerHTML = `
-        <div class="modal-tier-gm">
-          <div class="modal-gm-icon-box overall-icon-box">
-            ${gm.icon}
-          </div>
-          <div class="modal-gm-info">
-            <span class="modal-gm-name">${gm.name}</span>
-            <span class="modal-gm-pts-desc">${totalPts} Total Points</span>
-          </div>
-        </div>
-        <span class="modal-tier-val badge-points">${totalPts} PTS</span>
-      `;
-    } else {
-      const isTested = pTier !== "None";
-      const pts = isTested ? (TIER_POINTS[pTier] || 0) : 0;
-      const isRetired = isTested && isPlayerRetiredInGamemode(player, gm.id);
-
-      tierCard.className = `modal-tier-card ${isTested ? 'is-ranked' : 'is-untested'}`;
-      tierCard.innerHTML = `
-        <div class="modal-tier-gm">
-          <div class="modal-gm-icon-box ${isTested ? '' : 'dashed'}">
-            ${gm.icon}
-          </div>
-          <div class="modal-gm-info">
-            <span class="modal-gm-name">${gm.name}</span>
-            <span class="modal-gm-pts-desc">${isTested ? `+${pts} pts` : 'Untested'}</span>
-          </div>
-        </div>
-        <div class="modal-tier-badge-wrap">
-          ${isRetired ? '<span class="modal-retired-pill">Retired</span>' : ''}
-          ${isTested 
-            ? `<span class="modal-tier-val badge-${pTier.toLowerCase()}">${pTier}</span>`
-            : `<span class="modal-tier-val badge-none">-</span>`
-          }
-        </div>
-      `;
+  // Sort: tested gamemodes first by tier points (highest to lowest), then untested
+  const sortedGms = [...nonOverallGms].sort((a, b) => {
+    const tA = player.tiers[a.id] || "None";
+    const tB = player.tiers[b.id] || "None";
+    const isTestedA = tA !== "None";
+    const isTestedB = tB !== "None";
+    if (isTestedA && !isTestedB) return -1;
+    if (!isTestedA && isTestedB) return 1;
+    if (isTestedA && isTestedB) {
+      return (TIER_POINTS[tB] || 0) - (TIER_POINTS[tA] || 0);
     }
-    
-    tiersGrid.appendChild(tierCard);
+    return 0;
+  });
+
+  sortedGms.forEach(gm => {
+    const pTier = player.tiers[gm.id] || "None";
+    const isTested = pTier !== "None";
+    const pts = isTested ? (TIER_POINTS[pTier] || 0) : 0;
+    const isRetired = isTested && isPlayerRetiredInGamemode(player, gm.id);
+
+    const tierItem = document.createElement("div");
+    tierItem.className = `mct-tier-item ${isTested ? 'is-ranked' : 'is-untested'}`;
+
+    const tooltipText = isTested 
+      ? `${gm.name} • ${pTier} (+${pts} pts)${isRetired ? ' [Retired]' : ''}`
+      : `${gm.name} • Untested`;
+    tierItem.setAttribute("data-tooltip", tooltipText);
+
+    let tierBadgeHtml = '';
+    if (isTested) {
+      const cleanTier = isRetired && pTier.toUpperCase().startsWith("R") ? pTier.substring(1) : pTier;
+      const colorClass = `mct-tier-${cleanTier.toLowerCase()}`;
+      if (isRetired) {
+        tierBadgeHtml = `<span class="mct-tier-badge ${colorClass}"><span class="mct-retired-wrap"><span class="r-paren">(</span><span class="r-letter">R</span><span class="r-paren">)</span></span>${cleanTier}</span>`;
+      } else {
+        tierBadgeHtml = `<span class="mct-tier-badge ${colorClass}">${pTier}</span>`;
+      }
+    } else {
+      tierBadgeHtml = `<span class="mct-tier-badge mct-tier-none">-</span>`;
+    }
+
+    tierItem.innerHTML = `
+      <div class="mct-tier-circle ${isTested ? '' : 'is-untested'}">
+        ${gm.icon}
+      </div>
+      ${tierBadgeHtml}
+    `;
+
+    tiersGrid.appendChild(tierItem);
   });
 
   const historyContainer = document.getElementById("profile-history");
@@ -1174,9 +1175,11 @@ function openPlayerModal(player) {
         historyContainer.appendChild(timelineItem);
       });
     } else {
-      historyContainer.innerHTML = `<p style="font-size:0.8rem; color:var(--text-muted); font-style:italic;">No recorded history events.</p>`;
     }
   }
+} catch (err) {
+  console.error("Error populating player modal:", err);
+}
 
   modal.classList.remove("hidden");
 }

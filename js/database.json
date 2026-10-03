@@ -89,12 +89,12 @@
       "city": "Zarqa",
       "badges": [],
       "socials": {
-        "discord": "torch4084",
+        "discord": "",
         "youtube": ""
       },
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "LT4",
+        "vanilla": "HT5",
         "uhc": "LT4",
         "pot": "LT4",
         "nethop": "HT4",
@@ -161,13 +161,13 @@
       "lastSyncCheck": 1788286853381
     },
     {
-      "username": "BluePrimee",
+      "username": "BlueBlueBlurBlue",
       "uuid": "1c78a762-656a-4321-9931-4d769fbadd9d",
       "nickname": "",
       "city": "Amman",
       "badges": [],
       "socials": {
-        "discord": "____3190",
+        "discord": "",
         "youtube": ""
       },
       "tiers": {
@@ -182,9 +182,7 @@
         "mace": "LT4",
         "overall": "LT5"
       },
-      "lastSyncCheck": 1788284237024,
-      "retired": {},
-      "region": "ME"
+      "lastSyncCheck": 1788284237024
     },
     {
       "username": "ryze5429",
@@ -400,12 +398,12 @@
       "city": "Amman",
       "badges": [],
       "socials": {
-        "discord": "polyut_min",
+        "discord": "",
         "youtube": ""
       },
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "LT4",
+        "vanilla": "None",
         "uhc": "None",
         "pot": "None",
         "nethop": "None",
@@ -452,12 +450,12 @@
       "city": "Amman",
       "badges": [],
       "socials": {
-        "discord": "tenax.1",
+        "discord": "",
         "youtube": ""
       },
       "tiers": {
         "spear_mace": "None",
-        "vanilla": "LT3",
+        "vanilla": "HT4",
         "uhc": "None",
         "pot": "None",
         "nethop": "None",
@@ -540,7 +538,7 @@
         "uhc": "None",
         "pot": "HT4",
         "nethop": "LT3",
-        "smp": "HT3",
+        "smp": "LT3",
         "sword": "HT4",
         "axe": "HT5",
         "mace": "LT3",
@@ -846,12 +844,12 @@
       "city": "",
       "badges": [],
       "socials": {
-        "discord": "astoiddestroyer_51989",
+        "discord": "",
         "youtube": ""
       },
       "tiers": {
         "spear_mace": "HT3",
-        "vanilla": "HT4",
+        "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT3",
         "nethop": "LT3",
@@ -1271,58 +1269,6 @@
       },
       "retired": {},
       "lastSyncCheck": 1790471896690
-    },
-    {
-      "username": "BluePrimee",
-      "uuid": "1c78a762656a432199314d769fbadd9d",
-      "nickname": "",
-      "region": "ME",
-      "city": "",
-      "badges": [],
-      "socials": {
-        "discord": "",
-        "youtube": ""
-      },
-      "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "None"
-      },
-      "retired": {},
-      "lastSyncCheck": 1790616313002
-    },
-    {
-      "username": "<@1337014976342265988>",
-      "uuid": "cracked",
-      "nickname": "",
-      "region": "ME",
-      "city": "",
-      "badges": [],
-      "socials": {
-        "discord": "",
-        "youtube": ""
-      },
-      "tiers": {
-        "spear_mace": "None",
-        "vanilla": "None",
-        "uhc": "None",
-        "pot": "None",
-        "nethop": "None",
-        "smp": "None",
-        "sword": "None",
-        "axe": "None",
-        "mace": "None",
-        "overall": "None"
-      },
-      "retired": {},
-      "lastSyncCheck": 1791033371199
     }
   ],
   "testers": [

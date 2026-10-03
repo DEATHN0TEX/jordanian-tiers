@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css?v=2.4">
+  <link rel="stylesheet" href="css/style.css?v=3.1">
 </head>
 <body>
   <div class="app-container">
@@ -101,8 +101,8 @@
 
   <!-- MODAL: Player Profile Details (MCTiers Style) -->
   <div class="modal-backdrop hidden" id="player-modal" data-lenis-prevent>
-    <div class="mct-modal-card" data-lenis-prevent>
-      <button class="mct-modal-close" id="player-modal-close" title="Close Profile">&times;</button>
+    <div class="modal-card player-profile-card mct-modal-card" data-lenis-prevent>
+      <button class="modal-close-btn mct-modal-close" id="player-modal-close" title="Close Profile">&times;</button>
       
       <!-- Top Section: Avatar, Username, Title, Region, Socials -->
       <div class="mct-avatar-wrap">
@@ -155,11 +155,19 @@
       <div class="mct-section">
         <div class="mct-section-label">TIERS</div>
         <div class="mct-tiers-card">
-          <div class="mct-tiers-row" id="profile-tiers-grid">
+          <div class="mct-tiers-row modal-tiers-grid" id="profile-tiers-grid">
             <!-- Dynamically rendered circular tier items -->
           </div>
         </div>
       </div>
+
+      <!-- Backward-compatibility elements for cached scripts -->
+      <div id="profile-badges" class="hidden" style="display:none !important;"></div>
+      <a id="profile-social-youtube" class="hidden" style="display:none !important;"></a>
+      <span id="profile-global-rank" class="hidden" style="display:none !important;"></span>
+      <span id="profile-tiers-summary" class="hidden" style="display:none !important;"></span>
+      <div id="profile-history" class="hidden" style="display:none !important;"></div>
+      <span id="profile-city" class="hidden" style="display:none !important;"></span>
     </div>
   </div>
 
@@ -236,6 +244,6 @@
   <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
   <script src="js/data.js"></script>
   <script src="js/database.js"></script>
-  <script src="js/app.js?v=2.6"></script>
+  <script src="js/app.js?v=3.1"></script>
 </body>
 </html>

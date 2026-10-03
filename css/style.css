@@ -1212,7 +1212,8 @@ body.modal-open {
 }
 
 .modal-backdrop.hidden {
-  display: none;
+  display: none !important;
+  pointer-events: none !important;
 }
 
 .modal-card {
@@ -3788,3 +3789,413 @@ body.modal-open {
     padding: 16px 12px;
   }
 }
+
+/* ============================================
+   MCTIERS OFFICIAL STYLE PLAYER MODAL
+   ============================================ */
+
+.mct-modal-card {
+  width: 440px;
+  max-width: 92vw;
+  background: #141822;
+  border: 1px solid #232c3d;
+  border-radius: 22px;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.85), 0 0 30px rgba(0, 0, 0, 0.5);
+  position: relative;
+  padding: 28px 22px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-family: var(--font-body, system-ui, -apple-system, sans-serif);
+  animation: mctModalFadeIn 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes mctModalFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.mct-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #1f2736;
+  border: 1px solid #2a354a;
+  color: #8b9cb5;
+  font-size: 20px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  z-index: 10;
+}
+
+.mct-modal-close:hover {
+  background: #2b364c;
+  color: #fff;
+  transform: rotate(90deg);
+}
+
+/* Avatar Circle */
+.mct-avatar-wrap {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 3px solid #323d50;
+  background: radial-gradient(circle, #212837 0%, #141822 100%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  margin-bottom: 14px;
+  position: relative;
+  padding: 6px;
+}
+
+.mct-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center center;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+  transform: scale(0.95);
+  transition: transform 0.25s ease;
+}
+
+.mct-avatar-wrap:hover .mct-avatar-img {
+  transform: scale(1.02);
+}
+
+/* Username & Nickname */
+.mct-username {
+  font-size: 25px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 2px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.mct-nickname {
+  font-size: 13px;
+  font-style: italic;
+  color: #f5a623;
+  margin-bottom: 4px;
+}
+
+/* Title Badge */
+.mct-title-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 4px 0 6px;
+}
+
+.mct-title-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background: rgba(245, 166, 35, 0.12);
+  border: 1.5px solid rgba(245, 166, 35, 0.35);
+  color: #ffd166;
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: 0 2px 10px rgba(245, 166, 35, 0.12);
+}
+
+.mct-title-pill svg {
+  color: #ffd166;
+  filter: drop-shadow(0 0 4px rgba(245, 166, 35, 0.6));
+}
+
+/* Region */
+.mct-region-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: #55647c;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+/* Social Buttons */
+.mct-socials-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.mct-social-btn {
+  background: #1b2230;
+  border: 1px solid #273142;
+  border-radius: 8px;
+  padding: 5px 13px;
+  color: #8395ad;
+  font-size: 12.5px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  transition: all 0.18s ease;
+}
+
+.mct-social-btn:hover {
+  background: #232c3e;
+  color: #ffffff;
+  border-color: #38465d;
+}
+
+/* Section Containers */
+.mct-section {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.mct-section:last-child {
+  margin-bottom: 0;
+}
+
+.mct-section-label {
+  font-size: 12px;
+  font-weight: 800;
+  color: #586982;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  padding-left: 2px;
+}
+
+/* Position Banner */
+.mct-position-banner {
+  width: 100%;
+  height: 48px;
+  background: #171e2a;
+  border: 1px solid #222b3b;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.mct-pos-tag {
+  height: 100%;
+  padding: 0 16px 0 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 900;
+  font-style: italic;
+  clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
+  min-width: 62px;
+  color: #111620;
+}
+
+.mct-pos-tag.rank-1 {
+  background: linear-gradient(135deg, #ffe259 0%, #ffa751 100%);
+  color: #2b1800;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.mct-pos-tag.rank-2 {
+  background: linear-gradient(135deg, #f0f4f8 0%, #b8c4d4 100%);
+  color: #111a24;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.mct-pos-tag.rank-3 {
+  background: linear-gradient(135deg, #f39c12 0%, #d35400 100%);
+  color: #2a1100;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.mct-pos-tag.rank-other {
+  background: linear-gradient(135deg, #d8dee9 0%, #8892b0 100%);
+  color: #0d121a;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.mct-pos-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 10px;
+}
+
+.mct-trophy-icon {
+  font-size: 18px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.mct-pos-title {
+  font-size: 15.5px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.mct-pos-points {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: #72849c;
+}
+
+/* Tiers Section Card */
+.mct-tiers-card {
+  width: 100%;
+  background: #171e2a;
+  border: 1px solid #222b3b;
+  border-radius: 14px;
+  padding: 12px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mct-tiers-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 12px;
+  width: 100%;
+}
+
+/* Single Gamemode Icon Item */
+.mct-tier-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  position: relative;
+  padding: 4px;
+  border-radius: 10px;
+  transition: transform 0.18s ease;
+}
+
+.mct-tier-item:hover {
+  transform: translateY(-2px);
+}
+
+.mct-tier-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #121620;
+  border: 1.5px solid #253040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.mct-tier-item:hover .mct-tier-circle {
+  border-color: #4a5d7c;
+  background: #19212f;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.45);
+}
+
+.mct-tier-circle img,
+.mct-tier-circle svg {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.mct-tier-circle.is-untested {
+  border-style: dashed;
+  opacity: 0.45;
+}
+
+.mct-tier-badge {
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+/* Retired format in badge */
+.mct-retired-wrap {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 1px;
+}
+
+.mct-retired-wrap .r-paren {
+  color: #8892b0;
+  font-weight: 700;
+}
+
+.mct-retired-wrap .r-letter {
+  color: #000000;
+  font-weight: 900;
+  background: #777;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* Tier Colors matching MCTiers palette */
+.mct-tier-ht1 { color: #f5c518; text-shadow: 0 0 8px rgba(245, 197, 24, 0.4); }
+.mct-tier-lt1 { color: #ffd233; }
+.mct-tier-ht2 { color: #d4dfed; text-shadow: 0 0 6px rgba(212, 223, 237, 0.3); }
+.mct-tier-lt2 { color: #bac8d8; }
+.mct-tier-ht3 { color: #f0883e; text-shadow: 0 0 6px rgba(240, 136, 62, 0.3); }
+.mct-tier-lt3 { color: #e68a44; }
+.mct-tier-ht4 { color: #9cb1c6; }
+.mct-tier-lt4 { color: #8ea4ba; }
+.mct-tier-ht5 { color: #8395a7; }
+.mct-tier-lt5 { color: #7a8c9e; }
+.mct-tier-none { color: #475569; }
+
+/* Custom Tooltip */
+.mct-tier-item[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  background: #0f131a;
+  border: 1px solid #2a3446;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 9px;
+  border-radius: 6px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.15s ease;
+  z-index: 100;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.mct-tier-item:hover[data-tooltip]::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
