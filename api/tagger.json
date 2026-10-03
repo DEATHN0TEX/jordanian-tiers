@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-03T13:19:00.317Z",
+  "updated_at": "2026-10-03T19:22:55.081Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -221,7 +221,7 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "LT4",
+        "vanilla": "HT5",
         "uhc": "LT4",
         "pot": "LT4",
         "nethop": "HT4",
@@ -232,7 +232,7 @@
         "dia_smp": "HT4",
         "cart": "HT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4"
     },
     "t0rch7007": {
       "name": "Torch7007",
@@ -240,7 +240,7 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "LT4",
+        "vanilla": "HT5",
         "uhc": "LT4",
         "pot": "LT4",
         "nethop": "HT4",
@@ -251,7 +251,7 @@
         "dia_smp": "HT4",
         "cart": "HT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4"
     },
     "torch7oo7": {
       "name": "Torch7007",
@@ -259,7 +259,7 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "LT4",
+        "vanilla": "HT5",
         "uhc": "LT4",
         "pot": "LT4",
         "nethop": "HT4",
@@ -270,7 +270,7 @@
         "dia_smp": "HT4",
         "cart": "HT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4"
     },
     "83c9192ca73c46c49fb9046c75867013": {
       "name": "Torch7007",
@@ -278,7 +278,7 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "LT4",
+        "vanilla": "HT5",
         "uhc": "LT4",
         "pot": "LT4",
         "nethop": "HT4",
@@ -289,7 +289,7 @@
         "dia_smp": "HT4",
         "cart": "HT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4"
     },
     "83c9192c-a73c-46c4-9fb9-046c75867013": {
       "name": "Torch7007",
@@ -297,7 +297,7 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "LT4",
+        "vanilla": "HT5",
         "uhc": "LT4",
         "pot": "LT4",
         "nethop": "HT4",
@@ -308,7 +308,7 @@
         "dia_smp": "HT4",
         "cart": "HT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4"
     },
     "gr4vess": {
       "name": "GR4VESS",
@@ -346,8 +346,17 @@
       },
       "formatted_tag": "§8LT5 §7| §8LT5 §7| §8LT5 §7| §8LT5"
     },
-    "lasagnamcc": {
-      "name": "lasagnaMCC",
+    "spookyrickz": {
+      "name": "Spookyrickz",
+      "uuid": "6487fc28-1da9-42c6-8a3f-632263d5773f",
+      "overall": "LT5",
+      "tiers": {
+        "mace": "LT5"
+      },
+      "formatted_tag": "§8LT5"
+    },
+    "sp00kyrickz": {
+      "name": "Spookyrickz",
       "uuid": "6487fc28-1da9-42c6-8a3f-632263d5773f",
       "overall": "LT5",
       "tiers": {
@@ -356,7 +365,7 @@
       "formatted_tag": "§8LT5"
     },
     "6487fc281da942c68a3f632263d5773f": {
-      "name": "lasagnaMCC",
+      "name": "Spookyrickz",
       "uuid": "6487fc28-1da9-42c6-8a3f-632263d5773f",
       "overall": "LT5",
       "tiers": {
@@ -365,7 +374,7 @@
       "formatted_tag": "§8LT5"
     },
     "6487fc28-1da9-42c6-8a3f-632263d5773f": {
-      "name": "lasagnaMCC",
+      "name": "Spookyrickz",
       "uuid": "6487fc28-1da9-42c6-8a3f-632263d5773f",
       "overall": "LT5",
       "tiers": {
@@ -375,17 +384,25 @@
     },
     "blueprimee": {
       "name": "BluePrimee",
-      "uuid": "1c78a762656a432199314d769fbadd9d",
-      "overall": "None",
-      "tiers": {},
-      "formatted_tag": ""
+      "uuid": "1c78a762-656a-4321-9931-4d769fbadd9d",
+      "overall": "LT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "sword": "HT5",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §3LT4"
     },
     "1c78a762656a432199314d769fbadd9d": {
       "name": "BluePrimee",
-      "uuid": "1c78a762656a432199314d769fbadd9d",
-      "overall": "None",
-      "tiers": {},
-      "formatted_tag": ""
+      "uuid": "1c78a762-656a-4321-9931-4d769fbadd9d",
+      "overall": "LT5",
+      "tiers": {
+        "spear_mace": "HT5",
+        "sword": "HT5",
+        "mace": "LT4"
+      },
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §3LT4"
     },
     "1c78a762-656a-4321-9931-4d769fbadd9d": {
       "name": "BluePrimee",
@@ -580,10 +597,9 @@
       "overall": "LT5",
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "LT4",
         "mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §3LT4"
     },
     "9233e2b3b4b34d5a977fadea7d410f8e": {
       "name": "kgbplus",
@@ -591,10 +607,9 @@
       "overall": "LT5",
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "LT4",
         "mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §3LT4"
     },
     "dimiemos": {
       "name": "dimiemos",
@@ -634,30 +649,30 @@
       "uuid": "5d575d8216214b5ab2605fa4594ec827",
       "overall": "LT5",
       "tiers": {
-        "vanilla": "LT3",
+        "vanilla": "HT4",
         "axe": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §bHT4"
     },
     "irypr0": {
       "name": "iRYPro",
       "uuid": "5d575d8216214b5ab2605fa4594ec827",
       "overall": "LT5",
       "tiers": {
-        "vanilla": "LT3",
+        "vanilla": "HT4",
         "axe": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §bHT4"
     },
     "5d575d8216214b5ab2605fa4594ec827": {
       "name": "iRYPro",
       "uuid": "5d575d8216214b5ab2605fa4594ec827",
       "overall": "LT5",
       "tiers": {
-        "vanilla": "LT3",
+        "vanilla": "HT4",
         "axe": "HT4"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §bHT4"
     },
     "jackolan10rn": {
       "name": "JackOLan10rn",
@@ -761,12 +776,12 @@
         "vanilla": "LT5",
         "pot": "HT4",
         "nethop": "LT3",
-        "smp": "HT3",
+        "smp": "LT3",
         "sword": "HT4",
         "axe": "HT5",
         "mace": "LT3"
       },
-      "formatted_tag": "§6HT3 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §8HT5 §7| §eLT3"
+      "formatted_tag": "§6HT3 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §eLT3"
     },
     "idkbr0di": {
       "name": "idkbrodi",
@@ -777,12 +792,12 @@
         "vanilla": "LT5",
         "pot": "HT4",
         "nethop": "LT3",
-        "smp": "HT3",
+        "smp": "LT3",
         "sword": "HT4",
         "axe": "HT5",
         "mace": "LT3"
       },
-      "formatted_tag": "§6HT3 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §8HT5 §7| §eLT3"
+      "formatted_tag": "§6HT3 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §eLT3"
     },
     "84380496b40c4319950137874581c050": {
       "name": "idkbrodi",
@@ -793,12 +808,12 @@
         "vanilla": "LT5",
         "pot": "HT4",
         "nethop": "LT3",
-        "smp": "HT3",
+        "smp": "LT3",
         "sword": "HT4",
         "axe": "HT5",
         "mace": "LT3"
       },
-      "formatted_tag": "§6HT3 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §8HT5 §7| §eLT3"
+      "formatted_tag": "§6HT3 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §eLT3"
     },
     "tuxedox": {
       "name": "Tuxedox",
@@ -848,8 +863,8 @@
       },
       "formatted_tag": "§bHT4 §7| §eLT3 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §eLT3"
     },
-    "noelnw": {
-      "name": "Noelnw",
+    "ilovetombcys": {
+      "name": "ILoveTombcys",
       "uuid": "02e101bebb6b4f5ca6c81293f8ccb6fe",
       "overall": "LT5",
       "tiers": {
@@ -857,8 +872,8 @@
       },
       "formatted_tag": "§bHT4"
     },
-    "n0elnw": {
-      "name": "Noelnw",
+    "il0vet0mbcys": {
+      "name": "ILoveTombcys",
       "uuid": "02e101bebb6b4f5ca6c81293f8ccb6fe",
       "overall": "LT5",
       "tiers": {
@@ -867,7 +882,7 @@
       "formatted_tag": "§bHT4"
     },
     "02e101bebb6b4f5ca6c81293f8ccb6fe": {
-      "name": "Noelnw",
+      "name": "ILoveTombcys",
       "uuid": "02e101bebb6b4f5ca6c81293f8ccb6fe",
       "overall": "LT5",
       "tiers": {
@@ -1089,7 +1104,7 @@
       "overall": "HT4",
       "tiers": {
         "spear_mace": "HT3",
-        "vanilla": "HT4",
+        "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT3",
         "nethop": "LT3",
@@ -1100,7 +1115,7 @@
         "dia_smp": "HT4",
         "cart": "HT4"
       },
-      "formatted_tag": "§6HT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §bHT4"
+      "formatted_tag": "§6HT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §bHT4"
     },
     "325906e028914f04922a6e74c4a5b677": {
       "name": "Hamburble",
@@ -1108,7 +1123,7 @@
       "overall": "HT4",
       "tiers": {
         "spear_mace": "HT3",
-        "vanilla": "HT4",
+        "vanilla": "LT4",
         "uhc": "LT3",
         "pot": "LT3",
         "nethop": "LT3",
@@ -1119,7 +1134,7 @@
         "dia_smp": "HT4",
         "cart": "HT4"
       },
-      "formatted_tag": "§6HT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §bHT4"
+      "formatted_tag": "§6HT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §bHT4"
     },
     "heybaby": {
       "name": "heybaby",
@@ -1393,20 +1408,6 @@
         "vanilla": "LT4"
       },
       "formatted_tag": "§3LT4"
-    },
-    "<@1337014976342265988>": {
-      "name": "<@1337014976342265988>",
-      "uuid": "cracked",
-      "overall": "None",
-      "tiers": {},
-      "formatted_tag": ""
-    },
-    "<@1337o14976342265988>": {
-      "name": "<@1337014976342265988>",
-      "uuid": "cracked",
-      "overall": "None",
-      "tiers": {},
-      "formatted_tag": ""
     }
   }
 }
