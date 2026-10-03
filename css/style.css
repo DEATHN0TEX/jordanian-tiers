@@ -4008,6 +4008,9 @@ body.modal-open {
   clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
   min-width: 62px;
   color: #111620;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
 }
 
 .mct-pos-tag.rank-1 {
@@ -4032,6 +4035,39 @@ body.modal-open {
   background: linear-gradient(135deg, #d8dee9 0%, #8892b0 100%);
   color: #0d121a;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+/* Sweeping Glint beam for Top 3 */
+.mct-pos-tag.rank-1::after,
+.mct-pos-tag.rank-2::after,
+.mct-pos-tag.rank-3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 70%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.55) 50%,
+    transparent 100%
+  );
+  transform: skewX(-20deg);
+  animation: mctPosGlint 2.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  pointer-events: none;
+}
+
+@keyframes mctPosGlint {
+  0% {
+    left: -120%;
+  }
+  35% {
+    left: 170%;
+  }
+  100% {
+    left: 170%;
+  }
 }
 
 .mct-pos-content {

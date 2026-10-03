@@ -208,42 +208,14 @@ async function initApp() {
   // show a small badge so users can confirm where data came from
   try { window.__mctiers_players_count = players ? players.length : 0; } catch (e) {}
   try { console.log('MCTiers loaded:', window.__mctiers_data_source, 'players=', window.__mctiers_players_count); } catch (e) {}
-  try { showDataSourceBadge(); } catch (e) {}
   
   // Start background sync 3 seconds after page loads to avoid delaying initial load
   setTimeout(startBackgroundSync, 3000);
 }
 
-// Visual indicator for data source (small badge)
+// Visual indicator for data source (disabled)
 function showDataSourceBadge() {
-  try {
-    const existing = document.getElementById('mctiers-data-badge');
-    if (existing) existing.remove();
-
-    const badge = document.createElement('div');
-    badge.id = 'mctiers-data-badge';
-    badge.style.position = 'fixed';
-    badge.style.right = '12px';
-    badge.style.bottom = '12px';
-    badge.style.zIndex = 9999;
-    badge.style.padding = '6px 10px';
-    badge.style.background = 'rgba(0,0,0,0.75)';
-    badge.style.color = '#fff';
-    badge.style.fontSize = '12px';
-    badge.style.borderRadius = '8px';
-    badge.style.boxShadow = '0 4px 12px rgba(0,0,0,0.25)';
-    badge.style.opacity = '0';
-    const src = window.__mctiers_data_source || 'unknown';
-    const count = (typeof window.__mctiers_players_count !== 'undefined') ? window.__mctiers_players_count : (players ? players.length : 0);
-    badge.textContent = `Data: ${src} Â· Players: ${count}`;
-    document.body.appendChild(badge);
-    // fade in
-    setTimeout(() => { badge.style.transition = 'opacity 240ms'; badge.style.opacity = '0.97'; }, 10);
-    // auto-hide after 6s
-    setTimeout(() => { if (badge.parentNode) badge.parentNode.removeChild(badge); }, 6000);
-  } catch (e) {
-    // ignore
-  }
+  // Disabled as requested
 }
 
 if (document.readyState === 'loading') {
