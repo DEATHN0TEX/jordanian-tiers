@@ -1321,6 +1321,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1791230772510
+    },
+    {
+      "username": "ItzAbdullah",
+      "uuid": "dc9561614f1748f5b0f955745f2389f9",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "4e4u",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "LT3",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1791239990421
     }
   ],
   "testers": [
