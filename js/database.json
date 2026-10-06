@@ -195,6 +195,22 @@
         "youtube": ""
       },
       "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "None",
+        "dia_smp": "None",
+        "cart": "None"
+      },
+      "lastSyncCheck": 1787243338092,
+      "retired": {},
+      "savedTiers": {
         "spear_mace": "HT5",
         "vanilla": "HT5",
         "uhc": "None",
@@ -206,8 +222,11 @@
         "mace": "LT4",
         "overall": "LT5"
       },
-      "lastSyncCheck": 1787243338092,
-      "retired": {}
+      "savedRetired": {},
+      "restricted": true,
+      "restrictedAt": 1791320175514,
+      "restrictedBy": "deathnote5030",
+      "restrictionReason": "No reason provided"
     },
     {
       "username": "Dragown332",
