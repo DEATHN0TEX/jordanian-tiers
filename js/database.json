@@ -1373,6 +1373,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1791302436605
+    },
+    {
+      "username": "R_YZE_",
+      "uuid": "e47c553851cf4cba907c2573549119e1",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "r_yze_1",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "HT5",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1791320063901
     }
   ],
   "testers": [
