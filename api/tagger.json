@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-06T21:53:34.910Z",
+  "updated_at": "2026-10-06T22:12:46.803Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -322,9 +322,10 @@
         "sword": "HT5",
         "axe": "HT5",
         "mace": "LT4",
-        "dia_smp": "HT5"
+        "dia_smp": "HT5",
+        "cart": "LT5"
       },
-      "formatted_tag": "§3LT4 §7| §8LT5 §7| §8LT5 §7| §8LT5 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8HT5"
+      "formatted_tag": "§3LT4 §7| §8LT5 §7| §8LT5 §7| §8LT5 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8HT5 §7| §8LT5"
     },
     "9d3b9c0428314ce4979797834f6f103a": {
       "name": "GR4VESS",
@@ -338,9 +339,10 @@
         "sword": "HT5",
         "axe": "HT5",
         "mace": "LT4",
-        "dia_smp": "HT5"
+        "dia_smp": "HT5",
+        "cart": "LT5"
       },
-      "formatted_tag": "§3LT4 §7| §8LT5 §7| §8LT5 §7| §8LT5 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8HT5"
+      "formatted_tag": "§3LT4 §7| §8LT5 §7| §8LT5 §7| §8LT5 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8HT5 §7| §8LT5"
     },
     "9d3b9c04-2831-4ce4-9797-97834f6f103a": {
       "name": "GR4VESS",
@@ -354,9 +356,10 @@
         "sword": "HT5",
         "axe": "HT5",
         "mace": "LT4",
-        "dia_smp": "HT5"
+        "dia_smp": "HT5",
+        "cart": "LT5"
       },
-      "formatted_tag": "§3LT4 §7| §8LT5 §7| §8LT5 §7| §8LT5 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8HT5"
+      "formatted_tag": "§3LT4 §7| §8LT5 §7| §8LT5 §7| §8LT5 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8HT5 §7| §8LT5"
     },
     "spookyrickz": {
       "name": "Spookyrickz",
