@@ -1347,6 +1347,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1791239990421
+    },
+    {
+      "username": "IamCloudy",
+      "uuid": "ca1ae23564e84c3ca1dae747d87b0f17",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "LT4",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1791302436605
     }
   ],
   "testers": [
