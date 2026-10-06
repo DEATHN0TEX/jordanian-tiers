@@ -130,7 +130,8 @@
         "sword": "HT5",
         "axe": "HT5",
         "mace": "LT4",
-        "overall": "LT5"
+        "overall": "LT5",
+        "dia_smp": "HT5"
       },
       "uuid": "9d3b9c04-2831-4ce4-9797-97834f6f103a",
       "lastSyncCheck": 1788284237535,
