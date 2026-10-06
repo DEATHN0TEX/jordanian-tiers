@@ -117,7 +117,7 @@
       "city": "Amman",
       "badges": [],
       "socials": {
-        "discord": "",
+        "discord": "tareqaqel445_78425",
         "youtube": ""
       },
       "tiers": {
@@ -129,12 +129,13 @@
         "smp": "None",
         "sword": "None",
         "axe": "LT5",
-        "mace": "None",
+        "mace": "LT4",
         "overall": "LT5"
       },
       "uuid": "9d3b9c04-2831-4ce4-9797-97834f6f103a",
       "lastSyncCheck": 1788284237535,
-      "retired": {}
+      "retired": {},
+      "region": "ME"
     },
     {
       "username": "Spookyrickz",
