@@ -1421,6 +1421,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1791320063901
+    },
+    {
+      "username": "xBryanHie",
+      "uuid": "aff3f14c42074a55a662097e6a5e9d1e",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "bryanhie13",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1791739734874
     }
   ],
   "testers": [
