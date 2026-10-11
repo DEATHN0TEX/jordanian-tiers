@@ -13,7 +13,7 @@ const INITIAL_GAMEMODES = [
     id: "spear_mace",
     name: "Spear/Mace",
     description: "Combines high-damage Mace strikes with custom Spear thrusts and lunges. Requires advanced range control.",
-    icon: `<img src="icons/spear.png" alt="Spear/Mace" class="gm-icon-img spear-icon-img">`,
+    icon: `<img src="icons/spear.svg" alt="Spear/Mace" class="gm-icon-img spear-icon-img">`,
     rules: `Standard Arena (20x20 blocks).
 Gear:
 - 1x Diamond Helmet (Protection IV)
@@ -183,6 +183,24 @@ Restrictions:
 - No potions allowed.
 - Melee-only damage.
 - Test format: Best-of-5 (BO5).`
+  },
+  {
+    id: "lt_mace",
+    name: "LT Mace",
+    description: "Ground-level Mace combat (Ground Mace). Eliminates extreme heights and wind burst reliance, focusing on pure ground spacing, jump-reset crits, shield breaks, and close-quarters mace dueling.",
+    icon: `<img src="icons/heavy_core.svg" alt="LT Mace" class="gm-icon-img heavy-core-icon-img">`,
+    rules: `Standard Flat Ground Arena (20x20 blocks).
+Gear:
+- Full Netherite Armor (Protection IV)
+- 1x Mace (Density V, Unbreaking III)
+- 1x Shield
+- 64x Cooked Beef / Steak
+- 2x Golden Apples
+
+Restrictions:
+- No wind charges, elytra, or height drops allowed.
+- Pure ground-level combat only.
+- Test format: Best-of-5 (BO5) duels. Evaluated on jump crits, shield pressure, and melee spacing.`
   },
   {
     id: "dia_smp",

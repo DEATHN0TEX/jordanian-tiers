@@ -30,8 +30,8 @@
   /* HSL Rank Colors (Tier 1 Gold, Tier 2 Silver, Tier 3 Bronze, Tier 4 Steel, Tier 5 Charcoal) */
   --color-ht1: #f0b232;
   --color-lt1: #e5a83b;
-  --color-ht2: #b5c8db;
-  --color-lt2: #9eafc0;
+  --color-ht2: #e2e8f0;
+  --color-lt2: #cbd5e1;
   --color-ht3: #e29058;
   --color-lt3: #d9854e;
   --color-ht4: #9cb1c6;
@@ -733,6 +733,38 @@ body {
   100% { transform: scale(1.22) translateY(0) rotate(0deg); filter: drop-shadow(0 0 8px #ff9f43) brightness(1.25); }
 }
 
+/* 10b. LT Mace / Ground Mace — Heavy Core Seismic Ground Rumble */
+.nav-tab[data-gamemode="lt_mace"]:hover .nav-tab-icon,
+.nav-tab.nav-tab-lt_mace:hover .nav-tab-icon,
+.nav-tab[data-gamemode="ground_mace"]:hover .nav-tab-icon,
+.nav-tab.nav-tab-ground_mace:hover .nav-tab-icon {
+  animation: animLtMace 0.48s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+@keyframes animLtMace {
+  0% {
+    transform: scale(1.18) translateY(0);
+    filter: drop-shadow(0 0 2px rgba(255,255,255,0.25));
+  }
+  30% {
+    transform: scale(1.36) translateY(-6px) rotate(-6deg);
+    filter: drop-shadow(0 0 14px #60a5fa) drop-shadow(0 0 24px #3b82f6) brightness(1.45);
+  }
+  65% {
+    transform: scale(1.44) translateY(2px) rotate(4deg);
+    filter: drop-shadow(0 0 20px #93c5fd) drop-shadow(0 4px 12px rgba(59, 130, 246, 0.8)) brightness(1.55);
+  }
+  100% {
+    transform: scale(1.32) translateY(0) rotate(0deg);
+    filter: drop-shadow(0 0 12px #60a5fa) brightness(1.35);
+  }
+}
+.nav-tab[data-gamemode="lt_mace"]:active .nav-tab-icon,
+.nav-tab.nav-tab-lt_mace:active .nav-tab-icon {
+  transform: scale(1.1) translateY(2px);
+  filter: drop-shadow(0 0 22px #3b82f6) brightness(1.7);
+  transition: transform 0.1s ease;
+}
+
 /* 11. Dia SMP — Chorus Fruit Teleport Phase-Shift & Dimensional Warp */
 .nav-tab[data-gamemode="dia_smp"]:hover .nav-tab-icon,
 .nav-tab.nav-tab-dia_smp:hover .nav-tab-icon,
@@ -871,6 +903,23 @@ body {
 .nav-tab.nav-tab-mace:hover {
   background: rgba(255, 159, 67, 0.08);
   border-bottom-color: #ff9f43;
+}
+
+/* 10b. LT Mace / Ground Mace — Heavy Core Steel Blue Glow */
+.nav-tab[data-gamemode="lt_mace"]:hover,
+.nav-tab.nav-tab-lt_mace:hover,
+.nav-tab[data-gamemode="ground_mace"]:hover,
+.nav-tab.nav-tab-ground_mace:hover {
+  background: rgba(59, 130, 246, 0.09);
+  border-bottom-color: #60a5fa;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.25), inset 0 -2px 8px rgba(96, 165, 250, 0.3);
+}
+
+.nav-tab.active[data-gamemode="lt_mace"],
+.nav-tab.active.nav-tab-lt_mace {
+  border-bottom-color: #60a5fa;
+  background: linear-gradient(180deg, rgba(59, 130, 246, 0.02) 0%, rgba(59, 130, 246, 0.12) 100%);
+  box-shadow: inset 0 -2px 12px rgba(59, 130, 246, 0.35), 0 0 16px rgba(96, 165, 250, 0.2);
 }
 
 /* 11. Dia SMP — Chorus Fruit Violet */
@@ -1025,8 +1074,8 @@ body {
 /* Colored themes for specific tiers */
 .rank-ht1-bg { background: linear-gradient(135deg, #d32f2f, #ef5350); }
 .rank-lt1-bg { background: linear-gradient(135deg, #b71c1c, #d32f2f); }
-.rank-ht2-bg { background: linear-gradient(135deg, #e65100, #ff9800); }
-.rank-lt2-bg { background: linear-gradient(135deg, #f57c00, #ffb74d); }
+.rank-ht2-bg { background: linear-gradient(135deg, #94a3b8, #e2e8f0); }
+.rank-lt2-bg { background: linear-gradient(135deg, #64748b, #cbd5e1); }
 .rank-ht3-bg { background: linear-gradient(135deg, #fbc02d, #fff59d); }
 .rank-lt3-bg { background: linear-gradient(135deg, #afb42b, #d4e157); }
 .rank-ht4-bg { background: linear-gradient(135deg, #2e7d32, #66bb6a); }
@@ -1180,8 +1229,8 @@ body {
 
 .badge-ht1 { background: rgba(240, 178, 50, 0.16); color: var(--color-ht1); border-color: rgba(240, 178, 50, 0.4); }
 .badge-lt1 { background: rgba(229, 168, 59, 0.13); color: var(--color-lt1); border-color: rgba(229, 168, 59, 0.35); }
-.badge-ht2 { background: rgba(181, 200, 219, 0.16); color: var(--color-ht2); border-color: rgba(181, 200, 219, 0.4); }
-.badge-lt2 { background: rgba(158, 175, 192, 0.13); color: var(--color-lt2); border-color: rgba(158, 175, 192, 0.35); }
+.badge-ht2 { background: rgba(226, 232, 240, 0.18); color: var(--color-ht2); border-color: rgba(226, 232, 240, 0.45); }
+.badge-lt2 { background: rgba(203, 213, 225, 0.15); color: var(--color-lt2); border-color: rgba(203, 213, 225, 0.38); }
 .badge-ht3 { background: rgba(226, 144, 88, 0.16); color: var(--color-ht3); border-color: rgba(226, 144, 88, 0.4); }
 .badge-lt3 { background: rgba(217, 133, 78, 0.13); color: var(--color-lt3); border-color: rgba(217, 133, 78, 0.35); }
 .badge-ht4 { background: rgba(156, 177, 198, 0.14); color: var(--color-ht4); border-color: rgba(156, 177, 198, 0.35); }
@@ -3134,8 +3183,8 @@ body.modal-open {
 .badge-ht1 { background: linear-gradient(145deg, #fce072 0%, #f5bc47 40%, #a87612 100%); border: 1px solid #ffe17d; color: #fff; box-shadow: 0 0 10px rgba(245, 188, 71, 0.45), inset 0 1px 2px rgba(255,255,255,0.8); }
 .badge-lt1 { background: linear-gradient(145deg, #f5cc64 0%, #dca032 40%, #8c5e08 100%); border: 1px solid #f2c057; color: #fff; box-shadow: 0 0 8px rgba(220, 160, 50, 0.38), inset 0 1px 2px rgba(255,255,255,0.7); }
 /* Tier 2 — Silver / Slate (Liquid Chrome) */
-.badge-ht2 { background: linear-gradient(145deg, #eef5fc 0%, #b8cadc 40%, #637586 100%); border: 1px solid #e2edfb; color: #fff; box-shadow: 0 0 10px rgba(184, 202, 220, 0.4), inset 0 1px 2px rgba(255,255,255,0.85); }
-.badge-lt2 { background: linear-gradient(145deg, #d8e6f5 0%, #9bb0c4 40%, #4f5f6e 100%); border: 1px solid #c9d8e7; color: #fff; box-shadow: 0 0 8px rgba(155, 176, 196, 0.35), inset 0 1px 2px rgba(255,255,255,0.75); }
+.badge-ht2 { background: linear-gradient(145deg, #ffffff 0%, #e2e8f0 35%, #94a3b8 70%, #64748b 100%); border: 1px solid #ffffff; color: #fff; box-shadow: 0 0 12px rgba(226, 232, 240, 0.55), inset 0 1px 2px rgba(255,255,255,0.95); text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
+.badge-lt2 { background: linear-gradient(145deg, #f1f5f9 0%, #cbd5e1 35%, #64748b 70%, #475569 100%); border: 1px solid #e2e8f0; color: #fff; box-shadow: 0 0 10px rgba(203, 213, 225, 0.45), inset 0 1px 2px rgba(255,255,255,0.85); text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
 /* Tier 3 — Bronze / Copper (Polished Copper) */
 .badge-ht3 { background: linear-gradient(145deg, #ffc299 0%, #e8955c 40%, #965020 100%); border: 1px solid #ffd4b3; color: #fff; box-shadow: 0 0 10px rgba(232, 149, 92, 0.4), inset 0 1px 2px rgba(255,255,255,0.75); }
 .badge-lt3 { background: linear-gradient(145deg, #f5ae7d 0%, #cf7e48 40%, #7f3d10 100%); border: 1px solid #f7be94; color: #fff; box-shadow: 0 0 8px rgba(207, 126, 72, 0.35), inset 0 1px 2px rgba(255,255,255,0.65); }
@@ -3170,10 +3219,14 @@ body.modal-open {
   display: block;
 }
 
-/* Make the custom spear icon smaller so it matches SVG scale */
 .gm-icon-img.spear-icon-img {
-  transform: scale(0.85);
+  transform: scale(1.05);
   filter: drop-shadow(0 0 2px rgba(255,255,255,0.25));
+}
+
+.gm-icon-img.heavy-core-icon-img {
+  transform: scale(1.18);
+  filter: drop-shadow(0 2px 5px rgba(0,0,0,0.45));
 }
 
 .gm-icon-img.dia-smp-icon-img,
@@ -4196,8 +4249,8 @@ body.modal-open {
 /* Tier Colors matching MCTiers palette */
 .mct-tier-ht1 { color: #f5c518; text-shadow: 0 0 8px rgba(245, 197, 24, 0.4); }
 .mct-tier-lt1 { color: #ffd233; }
-.mct-tier-ht2 { color: #d4dfed; text-shadow: 0 0 6px rgba(212, 223, 237, 0.3); }
-.mct-tier-lt2 { color: #bac8d8; }
+.mct-tier-ht2 { color: #f1f5f9; text-shadow: 0 0 8px rgba(241, 245, 249, 0.55); }
+.mct-tier-lt2 { color: #cbd5e1; text-shadow: 0 0 6px rgba(203, 213, 225, 0.4); }
 .mct-tier-ht3 { color: #f0883e; text-shadow: 0 0 6px rgba(240, 136, 62, 0.3); }
 .mct-tier-lt3 { color: #e68a44; }
 .mct-tier-ht4 { color: #9cb1c6; }
