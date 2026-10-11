@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-11T19:53:59.045Z",
+  "updated_at": "2026-10-11T19:54:22.129Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1138,9 +1138,10 @@
         "axe": "LT3",
         "mace": "HT3",
         "dia_smp": "HT4",
-        "cart": "HT4"
+        "cart": "HT4",
+        "lt_mace": "LT3"
       },
-      "formatted_tag": "§6HT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §bHT4"
+      "formatted_tag": "§6HT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3"
     },
     "325906e028914f04922a6e74c4a5b677": {
       "name": "Hamburble",
@@ -1157,9 +1158,10 @@
         "axe": "LT3",
         "mace": "HT3",
         "dia_smp": "HT4",
-        "cart": "HT4"
+        "cart": "HT4",
+        "lt_mace": "LT3"
       },
-      "formatted_tag": "§6HT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §bHT4"
+      "formatted_tag": "§6HT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3"
     },
     "heybaby": {
       "name": "heybaby",
