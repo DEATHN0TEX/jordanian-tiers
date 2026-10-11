@@ -594,7 +594,8 @@
         "sword": "LT3",
         "axe": "HT4",
         "mace": "LT3",
-        "overall": "LT4"
+        "overall": "LT4",
+        "lt_mace": "LT4"
       },
       "retired": {},
       "lastSyncCheck": 1788464854959
