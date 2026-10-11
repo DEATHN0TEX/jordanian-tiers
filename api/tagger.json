@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-11T19:54:33.718Z",
+  "updated_at": "2026-10-11T19:55:09.507Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1216,9 +1216,10 @@
       "tiers": {
         "vanilla": "HT4",
         "sword": "LT4",
-        "mace": "LT3"
+        "mace": "LT3",
+        "lt_mace": "LT4"
       },
-      "formatted_tag": "§bHT4 §7| §3LT4 §7| §eLT3"
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §eLT3 §7| §3LT4"
     },
     "bisc0ffbread": {
       "name": "biscoffbread",
@@ -1227,9 +1228,10 @@
       "tiers": {
         "vanilla": "HT4",
         "sword": "LT4",
-        "mace": "LT3"
+        "mace": "LT3",
+        "lt_mace": "LT4"
       },
-      "formatted_tag": "§bHT4 §7| §3LT4 §7| §eLT3"
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §eLT3 §7| §3LT4"
     },
     "663dd2f53af04beda689d765444f1cec": {
       "name": "biscoffbread",
@@ -1238,9 +1240,10 @@
       "tiers": {
         "vanilla": "HT4",
         "sword": "LT4",
-        "mace": "LT3"
+        "mace": "LT3",
+        "lt_mace": "LT4"
       },
-      "formatted_tag": "§bHT4 §7| §3LT4 §7| §eLT3"
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §eLT3 §7| §3LT4"
     },
     "versilver": {
       "name": "Versilver",
