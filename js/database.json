@@ -566,7 +566,7 @@
         "smp": "LT3",
         "sword": "HT4",
         "axe": "HT5",
-        "mace": "LT3",
+        "mace": "HT3",
         "overall": "LT4",
         "lt_mace": "LT4"
       },
