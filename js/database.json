@@ -50,7 +50,8 @@
         "mace": "LT3",
         "overall": "LT4",
         "dia_smp": "HT4",
-        "cart": "HT4"
+        "cart": "HT4",
+        "lt_mace": "LT4"
       },
       "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
       "lastSyncCheck": 1788284252509,
