@@ -804,7 +804,8 @@
         "mace": "LT3",
         "overall": "LT3",
         "cart": "HT4",
-        "dia_smp": "LT3"
+        "dia_smp": "LT3",
+        "lt_mace": "LT4"
       },
       "retired": {},
       "lastSyncCheck": 1788808228455
