@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-11T20:39:08.218Z",
+  "updated_at": "2026-10-12T12:41:45.508Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -800,9 +800,9 @@
         "sword": "HT4",
         "axe": "HT5",
         "mace": "HT3",
-        "lt_mace": "LT4"
+        "lt_mace": "LT3"
       },
-      "formatted_tag": "§6HT3 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6HT3 §7| §3LT4"
+      "formatted_tag": "§6HT3 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6HT3 §7| §eLT3"
     },
     "idkbr0di": {
       "name": "idkbrodi",
@@ -817,9 +817,9 @@
         "sword": "HT4",
         "axe": "HT5",
         "mace": "HT3",
-        "lt_mace": "LT4"
+        "lt_mace": "LT3"
       },
-      "formatted_tag": "§6HT3 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6HT3 §7| §3LT4"
+      "formatted_tag": "§6HT3 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6HT3 §7| §eLT3"
     },
     "84380496b40c4319950137874581c050": {
       "name": "idkbrodi",
@@ -834,9 +834,9 @@
         "sword": "HT4",
         "axe": "HT5",
         "mace": "HT3",
-        "lt_mace": "LT4"
+        "lt_mace": "LT3"
       },
-      "formatted_tag": "§6HT3 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6HT3 §7| §3LT4"
+      "formatted_tag": "§6HT3 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §8HT5 §7| §6HT3 §7| §eLT3"
     },
     "tuxedox": {
       "name": "Tuxedox",
