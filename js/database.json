@@ -1461,6 +1461,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1791739734874
+    },
+    {
+      "username": "<@1404870681577127967>",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1791836826426
     }
   ],
   "testers": [
