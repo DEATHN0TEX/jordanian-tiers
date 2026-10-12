@@ -560,14 +560,14 @@
       "tiers": {
         "spear_mace": "HT3",
         "vanilla": "LT5",
-        "uhc": "None",
+        "uhc": "LT3",
         "pot": "HT4",
         "nethop": "LT3",
         "smp": "LT3",
         "sword": "LT3",
         "axe": "HT4",
         "mace": "HT3",
-        "overall": "LT4",
+        "overall": "HT4",
         "lt_mace": "LT3"
       },
       "retired": {},
