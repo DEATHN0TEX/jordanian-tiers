@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-12T13:26:55.818Z",
+  "updated_at": "2026-10-12T14:18:24.127Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -704,10 +704,10 @@
         "sword": "LT2",
         "axe": "HT3",
         "mace": "LT2",
-        "dia_smp": "HT4",
+        "dia_smp": "LT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §eLT3 §7| §eLT3"
     },
     "jack0lan10rn": {
       "name": "JackOLan10rn",
@@ -723,10 +723,10 @@
         "sword": "LT2",
         "axe": "HT3",
         "mace": "LT2",
-        "dia_smp": "HT4",
+        "dia_smp": "LT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §eLT3 §7| §eLT3"
     },
     "jackolan1orn": {
       "name": "JackOLan10rn",
@@ -742,10 +742,10 @@
         "sword": "LT2",
         "axe": "HT3",
         "mace": "LT2",
-        "dia_smp": "HT4",
+        "dia_smp": "LT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §eLT3 §7| §eLT3"
     },
     "f311b3fc49334e3c90e8da64baeaf689": {
       "name": "JackOLan10rn",
@@ -761,10 +761,10 @@
         "sword": "LT2",
         "axe": "HT3",
         "mace": "LT2",
-        "dia_smp": "HT4",
+        "dia_smp": "LT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §eLT3 §7| §eLT3"
     },
     "jackolant10rn": {
       "name": "jackOlant10rn",
