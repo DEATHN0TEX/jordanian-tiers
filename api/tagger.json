@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-12T20:27:07.585Z",
+  "updated_at": "2026-10-12T20:27:12.261Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -699,7 +699,7 @@
         "vanilla": "HT4",
         "uhc": "LT3",
         "pot": "LT3",
-        "nethop": "LT3",
+        "nethop": "HT3",
         "smp": "LT3",
         "sword": "LT2",
         "axe": "HT3",
@@ -707,7 +707,7 @@
         "dia_smp": "LT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §eLT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §eLT3 §7| §eLT3"
     },
     "jack0lan10rn": {
       "name": "JackOLan10rn",
@@ -718,7 +718,7 @@
         "vanilla": "HT4",
         "uhc": "LT3",
         "pot": "LT3",
-        "nethop": "LT3",
+        "nethop": "HT3",
         "smp": "LT3",
         "sword": "LT2",
         "axe": "HT3",
@@ -726,7 +726,7 @@
         "dia_smp": "LT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §eLT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §eLT3 §7| §eLT3"
     },
     "jackolan1orn": {
       "name": "JackOLan10rn",
@@ -737,7 +737,7 @@
         "vanilla": "HT4",
         "uhc": "LT3",
         "pot": "LT3",
-        "nethop": "LT3",
+        "nethop": "HT3",
         "smp": "LT3",
         "sword": "LT2",
         "axe": "HT3",
@@ -745,7 +745,7 @@
         "dia_smp": "LT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §eLT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §eLT3 §7| §eLT3"
     },
     "f311b3fc49334e3c90e8da64baeaf689": {
       "name": "JackOLan10rn",
@@ -756,7 +756,7 @@
         "vanilla": "HT4",
         "uhc": "LT3",
         "pot": "LT3",
-        "nethop": "LT3",
+        "nethop": "HT3",
         "smp": "LT3",
         "sword": "LT2",
         "axe": "HT3",
@@ -764,7 +764,7 @@
         "dia_smp": "LT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §eLT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §7LT2 §7| §eLT3 §7| §eLT3"
     },
     "jackolant10rn": {
       "name": "jackOlant10rn",
