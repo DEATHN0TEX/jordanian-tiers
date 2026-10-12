@@ -568,7 +568,8 @@
         "axe": "HT4",
         "mace": "HT3",
         "overall": "HT4",
-        "lt_mace": "LT3"
+        "lt_mace": "LT3",
+        "cart": "LT4"
       },
       "retired": {},
       "lastSyncCheck": 1788463889700
