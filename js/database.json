@@ -808,9 +808,9 @@
         "sword": "HT2",
         "axe": "LT2",
         "mace": "LT3",
-        "overall": "LT3",
+        "overall": "HT3",
         "cart": "HT4",
-        "dia_smp": "LT3",
+        "dia_smp": "HT3",
         "lt_mace": "LT3"
       },
       "retired": {},
