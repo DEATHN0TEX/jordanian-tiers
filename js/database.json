@@ -1487,6 +1487,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1791836826426
+    },
+    {
+      "username": "TheHellMist",
+      "uuid": "f1a3b3a1517640709d2f9bd0ff22defb",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "thathellmist",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1791836906050
     }
   ],
   "testers": [
