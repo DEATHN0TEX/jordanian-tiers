@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-13T19:56:29.400Z",
+  "updated_at": "2026-10-13T20:01:25.076Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -101,14 +101,14 @@
         "pot": "LT4",
         "nethop": "LT5",
         "smp": "HT4",
-        "sword": "HT4",
+        "sword": "LT3",
         "axe": "HT4",
         "mace": "LT3",
         "dia_smp": "HT4",
         "cart": "HT4",
         "lt_mace": "HT5"
       },
-      "formatted_tag": "§bHT4 §7| §3LT4 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §bHT4 §7| §8HT5"
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §bHT4 §7| §8HT5"
     },
     "cb0cef85557d4f249725943038e37eaf": {
       "name": "SK_YX",
@@ -121,14 +121,14 @@
         "pot": "LT4",
         "nethop": "LT5",
         "smp": "HT4",
-        "sword": "HT4",
+        "sword": "LT3",
         "axe": "HT4",
         "mace": "LT3",
         "dia_smp": "HT4",
         "cart": "HT4",
         "lt_mace": "HT5"
       },
-      "formatted_tag": "§bHT4 §7| §3LT4 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §bHT4 §7| §8HT5"
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §bHT4 §7| §8HT5"
     },
     "cb0cef85-557d-4f24-9725-943038e37eaf": {
       "name": "SK_YX",
@@ -141,14 +141,14 @@
         "pot": "LT4",
         "nethop": "LT5",
         "smp": "HT4",
-        "sword": "HT4",
+        "sword": "LT3",
         "axe": "HT4",
         "mace": "LT3",
         "dia_smp": "HT4",
         "cart": "HT4",
         "lt_mace": "HT5"
       },
-      "formatted_tag": "§bHT4 §7| §3LT4 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §bHT4 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §bHT4 §7| §8HT5"
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §bHT4 §7| §8HT5"
     },
     "not_kalsher": {
       "name": "NOT_KALSHER",
