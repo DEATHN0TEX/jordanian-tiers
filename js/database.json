@@ -911,7 +911,7 @@
       "tiers": {
         "spear_mace": "HT5",
         "vanilla": "HT5",
-        "uhc": "None",
+        "uhc": "HT5",
         "pot": "None",
         "nethop": "None",
         "smp": "LT4",
