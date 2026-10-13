@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-13T19:48:48.408Z",
+  "updated_at": "2026-10-13T19:56:29.400Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1185,11 +1185,11 @@
       "tiers": {
         "spear_mace": "HT5",
         "vanilla": "HT5",
-        "sword": "LT5",
+        "sword": "HT5",
         "mace": "LT5",
         "cart": "LT5"
       },
-      "formatted_tag": "§8HT5 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §8LT5"
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §8HT5 §7| §8LT5 §7| §8LT5"
     },
     "f9d113279b2f4087a65a7e3dc5e7e338": {
       "name": "heybaby",
@@ -1198,11 +1198,11 @@
       "tiers": {
         "spear_mace": "HT5",
         "vanilla": "HT5",
-        "sword": "LT5",
+        "sword": "HT5",
         "mace": "LT5",
         "cart": "LT5"
       },
-      "formatted_tag": "§8HT5 §7| §8HT5 §7| §8LT5 §7| §8LT5 §7| §8LT5"
+      "formatted_tag": "§8HT5 §7| §8HT5 §7| §8HT5 §7| §8LT5 §7| §8LT5"
     },
     "biu_iceegg_l5j": {
       "name": "biu_IceEgg_l5j",
