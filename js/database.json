@@ -106,7 +106,8 @@
         "mace": "LT4",
         "overall": "LT4",
         "dia_smp": "HT4",
-        "cart": "HT4"
+        "cart": "HT4",
+        "lt_mace": "LT4"
       },
       "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
       "lastSyncCheck": 1788284236514,
