@@ -518,7 +518,8 @@
         "lt_mace": "LT3"
       },
       "retired": {
-        "smp": true
+        "smp": true,
+        "sword": true
       },
       "lastSyncCheck": 1788455666059
     },
