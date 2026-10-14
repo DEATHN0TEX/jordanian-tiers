@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-14T19:54:50.899Z",
+  "updated_at": "2026-10-14T19:55:11.740Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -619,9 +619,9 @@
       "tiers": {
         "spear_mace": "LT4",
         "vanilla": "HT5",
-        "mace": "LT4"
+        "mace": "HT4"
       },
-      "formatted_tag": "§3LT4 §7| §8HT5 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4"
     },
     "9233e2b3b4b34d5a977fadea7d410f8e": {
       "name": "kgbplus",
@@ -630,9 +630,9 @@
       "tiers": {
         "spear_mace": "LT4",
         "vanilla": "HT5",
-        "mace": "LT4"
+        "mace": "HT4"
       },
-      "formatted_tag": "§3LT4 §7| §8HT5 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §8HT5 §7| §bHT4"
     },
     "dimiemos": {
       "name": "dimiemos",
