@@ -813,7 +813,9 @@
         "dia_smp": "HT3",
         "lt_mace": "LT3"
       },
-      "retired": {},
+      "retired": {
+        "sword": true
+      },
       "lastSyncCheck": 1788808228455
     },
     {
