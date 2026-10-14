@@ -422,12 +422,12 @@
       "city": "Amman",
       "badges": [],
       "socials": {
-        "discord": "",
+        "discord": "polyut_min",
         "youtube": ""
       },
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "None",
+        "vanilla": "HT5",
         "uhc": "None",
         "pot": "None",
         "nethop": "None",
