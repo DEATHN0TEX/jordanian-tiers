@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-14T14:19:35.886Z",
+  "updated_at": "2026-10-14T17:55:01.717Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1141,7 +1141,7 @@
     "hamburble": {
       "name": "Hamburble",
       "uuid": "325906e028914f04922a6e74c4a5b677",
-      "overall": "HT4",
+      "overall": "LT3",
       "tiers": {
         "spear_mace": "HT3",
         "vanilla": "LT4",
@@ -1149,19 +1149,19 @@
         "pot": "LT3",
         "nethop": "LT3",
         "smp": "LT3",
-        "sword": "HT3",
+        "sword": "LT2",
         "axe": "LT3",
         "mace": "HT3",
         "dia_smp": "HT4",
         "cart": "HT4",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§6HT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§6HT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3"
     },
     "325906e028914f04922a6e74c4a5b677": {
       "name": "Hamburble",
       "uuid": "325906e028914f04922a6e74c4a5b677",
-      "overall": "HT4",
+      "overall": "LT3",
       "tiers": {
         "spear_mace": "HT3",
         "vanilla": "LT4",
@@ -1169,14 +1169,14 @@
         "pot": "LT3",
         "nethop": "LT3",
         "smp": "LT3",
-        "sword": "HT3",
+        "sword": "LT2",
         "axe": "LT3",
         "mace": "HT3",
         "dia_smp": "HT4",
         "cart": "HT4",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§6HT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§6HT3 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3"
     },
     "heybaby": {
       "name": "heybaby",
