@@ -1541,6 +1541,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1791839076540
+    },
+    {
+      "username": "CarpeMC",
+      "uuid": "ad0aa501c55a4f83861ce8add34d5b31",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "carpemc",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "LT3",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1791987550276
     }
   ],
   "testers": [
