@@ -1570,6 +1570,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1791987550276
+    },
+    {
+      "username": "AL2TRM",
+      "uuid": "7ce12eace3e14cfdb7d06cb680ad89a6",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "kurto01az",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1792002761202
     }
   ],
   "testers": [
