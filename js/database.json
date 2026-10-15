@@ -1593,7 +1593,8 @@
         "sword": "None",
         "axe": "None",
         "mace": "LT3",
-        "overall": "LT5"
+        "overall": "LT5",
+        "cart": "LT4"
       },
       "retired": {},
       "lastSyncCheck": 1792002761202
