@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-15T14:35:01.536Z",
+  "updated_at": "2026-10-15T15:22:08.881Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1650,22 +1650,22 @@
     "carpemc": {
       "name": "CarpeMC",
       "uuid": "ad0aa501c55a4f83861ce8add34d5b31",
-      "overall": "HT5",
+      "overall": "LT4",
       "tiers": {
         "pot": "HT3",
-        "nethop": "HT3"
+        "nethop": "LT2"
       },
-      "formatted_tag": "§6HT3 §7| §6HT3"
+      "formatted_tag": "§6HT3 §7| §7LT2"
     },
     "ad0aa501c55a4f83861ce8add34d5b31": {
       "name": "CarpeMC",
       "uuid": "ad0aa501c55a4f83861ce8add34d5b31",
-      "overall": "HT5",
+      "overall": "LT4",
       "tiers": {
         "pot": "HT3",
-        "nethop": "HT3"
+        "nethop": "LT2"
       },
-      "formatted_tag": "§6HT3 §7| §6HT3"
+      "formatted_tag": "§6HT3 §7| §7LT2"
     },
     "al2trm": {
       "name": "AL2TRM",
