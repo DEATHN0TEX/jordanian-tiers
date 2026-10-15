@@ -1562,12 +1562,12 @@
         "vanilla": "None",
         "uhc": "None",
         "pot": "HT3",
-        "nethop": "HT3",
+        "nethop": "LT2",
         "smp": "None",
         "sword": "None",
         "axe": "None",
         "mace": "None",
-        "overall": "HT5"
+        "overall": "LT4"
       },
       "retired": {},
       "lastSyncCheck": 1791987550276
