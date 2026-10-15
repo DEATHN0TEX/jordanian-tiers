@@ -810,7 +810,7 @@
         "nethop": "LT2",
         "smp": "HT2",
         "sword": "HT2",
-        "axe": "LT2",
+        "axe": "HT2",
         "mace": "LT3",
         "overall": "HT3",
         "cart": "HT4",
