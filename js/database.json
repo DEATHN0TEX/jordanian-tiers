@@ -1598,6 +1598,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1792002761202
+    },
+    {
+      "username": "kittyengn67",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "engn___",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "LT3",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1792184562109
     }
   ],
   "testers": [
