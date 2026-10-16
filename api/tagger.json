@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-16T21:02:43.217Z",
+  "updated_at": "2026-10-16T21:03:24.637Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1690,11 +1690,9 @@
     "kittyengn67": {
       "name": "kittyengn67",
       "uuid": "cracked",
-      "overall": "LT5",
-      "tiers": {
-        "spear_mace": "LT3"
-      },
-      "formatted_tag": "§eLT3"
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     }
   }
 }
