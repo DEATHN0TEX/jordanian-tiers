@@ -1728,6 +1728,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1792275458500
+    },
+    {
+      "username": "<@1047608245172326530>",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "None"
+      },
+      "retired": {},
+      "lastSyncCheck": 1792275494412
     }
   ],
   "testers": [
