@@ -1780,6 +1780,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1792275497380
+    },
+    {
+      "username": "ItzRealMe",
+      "uuid": "06ec3577329945fabbdf613b1f86c8ab",
+      "nickname": "",
+      "region": "NA",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "HT3",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1792276604910
     }
   ],
   "testers": [
