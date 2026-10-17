@@ -1068,11 +1068,11 @@
       "username": "SarFlear",
       "uuid": "cef591b2cb394ef5b464f91c4ddd5af1",
       "nickname": "",
-      "region": "EU",
+      "region": "ME",
       "city": "",
       "badges": [],
       "socials": {
-        "discord": "",
+        "discord": "sarflear",
         "youtube": ""
       },
       "tiers": {
@@ -1084,11 +1084,13 @@
         "smp": "None",
         "sword": "None",
         "axe": "None",
-        "mace": "LT3",
+        "mace": "HT3",
         "overall": "LT5",
         "lt_mace": "LT4"
       },
-      "retired": {},
+      "retired": {
+        "mace": true
+      },
       "lastSyncCheck": 1789673951828
     },
     {
