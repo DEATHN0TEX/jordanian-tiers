@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-17T23:01:43.255Z",
+  "updated_at": "2026-10-17T23:17:34.385Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1800,6 +1800,33 @@
       "overall": "None",
       "tiers": {},
       "formatted_tag": ""
+    },
+    "torch": {
+      "name": "torch",
+      "uuid": "f11693b30f0441818773467487ec0dc1",
+      "overall": "LT5",
+      "tiers": {
+        "axe": "HT3"
+      },
+      "formatted_tag": "§6HT3"
+    },
+    "t0rch": {
+      "name": "torch",
+      "uuid": "f11693b30f0441818773467487ec0dc1",
+      "overall": "LT5",
+      "tiers": {
+        "axe": "HT3"
+      },
+      "formatted_tag": "§6HT3"
+    },
+    "f11693b30f0441818773467487ec0dc1": {
+      "name": "torch",
+      "uuid": "f11693b30f0441818773467487ec0dc1",
+      "overall": "LT5",
+      "tiers": {
+        "axe": "HT3"
+      },
+      "formatted_tag": "§6HT3"
     }
   }
 }
