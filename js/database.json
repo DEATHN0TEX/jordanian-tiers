@@ -1650,6 +1650,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1792184798618
+    },
+    {
+      "username": "stunslams",
+      "uuid": "bcc9c81edb5546769abe6e3f9ed38d0d",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "stunslams",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "HT3",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1792264957118
     }
   ],
   "testers": [
