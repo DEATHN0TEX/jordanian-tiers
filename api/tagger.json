@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-17T23:17:34.385Z",
+  "updated_at": "2026-10-17T23:19:16.801Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -234,13 +234,13 @@
         "nethop": "HT4",
         "smp": "LT4",
         "sword": "LT3",
-        "axe": "LT3",
+        "axe": "HT3",
         "mace": "LT4",
         "dia_smp": "HT4",
         "cart": "HT4",
         "lt_mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §eLT3 §7| §6HT3 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §3LT4"
     },
     "t0rch7007": {
       "name": "Torch7007",
@@ -254,13 +254,13 @@
         "nethop": "HT4",
         "smp": "LT4",
         "sword": "LT3",
-        "axe": "LT3",
+        "axe": "HT3",
         "mace": "LT4",
         "dia_smp": "HT4",
         "cart": "HT4",
         "lt_mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §eLT3 §7| §6HT3 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §3LT4"
     },
     "torch7oo7": {
       "name": "Torch7007",
@@ -274,13 +274,13 @@
         "nethop": "HT4",
         "smp": "LT4",
         "sword": "LT3",
-        "axe": "LT3",
+        "axe": "HT3",
         "mace": "LT4",
         "dia_smp": "HT4",
         "cart": "HT4",
         "lt_mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §eLT3 §7| §6HT3 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §3LT4"
     },
     "83c9192ca73c46c49fb9046c75867013": {
       "name": "Torch7007",
@@ -294,13 +294,13 @@
         "nethop": "HT4",
         "smp": "LT4",
         "sword": "LT3",
-        "axe": "LT3",
+        "axe": "HT3",
         "mace": "LT4",
         "dia_smp": "HT4",
         "cart": "HT4",
         "lt_mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §eLT3 §7| §6HT3 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §3LT4"
     },
     "83c9192c-a73c-46c4-9fb9-046c75867013": {
       "name": "Torch7007",
@@ -314,13 +314,13 @@
         "nethop": "HT4",
         "smp": "LT4",
         "sword": "LT3",
-        "axe": "LT3",
+        "axe": "HT3",
         "mace": "LT4",
         "dia_smp": "HT4",
         "cart": "HT4",
         "lt_mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §3LT4"
+      "formatted_tag": "§3LT4 §7| §3LT4 §7| §3LT4 §7| §3LT4 §7| §bHT4 §7| §3LT4 §7| §eLT3 §7| §6HT3 §7| §3LT4 §7| §bHT4 §7| §bHT4 §7| §3LT4"
     },
     "gr4vess": {
       "name": "GR4VESS",
