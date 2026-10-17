@@ -1676,6 +1676,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1792264957118
+    },
+    {
+      "username": "_Lu1ci0_",
+      "uuid": "eb487e1498644758947cb5d2bce90342",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": ".jamesrandel",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1792273323787
     }
   ],
   "testers": [
