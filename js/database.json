@@ -924,8 +924,9 @@
         "sword": "HT5",
         "axe": "None",
         "mace": "HT5",
-        "overall": "LT5",
-        "cart": "LT5"
+        "overall": "HT5",
+        "cart": "LT5",
+        "dia_smp": "HT4"
       },
       "retired": {},
       "lastSyncCheck": 1788974672766
