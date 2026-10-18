@@ -1834,6 +1834,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1792279053324
+    },
+    {
+      "username": "engn___",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "None"
+      },
+      "retired": {},
+      "lastSyncCheck": 1792322746695
     }
   ],
   "testers": [
