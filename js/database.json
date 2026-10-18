@@ -1913,6 +1913,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1792324980888
+    },
+    {
+      "username": "FantasticLepa",
+      "uuid": "8ce0649f202248dc801040e27b73d97c",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "lepaseta",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1792348267681
     }
   ],
   "testers": [
