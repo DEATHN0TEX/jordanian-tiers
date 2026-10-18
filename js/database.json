@@ -1886,6 +1886,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1792322868220
+    },
+    {
+      "username": "_w4sted",
+      "uuid": "14af81fcb86a4faaaf1bdae19acce47f",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "czqueroxiikk",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1792324980888
     }
   ],
   "testers": [
