@@ -1860,6 +1860,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1792322746695
+    },
+    {
+      "username": "SebaOxO",
+      "uuid": "d693e9457bca45318ccbf1753f147bb5",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "HT3",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1792322868220
     }
   ],
   "testers": [
