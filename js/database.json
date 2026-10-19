@@ -520,7 +520,8 @@
       },
       "retired": {
         "smp": true,
-        "sword": true
+        "sword": true,
+        "mace": true
       },
       "lastSyncCheck": 1788455666059
     },
