@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-19T17:45:34.980Z",
+  "updated_at": "2026-10-21T13:26:33.321Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1150,7 +1150,7 @@
       "uuid": "325906e028914f04922a6e74c4a5b677",
       "overall": "LT3",
       "tiers": {
-        "spear_mace": "LT2",
+        "spear_mace": "HT2",
         "vanilla": "LT3",
         "uhc": "LT3",
         "pot": "LT3",
@@ -1163,14 +1163,14 @@
         "cart": "HT4",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§7LT2 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§fHT2 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3"
     },
     "325906e028914f04922a6e74c4a5b677": {
       "name": "Hamburble",
       "uuid": "325906e028914f04922a6e74c4a5b677",
       "overall": "LT3",
       "tiers": {
-        "spear_mace": "LT2",
+        "spear_mace": "HT2",
         "vanilla": "LT3",
         "uhc": "LT3",
         "pot": "LT3",
@@ -1183,7 +1183,7 @@
         "cart": "HT4",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§7LT2 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3"
+      "formatted_tag": "§fHT2 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §7LT2 §7| §6HT3 §7| §6HT3 §7| §bHT4 §7| §bHT4 §7| §eLT3"
     },
     "heybaby": {
       "name": "heybaby",
