@@ -2018,6 +2018,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1793030809438
+    },
+    {
+      "username": "LeonGrinder",
+      "uuid": "89652dc510274409ae75e51a4bbf5390",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "fireislands",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "HT4",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1793036458781
     }
   ],
   "testers": [
