@@ -2044,6 +2044,33 @@
       },
       "retired": {},
       "lastSyncCheck": 1793036458781
+    },
+    {
+      "username": "JustPatelbia",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5",
+        "cart": "LT3"
+      },
+      "retired": {},
+      "lastSyncCheck": 1793040339097
     }
   ],
   "testers": [
