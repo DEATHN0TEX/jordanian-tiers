@@ -2071,6 +2071,33 @@
       },
       "retired": {},
       "lastSyncCheck": 1793040339097
+    },
+    {
+      "username": "JustPatelnia",
+      "uuid": "f81e82156141478fbbc5a657553c762b",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5",
+        "cart": "LT3"
+      },
+      "retired": {},
+      "lastSyncCheck": 1793040456391
     }
   ],
   "testers": [
