@@ -2099,6 +2099,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1793040456391
+    },
+    {
+      "username": "JonWhite7579",
+      "uuid": "c29b862fdaa74b4092330e0dbd21e1b7",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "jonwhite252",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "LT4",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1793047948129
     }
   ],
   "testers": [
