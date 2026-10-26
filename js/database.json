@@ -2014,7 +2014,8 @@
         "sword": "None",
         "axe": "None",
         "mace": "HT3",
-        "overall": "HT5"
+        "overall": "HT5",
+        "cart": "HT4"
       },
       "retired": {},
       "lastSyncCheck": 1793030809438
