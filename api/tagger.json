@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-26T17:34:19.711Z",
+  "updated_at": "2026-10-26T17:40:43.586Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1538,9 +1538,10 @@
       "overall": "LT5",
       "tiers": {
         "spear_mace": "HT4",
-        "sword": "LT3"
+        "sword": "LT3",
+        "mace": "LT4"
       },
-      "formatted_tag": "§bHT4 §7| §eLT3"
+      "formatted_tag": "§bHT4 §7| §eLT3 §7| §3LT4"
     },
     "iamcl0udy": {
       "name": "IamCloudy",
@@ -1548,9 +1549,10 @@
       "overall": "LT5",
       "tiers": {
         "spear_mace": "HT4",
-        "sword": "LT3"
+        "sword": "LT3",
+        "mace": "LT4"
       },
-      "formatted_tag": "§bHT4 §7| §eLT3"
+      "formatted_tag": "§bHT4 §7| §eLT3 §7| §3LT4"
     },
     "ca1ae23564e84c3ca1dae747d87b0f17": {
       "name": "IamCloudy",
@@ -1558,9 +1560,10 @@
       "overall": "LT5",
       "tiers": {
         "spear_mace": "HT4",
-        "sword": "LT3"
+        "sword": "LT3",
+        "mace": "LT4"
       },
-      "formatted_tag": "§bHT4 §7| §eLT3"
+      "formatted_tag": "§bHT4 §7| §eLT3 §7| §3LT4"
     },
     "r_yze_": {
       "name": "R_YZE_",
