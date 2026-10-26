@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-26T17:49:06.599Z",
+  "updated_at": "2026-10-26T18:02:53.765Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1191,7 +1191,7 @@
       "overall": "HT5",
       "tiers": {
         "spear_mace": "HT4",
-        "vanilla": "HT5",
+        "vanilla": "LT3",
         "uhc": "HT5",
         "smp": "LT4",
         "sword": "HT5",
@@ -1199,7 +1199,7 @@
         "cart": "LT5",
         "dia_smp": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8HT5 §7| §8HT5 §7| §8LT5 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §eLT3 §7| §8HT5 §7| §3LT4 §7| §8HT5 §7| §8HT5 §7| §8LT5 §7| §bHT4"
     },
     "f9d113279b2f4087a65a7e3dc5e7e338": {
       "name": "heybaby",
@@ -1207,7 +1207,7 @@
       "overall": "HT5",
       "tiers": {
         "spear_mace": "HT4",
-        "vanilla": "HT5",
+        "vanilla": "LT3",
         "uhc": "HT5",
         "smp": "LT4",
         "sword": "HT5",
@@ -1215,7 +1215,7 @@
         "cart": "LT5",
         "dia_smp": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8HT5 §7| §8HT5 §7| §8LT5 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §eLT3 §7| §8HT5 §7| §3LT4 §7| §8HT5 §7| §8HT5 §7| §8LT5 §7| §bHT4"
     },
     "biu_iceegg_l5j": {
       "name": "biu_IceEgg_l5j",
