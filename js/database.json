@@ -1992,6 +1992,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1792851552284
+    },
+    {
+      "username": "wao_",
+      "uuid": "2d2267a81bd74363a54d6f0149fddc2b",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1793030809438
     }
   ],
   "testers": [
