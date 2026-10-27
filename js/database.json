@@ -2095,7 +2095,8 @@
         "axe": "None",
         "mace": "None",
         "overall": "LT5",
-        "cart": "LT3"
+        "cart": "LT3",
+        "dia_smp": "LT3"
       },
       "retired": {},
       "lastSyncCheck": 1793040456391
