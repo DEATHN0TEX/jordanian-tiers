@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-27T11:26:17.096Z",
+  "updated_at": "2026-10-27T17:28:48.401Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2011,18 +2011,20 @@
       "uuid": "f81e82156141478fbbc5a657553c762b",
       "overall": "LT5",
       "tiers": {
-        "cart": "LT3"
+        "cart": "LT3",
+        "dia_smp": "LT3"
       },
-      "formatted_tag": "§eLT3"
+      "formatted_tag": "§eLT3 §7| §eLT3"
     },
     "f81e82156141478fbbc5a657553c762b": {
       "name": "JustPatelnia",
       "uuid": "f81e82156141478fbbc5a657553c762b",
       "overall": "LT5",
       "tiers": {
-        "cart": "LT3"
+        "cart": "LT3",
+        "dia_smp": "LT3"
       },
-      "formatted_tag": "§eLT3"
+      "formatted_tag": "§eLT3 §7| §eLT3"
     },
     "jonwhite7579": {
       "name": "JonWhite7579",
