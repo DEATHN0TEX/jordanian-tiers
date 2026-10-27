@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-26T20:52:29.352Z",
+  "updated_at": "2026-10-27T11:26:17.096Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1283,9 +1283,9 @@
         "sword": "LT3",
         "axe": "LT3",
         "dia_smp": "LT3",
-        "cart": "HT4"
+        "cart": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §bHT4"
+      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3"
     },
     "b0f6760019f345bb86a677fe7742da10": {
       "name": "Versilver",
@@ -1299,9 +1299,9 @@
         "sword": "LT3",
         "axe": "LT3",
         "dia_smp": "LT3",
-        "cart": "HT4"
+        "cart": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §bHT4"
+      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3"
     },
     "xxlmeister": {
       "name": "XXLmeister",
