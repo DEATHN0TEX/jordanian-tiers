@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-27T17:28:48.401Z",
+  "updated_at": "2026-10-27T17:50:07.126Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1939,38 +1939,41 @@
     "wao_": {
       "name": "wao_",
       "uuid": "2d2267a81bd74363a54d6f0149fddc2b",
-      "overall": "HT5",
+      "overall": "LT4",
       "tiers": {
         "spear_mace": "HT4",
         "vanilla": "LT3",
         "mace": "HT3",
-        "cart": "HT4"
+        "cart": "HT4",
+        "dia_smp": "LT3"
       },
-      "formatted_tag": "§bHT4 §7| §eLT3 §7| §6HT3 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §eLT3"
     },
     "wa0_": {
       "name": "wao_",
       "uuid": "2d2267a81bd74363a54d6f0149fddc2b",
-      "overall": "HT5",
+      "overall": "LT4",
       "tiers": {
         "spear_mace": "HT4",
         "vanilla": "LT3",
         "mace": "HT3",
-        "cart": "HT4"
+        "cart": "HT4",
+        "dia_smp": "LT3"
       },
-      "formatted_tag": "§bHT4 §7| §eLT3 §7| §6HT3 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §eLT3"
     },
     "2d2267a81bd74363a54d6f0149fddc2b": {
       "name": "wao_",
       "uuid": "2d2267a81bd74363a54d6f0149fddc2b",
-      "overall": "HT5",
+      "overall": "LT4",
       "tiers": {
         "spear_mace": "HT4",
         "vanilla": "LT3",
         "mace": "HT3",
-        "cart": "HT4"
+        "cart": "HT4",
+        "dia_smp": "LT3"
       },
-      "formatted_tag": "§bHT4 §7| §eLT3 §7| §6HT3 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §eLT3 §7| §6HT3 §7| §bHT4 §7| §eLT3"
     },
     "leongrinder": {
       "name": "LeonGrinder",
