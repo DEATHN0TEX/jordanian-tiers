@@ -2128,6 +2128,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1793047948129
+    },
+    {
+      "username": "Official_Cat3",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "mm5599795",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "LT4",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1793194298885
     }
   ],
   "testers": [
