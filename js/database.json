@@ -2154,6 +2154,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1793194298885
+    },
+    {
+      "username": "real_abd12",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "abido12.",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "HT5",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1793206473399
     }
   ],
   "testers": [
