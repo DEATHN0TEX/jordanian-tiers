@@ -2180,6 +2180,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1793206473399
+    },
+    {
+      "username": "red_f150",
+      "uuid": "284d2534dd1243d6be0cf170358310d3",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "red_f150",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "LT4",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1793383596736
     }
   ],
   "testers": [
