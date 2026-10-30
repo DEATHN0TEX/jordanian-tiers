@@ -96,7 +96,7 @@
       },
       "tiers": {
         "spear_mace": "LT4",
-        "vanilla": "LT4",
+        "vanilla": "HT5",
         "uhc": "LT3",
         "pot": "LT4",
         "nethop": "HT4",
@@ -111,7 +111,7 @@
       },
       "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
       "lastSyncCheck": 1788284236514,
-      "region": "ME",
+      "region": "EU",
       "retired": {}
     },
     {
