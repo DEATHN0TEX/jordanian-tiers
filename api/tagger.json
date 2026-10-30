@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-10-30T18:06:38.195Z",
+  "updated_at": "2026-10-30T18:11:52.163Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2041,27 +2041,30 @@
       "uuid": "c29b862fdaa74b4092330e0dbd21e1b7",
       "overall": "LT5",
       "tiers": {
+        "vanilla": "HT5",
         "sword": "LT4"
       },
-      "formatted_tag": "§3LT4"
+      "formatted_tag": "§8HT5 §7| §3LT4"
     },
     "j0nwhite7579": {
       "name": "JonWhite7579",
       "uuid": "c29b862fdaa74b4092330e0dbd21e1b7",
       "overall": "LT5",
       "tiers": {
+        "vanilla": "HT5",
         "sword": "LT4"
       },
-      "formatted_tag": "§3LT4"
+      "formatted_tag": "§8HT5 §7| §3LT4"
     },
     "c29b862fdaa74b4092330e0dbd21e1b7": {
       "name": "JonWhite7579",
       "uuid": "c29b862fdaa74b4092330e0dbd21e1b7",
       "overall": "LT5",
       "tiers": {
+        "vanilla": "HT5",
         "sword": "LT4"
       },
-      "formatted_tag": "§3LT4"
+      "formatted_tag": "§8HT5 §7| §3LT4"
     },
     "official_cat3": {
       "name": "Official_Cat3",
