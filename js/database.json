@@ -2206,6 +2206,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1793383596736
+    },
+    {
+      "username": "moriphism",
+      "uuid": "65c899463e7c4760b53f461bbc82aef3",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "moriphism.",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "LT3",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1793709216083
     }
   ],
   "testers": [
