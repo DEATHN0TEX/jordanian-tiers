@@ -2232,6 +2232,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1793709216083
+    },
+    {
+      "username": "Abas57",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "abas109",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "None"
+      },
+      "retired": {},
+      "lastSyncCheck": 1793731818493
     }
   ],
   "testers": [
