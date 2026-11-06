@@ -2260,6 +2260,33 @@
       },
       "retired": {},
       "lastSyncCheck": 1793731818493
+    },
+    {
+      "username": "luxity",
+      "uuid": "bce939311822488fbbd685679b29eea7",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5",
+        "lt_mace": "LT3"
+      },
+      "retired": {},
+      "lastSyncCheck": 1794002260837
     }
   ],
   "testers": [
