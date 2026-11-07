@@ -2287,6 +2287,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1794002260837
+    },
+    {
+      "username": "ItsHimEXD",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "itshimexd",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "LT4",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1794066910516
     }
   ],
   "testers": [
