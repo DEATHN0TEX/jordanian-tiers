@@ -2313,6 +2313,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1794066910516
+    },
+    {
+      "username": "UltimateCow2013",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "theultimatecow",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1794084205014
     }
   ],
   "testers": [
