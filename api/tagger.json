@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-11-07T20:43:26.058Z",
+  "updated_at": "2026-11-08T19:07:56.099Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -971,14 +971,14 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "LT3",
-        "smp": "HT4",
+        "smp": "LT3",
         "sword": "LT3",
         "mace": "LT3",
         "lt_mace": "LT4",
         "dia_smp": "HT4",
         "cart": "HT5"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §8HT5"
+      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §8HT5"
     },
     "46dc587e0f6f467fab014a953543a61e": {
       "name": "lanesivier",
@@ -986,14 +986,14 @@
       "overall": "LT4",
       "tiers": {
         "spear_mace": "LT3",
-        "smp": "HT4",
+        "smp": "LT3",
         "sword": "LT3",
         "mace": "LT3",
         "lt_mace": "LT4",
         "dia_smp": "HT4",
         "cart": "HT5"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §8HT5"
+      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §8HT5"
     },
     "darkangell555": {
       "name": "DarkAngell555",
