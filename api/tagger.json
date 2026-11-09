@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-11-08T19:07:56.099Z",
+  "updated_at": "2026-11-09T15:07:13.843Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1308,20 +1308,22 @@
       "uuid": "b5166ce9f582452ca3785ef8cc8b30fa",
       "overall": "LT5",
       "tiers": {
+        "spear_mace": "HT4",
         "vanilla": "LT4",
         "mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4"
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §3LT4"
     },
     "b5166ce9f582452ca3785ef8cc8b30fa": {
       "name": "XXLmeister",
       "uuid": "b5166ce9f582452ca3785ef8cc8b30fa",
       "overall": "LT5",
       "tiers": {
+        "spear_mace": "HT4",
         "vanilla": "LT4",
         "mace": "LT4"
       },
-      "formatted_tag": "§3LT4 §7| §3LT4"
+      "formatted_tag": "§bHT4 §7| §3LT4 §7| §3LT4"
     },
     "versilve": {
       "name": "Versilve",
