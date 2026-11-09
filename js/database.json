@@ -1033,7 +1033,7 @@
         "uhc": "None",
         "pot": "None",
         "nethop": "None",
-        "smp": "None",
+        "smp": "HT5",
         "sword": "None",
         "axe": "None",
         "mace": "HT4",
