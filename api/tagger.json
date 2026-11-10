@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-11-09T15:34:10.011Z",
+  "updated_at": "2026-11-10T14:47:23.858Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -705,7 +705,7 @@
         "dia_smp": "LT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7(§0R§7)§7LT2 §7| §7(§0R§7)§7LT2 §7| §7LT2 §7| §7(§0R§7)§7LT2 §7| §eLT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7[§bR§7] §7LT2 §7| §7[§bR§7] §7LT2 §7| §7LT2 §7| §7[§bR§7] §7LT2 §7| §eLT3 §7| §eLT3"
     },
     "jack0lan10rn": {
       "name": "JackOLan10rn",
@@ -724,7 +724,7 @@
         "dia_smp": "LT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7(§0R§7)§7LT2 §7| §7(§0R§7)§7LT2 §7| §7LT2 §7| §7(§0R§7)§7LT2 §7| §eLT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7[§bR§7] §7LT2 §7| §7[§bR§7] §7LT2 §7| §7LT2 §7| §7[§bR§7] §7LT2 §7| §eLT3 §7| §eLT3"
     },
     "jackolan1orn": {
       "name": "JackOLan10rn",
@@ -743,7 +743,7 @@
         "dia_smp": "LT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7(§0R§7)§7LT2 §7| §7(§0R§7)§7LT2 §7| §7LT2 §7| §7(§0R§7)§7LT2 §7| §eLT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7[§bR§7] §7LT2 §7| §7[§bR§7] §7LT2 §7| §7LT2 §7| §7[§bR§7] §7LT2 §7| §eLT3 §7| §eLT3"
     },
     "f311b3fc49334e3c90e8da64baeaf689": {
       "name": "JackOLan10rn",
@@ -762,7 +762,7 @@
         "dia_smp": "LT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7(§0R§7)§7LT2 §7| §7(§0R§7)§7LT2 §7| §7LT2 §7| §7(§0R§7)§7LT2 §7| §eLT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7[§bR§7] §7LT2 §7| §7[§bR§7] §7LT2 §7| §7LT2 §7| §7[§bR§7] §7LT2 §7| §eLT3 §7| §eLT3"
     },
     "jackolant10rn": {
       "name": "jackOlant10rn",
@@ -1089,7 +1089,7 @@
         "dia_smp": "HT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §6HT3 §7| §fHT2 §7| §fHT2 §7| §fHT2 §7| §7(§0R§7)§fHT2 §7| §fHT2 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §fHT2 §7| §fHT2 §7| §fHT2 §7| §7[§bR§7] §fHT2 §7| §fHT2 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3"
     },
     "39eada9546a3428eb6f7dd60277885f1": {
       "name": "Luxicity",
@@ -1108,7 +1108,7 @@
         "dia_smp": "HT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §6HT3 §7| §fHT2 §7| §fHT2 §7| §fHT2 §7| §7(§0R§7)§fHT2 §7| §fHT2 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §fHT2 §7| §fHT2 §7| §fHT2 §7| §7[§bR§7] §fHT2 §7| §fHT2 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3"
     },
     "torch7007 ht4 uhc": {
       "name": "Torch7007 ht4 UHC",
@@ -1344,7 +1344,7 @@
         "mace": "RHT3",
         "lt_mace": "LT4"
       },
-      "formatted_tag": "§7(§0R§7)§6HT3 §7| §3LT4"
+      "formatted_tag": "§7[§bR§7] §6HT3 §7| §3LT4"
     },
     "cef591b2cb394ef5b464f91c4ddd5af1": {
       "name": "SarFlear",
@@ -1354,7 +1354,7 @@
         "mace": "RHT3",
         "lt_mace": "LT4"
       },
-      "formatted_tag": "§7(§0R§7)§6HT3 §7| §3LT4"
+      "formatted_tag": "§7[§bR§7] §6HT3 §7| §3LT4"
     },
     "268k_": {
       "name": "268k_",
