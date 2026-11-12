@@ -78,7 +78,8 @@
         "axe": "LT4",
         "mace": "HT4",
         "overall": "LT4",
-        "dia_smp": "HT4"
+        "dia_smp": "HT4",
+        "cart": "LT4"
       },
       "uuid": "b5191b99-7819-43aa-b1ca-2bbca901e7f0",
       "lastSyncCheck": 1788284236003,
