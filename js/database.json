@@ -809,6 +809,23 @@
       },
       "tiers": {
         "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "overall": "None",
+        "cart": "None",
+        "dia_smp": "None",
+        "lt_mace": "None"
+      },
+      "retired": {},
+      "lastSyncCheck": 1788808228455,
+      "savedTiers": {
+        "spear_mace": "None",
         "vanilla": "LT3",
         "uhc": "HT3",
         "pot": "HT2",
@@ -822,10 +839,13 @@
         "dia_smp": "HT3",
         "lt_mace": "LT3"
       },
-      "retired": {
+      "savedRetired": {
         "sword": true
       },
-      "lastSyncCheck": 1788808228455
+      "restricted": true,
+      "restrictedAt": 1794593672190,
+      "restrictedBy": "deathnote5030",
+      "restrictionReason": "No reason provided"
     },
     {
       "username": "Torch7007 ht4 UHC",
