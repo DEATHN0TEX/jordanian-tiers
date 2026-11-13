@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-11-13T21:08:30.581Z",
+  "updated_at": "2026-11-13T21:09:56.109Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2220,38 +2220,30 @@
     "deathn0te": {
       "name": "DeathN0te",
       "uuid": "5f2d2ff2-64ba-42f3-b77d-a773a3140169",
-      "overall": "LT5",
-      "tiers": {
-        "uhc": "LT5"
-      },
-      "formatted_tag": "§8LT5"
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     },
     "deathnote": {
       "name": "DeathN0te",
       "uuid": "5f2d2ff2-64ba-42f3-b77d-a773a3140169",
-      "overall": "LT5",
-      "tiers": {
-        "uhc": "LT5"
-      },
-      "formatted_tag": "§8LT5"
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     },
     "5f2d2ff264ba42f3b77da773a3140169": {
       "name": "DeathN0te",
       "uuid": "5f2d2ff2-64ba-42f3-b77d-a773a3140169",
-      "overall": "LT5",
-      "tiers": {
-        "uhc": "LT5"
-      },
-      "formatted_tag": "§8LT5"
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     },
     "5f2d2ff2-64ba-42f3-b77d-a773a3140169": {
       "name": "DeathN0te",
       "uuid": "5f2d2ff2-64ba-42f3-b77d-a773a3140169",
-      "overall": "LT5",
-      "tiers": {
-        "uhc": "LT5"
-      },
-      "formatted_tag": "§8LT5"
+      "overall": "None",
+      "tiers": {},
+      "formatted_tag": ""
     }
   }
 }
