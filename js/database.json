@@ -25,7 +25,7 @@
         "lt_mace": "HT4"
       },
       "uuid": "43681bb8-b2c3-4cd4-affd-385f71b4395f",
-      "lastSyncCheck": 1788286853886,
+      "lastSyncCheck": 1794593190504,
       "region": "ME",
       "retired": {}
     },
@@ -54,7 +54,7 @@
         "lt_mace": "HT4"
       },
       "uuid": "cb0cef85-557d-4f24-9725-943038e37eaf",
-      "lastSyncCheck": 1788284252509,
+      "lastSyncCheck": 1794593190097,
       "region": "ME",
       "retired": {}
     },
@@ -82,7 +82,7 @@
         "cart": "LT4"
       },
       "uuid": "b5191b99-7819-43aa-b1ca-2bbca901e7f0",
-      "lastSyncCheck": 1788284236003,
+      "lastSyncCheck": 1794593189522,
       "region": "ME",
       "retired": {}
     },
@@ -111,7 +111,7 @@
         "lt_mace": "LT4"
       },
       "uuid": "83c9192c-a73c-46c4-9fb9-046c75867013",
-      "lastSyncCheck": 1788284236514,
+      "lastSyncCheck": 1794593189707,
       "region": "EU",
       "retired": {}
     },
@@ -139,7 +139,7 @@
         "cart": "LT5"
       },
       "uuid": "9d3b9c04-2831-4ce4-9797-97834f6f103a",
-      "lastSyncCheck": 1788284237535,
+      "lastSyncCheck": 1794593189891,
       "retired": {},
       "region": "ME"
     },
@@ -310,7 +310,7 @@
         "overall": "LT5"
       },
       "retired": {},
-      "lastSyncCheck": 1788286852869
+      "lastSyncCheck": 1794593190314
     },
     {
       "username": "RGHiQ",
@@ -388,7 +388,7 @@
         "overall": "LT5"
       },
       "retired": {},
-      "lastSyncCheck": 1788308994174
+      "lastSyncCheck": 1794593190730
     },
     {
       "username": "xll1400",
@@ -414,7 +414,7 @@
         "overall": "LT5"
       },
       "retired": {},
-      "lastSyncCheck": 1788367748423
+      "lastSyncCheck": 1794593190916
     },
     {
       "username": "kgbplus",
@@ -440,7 +440,7 @@
         "overall": "LT5"
       },
       "retired": {},
-      "lastSyncCheck": 1788437173358
+      "lastSyncCheck": 1794593191095
     },
     {
       "username": "dimiemos",
@@ -466,7 +466,7 @@
         "overall": "LT5"
       },
       "retired": {},
-      "lastSyncCheck": 1788440648875
+      "lastSyncCheck": 1794593191286
     },
     {
       "username": "iRYPro",
@@ -492,7 +492,7 @@
         "overall": "LT5"
       },
       "retired": {},
-      "lastSyncCheck": 1788453794898
+      "lastSyncCheck": 1794593191487
     },
     {
       "username": "JackOLan10rn",
@@ -524,7 +524,7 @@
         "sword": true,
         "mace": true
       },
-      "lastSyncCheck": 1788455666059
+      "lastSyncCheck": 1794593191702
     },
     {
       "username": "jackOlant10rn",
@@ -579,7 +579,7 @@
         "dia_smp": "LT3"
       },
       "retired": {},
-      "lastSyncCheck": 1788463889700
+      "lastSyncCheck": 1794593191908
     },
     {
       "username": "Tuxedox",
@@ -606,7 +606,7 @@
         "lt_mace": "LT4"
       },
       "retired": {},
-      "lastSyncCheck": 1788464854959
+      "lastSyncCheck": 1794593192104
     },
     {
       "username": "Noelnw",
@@ -659,7 +659,7 @@
         "lt_mace": "LT4"
       },
       "retired": {},
-      "lastSyncCheck": 1788542877456
+      "lastSyncCheck": 1794593192291
     },
     {
       "username": "S_sami",
@@ -686,7 +686,7 @@
         "dia_smp": "LT3"
       },
       "retired": {},
-      "lastSyncCheck": 1788544636607
+      "lastSyncCheck": 1794593192489
     },
     {
       "username": "lanesivier",
@@ -715,7 +715,7 @@
         "cart": "HT5"
       },
       "retired": {},
-      "lastSyncCheck": 1788546614338
+      "lastSyncCheck": 1794593192672
     },
     {
       "username": "DarkAngell555",
@@ -2015,7 +2015,7 @@
         "uhc": "None",
         "pot": "None",
         "nethop": "None",
-        "smp": "None",
+        "smp": "LT3",
         "sword": "None",
         "axe": "None",
         "mace": "HT3",
