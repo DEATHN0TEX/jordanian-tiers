@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-11-13T21:26:03.323Z",
+  "updated_at": "2026-11-13T21:38:03.883Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2247,6 +2247,42 @@
       "overall": "None",
       "tiers": {},
       "formatted_tag": ""
+    },
+    "ybepo": {
+      "name": "yBepo",
+      "uuid": "77829a88-c3e3-4789-91e5-31fd11c72853",
+      "overall": "LT5",
+      "tiers": {
+        "mace": "HT4"
+      },
+      "formatted_tag": "§bHT4"
+    },
+    "ybep0": {
+      "name": "yBepo",
+      "uuid": "77829a88-c3e3-4789-91e5-31fd11c72853",
+      "overall": "LT5",
+      "tiers": {
+        "mace": "HT4"
+      },
+      "formatted_tag": "§bHT4"
+    },
+    "77829a88c3e3478991e531fd11c72853": {
+      "name": "yBepo",
+      "uuid": "77829a88-c3e3-4789-91e5-31fd11c72853",
+      "overall": "LT5",
+      "tiers": {
+        "mace": "HT4"
+      },
+      "formatted_tag": "§bHT4"
+    },
+    "77829a88-c3e3-4789-91e5-31fd11c72853": {
+      "name": "yBepo",
+      "uuid": "77829a88-c3e3-4789-91e5-31fd11c72853",
+      "overall": "LT5",
+      "tiers": {
+        "mace": "HT4"
+      },
+      "formatted_tag": "§bHT4"
     }
   }
 }
