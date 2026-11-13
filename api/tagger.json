@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-11-13T21:12:46.988Z",
+  "updated_at": "2026-11-13T21:26:03.323Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2110,27 +2110,30 @@
       "uuid": "284d2534dd1243d6be0cf170358310d3",
       "overall": "LT5",
       "tiers": {
-        "vanilla": "HT5"
+        "vanilla": "HT5",
+        "uhc": "HT5"
       },
-      "formatted_tag": "§8HT5"
+      "formatted_tag": "§8HT5 §7| §8HT5"
     },
     "red_f15o": {
       "name": "red_f150",
       "uuid": "284d2534dd1243d6be0cf170358310d3",
       "overall": "LT5",
       "tiers": {
-        "vanilla": "HT5"
+        "vanilla": "HT5",
+        "uhc": "HT5"
       },
-      "formatted_tag": "§8HT5"
+      "formatted_tag": "§8HT5 §7| §8HT5"
     },
     "284d2534dd1243d6be0cf170358310d3": {
       "name": "red_f150",
       "uuid": "284d2534dd1243d6be0cf170358310d3",
       "overall": "LT5",
       "tiers": {
-        "vanilla": "HT5"
+        "vanilla": "HT5",
+        "uhc": "HT5"
       },
-      "formatted_tag": "§8HT5"
+      "formatted_tag": "§8HT5 §7| §8HT5"
     },
     "moriphism": {
       "name": "moriphism",
