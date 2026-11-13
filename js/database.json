@@ -2367,6 +2367,32 @@
       },
       "retired": {},
       "lastSyncCheck": 1794603918593
+    },
+    {
+      "username": "yBepo",
+      "uuid": "77829a88-c3e3-4789-91e5-31fd11c72853",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "ybepo",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "HT4",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1794605882589
     }
   ],
   "testers": [
