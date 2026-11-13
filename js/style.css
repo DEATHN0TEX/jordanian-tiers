@@ -1,4 +1,4 @@
-/* Jordanian MCTiers Global Design System */
+/* AceTiers Global Design System */
 
 :root {
   /* Color Palette */
@@ -1744,7 +1744,7 @@ body {
 }
 
 /* ============================================
-   OVERALL LEADERBOARD (MCTiers-style flat list)
+   OVERALL LEADERBOARD (AceTiers-style flat list)
    ============================================ */
 
 .overall-leaderboard-header {
@@ -1956,7 +1956,7 @@ body {
 /* Unranked */
 .badge-none { background: rgba(110,118,129,0.2); border: 1px solid #484f58; color: var(--text-muted); }
 
-/* Gamemode icon images (from MCTiers official SVG assets) */
+/* Gamemode icon images (from AceTiers official SVG assets) */
 .gm-icon-img {
   width: 100%;
   height: 100%;
@@ -1984,7 +1984,7 @@ body {
 }
 
 /* ============================================
-   GAMEMODE COLUMNS GRID (MCTiers columns style)
+   GAMEMODE COLUMNS GRID (AceTiers columns style)
    ============================================ */
 
 .gamemode-columns-grid {

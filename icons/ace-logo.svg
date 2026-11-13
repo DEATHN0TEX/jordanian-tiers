@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" shape-rendering="geometricPrecision">
+  <defs>
+    <!-- Purple gradient for the spade -->
+    <linearGradient id="spadeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e9d5ff"/>
+      <stop offset="35%" stop-color="#c084fc"/>
+      <stop offset="72%" stop-color="#9333ea"/>
+      <stop offset="100%" stop-color="#6b21a8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Spade stem: narrow column with a flared foot (behind the body) -->
+  <path d="M242 340
+           L270 340
+           L280 438
+           C282 448 288 454 292 458
+           Q294 462 288 462
+           L224 462
+           Q218 462 220 458
+           C224 454 230 448 232 438
+           Z"
+        fill="url(#spadeGrad)"
+        stroke="#e9d5ff" stroke-width="5" stroke-opacity="0.55" stroke-linejoin="round"/>
+
+  <!-- Spade body: symmetric top point, round lobes, crisp V notch -->
+  <path d="M256 40
+           C256 40 84 178 84 282
+           C84 344 134 386 194 386
+           C222 386 244 372 256 350
+           C268 372 290 386 318 386
+           C378 386 428 344 428 282
+           C428 178 256 40 256 40 Z"
+        fill="url(#spadeGrad)"
+        stroke="#e9d5ff" stroke-width="5" stroke-opacity="0.55"
+        stroke-linejoin="miter" stroke-miterlimit="10"/>
+
+  <!-- Crisp vector "A" (no font rendering / blur) -->
+  <path d="M256 188
+           L316 322 L292 322 L276 306 L236 306 L220 322 L196 322 Z
+           M256 232 L276 288 L236 288 Z"
+        fill="#ffffff" fill-opacity="0.95" fill-rule="evenodd"/>
+</svg>

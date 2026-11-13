@@ -1,4 +1,4 @@
-// Jordanian MCTiers Main Application Logic
+// AceTiers Main Application Logic
 
 // --- STATE MANAGEMENT ---
 let players = [];
@@ -206,8 +206,8 @@ async function initApp() {
   setupEventListeners();
   updateLiveStats();
   // show a small badge so users can confirm where data came from
-  try { window.__mctiers_players_count = players ? players.length : 0; } catch (e) {}
-  try { console.log('MCTiers loaded:', window.__mctiers_data_source, 'players=', window.__mctiers_players_count); } catch (e) {}
+  try { window.__acetiers_players_count = players ? players.length : 0; } catch (e) {}
+  try { console.log('AceTiers loaded:', window.__acetiers_data_source, 'players=', window.__acetiers_players_count); } catch (e) {}
   
   // Start background sync 3 seconds after page loads to avoid delaying initial load
   setTimeout(startBackgroundSync, 3000);
@@ -240,10 +240,10 @@ async function loadDatabase() {
       if (data && Array.isArray(data.players) && data.players.length > 0) {
         players = data.players;
         testers = data.testers || [];
-        localStorage.setItem('jordan_mctiers_players', JSON.stringify(players));
-        localStorage.setItem('jordan_mctiers_testers', JSON.stringify(testers));
+        localStorage.setItem('acetiers_players', JSON.stringify(players));
+        localStorage.setItem('acetiers_testers', JSON.stringify(testers));
         loadedFromJSON = true;
-        try { window.__mctiers_data_source = 'js/database.json'; } catch (e) {}
+        try { window.__acetiers_data_source = 'js/database.json'; } catch (e) {}
         console.log(`Successfully loaded ${players.length} players and ${testers.length} testers from js/database.json`);
       }
     }
@@ -256,30 +256,30 @@ async function loadDatabase() {
     if (typeof INITIAL_PLAYERS !== 'undefined' && Array.isArray(INITIAL_PLAYERS) && INITIAL_PLAYERS.length > 0) {
       players = JSON.parse(JSON.stringify(INITIAL_PLAYERS));
       testers = (typeof INITIAL_TESTERS !== 'undefined' && Array.isArray(INITIAL_TESTERS)) ? JSON.parse(JSON.stringify(INITIAL_TESTERS)) : [];
-      localStorage.setItem('jordan_mctiers_players', JSON.stringify(players));
-      localStorage.setItem('jordan_mctiers_testers', JSON.stringify(testers));
-      try { window.__mctiers_data_source = 'js/database.js'; } catch (e) {}
+      localStorage.setItem('acetiers_players', JSON.stringify(players));
+      localStorage.setItem('acetiers_testers', JSON.stringify(testers));
+      try { window.__acetiers_data_source = 'js/database.js'; } catch (e) {}
       console.log(`Loaded ${players.length} players from js/database.js`);
     }
   }
 
   // If players/testers not populated from server, fall back to LocalStorage or bundled file
   if (!players || players.length === 0) {
-    const localPlayers = localStorage.getItem('jordan_mctiers_players');
+    const localPlayers = localStorage.getItem('acetiers_players');
     if (localPlayers) {
       try {
         players = JSON.parse(localPlayers);
-        try { window.__mctiers_data_source = 'localStorage'; } catch (e) {}
+        try { window.__acetiers_data_source = 'localStorage'; } catch (e) {}
       } catch (e) {
         console.error('Error parsing local player database, resetting.', e);
         players = (typeof INITIAL_PLAYERS !== 'undefined' && Array.isArray(INITIAL_PLAYERS)) ? JSON.parse(JSON.stringify(INITIAL_PLAYERS)) : [];
-        try { window.__mctiers_data_source = (typeof INITIAL_PLAYERS !== 'undefined' && Array.isArray(INITIAL_PLAYERS)) ? 'database.js' : 'none'; } catch (e) {}
-        localStorage.setItem("jordan_mctiers_players", JSON.stringify(players));
+        try { window.__acetiers_data_source = (typeof INITIAL_PLAYERS !== 'undefined' && Array.isArray(INITIAL_PLAYERS)) ? 'database.js' : 'none'; } catch (e) {}
+        localStorage.setItem("acetiers_players", JSON.stringify(players));
       }
     } else {
       players = (typeof INITIAL_PLAYERS !== 'undefined' && Array.isArray(INITIAL_PLAYERS)) ? JSON.parse(JSON.stringify(INITIAL_PLAYERS)) : [];
-      try { window.__mctiers_data_source = (players && players.length > 0) ? 'database.js' : 'none'; } catch (e) {}
-      localStorage.setItem("jordan_mctiers_players", JSON.stringify(players));
+      try { window.__acetiers_data_source = (players && players.length > 0) ? 'database.js' : 'none'; } catch (e) {}
+      localStorage.setItem("acetiers_players", JSON.stringify(players));
     }
   }
 
@@ -293,11 +293,11 @@ async function loadDatabase() {
     }
   });
   if (playersUpdated) {
-    localStorage.setItem("jordan_mctiers_players", JSON.stringify(players));
+    localStorage.setItem("acetiers_players", JSON.stringify(players));
   }
 
   if (!testers || testers.length === 0) {
-    const localTesters = localStorage.getItem('jordan_mctiers_testers');
+    const localTesters = localStorage.getItem('acetiers_testers');
     if (localTesters) {
       try {
         testers = JSON.parse(localTesters);
@@ -315,7 +315,7 @@ async function loadDatabase() {
 
 // Save players database to LocalStorage
 function saveDatabase() {
-  localStorage.setItem("jordan_mctiers_players", JSON.stringify(players));
+  localStorage.setItem("acetiers_players", JSON.stringify(players));
   updateLiveStats();
   syncDatabaseFile();
   // Send to server for auto-sync
@@ -324,7 +324,7 @@ function saveDatabase() {
 
 // Save testers database to LocalStorage
 function saveTesters() {
-  localStorage.setItem("jordan_mctiers_testers", JSON.stringify(testers));
+  localStorage.setItem("acetiers_testers", JSON.stringify(testers));
   updateLiveStats();
   syncDatabaseFile();
   // Send to server for auto-sync
@@ -428,7 +428,7 @@ function syncDatabaseFile() {
   };
   const jsonContent = JSON.stringify(dbData, null, 2);
 
-  const jsContent = `// Player & Tester Database for Jordanian MCTiers
+  const jsContent = `// Player & Tester Database for AceTiers
 // This file is auto-generated by the Admin Panel. Do not edit manually.
 
 const INITIAL_PLAYERS = ${JSON.stringify(players, null, 2)};
@@ -437,12 +437,12 @@ const INITIAL_TESTERS = ${JSON.stringify(testers, null, 2)};
 `;
   
   // Store in localStorage for public site to access
-  localStorage.setItem("jordan_mctiers_sync_export", jsonContent);
+  localStorage.setItem("acetiers_sync_export", jsonContent);
   return jsonContent;
 }
 
-// --- POINT SYSTEM (Exact MCTiers values) ---
-// Source: Official MCTiers ranking points distribution
+// --- POINT SYSTEM (Exact AceTiers values) ---
+// Source: Official AceTiers ranking points distribution
 const TIER_POINTS = {
   "HT1": 60, "LT1": 45,
   "HT2": 30, "LT2": 20,
@@ -513,9 +513,6 @@ function updateLiveStats() {
   const rankedCount = players.filter(p => calculateTotalPoints(p.tiers) > 0).length;
   const countSpan = document.getElementById("total-players-count");
   if (countSpan) animateCount(countSpan, rankedCount);
-
-  const testersSpan = document.getElementById("total-testers-count");
-  if (testersSpan) animateCount(testersSpan, testers.filter(t => t.online === true).length);
 
   const editorCountSpan = document.getElementById("editor-players-count");
   if (editorCountSpan) animateCount(editorCountSpan, players.length);
@@ -611,7 +608,7 @@ function renderTierList() {
   });
 
   if (activeGamemode === "overall") {
-    // ---- OVERALL: Flat ranked leaderboard (MCTiers style) ----
+    // ---- OVERALL: Flat ranked leaderboard (AceTiers style) ----
     // 1. Calculate true global overall rank for ALL players based on overall points
     const globalOverallRankMap = new Map();
     players
@@ -656,7 +653,7 @@ function renderTierList() {
     });
 
   } else {
-    // ---- OTHER GAMEMODES: 5 columns vertical list (MCTiers style) ----
+    // ---- OTHER GAMEMODES: 5 columns vertical list (AceTiers style) ----
     const MAIN_TIERS = [
       { level: 1, name: "Tier 1", class: "gold" },
       { level: 2, name: "Tier 2", class: "silver" },
@@ -1644,11 +1641,11 @@ function exportDatabase() {
   const dataStr = "data:application/json;charset=utf-8," + encodeURIComponent(jsonStr);
   const downloadAnchor = document.createElement("a");
   downloadAnchor.setAttribute("href", dataStr);
-  downloadAnchor.setAttribute("download", `mctiers_database.json`);
+  downloadAnchor.setAttribute("download", `acetiers_database.json`);
   document.body.appendChild(downloadAnchor);
   downloadAnchor.click();
   downloadAnchor.remove();
-  showToast("âœ… Exported mctiers_database.json - You can import this back anytime!");
+  showToast("âœ… Exported acetiers_database.json - You can import this back anytime!");
 }
 
 async function saveDatabaseFile() {
@@ -1746,8 +1743,8 @@ function confirmImport() {
 
 function resetDatabase() {
   if (confirm("WARNING: This will delete all customized edits and restore the preloaded player list. Proceed?")) {
-    localStorage.removeItem("jordan_mctiers_players");
-    localStorage.removeItem("jordan_mctiers_testers");
+    localStorage.removeItem("acetiers_players");
+    localStorage.removeItem("acetiers_testers");
     loadDatabase();
     renderEditorPlayersList();
     renderEditorTestersList();

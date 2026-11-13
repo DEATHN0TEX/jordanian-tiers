@@ -1,5 +1,5 @@
-// Gamemode configurations and descriptions for Jordanian MCTiers
-// Icons use the official MCTiers SVG assets (stored in /icons/)
+// Gamemode configurations and descriptions for AceTiers
+// Icons use the AceTiers SVG assets (stored in /icons/)
 
 const INITIAL_GAMEMODES = [
   {
@@ -188,7 +188,7 @@ Restrictions:
     id: "lt_mace",
     name: "LT Mace",
     description: "Ground-level Mace combat (Ground Mace). Eliminates extreme heights and wind burst reliance, focusing on pure ground spacing, jump-reset crits, shield breaks, and close-quarters mace dueling.",
-    icon: `<img src="icons/heavy_core.svg" alt="LT Mace" class="gm-icon-img heavy-core-icon-img">`,
+    icon: `<img src="icons/heavy_core.png" alt="LT Mace" class="gm-icon-img heavy-core-icon-img">`,
     rules: `Standard Flat Ground Arena (20x20 blocks).
 Gear:
 - Full Netherite Armor (Protection IV)
