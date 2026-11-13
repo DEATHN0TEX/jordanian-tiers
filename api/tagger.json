@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "Jordanian MCTiers Tier Tagger API",
-  "updated_at": "2026-11-13T21:04:30.244Z",
+  "updated_at": "2026-11-13T21:05:19.572Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2216,6 +2216,42 @@
         "mace": "LT3"
       },
       "formatted_tag": "§eLT3"
+    },
+    "deathn0te": {
+      "name": "DeathN0te",
+      "uuid": "5f2d2ff2-64ba-42f3-b77d-a773a3140169",
+      "overall": "LT5",
+      "tiers": {
+        "uhc": "LT5"
+      },
+      "formatted_tag": "§8LT5"
+    },
+    "deathnote": {
+      "name": "DeathN0te",
+      "uuid": "5f2d2ff2-64ba-42f3-b77d-a773a3140169",
+      "overall": "LT5",
+      "tiers": {
+        "uhc": "LT5"
+      },
+      "formatted_tag": "§8LT5"
+    },
+    "5f2d2ff264ba42f3b77da773a3140169": {
+      "name": "DeathN0te",
+      "uuid": "5f2d2ff2-64ba-42f3-b77d-a773a3140169",
+      "overall": "LT5",
+      "tiers": {
+        "uhc": "LT5"
+      },
+      "formatted_tag": "§8LT5"
+    },
+    "5f2d2ff2-64ba-42f3-b77d-a773a3140169": {
+      "name": "DeathN0te",
+      "uuid": "5f2d2ff2-64ba-42f3-b77d-a773a3140169",
+      "overall": "LT5",
+      "tiers": {
+        "uhc": "LT5"
+      },
+      "formatted_tag": "§8LT5"
     }
   }
 }
