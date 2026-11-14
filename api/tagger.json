@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-14T15:18:37.375Z",
+  "updated_at": "2026-11-14T15:29:08.614Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1724,20 +1724,22 @@
       "uuid": "1e6170b5e7dc4b148954c9a2a757af1a",
       "overall": "HT5",
       "tiers": {
+        "spear_mace": "LT3",
         "sword": "HT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3"
     },
     "1e6170b5e7dc4b148954c9a2a757af1a": {
       "name": "EngnTM",
       "uuid": "1e6170b5e7dc4b148954c9a2a757af1a",
       "overall": "HT5",
       "tiers": {
+        "spear_mace": "LT3",
         "sword": "HT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3"
     },
     "stunslams": {
       "name": "stunslams",
