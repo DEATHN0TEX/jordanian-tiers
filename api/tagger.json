@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-14T12:55:12.218Z",
+  "updated_at": "2026-11-14T12:55:48.493Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2287,38 +2287,42 @@
     "lollypopcorn": {
       "name": "lollypopcorn",
       "uuid": "9e69e345-9880-4712-ba2b-77ce86018de1",
-      "overall": "LT5",
+      "overall": "HT5",
       "tiers": {
+        "spear_mace": "HT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3"
+      "formatted_tag": "§6HT3 §7| §6HT3"
     },
     "l0llyp0pc0rn": {
       "name": "lollypopcorn",
       "uuid": "9e69e345-9880-4712-ba2b-77ce86018de1",
-      "overall": "LT5",
+      "overall": "HT5",
       "tiers": {
+        "spear_mace": "HT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3"
+      "formatted_tag": "§6HT3 §7| §6HT3"
     },
     "9e69e34598804712ba2b77ce86018de1": {
       "name": "lollypopcorn",
       "uuid": "9e69e345-9880-4712-ba2b-77ce86018de1",
-      "overall": "LT5",
+      "overall": "HT5",
       "tiers": {
+        "spear_mace": "HT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3"
+      "formatted_tag": "§6HT3 §7| §6HT3"
     },
     "9e69e345-9880-4712-ba2b-77ce86018de1": {
       "name": "lollypopcorn",
       "uuid": "9e69e345-9880-4712-ba2b-77ce86018de1",
-      "overall": "LT5",
+      "overall": "HT5",
       "tiers": {
+        "spear_mace": "HT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3"
+      "formatted_tag": "§6HT3 §7| §6HT3"
     }
   }
 }
