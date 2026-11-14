@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-14T14:32:21.702Z",
+  "updated_at": "2026-11-14T14:40:23.567Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -97,7 +97,7 @@
       "tiers": {
         "spear_mace": "HT4",
         "vanilla": "HT5",
-        "uhc": "HT5",
+        "uhc": "HT4",
         "pot": "LT4",
         "nethop": "LT5",
         "smp": "HT4",
@@ -108,7 +108,7 @@
         "cart": "HT4",
         "lt_mace": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §bHT4 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §8HT5 §7| §bHT4 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §bHT4 §7| §bHT4"
     },
     "cb0cef85557d4f249725943038e37eaf": {
       "name": "SK_YX",
@@ -117,7 +117,7 @@
       "tiers": {
         "spear_mace": "HT4",
         "vanilla": "HT5",
-        "uhc": "HT5",
+        "uhc": "HT4",
         "pot": "LT4",
         "nethop": "LT5",
         "smp": "HT4",
@@ -128,7 +128,7 @@
         "cart": "HT4",
         "lt_mace": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §bHT4 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §8HT5 §7| §bHT4 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §bHT4 §7| §bHT4"
     },
     "cb0cef85-557d-4f24-9725-943038e37eaf": {
       "name": "SK_YX",
@@ -137,7 +137,7 @@
       "tiers": {
         "spear_mace": "HT4",
         "vanilla": "HT5",
-        "uhc": "HT5",
+        "uhc": "HT4",
         "pot": "LT4",
         "nethop": "LT5",
         "smp": "HT4",
@@ -148,7 +148,7 @@
         "cart": "HT4",
         "lt_mace": "HT4"
       },
-      "formatted_tag": "§bHT4 §7| §8HT5 §7| §8HT5 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §bHT4 §7| §bHT4"
+      "formatted_tag": "§bHT4 §7| §8HT5 §7| §bHT4 §7| §3LT4 §7| §8LT5 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §eLT3 §7| §bHT4 §7| §bHT4 §7| §bHT4"
     },
     "not_kalsher": {
       "name": "NOT_KALSHER",
