@@ -174,11 +174,11 @@
       "city": "Amman",
       "badges": [],
       "socials": {
-        "discord": "",
+        "discord": "____3190",
         "youtube": ""
       },
       "tiers": {
-        "spear_mace": "HT5",
+        "spear_mace": "LT4",
         "vanilla": "None",
         "uhc": "None",
         "pot": "None",
@@ -189,7 +189,9 @@
         "mace": "LT4",
         "overall": "LT5"
       },
-      "lastSyncCheck": 1791055367309
+      "lastSyncCheck": 1791055367309,
+      "region": "ME",
+      "retired": {}
     },
     {
       "username": "ryze5429",
