@@ -2424,6 +2424,35 @@
       },
       "retired": {},
       "lastSyncCheck": 1794658898916
+    },
+    {
+      "username": "ZIAD_21XW",
+      "uuid": "cracked",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "ziad_21xw21_91783",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "HT5",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "lt_mace": "None",
+        "dia_smp": "None",
+        "cart": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1794698051370
     }
   ],
   "testers": [
