@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-14T22:39:02.398Z",
+  "updated_at": "2026-11-14T23:14:12.453Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2332,6 +2332,15 @@
         "mace": "HT3"
       },
       "formatted_tag": "§6HT3 §7| §6HT3 §7| §6HT3"
+    },
+    "ziad_21xw": {
+      "name": "ZIAD_21XW",
+      "uuid": "cracked",
+      "overall": "LT5",
+      "tiers": {
+        "vanilla": "HT5"
+      },
+      "formatted_tag": "§8HT5"
     }
   }
 }
