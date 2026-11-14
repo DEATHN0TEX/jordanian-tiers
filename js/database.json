@@ -2413,14 +2413,14 @@
         "uhc": "None",
         "pot": "None",
         "nethop": "None",
-        "smp": "LT3",
+        "smp": "HT3",
         "sword": "None",
         "axe": "None",
         "mace": "HT3",
         "lt_mace": "None",
         "dia_smp": "None",
         "cart": "None",
-        "overall": "HT5"
+        "overall": "LT4"
       },
       "retired": {},
       "lastSyncCheck": 1794658898916
