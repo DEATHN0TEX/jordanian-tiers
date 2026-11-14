@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-14T14:40:23.567Z",
+  "updated_at": "2026-11-14T14:47:00.793Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1764,27 +1764,30 @@
       "uuid": "eb487e1498644758947cb5d2bce90342",
       "overall": "LT5",
       "tiers": {
+        "spear_mace": "LT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3"
+      "formatted_tag": "§eLT3 §7| §6HT3"
     },
     "_lu1cio_": {
       "name": "_Lu1ci0_",
       "uuid": "eb487e1498644758947cb5d2bce90342",
       "overall": "LT5",
       "tiers": {
+        "spear_mace": "LT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3"
+      "formatted_tag": "§eLT3 §7| §6HT3"
     },
     "eb487e1498644758947cb5d2bce90342": {
       "name": "_Lu1ci0_",
       "uuid": "eb487e1498644758947cb5d2bce90342",
       "overall": "LT5",
       "tiers": {
+        "spear_mace": "LT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3"
+      "formatted_tag": "§eLT3 §7| §6HT3"
     },
     "user: @stunslams": {
       "name": "user: @stunslams",
