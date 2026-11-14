@@ -2393,6 +2393,35 @@
       },
       "retired": {},
       "lastSyncCheck": 1794605882589
+    },
+    {
+      "username": "lollypopcorn",
+      "uuid": "9e69e345-9880-4712-ba2b-77ce86018de1",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "uncanny_17",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "LT3",
+        "lt_mace": "None",
+        "dia_smp": "None",
+        "cart": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1794658898916
     }
   ],
   "testers": [
