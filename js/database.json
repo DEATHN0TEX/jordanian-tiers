@@ -2453,6 +2453,35 @@
       },
       "retired": {},
       "lastSyncCheck": 1794698051370
+    },
+    {
+      "username": "Dre_m",
+      "uuid": "0c2dc0a5-f6f0-4f72-86bc-e4e9c1e919b8",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "adoom_y1_57592",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "HT4",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "None",
+        "axe": "None",
+        "mace": "None",
+        "lt_mace": "None",
+        "dia_smp": "None",
+        "cart": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1794738784354
     }
   ],
   "testers": [
