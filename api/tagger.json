@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-15T10:41:32.945Z",
+  "updated_at": "2026-11-15T19:55:44.369Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -1089,11 +1089,11 @@
         "sword": "RHT2",
         "axe": "HT2",
         "mace": "LT3",
-        "cart": "LT3",
+        "cart": "HT3",
         "dia_smp": "HT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §6HT3 §7| §fHT2 §7| §fHT2 §7| §fHT2 §7| §7[§bR§7] §fHT2 §7| §fHT2 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §fHT2 §7| §fHT2 §7| §fHT2 §7| §7[§bR§7] §fHT2 §7| §fHT2 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §eLT3"
     },
     "39eada9546a3428eb6f7dd60277885f1": {
       "name": "Luxicity",
@@ -1108,11 +1108,11 @@
         "sword": "RHT2",
         "axe": "HT2",
         "mace": "LT3",
-        "cart": "LT3",
+        "cart": "HT3",
         "dia_smp": "HT3",
         "lt_mace": "LT3"
       },
-      "formatted_tag": "§eLT3 §7| §6HT3 §7| §fHT2 §7| §fHT2 §7| §fHT2 §7| §7[§bR§7] §fHT2 §7| §fHT2 §7| §eLT3 §7| §eLT3 §7| §6HT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §fHT2 §7| §fHT2 §7| §fHT2 §7| §7[§bR§7] §fHT2 §7| §fHT2 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §eLT3"
     },
     "torch7007 ht4 uhc": {
       "name": "Torch7007 ht4 UHC",
