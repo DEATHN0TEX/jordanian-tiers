@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-15T10:33:07.362Z",
+  "updated_at": "2026-11-15T10:41:32.945Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2347,27 +2347,27 @@
       "uuid": "0c2dc0a5-f6f0-4f72-86bc-e4e9c1e919b8",
       "overall": "LT5",
       "tiers": {
-        "vanilla": "HT4"
+        "vanilla": "LT4"
       },
-      "formatted_tag": "§bHT4"
+      "formatted_tag": "§3LT4"
     },
     "0c2dc0a5f6f04f7286bce4e9c1e919b8": {
       "name": "Dre_m",
       "uuid": "0c2dc0a5-f6f0-4f72-86bc-e4e9c1e919b8",
       "overall": "LT5",
       "tiers": {
-        "vanilla": "HT4"
+        "vanilla": "LT4"
       },
-      "formatted_tag": "§bHT4"
+      "formatted_tag": "§3LT4"
     },
     "0c2dc0a5-f6f0-4f72-86bc-e4e9c1e919b8": {
       "name": "Dre_m",
       "uuid": "0c2dc0a5-f6f0-4f72-86bc-e4e9c1e919b8",
       "overall": "LT5",
       "tiers": {
-        "vanilla": "HT4"
+        "vanilla": "LT4"
       },
-      "formatted_tag": "§bHT4"
+      "formatted_tag": "§3LT4"
     }
   }
 }
