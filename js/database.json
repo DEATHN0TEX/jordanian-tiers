@@ -517,9 +517,9 @@
         "sword": "LT2",
         "axe": "LT2",
         "mace": "LT2",
-        "overall": "LT3",
+        "overall": "HT3",
         "dia_smp": "LT3",
-        "lt_mace": "LT3"
+        "lt_mace": "HT3"
       },
       "retired": {
         "smp": true,
