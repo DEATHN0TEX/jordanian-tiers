@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-17T19:00:28.384Z",
+  "updated_at": "2026-11-20T15:45:39.866Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -978,11 +978,11 @@
         "smp": "LT3",
         "sword": "LT3",
         "mace": "LT3",
-        "lt_mace": "LT4",
+        "lt_mace": "LT3",
         "dia_smp": "HT4",
         "cart": "HT5"
       },
-      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §8HT5"
+      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §8HT5"
     },
     "46dc587e0f6f467fab014a953543a61e": {
       "name": "lanesivier",
@@ -993,11 +993,11 @@
         "smp": "LT3",
         "sword": "LT3",
         "mace": "LT3",
-        "lt_mace": "LT4",
+        "lt_mace": "LT3",
         "dia_smp": "HT4",
         "cart": "HT5"
       },
-      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §3LT4 §7| §bHT4 §7| §8HT5"
+      "formatted_tag": "§eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §eLT3 §7| §bHT4 §7| §8HT5"
     },
     "darkangell555": {
       "name": "DarkAngell555",
