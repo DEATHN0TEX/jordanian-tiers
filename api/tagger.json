@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-20T16:12:00.522Z",
+  "updated_at": "2026-11-20T18:59:16.347Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2143,32 +2143,35 @@
     "moriphism": {
       "name": "moriphism",
       "uuid": "65c899463e7c4760b53f461bbc82aef3",
-      "overall": "LT5",
+      "overall": "HT5",
       "tiers": {
         "uhc": "LT3",
-        "sword": "LT3"
+        "sword": "LT3",
+        "cart": "HT3"
       },
-      "formatted_tag": "§eLT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §eLT3 §7| §6HT3"
     },
     "m0riphism": {
       "name": "moriphism",
       "uuid": "65c899463e7c4760b53f461bbc82aef3",
-      "overall": "LT5",
+      "overall": "HT5",
       "tiers": {
         "uhc": "LT3",
-        "sword": "LT3"
+        "sword": "LT3",
+        "cart": "HT3"
       },
-      "formatted_tag": "§eLT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §eLT3 §7| §6HT3"
     },
     "65c899463e7c4760b53f461bbc82aef3": {
       "name": "moriphism",
       "uuid": "65c899463e7c4760b53f461bbc82aef3",
-      "overall": "LT5",
+      "overall": "HT5",
       "tiers": {
         "uhc": "LT3",
-        "sword": "LT3"
+        "sword": "LT3",
+        "cart": "HT3"
       },
-      "formatted_tag": "§eLT3 §7| §eLT3"
+      "formatted_tag": "§eLT3 §7| §eLT3 §7| §6HT3"
     },
     "abas57": {
       "name": "Abas57",
