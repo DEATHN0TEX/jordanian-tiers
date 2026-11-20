@@ -713,7 +713,7 @@
         "mace": "LT3",
         "overall": "LT4",
         "lt_mace": "LT3",
-        "dia_smp": "HT4",
+        "dia_smp": "LT3",
         "cart": "HT5"
       },
       "retired": {},
