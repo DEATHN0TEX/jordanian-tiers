@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-21T16:57:34.894Z",
+  "updated_at": "2026-11-21T17:02:09.816Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2146,10 +2146,10 @@
       "overall": "HT5",
       "tiers": {
         "uhc": "LT3",
-        "sword": "LT3",
+        "sword": "HT3",
         "cart": "HT3"
       },
-      "formatted_tag": "§eLT3 §7| §eLT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3"
     },
     "m0riphism": {
       "name": "moriphism",
@@ -2157,10 +2157,10 @@
       "overall": "HT5",
       "tiers": {
         "uhc": "LT3",
-        "sword": "LT3",
+        "sword": "HT3",
         "cart": "HT3"
       },
-      "formatted_tag": "§eLT3 §7| §eLT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3"
     },
     "65c899463e7c4760b53f461bbc82aef3": {
       "name": "moriphism",
@@ -2168,10 +2168,10 @@
       "overall": "HT5",
       "tiers": {
         "uhc": "LT3",
-        "sword": "LT3",
+        "sword": "HT3",
         "cart": "HT3"
       },
-      "formatted_tag": "§eLT3 §7| §eLT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §6HT3 §7| §6HT3"
     },
     "abas57": {
       "name": "Abas57",
