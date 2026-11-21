@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-21T17:02:09.816Z",
+  "updated_at": "2026-11-21T19:19:14.341Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2036,22 +2036,22 @@
     "justpatelnia": {
       "name": "JustPatelnia",
       "uuid": "f81e82156141478fbbc5a657553c762b",
-      "overall": "LT5",
+      "overall": "HT5",
       "tiers": {
-        "cart": "HT3",
+        "cart": "LT2",
         "dia_smp": "LT3"
       },
-      "formatted_tag": "§6HT3 §7| §eLT3"
+      "formatted_tag": "§7LT2 §7| §eLT3"
     },
     "f81e82156141478fbbc5a657553c762b": {
       "name": "JustPatelnia",
       "uuid": "f81e82156141478fbbc5a657553c762b",
-      "overall": "LT5",
+      "overall": "HT5",
       "tiers": {
-        "cart": "HT3",
+        "cart": "LT2",
         "dia_smp": "LT3"
       },
-      "formatted_tag": "§6HT3 §7| §eLT3"
+      "formatted_tag": "§7LT2 §7| §eLT3"
     },
     "jonwhite7579": {
       "name": "JonWhite7579",
