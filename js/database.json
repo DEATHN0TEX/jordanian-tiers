@@ -819,8 +819,8 @@
         "sword": "HT2",
         "axe": "HT2",
         "mace": "LT3",
-        "overall": "HT3",
-        "cart": "LT2",
+        "overall": "LT2",
+        "cart": "HT2",
         "dia_smp": "HT3",
         "lt_mace": "HT3"
       },
