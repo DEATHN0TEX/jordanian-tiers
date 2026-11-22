@@ -519,7 +519,7 @@
         "mace": "LT2",
         "overall": "HT3",
         "dia_smp": "LT3",
-        "lt_mace": "HT3"
+        "lt_mace": "LT2"
       },
       "retired": {
         "smp": true,
