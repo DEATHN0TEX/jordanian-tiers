@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-21T19:49:23.707Z",
+  "updated_at": "2026-11-22T20:01:03.745Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -707,9 +707,9 @@
         "axe": "LT2",
         "mace": "RLT2",
         "dia_smp": "LT3",
-        "lt_mace": "HT3"
+        "lt_mace": "LT2"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7[§bR§7] §7LT2 §7| §7[§bR§7] §7LT2 §7| §7LT2 §7| §7[§bR§7] §7LT2 §7| §eLT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7[§bR§7] §7LT2 §7| §7[§bR§7] §7LT2 §7| §7LT2 §7| §7[§bR§7] §7LT2 §7| §eLT3 §7| §7LT2"
     },
     "jack0lan10rn": {
       "name": "JackOLan10rn",
@@ -726,9 +726,9 @@
         "axe": "LT2",
         "mace": "RLT2",
         "dia_smp": "LT3",
-        "lt_mace": "HT3"
+        "lt_mace": "LT2"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7[§bR§7] §7LT2 §7| §7[§bR§7] §7LT2 §7| §7LT2 §7| §7[§bR§7] §7LT2 §7| §eLT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7[§bR§7] §7LT2 §7| §7[§bR§7] §7LT2 §7| §7LT2 §7| §7[§bR§7] §7LT2 §7| §eLT3 §7| §7LT2"
     },
     "jackolan1orn": {
       "name": "JackOLan10rn",
@@ -745,9 +745,9 @@
         "axe": "LT2",
         "mace": "RLT2",
         "dia_smp": "LT3",
-        "lt_mace": "HT3"
+        "lt_mace": "LT2"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7[§bR§7] §7LT2 §7| §7[§bR§7] §7LT2 §7| §7LT2 §7| §7[§bR§7] §7LT2 §7| §eLT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7[§bR§7] §7LT2 §7| §7[§bR§7] §7LT2 §7| §7LT2 §7| §7[§bR§7] §7LT2 §7| §eLT3 §7| §7LT2"
     },
     "f311b3fc49334e3c90e8da64baeaf689": {
       "name": "JackOLan10rn",
@@ -764,9 +764,9 @@
         "axe": "LT2",
         "mace": "RLT2",
         "dia_smp": "LT3",
-        "lt_mace": "HT3"
+        "lt_mace": "LT2"
       },
-      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7[§bR§7] §7LT2 §7| §7[§bR§7] §7LT2 §7| §7LT2 §7| §7[§bR§7] §7LT2 §7| §eLT3 §7| §6HT3"
+      "formatted_tag": "§eLT3 §7| §bHT4 §7| §eLT3 §7| §6HT3 §7| §6HT3 §7| §7[§bR§7] §7LT2 §7| §7[§bR§7] §7LT2 §7| §7LT2 §7| §7[§bR§7] §7LT2 §7| §eLT3 §7| §7LT2"
     },
     "jackolant10rn": {
       "name": "jackOlant10rn",
