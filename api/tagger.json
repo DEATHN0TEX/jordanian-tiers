@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-23T01:12:41.111Z",
+  "updated_at": "2026-11-24T03:53:46.681Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2299,9 +2299,10 @@
       "tiers": {
         "spear_mace": "HT3",
         "smp": "HT3",
+        "sword": "LT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3 §7| §6HT3 §7| §6HT3"
+      "formatted_tag": "§6HT3 §7| §6HT3 §7| §eLT3 §7| §6HT3"
     },
     "l0llyp0pc0rn": {
       "name": "lollypopcorn",
@@ -2310,9 +2311,10 @@
       "tiers": {
         "spear_mace": "HT3",
         "smp": "HT3",
+        "sword": "LT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3 §7| §6HT3 §7| §6HT3"
+      "formatted_tag": "§6HT3 §7| §6HT3 §7| §eLT3 §7| §6HT3"
     },
     "9e69e34598804712ba2b77ce86018de1": {
       "name": "lollypopcorn",
@@ -2321,9 +2323,10 @@
       "tiers": {
         "spear_mace": "HT3",
         "smp": "HT3",
+        "sword": "LT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3 §7| §6HT3 §7| §6HT3"
+      "formatted_tag": "§6HT3 §7| §6HT3 §7| §eLT3 §7| §6HT3"
     },
     "9e69e345-9880-4712-ba2b-77ce86018de1": {
       "name": "lollypopcorn",
@@ -2332,9 +2335,10 @@
       "tiers": {
         "spear_mace": "HT3",
         "smp": "HT3",
+        "sword": "LT3",
         "mace": "HT3"
       },
-      "formatted_tag": "§6HT3 §7| §6HT3 §7| §6HT3"
+      "formatted_tag": "§6HT3 §7| §6HT3 §7| §eLT3 §7| §6HT3"
     },
     "ziad_21xw": {
       "name": "ZIAD_21XW",
