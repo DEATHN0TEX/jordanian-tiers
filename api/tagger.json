@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "title": "AceTiers Tier Tagger API",
-  "updated_at": "2026-11-24T04:09:12.587Z",
+  "updated_at": "2026-11-25T23:09:08.517Z",
   "players": {
     "7007": {
       "name": "7007",
@@ -2375,6 +2375,42 @@
         "vanilla": "LT4"
       },
       "formatted_tag": "§3LT4"
+    },
+    "legday0": {
+      "name": "LegDay0",
+      "uuid": "982a0757-266f-40d0-9b93-05e78be05495",
+      "overall": "LT5",
+      "tiers": {
+        "sword": "HT4"
+      },
+      "formatted_tag": "§bHT4"
+    },
+    "legdayo": {
+      "name": "LegDay0",
+      "uuid": "982a0757-266f-40d0-9b93-05e78be05495",
+      "overall": "LT5",
+      "tiers": {
+        "sword": "HT4"
+      },
+      "formatted_tag": "§bHT4"
+    },
+    "982a0757266f40d09b9305e78be05495": {
+      "name": "LegDay0",
+      "uuid": "982a0757-266f-40d0-9b93-05e78be05495",
+      "overall": "LT5",
+      "tiers": {
+        "sword": "HT4"
+      },
+      "formatted_tag": "§bHT4"
+    },
+    "982a0757-266f-40d0-9b93-05e78be05495": {
+      "name": "LegDay0",
+      "uuid": "982a0757-266f-40d0-9b93-05e78be05495",
+      "overall": "LT5",
+      "tiers": {
+        "sword": "HT4"
+      },
+      "formatted_tag": "§bHT4"
     }
   }
 }
