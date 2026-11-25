@@ -2483,6 +2483,35 @@
       },
       "retired": {},
       "lastSyncCheck": 1794738784354
+    },
+    {
+      "username": "LegDay0",
+      "uuid": "982a0757-266f-40d0-9b93-05e78be05495",
+      "nickname": "",
+      "region": "ME",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "HT4",
+        "axe": "None",
+        "mace": "None",
+        "lt_mace": "None",
+        "dia_smp": "None",
+        "cart": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1795648147493
     }
   ],
   "testers": [
