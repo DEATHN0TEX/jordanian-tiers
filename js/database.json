@@ -2512,6 +2512,35 @@
       },
       "retired": {},
       "lastSyncCheck": 1795648147493
+    },
+    {
+      "username": "Silomc",
+      "uuid": "564408e8-48a1-4ec4-b389-b7f557c84f4a",
+      "nickname": "",
+      "region": "EU",
+      "city": "",
+      "badges": [],
+      "socials": {
+        "discord": "silomc",
+        "youtube": ""
+      },
+      "tiers": {
+        "spear_mace": "None",
+        "vanilla": "None",
+        "uhc": "None",
+        "pot": "None",
+        "nethop": "None",
+        "smp": "None",
+        "sword": "LT3",
+        "axe": "None",
+        "mace": "None",
+        "lt_mace": "None",
+        "dia_smp": "None",
+        "cart": "None",
+        "overall": "LT5"
+      },
+      "retired": {},
+      "lastSyncCheck": 1795813881344
     }
   ],
   "testers": [
